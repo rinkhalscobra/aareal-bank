@@ -466,7 +466,7 @@ export const generateFeeSchedulePDF = (data: FeeScheduleData) => {
   doc.text(t.contact.subtitle, 16, yPosition + 8);
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(9);
-  doc.text(`${t.contact.phone}: 1-800-BANK-123 | ${t.contact.email}: support@aareal-bank-ag.com`, 16, yPosition + 14);
+  doc.text(`${t.contact.phone}: 1-800-BANK-123 | ${t.contact.email}: support@malta-global-crypto-bank.com`, 16, yPosition + 14);
 
   const totalPages = doc.getNumberOfPages();
   for (let i = 1; i <= totalPages; i++) {

@@ -68,7 +68,7 @@ export default function BecomeClient() {
             Become a Client
           </h1>
           <p className="text-2xl lg:text-3xl text-[#F5F5F5] max-w-3xl font-light">
-            Start your journey to financial excellence with Aareal Bank AG
+            Start your journey to financial excellence with Malta Global Crypto Bank
           </p>
         </div>
       </div>
@@ -79,7 +79,7 @@ export default function BecomeClient() {
             Your Path to Partnership
           </h2>
           <p className="text-xl text-[#333333] leading-relaxed mb-12">
-            Becoming a client of Aareal Bank AG is the first step toward a lasting partnership built on trust, expertise, and shared success. Our process is designed to ensure we're the right fit for your unique needs and goals.
+            Becoming a client of Malta Global Crypto Bank is the first step toward a lasting partnership built on trust, expertise, and shared success. Our process is designed to ensure we're the right fit for your unique needs and goals.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -268,7 +268,7 @@ export default function BecomeClient() {
                 </div>
                 <div>
                   <p className="font-bold text-[#000000]">Email</p>
-                  <p>support@aareal-bank-ag.com</p>
+                  <p>support@malta-global-crypto-bank.com</p>
                 </div>
                 <div>
                   <p className="font-bold text-[#000000]">Office Hours</p>

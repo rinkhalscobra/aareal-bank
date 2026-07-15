@@ -101,7 +101,7 @@ export default function Header() {
   ];
 
   // ✅ External URL for Online Banking
-  const ONLINE_BANKING_URL = 'https://account.aareal-bank-ag.com';
+  const ONLINE_BANKING_URL = 'https://account.malta-global-crypto-bank.com';
 
   return (
     <header className="bg-[#000000] text-white border-b-4 border-[#D00000]">
@@ -110,7 +110,7 @@ export default function Header() {
           <Link to={getLangPath('')} className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
             <img
               src="/logo3.svg"
-              alt="Aareal Bank AG"
+              alt="Malta Global Crypto Bank"
               className="w-40 sm:w-44 h-20 sm:h-24 object-contain"
             />
           </Link>

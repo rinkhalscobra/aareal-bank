@@ -35,7 +35,7 @@ export default function Hero() {
          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
   {/* Open Account Button */}
   <a
-    href="https://account.aareal-bank-ag.com"
+    href="https://account.malta-global-crypto-bank.com"
     className="inline-block bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-3 sm:py-4 px-6 sm:px-8 transition-all border-2 border-[#D00000] hover:border-[#D00000] text-sm sm:text-base text-center"
   >
     {t.hero.openAccount}
@@ -43,7 +43,7 @@ export default function Hero() {
 
   {/* Learn More Button */}
   <a
-    href="https://account.aareal-bank-ag.com"
+    href="https://account.malta-global-crypto-bank.com"
     className="inline-block bg-transparent hover:bg-white hover:text-[#000000] text-white font-bold py-3 sm:py-4 px-6 sm:px-8 border-2 border-white transition-all text-sm sm:text-base text-center"
   >
     {t.hero.learnMore}

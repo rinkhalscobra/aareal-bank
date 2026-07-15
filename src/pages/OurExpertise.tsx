@@ -111,7 +111,7 @@ export default function OurExpertise() {
             Specialists in Complex Wealth
           </h2>
           <p className="text-xl text-[#333333] leading-relaxed mb-6">
-            Aareal Bank AG brings together a team of specialists with deep expertise across every aspect of wealth management. From investment strategy to tax planning, from business succession to philanthropic advisory, we have the knowledge and experience to address even the most complex financial situations.
+            Malta Global Crypto Bank brings together a team of specialists with deep expertise across every aspect of wealth management. From investment strategy to tax planning, from business succession to philanthropic advisory, we have the knowledge and experience to address even the most complex financial situations.
           </p>
           <p className="text-xl text-[#333333] leading-relaxed">
             Our multidisciplinary approach ensures that every decision is informed by comprehensive expertise, and every strategy is optimized for your complete financial picture.

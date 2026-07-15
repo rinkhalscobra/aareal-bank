@@ -69,7 +69,7 @@ export default function AboutUs() {
           <div className="border-4 border-[#D00000]">
             <img
               src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/e5/e9/e5/caption.jpg?w=1200&h=700&s=1"
-              alt="Aareal Bank AG"
+              alt="Malta Global Crypto Bank"
               className="w-full h-full object-cover"
             />
           </div>
@@ -117,7 +117,7 @@ export default function AboutUs() {
             <h2 className="text-3xl font-bold mb-4 text-[#000000]">{t.aboutUs.cta.title}</h2>
             <p className="text-[#555555] mb-8 max-w-2xl mx-auto">{t.aboutUs.cta.description}</p>
            <a
-  href="https://account.aareal-bank-ag.com/"
+  href="https://account.malta-global-crypto-bank.com/"
   className="inline-block bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-4 px-8 transition-all text-center"
 >
   {t.aboutUs.cta.button}

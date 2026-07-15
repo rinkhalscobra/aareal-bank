@@ -8,12 +8,12 @@ export default function LegalEntity() {
     en: {
       title: 'Legal Entity Information',
       lastUpdated: 'Last Updated: February 12, 2026',
-      intro: 'Aareal Bank AG operates as a fully regulated financial institution. This page provides important information about our legal entity, regulatory status, and compliance framework.',
+      intro: 'Malta Global Crypto Bank operates as a fully regulated financial institution. This page provides important information about our legal entity, regulatory status, and compliance framework.',
       sections: [
         {
           title: 'Company Details',
           items: [
-            { label: 'Legal Name', value: 'Aareal Bank AG' },
+            { label: 'Legal Name', value: 'Malta Global Crypto Bank' },
             { label: 'Registration Number', value: 'C 98765' },
             { label: 'Date of Incorporation', value: 'January 15, 2020' },
             { label: 'Jurisdiction', value: 'Republic of Malta' },
@@ -27,7 +27,7 @@ export default function LegalEntity() {
             { label: 'Address', value: 'Level 3, 123 Republic Street' },
             { label: 'City', value: 'Valletta VLT 1117' },
             { label: 'Country', value: 'Malta' },
-            { label: 'Email', value: 'support@aareal-bank-ag.com' },
+            { label: 'Email', value: 'support@malta-global-crypto-bank.com' },
             { label: 'Phone', value: '+356 2123 4567' }
           ]
         },
@@ -155,12 +155,12 @@ export default function LegalEntity() {
     fr: {
       title: 'Informations sur l\'Entité Juridique',
       lastUpdated: 'Dernière mise à jour: 12 février 2026',
-      intro: 'Aareal Bank AG opère en tant qu\'institution financière entièrement réglementée. Cette page fournit des informations importantes sur notre entité juridique, notre statut réglementaire et notre cadre de conformité.',
+      intro: 'Malta Global Crypto Bank opère en tant qu\'institution financière entièrement réglementée. Cette page fournit des informations importantes sur notre entité juridique, notre statut réglementaire et notre cadre de conformité.',
       sections: [
         {
           title: 'Détails de l\'Entreprise',
           items: [
-            { label: 'Nom Légal', value: 'Aareal Bank AG' },
+            { label: 'Nom Légal', value: 'Malta Global Crypto Bank' },
             { label: 'Numéro d\'Enregistrement', value: 'C 98765' },
             { label: 'Date de Création', value: '15 janvier 2020' },
             { label: 'Juridiction', value: 'République de Malte' },
@@ -174,7 +174,7 @@ export default function LegalEntity() {
             { label: 'Adresse', value: 'Niveau 3, 123 Republic Street' },
             { label: 'Ville', value: 'Valletta VLT 1117' },
             { label: 'Pays', value: 'Malte' },
-            { label: 'E-mail', value: 'support@aareal-bank-ag.com' },
+            { label: 'E-mail', value: 'support@malta-global-crypto-bank.com' },
             { label: 'Téléphone', value: '+356 2123 4567' }
           ]
         },
@@ -246,8 +246,8 @@ export default function LegalEntity() {
             </h3>
             <p className="text-[#000000] leading-relaxed">
               {language === 'fr'
-                ? 'Aareal Bank AG est fièrement agréée et réglementée par l\'Autorité des Services Financiers de Malte (MFSA) et opère en pleine conformité avec toutes les réglementations de l\'Union Européenne et internationales applicables. Nous maintenons les normes les plus élevées de conformité réglementaire, de sécurité et de protection des clients.'
-                : 'Aareal Bank AG is proudly licensed and regulated by the Malta Financial Services Authority (MFSA) and operates in full compliance with all applicable European Union and international regulations. We maintain the highest standards of regulatory compliance, security, and client protection.'}
+                ? 'Malta Global Crypto Bank est fièrement agréée et réglementée par l\'Autorité des Services Financiers de Malte (MFSA) et opère en pleine conformité avec toutes les réglementations de l\'Union Européenne et internationales applicables. Nous maintenons les normes les plus élevées de conformité réglementaire, de sécurité et de protection des clients.'
+                : 'Malta Global Crypto Bank is proudly licensed and regulated by the Malta Financial Services Authority (MFSA) and operates in full compliance with all applicable European Union and international regulations. We maintain the highest standards of regulatory compliance, security, and client protection.'}
             </p>
           </div>
         </div>

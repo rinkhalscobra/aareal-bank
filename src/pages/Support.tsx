@@ -22,7 +22,7 @@ export default function Support() {
     {
       icon: Mail,
       title: t.support.email.title,
-      detail: 'support@aareal-bank-ag.com',
+      detail: 'support@malta-global-crypto-bank.com',
       action: t.support.email.action
     }
   ];

@@ -8,7 +8,7 @@ export default function Contact() {
     {
       icon: Mail,
       label: t.contact.email,
-      value: 'support@aareal-bank-ag.com'
+      value: 'support@malta-global-crypto-bank.com'
     },
   ];
 

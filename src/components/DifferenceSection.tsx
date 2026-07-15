@@ -38,7 +38,7 @@ export default function DifferenceSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#000000] mb-4">
-            {t.difference?.title || 'The Aareal Bank AG difference'}
+            {t.difference?.title || 'The Malta Global Crypto Bank difference'}
           </h2>
         </div>
 

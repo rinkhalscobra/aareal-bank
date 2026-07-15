@@ -11,7 +11,7 @@ export default function RefundPolicy() {
     en: {
       title: 'Refund Policy',
       lastUpdated: 'Last Updated: February 12, 2026',
-      intro: 'Aareal Bank AG is committed to providing transparent and fair refund policies. This policy outlines the circumstances under which refunds may be issued for fees, charges, and transactions.',
+      intro: 'Malta Global Crypto Bank is committed to providing transparent and fair refund policies. This policy outlines the circumstances under which refunds may be issued for fees, charges, and transactions.',
       sections: [
         {
           title: '1. General Refund Principles',
@@ -31,7 +31,7 @@ export default function RefundPolicy() {
         },
         {
           title: '5. Unauthorized Transactions',
-          content: 'If you believe an unauthorized transaction occurred:\n1. Contact us immediately at support@aareal-bank-ag.com\n2. Provide transaction details and explanation\n3. Complete any required fraud investigation forms\n4. Cooperate with our investigation\n\nWe will investigate within 10 business days. If unauthorized activity is confirmed, we will:\n• Reverse the transaction if possible\n• Issue a refund for the unauthorized amount\n• Implement additional security measures\n\nYou must report unauthorized transactions within 60 days of occurrence.'
+          content: 'If you believe an unauthorized transaction occurred:\n1. Contact us immediately at support@malta-global-crypto-bank.com\n2. Provide transaction details and explanation\n3. Complete any required fraud investigation forms\n4. Cooperate with our investigation\n\nWe will investigate within 10 business days. If unauthorized activity is confirmed, we will:\n• Reverse the transaction if possible\n• Issue a refund for the unauthorized amount\n• Implement additional security measures\n\nYou must report unauthorized transactions within 60 days of occurrence.'
         },
         {
           title: '6. Technical Errors and System Failures',
@@ -67,18 +67,18 @@ export default function RefundPolicy() {
         },
         {
           title: '14. How to Request a Refund',
-          content: 'To request a refund:\n1. Log in to your account\n2. Navigate to Support > Refund Request\n3. Complete the refund request form\n4. Provide required documentation\n5. Submit request\n\nAlternatively:\n• Email: support@aareal-bank-ag.com\n• Phone: Contact our support center\n• In writing: Mail to our registered address\n\nInclude:\n• Account information\n• Transaction details\n• Reason for refund request\n• Supporting documentation\n• Preferred refund method'
+          content: 'To request a refund:\n1. Log in to your account\n2. Navigate to Support > Refund Request\n3. Complete the refund request form\n4. Provide required documentation\n5. Submit request\n\nAlternatively:\n• Email: support@malta-global-crypto-bank.com\n• Phone: Contact our support center\n• In writing: Mail to our registered address\n\nInclude:\n• Account information\n• Transaction details\n• Reason for refund request\n• Supporting documentation\n• Preferred refund method'
         },
         {
           title: '15. Contact Information',
-          content: 'For refund inquiries and requests:\n\nEmail: support@aareal-bank-ag.com\nSupport Portal: Log in to your account\nPhone: Available through customer support\nMail: Aareal Bank AG, Refunds Department, Valletta, Malta\n\nResponse time: We aim to respond to all refund requests within 3 business days.'
+          content: 'For refund inquiries and requests:\n\nEmail: support@malta-global-crypto-bank.com\nSupport Portal: Log in to your account\nPhone: Available through customer support\nMail: Malta Global Crypto Bank, Refunds Department, Valletta, Malta\n\nResponse time: We aim to respond to all refund requests within 3 business days.'
         }
       ]
     },
     fr: {
       title: 'Politique de Remboursement',
       lastUpdated: 'Dernière mise à jour: 12 février 2026',
-      intro: 'Aareal Bank AG s\'engage à fournir des politiques de remboursement transparentes et équitables. Cette politique décrit les circonstances dans lesquelles des remboursements peuvent être émis pour les frais, charges et transactions.',
+      intro: 'Malta Global Crypto Bank s\'engage à fournir des politiques de remboursement transparentes et équitables. Cette politique décrit les circonstances dans lesquelles des remboursements peuvent être émis pour les frais, charges et transactions.',
       sections: [
         {
           title: '1. Principes Généraux de Remboursement',
@@ -94,7 +94,7 @@ export default function RefundPolicy() {
         },
         {
           title: '4. Demande de Remboursement',
-          content: 'Pour demander un remboursement:\n1. Connectez-vous à votre compte\n2. Accédez à Support > Demande de Remboursement\n3. Remplissez le formulaire de demande de remboursement\n4. Fournissez la documentation requise\n5. Soumettez la demande\n\nAlternativement:\n• E-mail: support@aareal-bank-ag.com\n• Téléphone: Contactez notre centre de support\n• Par écrit: Envoyez à notre adresse enregistrée\n\nDélai de réponse: Nous visons à répondre à toutes les demandes de remboursement dans les 3 jours ouvrables.'
+          content: 'Pour demander un remboursement:\n1. Connectez-vous à votre compte\n2. Accédez à Support > Demande de Remboursement\n3. Remplissez le formulaire de demande de remboursement\n4. Fournissez la documentation requise\n5. Soumettez la demande\n\nAlternativement:\n• E-mail: support@malta-global-crypto-bank.com\n• Téléphone: Contactez notre centre de support\n• Par écrit: Envoyez à notre adresse enregistrée\n\nDélai de réponse: Nous visons à répondre à toutes les demandes de remboursement dans les 3 jours ouvrables.'
         }
       ]
     }
@@ -138,8 +138,8 @@ export default function RefundPolicy() {
                   {language === 'fr' ? 'contacter notre équipe de support' : 'contact our support team'}
                 </Link>
                 {language === 'fr'
-                  ? ' ou envoyez-nous un e-mail à support@aareal-bank-ag.com.'
-                  : ' or email us at support@aareal-bank-ag.com.'}
+                  ? ' ou envoyez-nous un e-mail à support@malta-global-crypto-bank.com.'
+                  : ' or email us at support@malta-global-crypto-bank.com.'}
               </p>
             </div>
           </div>

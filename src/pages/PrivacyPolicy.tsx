@@ -188,42 +188,42 @@ export default function PrivacyPolicy() {
       title: 'Privacy Policy',
       lastUpdated: 'Last Updated: February 16, 2026',
       effectiveDate: 'Effective Date: January 1, 2026',
-      intro: 'Aareal Bank AG ("Aareal Bank AG", "we", "us", or "our") is committed to protecting your privacy and personal data in accordance with the highest international standards, including the General Data Protection Regulation (GDPR), the Malta Data Protection Act, and other applicable privacy laws. This comprehensive Privacy Policy explains in detail how we collect, use, process, disclose, retain, and safeguard your personal information when you access or use our banking, financial, and cryptocurrency services.',
+      intro: 'Malta Global Crypto Bank ("Malta Global Crypto Bank", "we", "us", or "our") is committed to protecting your privacy and personal data in accordance with the highest international standards, including the General Data Protection Regulation (GDPR), the Malta Data Protection Act, and other applicable privacy laws. This comprehensive Privacy Policy explains in detail how we collect, use, process, disclose, retain, and safeguard your personal information when you access or use our banking, financial, and cryptocurrency services.',
       tocTitle: 'Table of Contents'
     },
     fr: {
       title: 'Politique de Confidentialité',
       lastUpdated: 'Dernière mise à jour: 16 février 2026',
       effectiveDate: 'Date d\'entrée en vigueur: 1er janvier 2026',
-      intro: 'Aareal Bank AG ("Aareal Bank AG", "nous") s\'engage à protéger votre vie privée et vos données personnelles conformément aux normes internationales les plus élevées, y compris le Règlement Général sur la Protection des Données (RGPD), la Loi maltaise sur la protection des données et autres lois applicables en matière de confidentialité. Cette Politique de Confidentialité complète explique en détail comment nous collectons, utilisons, traitons, divulguons, conservons et protégeons vos informations personnelles lorsque vous accédez ou utilisez nos services bancaires, financiers et de cryptomonnaie.',
+      intro: 'Malta Global Crypto Bank ("Malta Global Crypto Bank", "nous") s\'engage à protéger votre vie privée et vos données personnelles conformément aux normes internationales les plus élevées, y compris le Règlement Général sur la Protection des Données (RGPD), la Loi maltaise sur la protection des données et autres lois applicables en matière de confidentialité. Cette Politique de Confidentialité complète explique en détail comment nous collectons, utilisons, traitons, divulguons, conservons et protégeons vos informations personnelles lorsque vous accédez ou utilisez nos services bancaires, financiers et de cryptomonnaie.',
       tocTitle: 'Table des Matières'
     },
     it: {
       title: 'Informativa sulla Privacy',
       lastUpdated: 'Ultimo aggiornamento: 16 febbraio 2026',
       effectiveDate: 'Data di entrata in vigore: 1 gennaio 2026',
-      intro: 'Aareal Bank AG ("Aareal Bank AG", "noi") si impegna a proteggere la tua privacy e i tuoi dati personali in conformità con i più elevati standard internazionali, incluso il Regolamento Generale sulla Protezione dei Dati (GDPR), la Legge maltese sulla protezione dei dati e altre leggi applicabili in materia di privacy. Questa Informativa sulla Privacy completa spiega in dettaglio come raccogliamo, utilizziamo, trattiamo, divulghiamo, conserviamo e proteggiamo le tue informazioni personali quando accedi o utilizzi i nostri servizi bancari, finanziari e di criptovaluta.',
+      intro: 'Malta Global Crypto Bank ("Malta Global Crypto Bank", "noi") si impegna a proteggere la tua privacy e i tuoi dati personali in conformità con i più elevati standard internazionali, incluso il Regolamento Generale sulla Protezione dei Dati (GDPR), la Legge maltese sulla protezione dei dati e altre leggi applicabili in materia di privacy. Questa Informativa sulla Privacy completa spiega in dettaglio come raccogliamo, utilizziamo, trattiamo, divulghiamo, conserviamo e proteggiamo le tue informazioni personali quando accedi o utilizzi i nostri servizi bancari, finanziari e di criptovaluta.',
       tocTitle: 'Indice'
     },
     de: {
       title: 'Datenschutzrichtlinie',
       lastUpdated: 'Zuletzt aktualisiert: 16. Februar 2026',
       effectiveDate: 'Gültig ab: 1. Januar 2026',
-      intro: 'Aareal Bank AG ("Aareal Bank AG", "wir") verpflichtet sich, Ihre Privatsphäre und persönlichen Daten gemäß den höchsten internationalen Standards zu schützen, einschließlich der Datenschutz-Grundverordnung (DSGVO), des maltesischen Datenschutzgesetzes und anderer anwendbarer Datenschutzgesetze. Diese umfassende Datenschutzrichtlinie erklärt detailliert, wie wir Ihre persönlichen Informationen sammeln, verwenden, verarbeiten, offenlegen, aufbewahren und schützen, wenn Sie unsere Bank-, Finanz- und Kryptowährungsdienste nutzen oder darauf zugreifen.',
+      intro: 'Malta Global Crypto Bank ("Malta Global Crypto Bank", "wir") verpflichtet sich, Ihre Privatsphäre und persönlichen Daten gemäß den höchsten internationalen Standards zu schützen, einschließlich der Datenschutz-Grundverordnung (DSGVO), des maltesischen Datenschutzgesetzes und anderer anwendbarer Datenschutzgesetze. Diese umfassende Datenschutzrichtlinie erklärt detailliert, wie wir Ihre persönlichen Informationen sammeln, verwenden, verarbeiten, offenlegen, aufbewahren und schützen, wenn Sie unsere Bank-, Finanz- und Kryptowährungsdienste nutzen oder darauf zugreifen.',
       tocTitle: 'Inhaltsverzeichnis'
     },
     es: {
       title: 'Política de Privacidad',
       lastUpdated: 'Última actualización: 16 de febrero de 2026',
       effectiveDate: 'Fecha de entrada en vigencia: 1 de enero de 2026',
-      intro: 'Aareal Bank AG ("Aareal Bank AG", "nosotros") se compromete a proteger su privacidad y datos personales de acuerdo con los más altos estándares internacionales, incluido el Reglamento General de Protección de Datos (GDPR), la Ley de Protección de Datos de Malta y otras leyes de privacidad aplicables. Esta Política de Privacidad integral explica en detalle cómo recopilamos, usamos, procesamos, divulgamos, retenemos y protegemos su información personal cuando accede o usa nuestros servicios bancarios, financieros y de criptomonedas.',
+      intro: 'Malta Global Crypto Bank ("Malta Global Crypto Bank", "nosotros") se compromete a proteger su privacidad y datos personales de acuerdo con los más altos estándares internacionales, incluido el Reglamento General de Protección de Datos (GDPR), la Ley de Protección de Datos de Malta y otras leyes de privacidad aplicables. Esta Política de Privacidad integral explica en detalle cómo recopilamos, usamos, procesamos, divulgamos, retenemos y protegemos su información personal cuando accede o usa nuestros servicios bancarios, financieros y de criptomonedas.',
       tocTitle: 'Tabla de Contenidos'
     },
     el: {
       title: 'Πολιτική Απορρήτου',
       lastUpdated: 'Τελευταία ενημέρωση: 16 Φεβρουαρίου 2026',
       effectiveDate: 'Ημερομηνία έναρξης ισχύος: 1 Ιανουαρίου 2026',
-      intro: 'Η Aareal Bank AG ("Aareal Bank AG", "εμείς") δεσμεύεται να προστατεύει το απόρρητο και τα προσωπικά σας δεδομένα σύμφωνα με τα υψηλότερα διεθνή πρότυπα, συμπεριλαμβανομένου του Γενικού Κανονισμού Προστασίας Δεδομένων (GDPR), του νόμου της Μάλτας για την προστασία δεδομένων και άλλων ισχυόντων νόμων απορρήτου. Αυτή η ολοκληρωμένη Πολιτική Απορρήτου εξηγεί λεπτομερώς πώς συλλέγουμε, χρησιμοποιούμε, επεξεργαζόμαστε, αποκαλύπτουμε, διατηρούμε και προστατεύουμε τις προσωπικές σας πληροφορίες όταν έχετε πρόσβαση ή χρησιμοποιείτε τις τραπεζικές, χρηματοοικονομικές και υπηρεσίες κρυπτονομισμάτων μας.',
+      intro: 'Η Malta Global Crypto Bank ("Malta Global Crypto Bank", "εμείς") δεσμεύεται να προστατεύει το απόρρητο και τα προσωπικά σας δεδομένα σύμφωνα με τα υψηλότερα διεθνή πρότυπα, συμπεριλαμβανομένου του Γενικού Κανονισμού Προστασίας Δεδομένων (GDPR), του νόμου της Μάλτας για την προστασία δεδομένων και άλλων ισχυόντων νόμων απορρήτου. Αυτή η ολοκληρωμένη Πολιτική Απορρήτου εξηγεί λεπτομερώς πώς συλλέγουμε, χρησιμοποιούμε, επεξεργαζόμαστε, αποκαλύπτουμε, διατηρούμε και προστατεύουμε τις προσωπικές σας πληροφορίες όταν έχετε πρόσβαση ή χρησιμοποιείτε τις τραπεζικές, χρηματοοικονομικές και υπηρεσίες κρυπτονομισμάτων μας.',
       tocTitle: 'Πίνακας Περιεχομένων'
     }
   };
@@ -270,12 +270,12 @@ export default function PrivacyPolicy() {
 
         <LegalSection title={tocSections[0].title} id={tocSections[0].id} icon={<Info size={24} />}>
           <p className="text-[#333333] leading-relaxed mb-4">
-            {language === 'fr' ? 'Cette Politique de Confidentialité s\'applique à tous les services fournis par Aareal Bank AG, y compris mais sans s\'y limiter:'
-              : language === 'it' ? 'Questa Informativa sulla Privacy si applica a tutti i servizi forniti da Aareal Bank AG, tra cui ma non limitati a:'
-              : language === 'de' ? 'Diese Datenschutzrichtlinie gilt für alle von Aareal Bank AG bereitgestellten Dienste, einschließlich, aber nicht beschränkt auf:'
-              : language === 'es' ? 'Esta Política de Privacidad se aplica a todos los servicios proporcionados por Aareal Bank AG, incluyendo pero no limitado a:'
-              : language === 'el' ? 'Αυτή η Πολιτική Απορρήτου ισχύει για όλες τις υπηρεσίες που παρέχονται από την Aareal Bank AG, συμπεριλαμβανομένων αλλά όχι περιοριζόμενων σε:'
-              : 'This Privacy Policy applies to all services provided by Aareal Bank AG, including but not limited to:'}
+            {language === 'fr' ? 'Cette Politique de Confidentialité s\'applique à tous les services fournis par Malta Global Crypto Bank, y compris mais sans s\'y limiter:'
+              : language === 'it' ? 'Questa Informativa sulla Privacy si applica a tutti i servizi forniti da Malta Global Crypto Bank, tra cui ma non limitati a:'
+              : language === 'de' ? 'Diese Datenschutzrichtlinie gilt für alle von Malta Global Crypto Bank bereitgestellten Dienste, einschließlich, aber nicht beschränkt auf:'
+              : language === 'es' ? 'Esta Política de Privacidad se aplica a todos los servicios proporcionados por Malta Global Crypto Bank, incluyendo pero no limitado a:'
+              : language === 'el' ? 'Αυτή η Πολιτική Απορρήτου ισχύει για όλες τις υπηρεσίες που παρέχονται από την Malta Global Crypto Bank, συμπεριλαμβανομένων αλλά όχι περιοριζόμενων σε:'
+              : 'This Privacy Policy applies to all services provided by Malta Global Crypto Bank, including but not limited to:'}
           </p>
 
           <LegalList
@@ -378,12 +378,12 @@ export default function PrivacyPolicy() {
             : language === 'el' ? 'Υπεύθυνος Επεξεργασίας'
             : 'Data Controller'}>
             <p className="text-[#333333] leading-relaxed">
-              {language === 'fr' ? 'Aareal Bank AG détermine les finalités et les moyens du traitement des données à caractère personnel. Nous agissons en tant que responsable du traitement des données pour toutes les données personnelles que nous collectons et traitons dans le cadre de la fourniture de nos services.'
-                : language === 'it' ? 'Aareal Bank AG determina le finalità e i mezzi del trattamento dei dati personali. Agiamo come titolare del trattamento per tutti i dati personali che raccogliamo e trattiamo nell\'ambito della fornitura dei nostri servizi.'
-                : language === 'de' ? 'Aareal Bank AG legt die Zwecke und Mittel der Verarbeitung personenbezogener Daten fest. Wir handeln als Verantwortlicher für alle personenbezogenen Daten, die wir im Rahmen der Bereitstellung unserer Dienstleistungen erheben und verarbeiten.'
-                : language === 'es' ? 'Aareal Bank AG determina los fines y medios del tratamiento de datos personales. Actuamos como responsable del tratamiento de todos los datos personales que recopilamos y procesamos en el marco de la prestación de nuestros servicios.'
-                : language === 'el' ? 'Η Aareal Bank AG καθορίζει τους σκοπούς και τα μέσα επεξεργασίας των δεδομένων προσωπικού χαρακτήρα. Ενεργούμε ως υπεύθυνος επεξεργασίας για όλα τα προσωπικά δεδομένα που συλλέγουμε και επεξεργαζόμαστε στο πλαίσιο της παροχής των υπηρεσιών μας.'
-                : 'Aareal Bank AG determines the purposes and means of processing personal data. We act as the data controller for all personal data we collect and process in connection with providing our services.'}
+              {language === 'fr' ? 'Malta Global Crypto Bank détermine les finalités et les moyens du traitement des données à caractère personnel. Nous agissons en tant que responsable du traitement des données pour toutes les données personnelles que nous collectons et traitons dans le cadre de la fourniture de nos services.'
+                : language === 'it' ? 'Malta Global Crypto Bank determina le finalità e i mezzi del trattamento dei dati personali. Agiamo come titolare del trattamento per tutti i dati personali che raccogliamo e trattiamo nell\'ambito della fornitura dei nostri servizi.'
+                : language === 'de' ? 'Malta Global Crypto Bank legt die Zwecke und Mittel der Verarbeitung personenbezogener Daten fest. Wir handeln als Verantwortlicher für alle personenbezogenen Daten, die wir im Rahmen der Bereitstellung unserer Dienstleistungen erheben und verarbeiten.'
+                : language === 'es' ? 'Malta Global Crypto Bank determina los fines y medios del tratamiento de datos personales. Actuamos como responsable del tratamiento de todos los datos personales que recopilamos y procesamos en el marco de la prestación de nuestros servicios.'
+                : language === 'el' ? 'Η Malta Global Crypto Bank καθορίζει τους σκοπούς και τα μέσα επεξεργασίας των δεδομένων προσωπικού χαρακτήρα. Ενεργούμε ως υπεύθυνος επεξεργασίας για όλα τα προσωπικά δεδομένα που συλλέγουμε και επεξεργαζόμαστε στο πλαίσιο της παροχής των υπηρεσιών μας.'
+                : 'Malta Global Crypto Bank determines the purposes and means of processing personal data. We act as the data controller for all personal data we collect and process in connection with providing our services.'}
             </p>
           </LegalSubsection>
 
@@ -1146,12 +1146,12 @@ export default function PrivacyPolicy() {
             />
             <LegalNotice type="info" className="mt-4">
               <p>
-                {language === 'fr' ? 'Vous avez le droit de retirer votre consentement à tout moment. Le retrait du consentement n\'affecte pas la légalité du traitement effectué avant le retrait. Pour retirer votre consentement, contactez support@aareal-bank-ag.com.'
-                  : language === 'it' ? 'Avete il diritto di ritirare il vostro consenso in qualsiasi momento. Il ritiro del consenso non pregiudica la liceità del trattamento basato sul consenso prima del ritiro. Per ritirare il consenso, contattate support@aareal-bank-ag.com.'
-                  : language === 'de' ? 'Sie haben das Recht, Ihre Einwilligung jederzeit zu widerrufen. Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung. Um Ihre Einwilligung zu widerrufen, kontaktieren Sie support@aareal-bank-ag.com.'
-                  : language === 'es' ? 'Tiene derecho a retirar su consentimiento en cualquier momento. La retirada del consentimiento no afecta a la licitud del procesamiento basado en el consentimiento antes de su retirada. Para retirar su consentimiento, contacte a support@aareal-bank-ag.com.'
-                  : language === 'el' ? 'Έχετε το δικαίωμα να αποσύρετε τη συγκατάθεσή σας ανά πάσα στιγμή. Η απόσυρση της συγκατάθεσης δεν θίγει τη νομιμότητα της επεξεργασίας που βασίστηκε στη συγκατάθεση πριν από την απόσυρσή της. Για να αποσύρετε τη συγκατάθεσή σας, επικοινωνήστε στο support@aareal-bank-ag.com.'
-                  : 'You have the right to withdraw your consent at any time. Withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal. To withdraw your consent, contact support@aareal-bank-ag.com.'}
+                {language === 'fr' ? 'Vous avez le droit de retirer votre consentement à tout moment. Le retrait du consentement n\'affecte pas la légalité du traitement effectué avant le retrait. Pour retirer votre consentement, contactez support@malta-global-crypto-bank.com.'
+                  : language === 'it' ? 'Avete il diritto di ritirare il vostro consenso in qualsiasi momento. Il ritiro del consenso non pregiudica la liceità del trattamento basato sul consenso prima del ritiro. Per ritirare il consenso, contattate support@malta-global-crypto-bank.com.'
+                  : language === 'de' ? 'Sie haben das Recht, Ihre Einwilligung jederzeit zu widerrufen. Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung. Um Ihre Einwilligung zu widerrufen, kontaktieren Sie support@malta-global-crypto-bank.com.'
+                  : language === 'es' ? 'Tiene derecho a retirar su consentimiento en cualquier momento. La retirada del consentimiento no afecta a la licitud del procesamiento basado en el consentimiento antes de su retirada. Para retirar su consentimiento, contacte a support@malta-global-crypto-bank.com.'
+                  : language === 'el' ? 'Έχετε το δικαίωμα να αποσύρετε τη συγκατάθεσή σας ανά πάσα στιγμή. Η απόσυρση της συγκατάθεσης δεν θίγει τη νομιμότητα της επεξεργασίας που βασίστηκε στη συγκατάθεση πριν από την απόσυρσή της. Για να αποσύρετε τη συγκατάθεσή σας, επικοινωνήστε στο support@malta-global-crypto-bank.com.'
+                  : 'You have the right to withdraw your consent at any time. Withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal. To withdraw your consent, contact support@malta-global-crypto-bank.com.'}
               </p>
             </LegalNotice>
           </LegalSubsection>

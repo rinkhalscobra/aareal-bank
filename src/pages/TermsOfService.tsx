@@ -13,42 +13,42 @@ export default function TermsOfService() {
     en: {
       title: 'Terms of Service Agreement',
       lastUpdated: 'Last Updated: February 16, 2026 | Effective Date: February 16, 2026',
-      intro: 'This Terms of Service Agreement ("Agreement") constitutes a legally binding contract between you ("User", "Client", "you", or "your") and Aareal Bank AG, a licensed financial institution registered and operating under the laws of Malta ("Aareal Bank AG", "we", "us", or "our"). Please read these terms carefully before using our services.',
+      intro: 'This Terms of Service Agreement ("Agreement") constitutes a legally binding contract between you ("User", "Client", "you", or "your") and Malta Global Crypto Bank, a licensed financial institution registered and operating under the laws of Malta ("Malta Global Crypto Bank", "we", "us", or "our"). Please read these terms carefully before using our services.',
       tableOfContentsTitle: 'Table of Contents',
       acknowledgment: 'By accessing, browsing, or utilizing any of our services, you acknowledge that you have read, understood, and agree to be bound by all terms and conditions set forth in this Agreement, including our Privacy Policy, Risk Disclosure Statement, and all applicable laws and regulations. If you do not agree to these terms, you must immediately cease using our services and close any accounts you may have opened.'
     },
     fr: {
       title: 'Accord de Conditions de Service',
       lastUpdated: 'Dernière mise à jour : 16 février 2026 | Date d\'entrée en vigueur : 16 février 2026',
-      intro: 'Cet Accord de Conditions de Service ("Accord") constitue un contrat juridiquement contraignant entre vous ("Utilisateur", "Client", "vous" ou "votre") et Aareal Bank AG, une institution financière agréée enregistrée et opérant selon les lois de Malte ("Aareal Bank AG", "nous" ou "notre"). Veuillez lire attentivement ces conditions avant d\'utiliser nos services.',
+      intro: 'Cet Accord de Conditions de Service ("Accord") constitue un contrat juridiquement contraignant entre vous ("Utilisateur", "Client", "vous" ou "votre") et Malta Global Crypto Bank, une institution financière agréée enregistrée et opérant selon les lois de Malte ("Malta Global Crypto Bank", "nous" ou "notre"). Veuillez lire attentivement ces conditions avant d\'utiliser nos services.',
       tableOfContentsTitle: 'Table des Matières',
       acknowledgment: 'En accédant, en naviguant ou en utilisant l\'un de nos services, vous reconnaissez avoir lu, compris et accepté d\'être lié par tous les termes et conditions énoncés dans cet Accord, y compris notre Politique de Confidentialité, notre Déclaration de Divulgation des Risques et toutes les lois et réglementations applicables.'
     },
     it: {
       title: 'Accordo sui Termini di Servizio',
       lastUpdated: 'Ultimo aggiornamento: 16 febbraio 2026 | Data di entrata in vigore: 16 febbraio 2026',
-      intro: 'Questo Accordo sui Termini di Servizio ("Accordo") costituisce un contratto legalmente vincolante tra te ("Utente", "Cliente", "tu" o "tuo") e Aareal Bank AG, un istituto finanziario autorizzato registrato e operante secondo le leggi di Malta ("Aareal Bank AG", "noi" o "nostro"). Si prega di leggere attentamente questi termini prima di utilizzare i nostri servizi.',
+      intro: 'Questo Accordo sui Termini di Servizio ("Accordo") costituisce un contratto legalmente vincolante tra te ("Utente", "Cliente", "tu" o "tuo") e Malta Global Crypto Bank, un istituto finanziario autorizzato registrato e operante secondo le leggi di Malta ("Malta Global Crypto Bank", "noi" o "nostro"). Si prega di leggere attentamente questi termini prima di utilizzare i nostri servizi.',
       tableOfContentsTitle: 'Indice',
       acknowledgment: 'Accedendo, navigando o utilizzando uno qualsiasi dei nostri servizi, riconosci di aver letto, compreso e accettato di essere vincolato da tutti i termini e le condizioni stabiliti in questo Accordo, inclusa la nostra Informativa sulla Privacy, la Dichiarazione di Divulgazione dei Rischi e tutte le leggi e i regolamenti applicabili.'
     },
     de: {
       title: 'Nutzungsbedingungs-Vereinbarung',
       lastUpdated: 'Zuletzt aktualisiert: 16. Februar 2026 | Gültig ab: 16. Februar 2026',
-      intro: 'Diese Nutzungsbedingungs-Vereinbarung ("Vereinbarung") stellt einen rechtsverbindlichen Vertrag zwischen Ihnen ("Benutzer", "Kunde", "Sie" oder "Ihr") und Aareal Bank AG dar, einem lizenzierten Finanzinstitut, das nach maltesischem Recht registriert ist und tätig ist ("Aareal Bank AG", "wir", "uns" oder "unser"). Bitte lesen Sie diese Bedingungen sorgfältig durch, bevor Sie unsere Dienste nutzen.',
+      intro: 'Diese Nutzungsbedingungs-Vereinbarung ("Vereinbarung") stellt einen rechtsverbindlichen Vertrag zwischen Ihnen ("Benutzer", "Kunde", "Sie" oder "Ihr") und Malta Global Crypto Bank dar, einem lizenzierten Finanzinstitut, das nach maltesischem Recht registriert ist und tätig ist ("Malta Global Crypto Bank", "wir", "uns" oder "unser"). Bitte lesen Sie diese Bedingungen sorgfältig durch, bevor Sie unsere Dienste nutzen.',
       tableOfContentsTitle: 'Inhaltsverzeichnis',
       acknowledgment: 'Durch den Zugriff auf, das Durchsuchen oder die Nutzung unserer Dienste bestätigen Sie, dass Sie alle in dieser Vereinbarung festgelegten Bedingungen gelesen, verstanden und akzeptiert haben, einschließlich unserer Datenschutzrichtlinie, Risikoerklärung und aller geltenden Gesetze und Vorschriften.'
     },
     es: {
       title: 'Acuerdo de Términos de Servicio',
       lastUpdated: 'Última actualización: 16 de febrero de 2026 | Fecha de vigencia: 16 de febrero de 2026',
-      intro: 'Este Acuerdo de Términos de Servicio ("Acuerdo") constituye un contrato legalmente vinculante entre usted ("Usuario", "Cliente", "usted" o "su") y Aareal Bank AG, una institución financiera con licencia registrada y que opera bajo las leyes de Malta ("Aareal Bank AG", "nosotros" o "nuestro"). Por favor, lea estos términos cuidadosamente antes de usar nuestros servicios.',
+      intro: 'Este Acuerdo de Términos de Servicio ("Acuerdo") constituye un contrato legalmente vinculante entre usted ("Usuario", "Cliente", "usted" o "su") y Malta Global Crypto Bank, una institución financiera con licencia registrada y que opera bajo las leyes de Malta ("Malta Global Crypto Bank", "nosotros" o "nuestro"). Por favor, lea estos términos cuidadosamente antes de usar nuestros servicios.',
       tableOfContentsTitle: 'Tabla de Contenidos',
       acknowledgment: 'Al acceder, navegar o utilizar cualquiera de nuestros servicios, usted reconoce que ha leído, comprendido y acepta estar sujeto a todos los términos y condiciones establecidos en este Acuerdo, incluida nuestra Política de Privacidad, Declaración de Divulgación de Riesgos y todas las leyes y regulaciones aplicables.'
     },
     el: {
       title: 'Συμφωνία Όρων Χρήσης',
       lastUpdated: 'Τελευταία ενημέρωση: 16 Φεβρουαρίου 2026 | Ημερομηνία έναρξης ισχύος: 16 Φεβρουαρίου 2026',
-      intro: 'Αυτή η Συμφωνία Όρων Χρήσης ("Συμφωνία") αποτελεί νομικά δεσμευτικό συμβόλαιο μεταξύ σας ("Χρήστης", "Πελάτης", "εσείς" ή "σας") και της Aareal Bank AG, ενός αδειοδοτημένου χρηματοπιστωτικού ιδρύματος που είναι εγγεγραμμένο και λειτουργεί υπό τους νόμους της Μάλτας ("Aareal Bank AG", "εμείς" ή "μας"). Παρακαλούμε διαβάστε προσεκτικά αυτούς τους όρους πριν χρησιμοποιήσετε τις υπηρεσίες μας.',
+      intro: 'Αυτή η Συμφωνία Όρων Χρήσης ("Συμφωνία") αποτελεί νομικά δεσμευτικό συμβόλαιο μεταξύ σας ("Χρήστης", "Πελάτης", "εσείς" ή "σας") και της Malta Global Crypto Bank, ενός αδειοδοτημένου χρηματοπιστωτικού ιδρύματος που είναι εγγεγραμμένο και λειτουργεί υπό τους νόμους της Μάλτας ("Malta Global Crypto Bank", "εμείς" ή "μας"). Παρακαλούμε διαβάστε προσεκτικά αυτούς τους όρους πριν χρησιμοποιήσετε τις υπηρεσίες μας.',
       tableOfContentsTitle: 'Πίνακας Περιεχομένων',
       acknowledgment: 'Με την πρόσβαση, την περιήγηση ή τη χρήση οποιασδήποτε από τις υπηρεσίες μας, αναγνωρίζετε ότι έχετε διαβάσει, κατανοήσει και συμφωνείτε να δεσμεύεστε από όλους τους όρους και τις προϋποθέσεις που ορίζονται σε αυτή τη Συμφωνία, συμπεριλαμβανομένης της Πολιτικής Απορρήτου, της Δήλωσης Γνωστοποίησης Κινδύνων και όλων των εφαρμοστέων νόμων και κανονισμών.'
     }
@@ -112,18 +112,18 @@ export default function TermsOfService() {
                 : 'For purposes of this Agreement, the following terms shall have the meanings assigned to them:'}
             </p>
             <LegalList items={[
-              language === 'fr' ? '"Services" désigne tous les services bancaires, financiers et de cri cryptomonnaie fournis par Aareal Bank AG.'
-                : language === 'it' ? '"Servizi" significa tutti i servizi bancari, finanziari e di criptovaluta forniti da Aareal Bank AG.'
-                : language === 'de' ? '"Dienste" bedeutet alle von Aareal Bank AG bereitgestellten Bank-, Finanz- und Kryptowährungsdienste.'
-                : language === 'es' ? '"Servicios" significa todos los servicios bancarios, financieros y de criptomonedas proporcionados por Aareal Bank AG.'
-                : language === 'el' ? '"Υπηρεσίες" σημαίνει όλες τις τραπεζικές, χρηματοοικονομικές και υπηρεσίες κρυπτονομισμάτων που παρέχονται από την Aareal Bank AG.'
-                : '"Services" means all banking, financial, and cryptocurrency services provided by Aareal Bank AG.',
-              language === 'fr' ? '"Compte" désigne tout compte ouvert par vous auprès de Aareal Bank AG.'
-                : language === 'it' ? '"Conto" significa qualsiasi conto da te aperto presso Aareal Bank AG.'
-                : language === 'de' ? '"Konto" bedeutet jedes von Ihnen bei Aareal Bank AG eröffnete Konto.'
-                : language === 'es' ? '"Cuenta" significa cualquier cuenta abierta por usted con Aareal Bank AG.'
-                : language === 'el' ? '"Λογαριασμός" σημαίνει οποιονδήποτε λογαριασμό που ανοίγετε με την Aareal Bank AG.'
-                : '"Account" means any account opened by you with Aareal Bank AG.',
+              language === 'fr' ? '"Services" désigne tous les services bancaires, financiers et de cri cryptomonnaie fournis par Malta Global Crypto Bank.'
+                : language === 'it' ? '"Servizi" significa tutti i servizi bancari, finanziari e di criptovaluta forniti da Malta Global Crypto Bank.'
+                : language === 'de' ? '"Dienste" bedeutet alle von Malta Global Crypto Bank bereitgestellten Bank-, Finanz- und Kryptowährungsdienste.'
+                : language === 'es' ? '"Servicios" significa todos los servicios bancarios, financieros y de criptomonedas proporcionados por Malta Global Crypto Bank.'
+                : language === 'el' ? '"Υπηρεσίες" σημαίνει όλες τις τραπεζικές, χρηματοοικονομικές και υπηρεσίες κρυπτονομισμάτων που παρέχονται από την Malta Global Crypto Bank.'
+                : '"Services" means all banking, financial, and cryptocurrency services provided by Malta Global Crypto Bank.',
+              language === 'fr' ? '"Compte" désigne tout compte ouvert par vous auprès de Malta Global Crypto Bank.'
+                : language === 'it' ? '"Conto" significa qualsiasi conto da te aperto presso Malta Global Crypto Bank.'
+                : language === 'de' ? '"Konto" bedeutet jedes von Ihnen bei Malta Global Crypto Bank eröffnete Konto.'
+                : language === 'es' ? '"Cuenta" significa cualquier cuenta abierta por usted con Malta Global Crypto Bank.'
+                : language === 'el' ? '"Λογαριασμός" σημαίνει οποιονδήποτε λογαριασμό που ανοίγετε με την Malta Global Crypto Bank.'
+                : '"Account" means any account opened by you with Malta Global Crypto Bank.',
               language === 'fr' ? '"Actifs Numériques" inclut les cryptomonnaies, jetons et autres actifs basés sur la blockchain.'
                 : language === 'it' ? '"Attività Digitali" include criptovalute, token e altre attività basate su blockchain.'
                 : language === 'de' ? '"Digitale Vermögenswerte" umfasst Kryptowährungen, Token und andere Blockchain-basierte Vermögenswerte.'
@@ -141,12 +141,12 @@ export default function TermsOfService() {
 
           <LegalSection title={tocSections[1].title} id={tocSections[1].id} icon={<FileText size={24} />}>
             <p className="text-sm sm:text-base">
-              {language === 'fr' ? 'En créant un compte, en accédant à notre plateforme ou en utilisant nos services de quelque manière que ce soit, vous formez un contrat juridiquement exécutoire avec Aareal Bank AG. Cette acceptation est manifestée par : (a) la création d\'un compte, (b) la conclusion d\'une transaction, (c) l\'utilisation de nos services, ou (d) l\'accès à notre plateforme. Vous déclarez que vous avez l\'autorité légale pour conclure cet Accord et que vous n\'êtes soumis à aucune restriction légale qui vous empêcherait d\'entrer dans cet Accord.'
-                : language === 'it' ? 'Creando un conto, accedendo alla nostra piattaforma o utilizzando i nostri servizi in qualsiasi modo, formi un contratto legalmente esecutivo con Aareal Bank AG. Questa accettazione è manifestata da: (a) creazione di un conto, (b) completamento di una transazione, (c) utilizzo dei nostri servizi, o (d) accesso alla nostra piattaforma. Dichiari di avere l\'autorità legale per stipulare questo Accordo e di non essere soggetto ad alcuna restrizione legale che ti impedirebbe di stipulare questo Accordo.'
-                : language === 'de' ? 'Durch das Erstellen eines Kontos, den Zugriff auf unsere Plattform oder die Nutzung unserer Dienste in irgendeiner Weise schließen Sie einen rechtsverbindlichen Vertrag mit Aareal Bank AG ab. Diese Annahme wird durch: (a) Kontoerstellung, (b) Abschluss einer Transaktion, (c) Nutzung unserer Dienste oder (d) Zugriff auf unsere Plattform manifestiert. Sie erklären, dass Sie die gesetzliche Befugnis haben, diese Vereinbarung abzuschließen, und dass Sie keinen gesetzlichen Beschränkungen unterliegen, die Sie daran hindern würden, diese Vereinbarung abzuschließen.'
-                : language === 'es' ? 'Al crear una cuenta, acceder a nuestra plataforma o utilizar nuestros servicios de cualquier manera, forma un contrato legalmente ejecutable con Aareal Bank AG. Esta aceptación se manifiesta mediante: (a) creación de cuenta, (b) completar una transacción, (c) uso de nuestros servicios, o (d) acceso a nuestra plataforma. Usted declara que tiene la autoridad legal para celebrar este Acuerdo y que no está sujeto a ninguna restricción legal que le impida celebrar este Acuerdo.'
-                : language === 'el' ? 'Δημιουργώντας λογαριασμό, αποκτώντας πρόσβαση στην πλατφόρμα μας ή χρησιμοποιώντας τις υπηρεσίες μας με οποιονδήποτε τρόπο, σχηματίζετε ένα νομικά εκτελεστό συμβόλαιο με την Aareal Bank AG. Αυτή η αποδοχή εκδηλώνεται με: (α) δημιουργία λογαριασμού, (β) ολοκλήρωση συναλλαγής, (γ) χρήση των υπηρεσιών μας, ή (δ) πρόσβαση στην πλατφόρμα μας. Δηλώνετε ότι έχετε τη νομική εξουσία να συνάψετε αυτή τη Συμφωνία και ότι δεν υπόκεισθε σε κανέναν νομικό περιορισμό που θα σας εμπόδιζε να συνάψετε αυτή τη Συμφωνία.'
-                : 'By creating an account, accessing our platform, or using our services in any way, you form a legally enforceable contract with Aareal Bank AG. This acceptance is manifested by: (a) account creation, (b) completing a transaction, (c) using our services, or (d) accessing our platform. You represent that you have the legal authority to enter into this Agreement and that you are not subject to any legal restrictions that would prevent you from entering into this Agreement.'}
+              {language === 'fr' ? 'En créant un compte, en accédant à notre plateforme ou en utilisant nos services de quelque manière que ce soit, vous formez un contrat juridiquement exécutoire avec Malta Global Crypto Bank. Cette acceptation est manifestée par : (a) la création d\'un compte, (b) la conclusion d\'une transaction, (c) l\'utilisation de nos services, ou (d) l\'accès à notre plateforme. Vous déclarez que vous avez l\'autorité légale pour conclure cet Accord et que vous n\'êtes soumis à aucune restriction légale qui vous empêcherait d\'entrer dans cet Accord.'
+                : language === 'it' ? 'Creando un conto, accedendo alla nostra piattaforma o utilizzando i nostri servizi in qualsiasi modo, formi un contratto legalmente esecutivo con Malta Global Crypto Bank. Questa accettazione è manifestata da: (a) creazione di un conto, (b) completamento di una transazione, (c) utilizzo dei nostri servizi, o (d) accesso alla nostra piattaforma. Dichiari di avere l\'autorità legale per stipulare questo Accordo e di non essere soggetto ad alcuna restrizione legale che ti impedirebbe di stipulare questo Accordo.'
+                : language === 'de' ? 'Durch das Erstellen eines Kontos, den Zugriff auf unsere Plattform oder die Nutzung unserer Dienste in irgendeiner Weise schließen Sie einen rechtsverbindlichen Vertrag mit Malta Global Crypto Bank ab. Diese Annahme wird durch: (a) Kontoerstellung, (b) Abschluss einer Transaktion, (c) Nutzung unserer Dienste oder (d) Zugriff auf unsere Plattform manifestiert. Sie erklären, dass Sie die gesetzliche Befugnis haben, diese Vereinbarung abzuschließen, und dass Sie keinen gesetzlichen Beschränkungen unterliegen, die Sie daran hindern würden, diese Vereinbarung abzuschließen.'
+                : language === 'es' ? 'Al crear una cuenta, acceder a nuestra plataforma o utilizar nuestros servicios de cualquier manera, forma un contrato legalmente ejecutable con Malta Global Crypto Bank. Esta aceptación se manifiesta mediante: (a) creación de cuenta, (b) completar una transacción, (c) uso de nuestros servicios, o (d) acceso a nuestra plataforma. Usted declara que tiene la autoridad legal para celebrar este Acuerdo y que no está sujeto a ninguna restricción legal que le impida celebrar este Acuerdo.'
+                : language === 'el' ? 'Δημιουργώντας λογαριασμό, αποκτώντας πρόσβαση στην πλατφόρμα μας ή χρησιμοποιώντας τις υπηρεσίες μας με οποιονδήποτε τρόπο, σχηματίζετε ένα νομικά εκτελεστό συμβόλαιο με την Malta Global Crypto Bank. Αυτή η αποδοχή εκδηλώνεται με: (α) δημιουργία λογαριασμού, (β) ολοκλήρωση συναλλαγής, (γ) χρήση των υπηρεσιών μας, ή (δ) πρόσβαση στην πλατφόρμα μας. Δηλώνετε ότι έχετε τη νομική εξουσία να συνάψετε αυτή τη Συμφωνία και ότι δεν υπόκεισθε σε κανέναν νομικό περιορισμό που θα σας εμπόδιζε να συνάψετε αυτή τη Συμφωνία.'
+                : 'By creating an account, accessing our platform, or using our services in any way, you form a legally enforceable contract with Malta Global Crypto Bank. This acceptance is manifested by: (a) account creation, (b) completing a transaction, (c) using our services, or (d) accessing our platform. You represent that you have the legal authority to enter into this Agreement and that you are not subject to any legal restrictions that would prevent you from entering into this Agreement.'}
             </p>
           </LegalSection>
 
@@ -209,12 +209,12 @@ export default function TermsOfService() {
           <LegalSection title={tocSections[3].title} id={tocSections[3].id} icon={<Shield size={24} />}>
             <LegalNotice type="warning" title={language === 'fr' ? 'VÉRIFICATION OBLIGATOIRE' : language === 'it' ? 'VERIFICA OBBLIGATORIA' : language === 'de' ? 'OBLIGATORISCHE ÜBERPRÜFUNG' : language === 'es' ? 'VERIFICACIÓN OBLIGATORIA' : language === 'el' ? 'ΥΠΟΧΡΕΩΤΙΚΗ ΕΠΑΛΗΘΕΥΣΗ' : 'MANDATORY VERIFICATION'}>
               <p className="text-sm sm:text-base">
-                {language === 'fr' ? 'Conformément aux réglementations internationales contre le blanchiment d\'argent (AML), la connaissance du client (KYC) et le financement du terrorisme (CTF), Aareal Bank AG est légalement tenu de vérifier l\'identité de tous les clients. Le non-respect de ces exigences peut entraîner la suspension ou la fermeture du compte.'
-                  : language === 'it' ? 'In conformità con i regolamenti internazionali antiriciclaggio (AML), Know Your Customer (KYC) e contrasto al finanziamento del terrorismo (CTF), Aareal Bank AG è legalmente obbligata a verificare l\'identità di tutti i clienti. Il mancato rispetto di questi requisiti può comportare la sospensione o la chiusura dell\'account.'
-                  : language === 'de' ? 'In Übereinstimmung mit internationalen Vorschriften zur Geldwäschebekämpfung (AML), Kundenidentifizierung (KYC) und Terrorismusfinanzierung (CTF) ist Aareal Bank AG gesetzlich verpflichtet, die Identität aller Kunden zu überprüfen. Die Nichteinhaltung dieser Anforderungen kann zur Kontosperrung oder -schließung führen.'
-                  : language === 'es' ? 'De acuerdo con las regulaciones internacionales contra el lavado de dinero (AML), Conozca a su Cliente (KYC) y financiamiento del terrorismo (CTF), Aareal Bank AG está legalmente obligada a verificar la identidad de todos los clientes. El incumplimiento de estos requisitos puede resultar en la suspensión o cierre de la cuenta.'
-                  : language === 'el' ? 'Σύμφωνα με τους διεθνείς κανονισμούς κατά της νομιμοποίησης εσόδων από παράνομες δραστηριότητες (AML), Γνωρίστε τον Πελάτη σας (KYC) και της χρηματοδότησης της τρομοκρατίας (CTF), η Aareal Bank AG είναι νομικά υποχρεωμένη να επαληθεύει την ταυτότητα όλων των πελατών. Η μη συμμόρφωση με αυτές τις απαιτήσεις μπορεί να οδηγήσει σε αναστολή ή κλείσιμο λογαριασμού.'
-                  : 'In compliance with international Anti-Money Laundering (AML), Know Your Customer (KYC), and Counter-Terrorism Financing (CTF) regulations, Aareal Bank AG is legally required to verify the identity of all clients. Failure to comply with these requirements may result in account suspension or closure.'}
+                {language === 'fr' ? 'Conformément aux réglementations internationales contre le blanchiment d\'argent (AML), la connaissance du client (KYC) et le financement du terrorisme (CTF), Malta Global Crypto Bank est légalement tenu de vérifier l\'identité de tous les clients. Le non-respect de ces exigences peut entraîner la suspension ou la fermeture du compte.'
+                  : language === 'it' ? 'In conformità con i regolamenti internazionali antiriciclaggio (AML), Know Your Customer (KYC) e contrasto al finanziamento del terrorismo (CTF), Malta Global Crypto Bank è legalmente obbligata a verificare l\'identità di tutti i clienti. Il mancato rispetto di questi requisiti può comportare la sospensione o la chiusura dell\'account.'
+                  : language === 'de' ? 'In Übereinstimmung mit internationalen Vorschriften zur Geldwäschebekämpfung (AML), Kundenidentifizierung (KYC) und Terrorismusfinanzierung (CTF) ist Malta Global Crypto Bank gesetzlich verpflichtet, die Identität aller Kunden zu überprüfen. Die Nichteinhaltung dieser Anforderungen kann zur Kontosperrung oder -schließung führen.'
+                  : language === 'es' ? 'De acuerdo con las regulaciones internacionales contra el lavado de dinero (AML), Conozca a su Cliente (KYC) y financiamiento del terrorismo (CTF), Malta Global Crypto Bank está legalmente obligada a verificar la identidad de todos los clientes. El incumplimiento de estos requisitos puede resultar en la suspensión o cierre de la cuenta.'
+                  : language === 'el' ? 'Σύμφωνα με τους διεθνείς κανονισμούς κατά της νομιμοποίησης εσόδων από παράνομες δραστηριότητες (AML), Γνωρίστε τον Πελάτη σας (KYC) και της χρηματοδότησης της τρομοκρατίας (CTF), η Malta Global Crypto Bank είναι νομικά υποχρεωμένη να επαληθεύει την ταυτότητα όλων των πελατών. Η μη συμμόρφωση με αυτές τις απαιτήσεις μπορεί να οδηγήσει σε αναστολή ή κλείσιμο λογαριασμού.'
+                  : 'In compliance with international Anti-Money Laundering (AML), Know Your Customer (KYC), and Counter-Terrorism Financing (CTF) regulations, Malta Global Crypto Bank is legally required to verify the identity of all clients. Failure to comply with these requirements may result in account suspension or closure.'}
               </p>
             </LegalNotice>
 
@@ -256,12 +256,12 @@ export default function TermsOfService() {
 
           <LegalSection title={tocSections[4].title} id={tocSections[4].id} icon={<FileText size={24} />}>
             <p className="text-sm sm:text-base mb-4">
-              {language === 'fr' ? 'Aareal Bank AG fournit une gamme complète de services financiers, notamment :'
-                : language === 'it' ? 'Aareal Bank AG fornisce una gamma completa di servizi finanziari, tra cui:'
-                : language === 'de' ? 'Aareal Bank AG bietet eine umfassende Palette von Finanzdienstleistungen, einschließlich:'
-                : language === 'es' ? 'Aareal Bank AG proporciona una gama completa de servicios financieros, que incluyen:'
-                : language === 'el' ? 'Η Aareal Bank AG παρέχει ένα πλήρες φάσμα χρηματοοικονομικών υπηρεσιών, συμπεριλαμβανομένων:'
-                : 'Aareal Bank AG provides a comprehensive range of financial services, including:'}
+              {language === 'fr' ? 'Malta Global Crypto Bank fournit une gamme complète de services financiers, notamment :'
+                : language === 'it' ? 'Malta Global Crypto Bank fornisce una gamma completa di servizi finanziari, tra cui:'
+                : language === 'de' ? 'Malta Global Crypto Bank bietet eine umfassende Palette von Finanzdienstleistungen, einschließlich:'
+                : language === 'es' ? 'Malta Global Crypto Bank proporciona una gama completa de servicios financieros, que incluyen:'
+                : language === 'el' ? 'Η Malta Global Crypto Bank παρέχει ένα πλήρες φάσμα χρηματοοικονομικών υπηρεσιών, συμπεριλαμβανομένων:'
+                : 'Malta Global Crypto Bank provides a comprehensive range of financial services, including:'}
             </p>
 
             <LegalSubsection title={language === 'fr' ? 'Services Bancaires' : language === 'it' ? 'Servizi Bancari' : language === 'de' ? 'Bankdienstleistungen' : language === 'es' ? 'Servicios Bancarios' : language === 'el' ? 'Τραπεζικές Υπηρεσίες' : 'Banking Services'}>
@@ -385,23 +385,23 @@ export default function TermsOfService() {
             ]} />
 
             <p className="text-sm sm:text-base mt-6">
-              {language === 'fr' ? 'Vous reconnaissez et acceptez que : Aareal Bank AG n\'offre aucune garantie concernant la performance des actifs numériques; les marchés de cryptomonnaie sont hautement volatils et non réglementés; les transactions blockchain sont irréversibles; et vous êtes seul responsable de toutes les décisions d\'investissement.'
-                : language === 'it' ? 'Riconosci e accetti che: Aareal Bank AG non fornisce alcuna garanzia riguardo alla performance delle attività digitali; i mercati delle criptovalute sono altamente volatili e non regolamentati; le transazioni blockchain sono irreversibili; e sei l\'unico responsabile di tutte le decisioni di investimento.'
-                : language === 'de' ? 'Sie erkennen an und akzeptieren, dass: Aareal Bank AG keine Garantien bezüglich der Wertentwicklung digitaler Vermögenswerte gibt; Kryptowährungsmärkte hochvolatil und unreguliert sind; Blockchain-Transaktionen irreversibel sind; und Sie allein für alle Anlageentscheidungen verantwortlich sind.'
-                : language === 'es' ? 'Reconoce y acepta que: Aareal Bank AG no proporciona garantías sobre el rendimiento de activos digitales; los mercados de criptomonedas son altamente volátiles y no regulados; las transacciones blockchain son irreversibles; y usted es el único responsable de todas las decisiones de inversión.'
-                : language === 'el' ? 'Αναγνωρίζετε και αποδέχεστε ότι: Η Aareal Bank AG δεν παρέχει εγγυήσεις σχετικά με την απόδοση ψηφιακών περιουσιακών στοιχείων· οι αγορές κρυπτονομισμάτων είναι ιδιαίτερα ασταθείς και μη ρυθμιζόμενες· οι συναλλαγές blockchain είναι μη αναστρέψιμες· και είστε αποκλειστικά υπεύθυνοι για όλες τις επενδυτικές αποφάσεις.'
-                : 'You acknowledge and accept that: Aareal Bank AG provides no warranties regarding digital asset performance; cryptocurrency markets are highly volatile and unregulated; blockchain transactions are irreversible; and you are solely responsible for all investment decisions.'}
+              {language === 'fr' ? 'Vous reconnaissez et acceptez que : Malta Global Crypto Bank n\'offre aucune garantie concernant la performance des actifs numériques; les marchés de cryptomonnaie sont hautement volatils et non réglementés; les transactions blockchain sont irréversibles; et vous êtes seul responsable de toutes les décisions d\'investissement.'
+                : language === 'it' ? 'Riconosci e accetti che: Malta Global Crypto Bank non fornisce alcuna garanzia riguardo alla performance delle attività digitali; i mercati delle criptovalute sono altamente volatili e non regolamentati; le transazioni blockchain sono irreversibili; e sei l\'unico responsabile di tutte le decisioni di investimento.'
+                : language === 'de' ? 'Sie erkennen an und akzeptieren, dass: Malta Global Crypto Bank keine Garantien bezüglich der Wertentwicklung digitaler Vermögenswerte gibt; Kryptowährungsmärkte hochvolatil und unreguliert sind; Blockchain-Transaktionen irreversibel sind; und Sie allein für alle Anlageentscheidungen verantwortlich sind.'
+                : language === 'es' ? 'Reconoce y acepta que: Malta Global Crypto Bank no proporciona garantías sobre el rendimiento de activos digitales; los mercados de criptomonedas son altamente volátiles y no regulados; las transacciones blockchain son irreversibles; y usted es el único responsable de todas las decisiones de inversión.'
+                : language === 'el' ? 'Αναγνωρίζετε και αποδέχεστε ότι: Η Malta Global Crypto Bank δεν παρέχει εγγυήσεις σχετικά με την απόδοση ψηφιακών περιουσιακών στοιχείων· οι αγορές κρυπτονομισμάτων είναι ιδιαίτερα ασταθείς και μη ρυθμιζόμενες· οι συναλλαγές blockchain είναι μη αναστρέψιμες· και είστε αποκλειστικά υπεύθυνοι για όλες τις επενδυτικές αποφάσεις.'
+                : 'You acknowledge and accept that: Malta Global Crypto Bank provides no warranties regarding digital asset performance; cryptocurrency markets are highly volatile and unregulated; blockchain transactions are irreversible; and you are solely responsible for all investment decisions.'}
             </p>
           </LegalSection>
 
           <LegalSection title={tocSections[6].title} id={tocSections[6].id} icon={<FileText size={24} />}>
             <p className="text-sm sm:text-base mb-4">
-              {language === 'fr' ? 'Aareal Bank AG facture des frais pour ses services conformément au barème de frais publié. Tous les frais sont énumérés dans votre tableau de bord de compte et notre site Web. En utilisant nos services, vous acceptez de payer tous les frais applicables.'
-                : language === 'it' ? 'Aareal Bank AG addebita commissioni per i suoi servizi in conformità con il programma tariffario pubblicato. Tutte le commissioni sono elencate nel tuo pannello account e sul nostro sito web. Utilizzando i nostri servizi, accetti di pagare tutte le commissioni applicabili.'
-                : language === 'de' ? 'Aareal Bank AG erhebt Gebühren für seine Dienstleistungen gemäß dem veröffentlichten Gebührenplan. Alle Gebühren sind in Ihrem Konto-Dashboard und auf unserer Website aufgeführt. Durch die Nutzung unserer Dienste stimmen Sie zu, alle anfallenden Gebühren zu zahlen.'
-                : language === 'es' ? 'Aareal Bank AG cobra tarifas por sus servicios de acuerdo con el programa de tarifas publicado. Todas las tarifas se enumeran en su panel de cuenta y en nuestro sitio web. Al utilizar nuestros servicios, acepta pagar todas las tarifas aplicables.'
-                : language === 'el' ? 'Η Aareal Bank AG χρεώνει προμήθειες για τις υπηρεσίες της σύμφωνα με το δημοσιευμένο χρονοδιάγραμμα προμηθειών. Όλες οι προμήθειες αναφέρονται στον πίνακα ελέγχου του λογαριασμού σας και στον ιστότοπό μας. Χρησιμοποιώντας τις υπηρεσίες μας, συμφωνείτε να πληρώσετε όλες τις εφαρμοστέες προμήθειες.'
-                : 'Aareal Bank AG charges fees for its services in accordance with its published fee schedule. All fees are listed in your account dashboard and on our website. By using our services, you agree to pay all applicable fees.'}
+              {language === 'fr' ? 'Malta Global Crypto Bank facture des frais pour ses services conformément au barème de frais publié. Tous les frais sont énumérés dans votre tableau de bord de compte et notre site Web. En utilisant nos services, vous acceptez de payer tous les frais applicables.'
+                : language === 'it' ? 'Malta Global Crypto Bank addebita commissioni per i suoi servizi in conformità con il programma tariffario pubblicato. Tutte le commissioni sono elencate nel tuo pannello account e sul nostro sito web. Utilizzando i nostri servizi, accetti di pagare tutte le commissioni applicabili.'
+                : language === 'de' ? 'Malta Global Crypto Bank erhebt Gebühren für seine Dienstleistungen gemäß dem veröffentlichten Gebührenplan. Alle Gebühren sind in Ihrem Konto-Dashboard und auf unserer Website aufgeführt. Durch die Nutzung unserer Dienste stimmen Sie zu, alle anfallenden Gebühren zu zahlen.'
+                : language === 'es' ? 'Malta Global Crypto Bank cobra tarifas por sus servicios de acuerdo con el programa de tarifas publicado. Todas las tarifas se enumeran en su panel de cuenta y en nuestro sitio web. Al utilizar nuestros servicios, acepta pagar todas las tarifas aplicables.'
+                : language === 'el' ? 'Η Malta Global Crypto Bank χρεώνει προμήθειες για τις υπηρεσίες της σύμφωνα με το δημοσιευμένο χρονοδιάγραμμα προμηθειών. Όλες οι προμήθειες αναφέρονται στον πίνακα ελέγχου του λογαριασμού σας και στον ιστότοπό μας. Χρησιμοποιώντας τις υπηρεσίες μας, συμφωνείτε να πληρώσετε όλες τις εφαρμοστέες προμήθειες.'
+                : 'Malta Global Crypto Bank charges fees for its services in accordance with its published fee schedule. All fees are listed in your account dashboard and on our website. By using our services, you agree to pay all applicable fees.'}
             </p>
 
             <LegalSubsection title={language === 'fr' ? 'Types de Frais' : language === 'it' ? 'Tipi di Commissioni' : language === 'de' ? 'Gebührenarten' : language === 'es' ? 'Tipos de Tarifas' : language === 'el' ? 'Τύποι Προμηθειών' : 'Fee Types'}>
@@ -447,12 +447,12 @@ export default function TermsOfService() {
 
             <LegalNotice type="info" title={language === 'fr' ? 'MODIFICATION DES FRAIS' : language === 'it' ? 'MODIFICA COMMISSIONI' : language === 'de' ? 'GEBÜHRENÄNDERUNG' : language === 'es' ? 'MODIFICACIÓN DE TARIFAS' : language === 'el' ? 'ΤΡΟΠΟΠΟΙΗΣΗ ΠΡΟΜΗΘΕΙΩΝ' : 'FEE MODIFICATION'}>
               <p className="text-sm sm:text-base">
-                {language === 'fr' ? 'Aareal Bank AG se réserve le droit de modifier ses frais moyennant un préavis de trente (30) jours. Vous serez informé de toute modification de frais par email et notification dans l\'application. L\'utilisation continue des services après les modifications constitue l\'acceptation des nouveaux frais.'
-                  : language === 'it' ? 'Aareal Bank AG si riserva il diritto di modificare le sue commissioni con un preavviso di trenta (30) giorni. Sarai informato di eventuali modifiche alle commissioni tramite email e notifica nell\'app. L\'uso continuato dei servizi dopo le modifiche costituisce accettazione delle nuove commissioni.'
-                  : language === 'de' ? 'Aareal Bank AG behält sich das Recht vor, seine Gebühren mit einer Frist von dreißig (30) Tagen zu ändern. Sie werden über alle Gebührenänderungen per E-Mail und App-Benachrichtigung informiert. Die fortgesetzte Nutzung der Dienste nach den Änderungen stellt die Annahme der neuen Gebühren dar.'
-                  : language === 'es' ? 'Aareal Bank AG se reserva el derecho de modificar sus tarifas con un aviso de treinta (30) días. Se le notificará de cualquier cambio en las tarifas por correo electrónico y notificación de la aplicación. El uso continuado de los servicios después de los cambios constituye aceptación de las nuevas tarifas.'
-                  : language === 'el' ? 'Η Aareal Bank AG διατηρεί το δικαίωμα να τροποποιήσει τις προμήθειές της με προειδοποίηση τριάντα (30) ημερών. Θα ενημερωθείτε για τυχόν αλλαγές στις προμήθειες μέσω email και ειδοποίησης εφαρμογής. Η συνεχιζόμενη χρήση των υπηρεσιών μετά τις αλλαγές συνιστά αποδοχή των νέων προμηθειών.'
-                  : 'Aareal Bank AG reserves the right to modify its fees with thirty (30) days notice. You will be notified of any fee changes via email and in-app notification. Continued use of services after changes constitutes acceptance of the new fees.'}
+                {language === 'fr' ? 'Malta Global Crypto Bank se réserve le droit de modifier ses frais moyennant un préavis de trente (30) jours. Vous serez informé de toute modification de frais par email et notification dans l\'application. L\'utilisation continue des services après les modifications constitue l\'acceptation des nouveaux frais.'
+                  : language === 'it' ? 'Malta Global Crypto Bank si riserva il diritto di modificare le sue commissioni con un preavviso di trenta (30) giorni. Sarai informato di eventuali modifiche alle commissioni tramite email e notifica nell\'app. L\'uso continuato dei servizi dopo le modifiche costituisce accettazione delle nuove commissioni.'
+                  : language === 'de' ? 'Malta Global Crypto Bank behält sich das Recht vor, seine Gebühren mit einer Frist von dreißig (30) Tagen zu ändern. Sie werden über alle Gebührenänderungen per E-Mail und App-Benachrichtigung informiert. Die fortgesetzte Nutzung der Dienste nach den Änderungen stellt die Annahme der neuen Gebühren dar.'
+                  : language === 'es' ? 'Malta Global Crypto Bank se reserva el derecho de modificar sus tarifas con un aviso de treinta (30) días. Se le notificará de cualquier cambio en las tarifas por correo electrónico y notificación de la aplicación. El uso continuado de los servicios después de los cambios constituye aceptación de las nuevas tarifas.'
+                  : language === 'el' ? 'Η Malta Global Crypto Bank διατηρεί το δικαίωμα να τροποποιήσει τις προμήθειές της με προειδοποίηση τριάντα (30) ημερών. Θα ενημερωθείτε για τυχόν αλλαγές στις προμήθειες μέσω email και ειδοποίησης εφαρμογής. Η συνεχιζόμενη χρήση των υπηρεσιών μετά τις αλλαγές συνιστά αποδοχή των νέων προμηθειών.'
+                  : 'Malta Global Crypto Bank reserves the right to modify its fees with thirty (30) days notice. You will be notified of any fee changes via email and in-app notification. Continued use of services after changes constitutes acceptance of the new fees.'}
               </p>
             </LegalNotice>
           </LegalSection>
@@ -714,12 +714,12 @@ export default function TermsOfService() {
 
             <LegalNotice type="warning" title={language === 'fr' ? 'NON-RESPONSABILITÉ POUR NÉGLIGENCE DE SÉCURITÉ' : language === 'it' ? 'NON RESPONSABILITÀ PER NEGLIGENZA SICUREZZA' : language === 'de' ? 'KEINE HAFTUNG FÜR SICHERHEITSNACHLÄSSIGKEIT' : language === 'es' ? 'NO RESPONSABILIDAD POR NEGLIGENCIA DE SEGURIDAD' : language === 'el' ? 'ΜΗ ΕΥΘΥΝΗ ΓΙΑ ΑΜΕΛΕΙΑ ΑΣΦΑΛΕΙΑΣ' : 'NO LIABILITY FOR SECURITY NEGLIGENCE'}>
               <p className="text-sm sm:text-base">
-                {language === 'fr' ? 'Aareal Bank AG n\'est pas responsable des pertes résultant de votre non-respect des protocoles de sécurité, du partage d\'identifiants, de l\'utilisation d\'appareils non sécurisés ou de toute autre négligence de votre part. Vous assumez l\'entière responsabilité de toute activité de compte résultant de telles actions.'
-                  : language === 'it' ? 'Aareal Bank AG non è responsabile per perdite derivanti dalla mancata osservanza dei protocolli di sicurezza, condivisione di credenziali, uso di dispositivi non sicuri o qualsiasi altra negligenza da parte tua. Ti assumi la piena responsabilità per qualsiasi attività dell\'account derivante da tali azioni.'
-                  : language === 'de' ? 'Aareal Bank AG ist nicht verantwortlich für Verluste, die aus Ihrer Nichteinhaltung von Sicherheitsprotokollen, Weitergabe von Anmeldeinformationen, Verwendung unsicherer Geräte oder jeglicher anderer Fahrlässigkeit Ihrerseits resultieren. Sie übernehmen die volle Verantwortung für alle Kontoaktivitäten, die sich aus solchen Handlungen ergeben.'
-                  : language === 'es' ? 'Aareal Bank AG no es responsable de pérdidas resultantes de su incumplimiento de protocolos de seguridad, compartir credenciales, usar dispositivos no seguros o cualquier otra negligencia de su parte. Usted asume total responsabilidad por cualquier actividad de cuenta resultante de tales acciones.'
-                  : language === 'el' ? 'Η Aareal Bank AG δεν είναι υπεύθυνη για απώλειες που προκύπτουν από τη μη συμμόρφωσή σας με τα πρωτόκολλα ασφαλείας, την κοινή χρήση διαπιστευτηρίων, τη χρήση μη ασφαλών συσκευών ή οποιαδήποτε άλλη αμέλεια εκ μέρους σας. Αναλαμβάνετε την πλήρη ευθύνη για οποιαδήποτε δραστηριότητα λογαριασμού που προκύπτει από τέτοιες ενέργειες.'
-                  : 'Aareal Bank AG is not liable for losses resulting from your failure to comply with security protocols, sharing credentials, using unsecured devices, or any other negligence on your part. You assume full responsibility for any account activity resulting from such actions.'}
+                {language === 'fr' ? 'Malta Global Crypto Bank n\'est pas responsable des pertes résultant de votre non-respect des protocoles de sécurité, du partage d\'identifiants, de l\'utilisation d\'appareils non sécurisés ou de toute autre négligence de votre part. Vous assumez l\'entière responsabilité de toute activité de compte résultant de telles actions.'
+                  : language === 'it' ? 'Malta Global Crypto Bank non è responsabile per perdite derivanti dalla mancata osservanza dei protocolli di sicurezza, condivisione di credenziali, uso di dispositivi non sicuri o qualsiasi altra negligenza da parte tua. Ti assumi la piena responsabilità per qualsiasi attività dell\'account derivante da tali azioni.'
+                  : language === 'de' ? 'Malta Global Crypto Bank ist nicht verantwortlich für Verluste, die aus Ihrer Nichteinhaltung von Sicherheitsprotokollen, Weitergabe von Anmeldeinformationen, Verwendung unsicherer Geräte oder jeglicher anderer Fahrlässigkeit Ihrerseits resultieren. Sie übernehmen die volle Verantwortung für alle Kontoaktivitäten, die sich aus solchen Handlungen ergeben.'
+                  : language === 'es' ? 'Malta Global Crypto Bank no es responsable de pérdidas resultantes de su incumplimiento de protocolos de seguridad, compartir credenciales, usar dispositivos no seguros o cualquier otra negligencia de su parte. Usted asume total responsabilidad por cualquier actividad de cuenta resultante de tales acciones.'
+                  : language === 'el' ? 'Η Malta Global Crypto Bank δεν είναι υπεύθυνη για απώλειες που προκύπτουν από τη μη συμμόρφωσή σας με τα πρωτόκολλα ασφαλείας, την κοινή χρήση διαπιστευτηρίων, τη χρήση μη ασφαλών συσκευών ή οποιαδήποτε άλλη αμέλεια εκ μέρους σας. Αναλαμβάνετε την πλήρη ευθύνη για οποιαδήποτε δραστηριότητα λογαριασμού που προκύπτει από τέτοιες ενέργειες.'
+                  : 'Malta Global Crypto Bank is not liable for losses resulting from your failure to comply with security protocols, sharing credentials, using unsecured devices, or any other negligence on your part. You assume full responsibility for any account activity resulting from such actions.'}
               </p>
             </LegalNotice>
           </LegalSection>
@@ -871,12 +871,12 @@ export default function TermsOfService() {
 
           <LegalSection title={tocSections[10].title} id={tocSections[10].id} icon={<Shield size={24} />}>
             <p className="text-sm sm:text-base mb-4">
-              {language === 'fr' ? 'Aareal Bank AG est assujettie aux réglementations bancaires et financières de Malte, de l\'UE et internationales. Nous maintenons une conformité stricte avec toutes les exigences légales et réglementaires applicables.'
-                : language === 'it' ? 'Aareal Bank AG è soggetta alle normative bancarie e finanziarie di Malta, dell\'UE e internazionali. Manteniamo una rigorosa conformità con tutti i requisiti legali e normativi applicabili.'
-                : language === 'de' ? 'Aareal Bank AG unterliegt den Bank- und Finanzvorschriften Maltas, der EU und internationalen Vorschriften. Wir halten strikte Compliance mit allen geltenden rechtlichen und regulatorischen Anforderungen ein.'
-                : language === 'es' ? 'Aareal Bank AG está sujeta a las regulaciones bancarias y financieras de Malta, la UE e internacionales. Mantenemos un cumplimiento estricto con todos los requisitos legales y regulatorios aplicables.'
-                : language === 'el' ? 'Η Aareal Bank AG υπόκειται στους τραπεζικούς και χρηματοοικονομικούς κανονισμούς της Μάλτας, της ΕΕ και διεθνών κανονισμών. Διατηρούμε αυστηρή συμμόρφωση με όλες τις ισχύουσες νομικές και κανονιστικές απαιτήσεις.'
-                : 'Aareal Bank AG is subject to Malta, EU, and international banking and financial regulations. We maintain strict compliance with all applicable legal and regulatory requirements.'}
+              {language === 'fr' ? 'Malta Global Crypto Bank est assujettie aux réglementations bancaires et financières de Malte, de l\'UE et internationales. Nous maintenons une conformité stricte avec toutes les exigences légales et réglementaires applicables.'
+                : language === 'it' ? 'Malta Global Crypto Bank è soggetta alle normative bancarie e finanziarie di Malta, dell\'UE e internazionali. Manteniamo una rigorosa conformità con tutti i requisiti legali e normativi applicabili.'
+                : language === 'de' ? 'Malta Global Crypto Bank unterliegt den Bank- und Finanzvorschriften Maltas, der EU und internationalen Vorschriften. Wir halten strikte Compliance mit allen geltenden rechtlichen und regulatorischen Anforderungen ein.'
+                : language === 'es' ? 'Malta Global Crypto Bank está sujeta a las regulaciones bancarias y financieras de Malta, la UE e internacionales. Mantenemos un cumplimiento estricto con todos los requisitos legales y regulatorios aplicables.'
+                : language === 'el' ? 'Η Malta Global Crypto Bank υπόκειται στους τραπεζικούς και χρηματοοικονομικούς κανονισμούς της Μάλτας, της ΕΕ και διεθνών κανονισμών. Διατηρούμε αυστηρή συμμόρφωση με όλες τις ισχύουσες νομικές και κανονιστικές απαιτήσεις.'
+                : 'Malta Global Crypto Bank is subject to Malta, EU, and international banking and financial regulations. We maintain strict compliance with all applicable legal and regulatory requirements.'}
             </p>
 
             <LegalSubsection title={language === 'fr' ? 'Cadres Réglementaires' : language === 'it' ? 'Quadri Normativi' : language === 'de' ? 'Regulatorische Rahmenbedingungen' : language === 'es' ? 'Marcos Regulatorios' : language === 'el' ? 'Ρυθμιστικά Πλαίσια' : 'Regulatory Frameworks'}>
@@ -922,12 +922,12 @@ export default function TermsOfService() {
 
             <LegalSubsection title={language === 'fr' ? 'Obligations de Déclaration' : language === 'it' ? 'Obblighi di Segnalazione' : language === 'de' ? 'Meldepflichten' : language === 'es' ? 'Obligaciones de Reporte' : language === 'el' ? 'Υποχρεώσεις Αναφοράς' : 'Reporting Obligations'}>
               <p className="text-sm sm:text-base mb-3">
-                {language === 'fr' ? 'Aareal Bank AG est légalement tenue de déclarer certaines transactions et activités aux autorités réglementaires :'
-                  : language === 'it' ? 'Aareal Bank AG è legalmente obbligata a segnalare determinate transazioni e attività alle autorità di regolamentazione:'
-                  : language === 'de' ? 'Aareal Bank AG ist gesetzlich verpflichtet, bestimmte Transaktionen und Aktivitäten an die Regulierungsbehörden zu melden:'
-                  : language === 'es' ? 'Aareal Bank AG está legalmente obligada a informar ciertas transacciones y actividades a las autoridades reguladoras:'
-                  : language === 'el' ? 'Η Aareal Bank AG είναι νομικά υποχρεωμένη να αναφέρει ορισμένες συναλλαγές και δραστηριότητες στις ρυθμιστικές αρχές:'
-                  : 'Aareal Bank AG is legally required to report certain transactions and activities to regulatory authorities:'}
+                {language === 'fr' ? 'Malta Global Crypto Bank est légalement tenue de déclarer certaines transactions et activités aux autorités réglementaires :'
+                  : language === 'it' ? 'Malta Global Crypto Bank è legalmente obbligata a segnalare determinate transazioni e attività alle autorità di regolamentazione:'
+                  : language === 'de' ? 'Malta Global Crypto Bank ist gesetzlich verpflichtet, bestimmte Transaktionen und Aktivitäten an die Regulierungsbehörden zu melden:'
+                  : language === 'es' ? 'Malta Global Crypto Bank está legalmente obligada a informar ciertas transacciones y actividades a las autoridades reguladoras:'
+                  : language === 'el' ? 'Η Malta Global Crypto Bank είναι νομικά υποχρεωμένη να αναφέρει ορισμένες συναλλαγές και δραστηριότητες στις ρυθμιστικές αρχές:'
+                  : 'Malta Global Crypto Bank is legally required to report certain transactions and activities to regulatory authorities:'}
               </p>
               <LegalList items={[
                 language === 'fr' ? 'Rapports d\'activités suspectes (RAS) pour transactions potentiellement illicites'
@@ -959,34 +959,34 @@ export default function TermsOfService() {
 
             <LegalSubsection title={language === 'fr' ? 'Coopération avec les Autorités' : language === 'it' ? 'Cooperazione con le Autorità' : language === 'de' ? 'Zusammenarbeit mit Behörden' : language === 'es' ? 'Cooperación con Autoridades' : language === 'el' ? 'Συνεργασία με Αρχές' : 'Cooperation with Authorities'}>
               <p className="text-sm sm:text-base">
-                {language === 'fr' ? 'Aareal Bank AG coopérera pleinement avec les forces de l\'ordre, les autorités réglementaires et les agences gouvernementales. Nous sommes tenus de divulguer les informations de compte et les détails de transaction en réponse aux demandes légales valides, y compris les assignations, les mandats de perquisition et les ordonnances judiciaires. En utilisant nos services, vous consentez à une telle divulgation lorsqu\'elle est légalement requise.'
-                  : language === 'it' ? 'Aareal Bank AG collaborerà pienamente con le forze dell\'ordine, le autorità di regolamentazione e le agenzie governative. Siamo tenuti a divulgare informazioni sull\'account e dettagli delle transazioni in risposta a richieste legali valide, inclusi citazioni, mandati di perquisizione e ordini del tribunale. Utilizzando i nostri servizi, acconsenti a tale divulgazione quando legalmente richiesto.'
-                  : language === 'de' ? 'Aareal Bank AG wird vollständig mit Strafverfolgungsbehörden, Aufsichtsbehörden und Regierungsbehörden kooperieren. Wir sind verpflichtet, Kontoinformationen und Transaktionsdetails als Antwort auf gültige rechtliche Anfragen offenzulegen, einschließlich Vorladungen, Durchsuchungsbefehlen und Gerichtsbeschlüssen. Durch die Nutzung unserer Dienste stimmen Sie einer solchen Offenlegung zu, wenn sie gesetzlich erforderlich ist.'
-                  : language === 'es' ? 'Aareal Bank AG cooperará plenamente con las autoridades policiales, las autoridades reguladoras y las agencias gubernamentales. Estamos obligados a divulgar información de cuenta y detalles de transacciones en respuesta a solicitudes legales válidas, incluidas citaciones, órdenes de allanamiento y órdenes judiciales. Al utilizar nuestros servicios, usted acepta dicha divulgación cuando sea legalmente requerida.'
-                  : language === 'el' ? 'Η Aareal Bank AG θα συνεργαστεί πλήρως με τις αρχές επιβολής του νόμου, τις ρυθμιστικές αρχές και τις κυβερνητικές υπηρεσίες. Είμαστε υποχρεωμένοι να αποκαλύπτουμε πληροφορίες λογαριασμού και λεπτομέρειες συναλλαγών σε απάντηση σε έγκυρα νομικά αιτήματα, συμπεριλαμβανομένων κλήσεων, ενταλμάτων έρευνας και δικαστικών διαταγών. Χρησιμοποιώντας τις υπηρεσίες μας, συναινείτε σε τέτοια αποκάλυψη όταν απαιτείται νομικά.'
-                  : 'Aareal Bank AG will cooperate fully with law enforcement, regulatory authorities, and government agencies. We are required to disclose account information and transaction details in response to valid legal requests, including subpoenas, search warrants, and court orders. By using our services, you consent to such disclosure when legally required.'}
+                {language === 'fr' ? 'Malta Global Crypto Bank coopérera pleinement avec les forces de l\'ordre, les autorités réglementaires et les agences gouvernementales. Nous sommes tenus de divulguer les informations de compte et les détails de transaction en réponse aux demandes légales valides, y compris les assignations, les mandats de perquisition et les ordonnances judiciaires. En utilisant nos services, vous consentez à une telle divulgation lorsqu\'elle est légalement requise.'
+                  : language === 'it' ? 'Malta Global Crypto Bank collaborerà pienamente con le forze dell\'ordine, le autorità di regolamentazione e le agenzie governative. Siamo tenuti a divulgare informazioni sull\'account e dettagli delle transazioni in risposta a richieste legali valide, inclusi citazioni, mandati di perquisizione e ordini del tribunale. Utilizzando i nostri servizi, acconsenti a tale divulgazione quando legalmente richiesto.'
+                  : language === 'de' ? 'Malta Global Crypto Bank wird vollständig mit Strafverfolgungsbehörden, Aufsichtsbehörden und Regierungsbehörden kooperieren. Wir sind verpflichtet, Kontoinformationen und Transaktionsdetails als Antwort auf gültige rechtliche Anfragen offenzulegen, einschließlich Vorladungen, Durchsuchungsbefehlen und Gerichtsbeschlüssen. Durch die Nutzung unserer Dienste stimmen Sie einer solchen Offenlegung zu, wenn sie gesetzlich erforderlich ist.'
+                  : language === 'es' ? 'Malta Global Crypto Bank cooperará plenamente con las autoridades policiales, las autoridades reguladoras y las agencias gubernamentales. Estamos obligados a divulgar información de cuenta y detalles de transacciones en respuesta a solicitudes legales válidas, incluidas citaciones, órdenes de allanamiento y órdenes judiciales. Al utilizar nuestros servicios, usted acepta dicha divulgación cuando sea legalmente requerida.'
+                  : language === 'el' ? 'Η Malta Global Crypto Bank θα συνεργαστεί πλήρως με τις αρχές επιβολής του νόμου, τις ρυθμιστικές αρχές και τις κυβερνητικές υπηρεσίες. Είμαστε υποχρεωμένοι να αποκαλύπτουμε πληροφορίες λογαριασμού και λεπτομέρειες συναλλαγών σε απάντηση σε έγκυρα νομικά αιτήματα, συμπεριλαμβανομένων κλήσεων, ενταλμάτων έρευνας και δικαστικών διαταγών. Χρησιμοποιώντας τις υπηρεσίες μας, συναινείτε σε τέτοια αποκάλυψη όταν απαιτείται νομικά.'
+                  : 'Malta Global Crypto Bank will cooperate fully with law enforcement, regulatory authorities, and government agencies. We are required to disclose account information and transaction details in response to valid legal requests, including subpoenas, search warrants, and court orders. By using our services, you consent to such disclosure when legally required.'}
               </p>
             </LegalSubsection>
           </LegalSection>
 
           <LegalSection title={tocSections[11].title} id={tocSections[11].id} icon={<FileText size={24} />}>
             <p className="text-sm sm:text-base mb-4">
-              {language === 'fr' ? 'Tous les droits de propriété intellectuelle relatifs à Aareal Bank AG, y compris notre site Web, notre plateforme, notre logiciel, notre contenu et nos marques, sont la propriété exclusive de Aareal Bank AG et de ses concédants de licence. Vous n\'acquérez aucun droit de propriété en utilisant nos services.'
-                : language === 'it' ? 'Tutti i diritti di proprietà intellettuale relativi a Aareal Bank AG, inclusi il nostro sito web, piattaforma, software, contenuti e marchi, sono di proprietà esclusiva di Aareal Bank AG e dei suoi licenzianti. Non acquisisci alcun diritto di proprietà utilizzando i nostri servizi.'
-                : language === 'de' ? 'Alle geistigen Eigentumsrechte im Zusammenhang mit Aareal Bank AG, einschließlich unserer Website, Plattform, Software, Inhalte und Marken, sind ausschließliches Eigentum von Aareal Bank AG und ihren Lizenzgebern. Sie erwerben keine Eigentumsrechte durch die Nutzung unserer Dienste.'
-                : language === 'es' ? 'Todos los derechos de propiedad intelectual relacionados con Aareal Bank AG, incluido nuestro sitio web, plataforma, software, contenido y marcas, son propiedad exclusiva de Aareal Bank AG y sus licenciantes. No adquiere ningún derecho de propiedad al usar nuestros servicios.'
-                : language === 'el' ? 'Όλα τα δικαιώματα πνευματικής ιδιοκτησίας που σχετίζονται με την Aareal Bank AG, συμπεριλαμβανομένου του ιστότοπου, της πλατφόρμας, του λογισμικού, του περιεχομένου και των εμπορικών σημάτων μας, είναι αποκλειστική ιδιοκτησία της Aareal Bank AG και των αδειοδοχών της. Δεν αποκτάτε κανένα δικαίωμα ιδιοκτησίας χρησιμοποιώντας τις υπηρεσίες μας.'
-                : 'All intellectual property rights related to Aareal Bank AG, including our website, platform, software, content, and trademarks, are the exclusive property of Aareal Bank AG and its licensors. You acquire no ownership rights by using our services.'}
+              {language === 'fr' ? 'Tous les droits de propriété intellectuelle relatifs à Malta Global Crypto Bank, y compris notre site Web, notre plateforme, notre logiciel, notre contenu et nos marques, sont la propriété exclusive de Malta Global Crypto Bank et de ses concédants de licence. Vous n\'acquérez aucun droit de propriété en utilisant nos services.'
+                : language === 'it' ? 'Tutti i diritti di proprietà intellettuale relativi a Malta Global Crypto Bank, inclusi il nostro sito web, piattaforma, software, contenuti e marchi, sono di proprietà esclusiva di Malta Global Crypto Bank e dei suoi licenzianti. Non acquisisci alcun diritto di proprietà utilizzando i nostri servizi.'
+                : language === 'de' ? 'Alle geistigen Eigentumsrechte im Zusammenhang mit Malta Global Crypto Bank, einschließlich unserer Website, Plattform, Software, Inhalte und Marken, sind ausschließliches Eigentum von Malta Global Crypto Bank und ihren Lizenzgebern. Sie erwerben keine Eigentumsrechte durch die Nutzung unserer Dienste.'
+                : language === 'es' ? 'Todos los derechos de propiedad intelectual relacionados con Malta Global Crypto Bank, incluido nuestro sitio web, plataforma, software, contenido y marcas, son propiedad exclusiva de Malta Global Crypto Bank y sus licenciantes. No adquiere ningún derecho de propiedad al usar nuestros servicios.'
+                : language === 'el' ? 'Όλα τα δικαιώματα πνευματικής ιδιοκτησίας που σχετίζονται με την Malta Global Crypto Bank, συμπεριλαμβανομένου του ιστότοπου, της πλατφόρμας, του λογισμικού, του περιεχομένου και των εμπορικών σημάτων μας, είναι αποκλειστική ιδιοκτησία της Malta Global Crypto Bank και των αδειοδοχών της. Δεν αποκτάτε κανένα δικαίωμα ιδιοκτησίας χρησιμοποιώντας τις υπηρεσίες μας.'
+                : 'All intellectual property rights related to Malta Global Crypto Bank, including our website, platform, software, content, and trademarks, are the exclusive property of Malta Global Crypto Bank and its licensors. You acquire no ownership rights by using our services.'}
             </p>
 
             <LegalSubsection title={language === 'fr' ? 'Droits de Propriété' : language === 'it' ? 'Diritti di Proprietà' : language === 'de' ? 'Eigentumsrechte' : language === 'es' ? 'Derechos de Propiedad' : language === 'el' ? 'Δικαιώματα Ιδιοκτησίας' : 'Ownership Rights'}>
               <p className="text-sm sm:text-base mb-3">
-                {language === 'fr' ? 'Aareal Bank AG possède et conserve tous les droits, titres et intérêts dans :'
-                  : language === 'it' ? 'Aareal Bank AG possiede e conserva tutti i diritti, titoli e interessi in:'
-                  : language === 'de' ? 'Aareal Bank AG besitzt und behält alle Rechte, Titel und Interessen an:'
-                  : language === 'es' ? 'Aareal Bank AG posee y retiene todos los derechos, títulos e intereses en:'
-                  : language === 'el' ? 'Η Aareal Bank AG κατέχει και διατηρεί όλα τα δικαιώματα, τίτλους και συμφέροντα σε:'
-                  : 'Aareal Bank AG owns and retains all rights, title, and interest in:'}
+                {language === 'fr' ? 'Malta Global Crypto Bank possède et conserve tous les droits, titres et intérêts dans :'
+                  : language === 'it' ? 'Malta Global Crypto Bank possiede e conserva tutti i diritti, titoli e interessi in:'
+                  : language === 'de' ? 'Malta Global Crypto Bank besitzt und behält alle Rechte, Titel und Interessen an:'
+                  : language === 'es' ? 'Malta Global Crypto Bank posee y retiene todos los derechos, títulos e intereses en:'
+                  : language === 'el' ? 'Η Malta Global Crypto Bank κατέχει και διατηρεί όλα τα δικαιώματα, τίτλους και συμφέροντα σε:'
+                  : 'Malta Global Crypto Bank owns and retains all rights, title, and interest in:'}
               </p>
               <LegalList items={[
                 language === 'fr' ? 'Logos, marques déposées, marques de service et noms commerciaux'
@@ -1105,12 +1105,12 @@ export default function TermsOfService() {
 
             <LegalSubsection title={language === 'fr' ? 'Exclusions de Responsabilité' : language === 'it' ? 'Esclusioni di Responsabilità' : language === 'de' ? 'Haftungsausschlüsse' : language === 'es' ? 'Exclusiones de Responsabilidad' : language === 'el' ? 'Αποκλεισμοί Ευθύνης' : 'Liability Exclusions'}>
               <p className="text-sm sm:text-base mb-3">
-                {language === 'fr' ? 'Dans toute la mesure permise par la loi, Aareal Bank AG ne sera pas responsable de :'
-                  : language === 'it' ? 'Nella massima misura consentita dalla legge, Aareal Bank AG non sarà responsabile per:'
-                  : language === 'de' ? 'Im größtmöglichen gesetzlich zulässigen Umfang haftet Aareal Bank AG nicht für:'
-                  : language === 'es' ? 'En la máxima medida permitida por la ley, Aareal Bank AG no será responsable de:'
-                  : language === 'el' ? 'Στο μέγιστο βαθμό που επιτρέπεται από το νόμο, η Aareal Bank AG δεν θα είναι υπεύθυνη για:'
-                  : 'To the maximum extent permitted by law, Aareal Bank AG shall not be liable for:'}
+                {language === 'fr' ? 'Dans toute la mesure permise par la loi, Malta Global Crypto Bank ne sera pas responsable de :'
+                  : language === 'it' ? 'Nella massima misura consentita dalla legge, Malta Global Crypto Bank non sarà responsabile per:'
+                  : language === 'de' ? 'Im größtmöglichen gesetzlich zulässigen Umfang haftet Malta Global Crypto Bank nicht für:'
+                  : language === 'es' ? 'En la máxima medida permitida por la ley, Malta Global Crypto Bank no será responsable de:'
+                  : language === 'el' ? 'Στο μέγιστο βαθμό που επιτρέπεται από το νόμο, η Malta Global Crypto Bank δεν θα είναι υπεύθυνη για:'
+                  : 'To the maximum extent permitted by law, Malta Global Crypto Bank shall not be liable for:'}
               </p>
               <LegalList items={[
                 language === 'fr' ? 'Dommages indirects, accessoires, spéciaux, consécutifs ou punitifs'
@@ -1160,24 +1160,24 @@ export default function TermsOfService() {
 
             <LegalSubsection title={language === 'fr' ? 'Plafond de Responsabilité' : language === 'it' ? 'Limite di Responsabilità' : language === 'de' ? 'Haftungsobergrenze' : language === 'es' ? 'Límite de Responsabilidad' : language === 'el' ? 'Ανώτατο Όριο Ευθύνης' : 'Liability Cap'}>
               <p className="text-sm sm:text-base font-bold">
-                {language === 'fr' ? 'DANS TOUTE LA MESURE PERMISE PAR LA LOI, LA RESPONSABILITÉ TOTALE DE Aareal Bank AG ENVERS VOUS POUR TOUTE RÉCLAMATION DÉCOULANT DE OU LIÉE À VOTRE UTILISATION DE NOS SERVICES NE DÉPASSERA PAS LE MONTANT DES FRAIS QUE VOUS NOUS AVEZ PAYÉS AU COURS DES DOUZE (12) MOIS PRÉCÉDANT LA RÉCLAMATION, OU CENT EUROS (100€), SELON LE MONTANT LE PLUS ÉLEVÉ.'
-                  : language === 'it' ? 'NELLA MASSIMA MISURA CONSENTITA DALLA LEGGE, LA RESPONSABILITÀ TOTALE DI Aareal Bank AG NEI TUOI CONFRONTI PER QUALSIASI RECLAMO DERIVANTE DA O RELATIVO AL TUO UTILIZZO DEI NOSTRI SERVIZI NON SUPERERÀ L\'IMPORTO DELLE COMMISSIONI CHE CI HAI PAGATO NEI DODICI (12) MESI PRECEDENTI IL RECLAMO, O CENTO EURO (100€), A SECONDA DI QUALE SIA MAGGIORE.'
-                  : language === 'de' ? 'IM GRÖSSTMÖGLICHEN GESETZLICH ZULÄSSIGEN UMFANG ÜBERSTEIGT DIE GESAMTHAFTUNG VON Aareal Bank AG IHNEN GEGENÜBER FÜR ANSPRÜCHE, DIE SICH AUS IHRER NUTZUNG UNSERER DIENSTE ERGEBEN ODER DAMIT ZUSAMMENHÄNGEN, NICHT DEN BETRAG DER GEBÜHREN, DIE SIE UNS IN DEN ZWÖLF (12) MONATEN VOR DEM ANSPRUCH GEZAHLT HABEN, ODER EINHUNDERT EURO (100€), JE NACHDEM, WELCHER BETRAG HÖHER IST.'
-                  : language === 'es' ? 'EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, LA RESPONSABILIDAD TOTAL DE Aareal Bank AG HACIA USTED POR CUALQUIER RECLAMO QUE SURJA DE O ESTÉ RELACIONADO CON SU USO DE NUESTROS SERVICIOS NO EXCEDERÁ LA CANTIDAD DE TARIFAS QUE NOS HAYA PAGADO EN LOS DOCE (12) MESES ANTERIORES AL RECLAMO, O CIEN EUROS (100€), LO QUE SEA MAYOR.'
-                  : language === 'el' ? 'ΣΤΟ ΜΕΓΙΣΤΟ ΒΑΘΜΟ ΠΟΥ ΕΠΙΤΡΕΠΕΤΑΙ ΑΠΟ ΤΟ ΝΟΜΟ, Η ΣΥΝΟΛΙΚΗ ΕΥΘΥΝΗ ΤΗΣ Aareal Bank AG ΠΡΟΣ ΕΣΑΣ ΓΙΑ ΟΠΟΙΑΔΗΠΟΤΕ ΑΞΙΩΣΗ ΠΟΥ ΠΡΟΚΥΠΤΕΙ ΑΠΟ Ή ΣΧΕΤΙΖΕΤΑΙ ΜΕ ΤΗ ΧΡΗΣΗ ΤΩΝ ΥΠΗΡΕΣΙΩΝ ΜΑΣ ΔΕΝ ΘΑ ΥΠΕΡΒΑΙΝΕΙ ΤΟ ΠΟΣΟ ΤΩΝ ΠΡΟΜΗΘΕΙΩΝ ΠΟΥ ΜΑΣ ΕΧΕΤΕ ΠΛΗΡΩΣΕΙ ΚΑΤΑ ΤΟΥΣ ΔΩΔΕΚΑ (12) ΜΗΝΕΣ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΞΙΩΣΗ, Ή ΕΚΑΤΟ ΕΥΡΩ (100€), ΟΠΟΙΟ ΕΙΝΑΙ ΜΕΓΑΛΥΤΕΡΟ.'
-                  : 'TO THE MAXIMUM EXTENT PERMITTED BY LAW, Aareal Bank AG\'S TOTAL LIABILITY TO YOU FOR ANY CLAIM ARISING FROM OR RELATED TO YOUR USE OF OUR SERVICES SHALL NOT EXCEED THE AMOUNT OF FEES YOU HAVE PAID TO US IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR ONE HUNDRED EUROS (€100), WHICHEVER IS GREATER.'}
+                {language === 'fr' ? 'DANS TOUTE LA MESURE PERMISE PAR LA LOI, LA RESPONSABILITÉ TOTALE DE Malta Global Crypto Bank ENVERS VOUS POUR TOUTE RÉCLAMATION DÉCOULANT DE OU LIÉE À VOTRE UTILISATION DE NOS SERVICES NE DÉPASSERA PAS LE MONTANT DES FRAIS QUE VOUS NOUS AVEZ PAYÉS AU COURS DES DOUZE (12) MOIS PRÉCÉDANT LA RÉCLAMATION, OU CENT EUROS (100€), SELON LE MONTANT LE PLUS ÉLEVÉ.'
+                  : language === 'it' ? 'NELLA MASSIMA MISURA CONSENTITA DALLA LEGGE, LA RESPONSABILITÀ TOTALE DI Malta Global Crypto Bank NEI TUOI CONFRONTI PER QUALSIASI RECLAMO DERIVANTE DA O RELATIVO AL TUO UTILIZZO DEI NOSTRI SERVIZI NON SUPERERÀ L\'IMPORTO DELLE COMMISSIONI CHE CI HAI PAGATO NEI DODICI (12) MESI PRECEDENTI IL RECLAMO, O CENTO EURO (100€), A SECONDA DI QUALE SIA MAGGIORE.'
+                  : language === 'de' ? 'IM GRÖSSTMÖGLICHEN GESETZLICH ZULÄSSIGEN UMFANG ÜBERSTEIGT DIE GESAMTHAFTUNG VON Malta Global Crypto Bank IHNEN GEGENÜBER FÜR ANSPRÜCHE, DIE SICH AUS IHRER NUTZUNG UNSERER DIENSTE ERGEBEN ODER DAMIT ZUSAMMENHÄNGEN, NICHT DEN BETRAG DER GEBÜHREN, DIE SIE UNS IN DEN ZWÖLF (12) MONATEN VOR DEM ANSPRUCH GEZAHLT HABEN, ODER EINHUNDERT EURO (100€), JE NACHDEM, WELCHER BETRAG HÖHER IST.'
+                  : language === 'es' ? 'EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, LA RESPONSABILIDAD TOTAL DE Malta Global Crypto Bank HACIA USTED POR CUALQUIER RECLAMO QUE SURJA DE O ESTÉ RELACIONADO CON SU USO DE NUESTROS SERVICIOS NO EXCEDERÁ LA CANTIDAD DE TARIFAS QUE NOS HAYA PAGADO EN LOS DOCE (12) MESES ANTERIORES AL RECLAMO, O CIEN EUROS (100€), LO QUE SEA MAYOR.'
+                  : language === 'el' ? 'ΣΤΟ ΜΕΓΙΣΤΟ ΒΑΘΜΟ ΠΟΥ ΕΠΙΤΡΕΠΕΤΑΙ ΑΠΟ ΤΟ ΝΟΜΟ, Η ΣΥΝΟΛΙΚΗ ΕΥΘΥΝΗ ΤΗΣ Malta Global Crypto Bank ΠΡΟΣ ΕΣΑΣ ΓΙΑ ΟΠΟΙΑΔΗΠΟΤΕ ΑΞΙΩΣΗ ΠΟΥ ΠΡΟΚΥΠΤΕΙ ΑΠΟ Ή ΣΧΕΤΙΖΕΤΑΙ ΜΕ ΤΗ ΧΡΗΣΗ ΤΩΝ ΥΠΗΡΕΣΙΩΝ ΜΑΣ ΔΕΝ ΘΑ ΥΠΕΡΒΑΙΝΕΙ ΤΟ ΠΟΣΟ ΤΩΝ ΠΡΟΜΗΘΕΙΩΝ ΠΟΥ ΜΑΣ ΕΧΕΤΕ ΠΛΗΡΩΣΕΙ ΚΑΤΑ ΤΟΥΣ ΔΩΔΕΚΑ (12) ΜΗΝΕΣ ΠΡΙΝ ΑΠΟ ΤΗΝ ΑΞΙΩΣΗ, Ή ΕΚΑΤΟ ΕΥΡΩ (100€), ΟΠΟΙΟ ΕΙΝΑΙ ΜΕΓΑΛΥΤΕΡΟ.'
+                  : 'TO THE MAXIMUM EXTENT PERMITTED BY LAW, Malta Global Crypto Bank\'S TOTAL LIABILITY TO YOU FOR ANY CLAIM ARISING FROM OR RELATED TO YOUR USE OF OUR SERVICES SHALL NOT EXCEED THE AMOUNT OF FEES YOU HAVE PAID TO US IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR ONE HUNDRED EUROS (€100), WHICHEVER IS GREATER.'}
               </p>
             </LegalSubsection>
           </LegalSection>
 
           <LegalSection title={tocSections[13].title} id={tocSections[13].id} icon={<Shield size={24} />}>
             <p className="text-sm sm:text-base mb-4">
-              {language === 'fr' ? 'Vous acceptez de défendre, d\'indemniser et de dégager Aareal Bank AG, ses dirigeants, administrateurs, employés, agents, partenaires et concédants de licence de toute réclamation, responsabilité, dommage, perte et dépense découlant de ou liée à :'
-                : language === 'it' ? 'Accetti di difendere, indennizzare e tenere indenne Aareal Bank AG, i suoi funzionari, direttori, dipendenti, agenti, partner e licenzianti da qualsiasi reclamo, responsabilità, danno, perdita e spesa derivante da o relativa a:'
-                : language === 'de' ? 'Sie verpflichten sich, Aareal Bank AG, seine leitenden Angestellten, Direktoren, Mitarbeiter, Vertreter, Partner und Lizenzgeber gegen Ansprüche, Verbindlichkeiten, Schäden, Verluste und Ausgaben zu verteidigen, schadlos zu halten und freizustellen, die sich aus oder im Zusammenhang mit:'
-                : language === 'es' ? 'Acepta defender, indemnizar y mantener indemne a Aareal Bank AG, sus funcionarios, directores, empleados, agentes, socios y licenciantes de cualquier reclamo, responsabilidad, daño, pérdida y gasto que surja de o esté relacionado con:'
-                : language === 'el' ? 'Συμφωνείτε να υπερασπιστείτε, να αποζημιώσετε και να απαλλάξετε την Aareal Bank AG, τους υπαλλήλους, διευθυντές, εργαζόμενους, πράκτορες, εταίρους και αδειοδόχους της από οποιαδήποτε αξίωση, ευθύνη, ζημία, απώλεια και δαπάνη που προκύπτει από ή σχετίζεται με:'
-                : 'You agree to defend, indemnify, and hold harmless Aareal Bank AG, its officers, directors, employees, agents, partners, and licensors from any claim, liability, damage, loss, and expense arising from or related to:'}
+              {language === 'fr' ? 'Vous acceptez de défendre, d\'indemniser et de dégager Malta Global Crypto Bank, ses dirigeants, administrateurs, employés, agents, partenaires et concédants de licence de toute réclamation, responsabilité, dommage, perte et dépense découlant de ou liée à :'
+                : language === 'it' ? 'Accetti di difendere, indennizzare e tenere indenne Malta Global Crypto Bank, i suoi funzionari, direttori, dipendenti, agenti, partner e licenzianti da qualsiasi reclamo, responsabilità, danno, perdita e spesa derivante da o relativa a:'
+                : language === 'de' ? 'Sie verpflichten sich, Malta Global Crypto Bank, seine leitenden Angestellten, Direktoren, Mitarbeiter, Vertreter, Partner und Lizenzgeber gegen Ansprüche, Verbindlichkeiten, Schäden, Verluste und Ausgaben zu verteidigen, schadlos zu halten und freizustellen, die sich aus oder im Zusammenhang mit:'
+                : language === 'es' ? 'Acepta defender, indemnizar y mantener indemne a Malta Global Crypto Bank, sus funcionarios, directores, empleados, agentes, socios y licenciantes de cualquier reclamo, responsabilidad, daño, pérdida y gasto que surja de o esté relacionado con:'
+                : language === 'el' ? 'Συμφωνείτε να υπερασπιστείτε, να αποζημιώσετε και να απαλλάξετε την Malta Global Crypto Bank, τους υπαλλήλους, διευθυντές, εργαζόμενους, πράκτορες, εταίρους και αδειοδόχους της από οποιαδήποτε αξίωση, ευθύνη, ζημία, απώλεια και δαπάνη που προκύπτει από ή σχετίζεται με:'
+                : 'You agree to defend, indemnify, and hold harmless Malta Global Crypto Bank, its officers, directors, employees, agents, partners, and licensors from any claim, liability, damage, loss, and expense arising from or related to:'}
             </p>
 
             <LegalList items={[
@@ -1353,14 +1353,14 @@ export default function TermsOfService() {
               </p>
             </LegalSubsection>
 
-            <LegalSubsection title={language === 'fr' ? 'Résiliation par Aareal Bank AG' : language === 'it' ? 'Risoluzione da Parte di Aareal Bank AG' : language === 'de' ? 'Kündigung durch Aareal Bank AG' : language === 'es' ? 'Terminación por Aareal Bank AG' : language === 'el' ? 'Τερματισμός από την Aareal Bank AG' : 'Termination by Aareal Bank AG'}>
+            <LegalSubsection title={language === 'fr' ? 'Résiliation par Malta Global Crypto Bank' : language === 'it' ? 'Risoluzione da Parte di Malta Global Crypto Bank' : language === 'de' ? 'Kündigung durch Malta Global Crypto Bank' : language === 'es' ? 'Terminación por Malta Global Crypto Bank' : language === 'el' ? 'Τερματισμός από την Malta Global Crypto Bank' : 'Termination by Malta Global Crypto Bank'}>
               <p className="text-sm sm:text-base mb-3">
-                {language === 'fr' ? 'Aareal Bank AG peut suspendre ou résilier votre compte immédiatement et sans préavis si :'
-                  : language === 'it' ? 'Aareal Bank AG può sospendere o risolvere il tuo account immediatamente e senza preavviso se:'
-                  : language === 'de' ? 'Aareal Bank AG kann Ihr Konto sofort und ohne Vorankündigung aussetzen oder kündigen, wenn:'
-                  : language === 'es' ? 'Aareal Bank AG puede suspender o terminar su cuenta inmediatamente y sin previo aviso si:'
-                  : language === 'el' ? 'Η Aareal Bank AG μπορεί να αναστείλει ή να τερματίσει τον λογαριασμό σας αμέσως και χωρίς προειδοποίηση εάν:'
-                  : 'Aareal Bank AG may suspend or terminate your account immediately and without notice if:'}
+                {language === 'fr' ? 'Malta Global Crypto Bank peut suspendre ou résilier votre compte immédiatement et sans préavis si :'
+                  : language === 'it' ? 'Malta Global Crypto Bank può sospendere o risolvere il tuo account immediatamente e senza preavviso se:'
+                  : language === 'de' ? 'Malta Global Crypto Bank kann Ihr Konto sofort und ohne Vorankündigung aussetzen oder kündigen, wenn:'
+                  : language === 'es' ? 'Malta Global Crypto Bank puede suspender o terminar su cuenta inmediatamente y sin previo aviso si:'
+                  : language === 'el' ? 'Η Malta Global Crypto Bank μπορεί να αναστείλει ή να τερματίσει τον λογαριασμό σας αμέσως και χωρίς προειδοποίηση εάν:'
+                  : 'Malta Global Crypto Bank may suspend or terminate your account immediately and without notice if:'}
               </p>
               <LegalList items={[
                 language === 'fr' ? 'Vous violez une disposition de cet Accord'
@@ -1448,12 +1448,12 @@ export default function TermsOfService() {
 
           <LegalSection title={tocSections[16].title} id={tocSections[16].id} icon={<FileText size={24} />}>
             <p className="text-sm sm:text-base mb-4">
-              {language === 'fr' ? 'Aareal Bank AG se réserve le droit de modifier, mettre à jour ou réviser cet Accord à tout moment. Les modifications substantielles vous seront notifiées comme suit :'
-                : language === 'it' ? 'Aareal Bank AG si riserva il diritto di modificare, aggiornare o rivedere questo Accordo in qualsiasi momento. Le modifiche sostanziali ti saranno notificate come segue:'
-                : language === 'de' ? 'Aareal Bank AG behält sich das Recht vor, diese Vereinbarung jederzeit zu ändern, zu aktualisieren oder zu überarbeiten. Wesentliche Änderungen werden Ihnen wie folgt mitgeteilt:'
-                : language === 'es' ? 'Aareal Bank AG se reserva el derecho de modificar, actualizar o revisar este Acuerdo en cualquier momento. Las modificaciones sustanciales le serán notificadas de la siguiente manera:'
-                : language === 'el' ? 'Η Aareal Bank AG διατηρεί το δικαίωμα να τροποποιήσει, να ενημερώσει ή να αναθεωρήσει αυτή τη Συμφωνία ανά πάσα στιγμή. Οι ουσιαστικές αλλαγές θα σας γνωστοποιηθούν ως εξής:'
-                : 'Aareal Bank AG reserves the right to modify, update, or revise this Agreement at any time. Material changes will be notified to you as follows:'}
+              {language === 'fr' ? 'Malta Global Crypto Bank se réserve le droit de modifier, mettre à jour ou réviser cet Accord à tout moment. Les modifications substantielles vous seront notifiées comme suit :'
+                : language === 'it' ? 'Malta Global Crypto Bank si riserva il diritto di modificare, aggiornare o rivedere questo Accordo in qualsiasi momento. Le modifiche sostanziali ti saranno notificate come segue:'
+                : language === 'de' ? 'Malta Global Crypto Bank behält sich das Recht vor, diese Vereinbarung jederzeit zu ändern, zu aktualisieren oder zu überarbeiten. Wesentliche Änderungen werden Ihnen wie folgt mitgeteilt:'
+                : language === 'es' ? 'Malta Global Crypto Bank se reserva el derecho de modificar, actualizar o revisar este Acuerdo en cualquier momento. Las modificaciones sustanciales le serán notificadas de la siguiente manera:'
+                : language === 'el' ? 'Η Malta Global Crypto Bank διατηρεί το δικαίωμα να τροποποιήσει, να ενημερώσει ή να αναθεωρήσει αυτή τη Συμφωνία ανά πάσα στιγμή. Οι ουσιαστικές αλλαγές θα σας γνωστοποιηθούν ως εξής:'
+                : 'Malta Global Crypto Bank reserves the right to modify, update, or revise this Agreement at any time. Material changes will be notified to you as follows:'}
             </p>
 
             <LegalList items={[
@@ -1515,34 +1515,34 @@ export default function TermsOfService() {
 
             <LegalSubsection title={language === 'fr' ? 'Intégralité de l\'Accord' : language === 'it' ? 'Accordo Completo' : language === 'de' ? 'Gesamte Vereinbarung' : language === 'es' ? 'Acuerdo Completo' : language === 'el' ? 'Πλήρης Συμφωνία' : 'Entire Agreement'}>
               <p className="text-sm sm:text-base">
-                {language === 'fr' ? 'Cet Accord, ainsi que notre Politique de Confidentialité, notre Déclaration de Divulgation des Risques et tout autre document référencé, constitue l\'intégralité de l\'accord entre vous et Aareal Bank AG concernant l\'objet de cet Accord et remplace tous les accords, déclarations et ententes antérieurs ou contemporains, qu\'ils soient écrits ou oraux.'
-                  : language === 'it' ? 'Questo Accordo, insieme alla nostra Informativa sulla Privacy, Dichiarazione di Divulgazione dei Rischi e qualsiasi altro documento di riferimento, costituisce l\'intero accordo tra te e Aareal Bank AG riguardo all\'oggetto di questo Accordo e sostituisce tutti gli accordi, le dichiarazioni e le intese precedenti o contemporanee, scritte o orali.'
-                  : language === 'de' ? 'Diese Vereinbarung zusammen mit unserer Datenschutzrichtlinie, Risikooffenlegungserklärung und allen anderen referenzierten Dokumenten stellt die gesamte Vereinbarung zwischen Ihnen und Aareal Bank AG bezüglich des Gegenstands dieser Vereinbarung dar und ersetzt alle früheren oder gleichzeitigen Vereinbarungen, Darstellungen und Verständnisse, ob schriftlich oder mündlich.'
-                  : language === 'es' ? 'Este Acuerdo, junto con nuestra Política de Privacidad, Declaración de Divulgación de Riesgos y cualquier otro documento referenciado, constituye el acuerdo completo entre usted y Aareal Bank AG con respecto al objeto de este Acuerdo y reemplaza todos los acuerdos, declaraciones y entendimientos anteriores o contemporáneos, ya sean escritos u orales.'
-                  : language === 'el' ? 'Αυτή η Συμφωνία, μαζί με την Πολιτική Απορρήτου, τη Δήλωση Γνωστοποίησης Κινδύνων και οποιοδήποτε άλλο έγγραφο αναφοράς, αποτελεί την πλήρη συμφωνία μεταξύ σας και της Aareal Bank AG σχετικά με το αντικείμενο αυτής της Συμφωνίας και αντικαθιστά όλες τις προηγούμενες ή σύγχρονες συμφωνίες, δηλώσεις και κατανοήσεις, είτε γραπτές είτε προφορικές.'
-                  : 'This Agreement, together with our Privacy Policy, Risk Disclosure Statement, and any other referenced documents, constitutes the entire agreement between you and Aareal Bank AG regarding the subject matter of this Agreement and supersedes all prior or contemporaneous agreements, representations, and understandings, whether written or oral.'}
+                {language === 'fr' ? 'Cet Accord, ainsi que notre Politique de Confidentialité, notre Déclaration de Divulgation des Risques et tout autre document référencé, constitue l\'intégralité de l\'accord entre vous et Malta Global Crypto Bank concernant l\'objet de cet Accord et remplace tous les accords, déclarations et ententes antérieurs ou contemporains, qu\'ils soient écrits ou oraux.'
+                  : language === 'it' ? 'Questo Accordo, insieme alla nostra Informativa sulla Privacy, Dichiarazione di Divulgazione dei Rischi e qualsiasi altro documento di riferimento, costituisce l\'intero accordo tra te e Malta Global Crypto Bank riguardo all\'oggetto di questo Accordo e sostituisce tutti gli accordi, le dichiarazioni e le intese precedenti o contemporanee, scritte o orali.'
+                  : language === 'de' ? 'Diese Vereinbarung zusammen mit unserer Datenschutzrichtlinie, Risikooffenlegungserklärung und allen anderen referenzierten Dokumenten stellt die gesamte Vereinbarung zwischen Ihnen und Malta Global Crypto Bank bezüglich des Gegenstands dieser Vereinbarung dar und ersetzt alle früheren oder gleichzeitigen Vereinbarungen, Darstellungen und Verständnisse, ob schriftlich oder mündlich.'
+                  : language === 'es' ? 'Este Acuerdo, junto con nuestra Política de Privacidad, Declaración de Divulgación de Riesgos y cualquier otro documento referenciado, constituye el acuerdo completo entre usted y Malta Global Crypto Bank con respecto al objeto de este Acuerdo y reemplaza todos los acuerdos, declaraciones y entendimientos anteriores o contemporáneos, ya sean escritos u orales.'
+                  : language === 'el' ? 'Αυτή η Συμφωνία, μαζί με την Πολιτική Απορρήτου, τη Δήλωση Γνωστοποίησης Κινδύνων και οποιοδήποτε άλλο έγγραφο αναφοράς, αποτελεί την πλήρη συμφωνία μεταξύ σας και της Malta Global Crypto Bank σχετικά με το αντικείμενο αυτής της Συμφωνίας και αντικαθιστά όλες τις προηγούμενες ή σύγχρονες συμφωνίες, δηλώσεις και κατανοήσεις, είτε γραπτές είτε προφορικές.'
+                  : 'This Agreement, together with our Privacy Policy, Risk Disclosure Statement, and any other referenced documents, constitutes the entire agreement between you and Malta Global Crypto Bank regarding the subject matter of this Agreement and supersedes all prior or contemporaneous agreements, representations, and understandings, whether written or oral.'}
               </p>
             </LegalSubsection>
 
             <LegalSubsection title={language === 'fr' ? 'Non-Renonciation' : language === 'it' ? 'Non Rinuncia' : language === 'de' ? 'Kein Verzicht' : language === 'es' ? 'No Renuncia' : language === 'el' ? 'Μη Παραίτηση' : 'No Waiver'}>
               <p className="text-sm sm:text-base">
-                {language === 'fr' ? 'L\'échec ou le retard de Aareal Bank AG à exercer ou à faire valoir un droit ou une disposition de cet Accord ne constituera pas une renonciation à ce droit ou à cette disposition. Aucune renonciation par Aareal Bank AG à une condition ou disposition de cet Accord ne sera considérée comme une renonciation supplémentaire ou continue à cette condition ou disposition ou comme une renonciation à toute autre condition ou disposition.'
-                  : language === 'it' ? 'Il mancato o ritardato esercizio o applicazione da parte di Aareal Bank AG di un diritto o disposizione di questo Accordo non costituirà una rinuncia a tale diritto o disposizione. Nessuna rinuncia da parte di Aareal Bank AG a una condizione o disposizione di questo Accordo sarà considerata come una rinuncia ulteriore o continua a tale condizione o disposizione o una rinuncia a qualsiasi altra condizione o disposizione.'
-                  : language === 'de' ? 'Das Versäumnis oder die Verzögerung von Aareal Bank AG, ein Recht oder eine Bestimmung dieser Vereinbarung auszuüben oder durchzusetzen, stellt keinen Verzicht auf dieses Recht oder diese Bestimmung dar. Kein Verzicht von Aareal Bank AG auf eine Bedingung oder Bestimmung dieser Vereinbarung wird als weiterer oder fortdauernder Verzicht auf diese Bedingung oder Bestimmung oder als Verzicht auf eine andere Bedingung oder Bestimmung betrachtet.'
-                  : language === 'es' ? 'El fracaso o retraso de Aareal Bank AG en ejercer o hacer cumplir un derecho o disposición de este Acuerdo no constituirá una renuncia a ese derecho o disposición. Ninguna renuncia de Aareal Bank AG a una condición o disposición de este Acuerdo se considerará como una renuncia adicional o continua a esa condición o disposición o una renuncia a cualquier otra condición o disposición.'
-                  : language === 'el' ? 'Η αποτυχία ή η καθυστέρηση της Aareal Bank AG να ασκήσει ή να επιβάλει δικαίωμα ή διάταξη αυτής της Συμφωνίας δεν θα συνιστά παραίτηση από αυτό το δικαίωμα ή διάταξη. Καμία παραίτηση από την Aareal Bank AG από προϋπόθεση ή διάταξη αυτής της Συμφωνίας δεν θα θεωρηθεί ως πρόσθετη ή συνεχής παραίτηση από αυτή την προϋπόθεση ή διάταξη ή παραίτηση από οποιαδήποτε άλλη προϋπόθεση ή διάταξη.'
-                  : 'The failure or delay of Aareal Bank AG to exercise or enforce any right or provision of this Agreement shall not constitute a waiver of such right or provision. No waiver by Aareal Bank AG of any term or provision of this Agreement shall be deemed a further or continuing waiver of such term or provision or a waiver of any other term or provision.'}
+                {language === 'fr' ? 'L\'échec ou le retard de Malta Global Crypto Bank à exercer ou à faire valoir un droit ou une disposition de cet Accord ne constituera pas une renonciation à ce droit ou à cette disposition. Aucune renonciation par Malta Global Crypto Bank à une condition ou disposition de cet Accord ne sera considérée comme une renonciation supplémentaire ou continue à cette condition ou disposition ou comme une renonciation à toute autre condition ou disposition.'
+                  : language === 'it' ? 'Il mancato o ritardato esercizio o applicazione da parte di Malta Global Crypto Bank di un diritto o disposizione di questo Accordo non costituirà una rinuncia a tale diritto o disposizione. Nessuna rinuncia da parte di Malta Global Crypto Bank a una condizione o disposizione di questo Accordo sarà considerata come una rinuncia ulteriore o continua a tale condizione o disposizione o una rinuncia a qualsiasi altra condizione o disposizione.'
+                  : language === 'de' ? 'Das Versäumnis oder die Verzögerung von Malta Global Crypto Bank, ein Recht oder eine Bestimmung dieser Vereinbarung auszuüben oder durchzusetzen, stellt keinen Verzicht auf dieses Recht oder diese Bestimmung dar. Kein Verzicht von Malta Global Crypto Bank auf eine Bedingung oder Bestimmung dieser Vereinbarung wird als weiterer oder fortdauernder Verzicht auf diese Bedingung oder Bestimmung oder als Verzicht auf eine andere Bedingung oder Bestimmung betrachtet.'
+                  : language === 'es' ? 'El fracaso o retraso de Malta Global Crypto Bank en ejercer o hacer cumplir un derecho o disposición de este Acuerdo no constituirá una renuncia a ese derecho o disposición. Ninguna renuncia de Malta Global Crypto Bank a una condición o disposición de este Acuerdo se considerará como una renuncia adicional o continua a esa condición o disposición o una renuncia a cualquier otra condición o disposición.'
+                  : language === 'el' ? 'Η αποτυχία ή η καθυστέρηση της Malta Global Crypto Bank να ασκήσει ή να επιβάλει δικαίωμα ή διάταξη αυτής της Συμφωνίας δεν θα συνιστά παραίτηση από αυτό το δικαίωμα ή διάταξη. Καμία παραίτηση από την Malta Global Crypto Bank από προϋπόθεση ή διάταξη αυτής της Συμφωνίας δεν θα θεωρηθεί ως πρόσθετη ή συνεχής παραίτηση από αυτή την προϋπόθεση ή διάταξη ή παραίτηση από οποιαδήποτε άλλη προϋπόθεση ή διάταξη.'
+                  : 'The failure or delay of Malta Global Crypto Bank to exercise or enforce any right or provision of this Agreement shall not constitute a waiver of such right or provision. No waiver by Malta Global Crypto Bank of any term or provision of this Agreement shall be deemed a further or continuing waiver of such term or provision or a waiver of any other term or provision.'}
               </p>
             </LegalSubsection>
 
             <LegalSubsection title={language === 'fr' ? 'Cession' : language === 'it' ? 'Cessione' : language === 'de' ? 'Abtretung' : language === 'es' ? 'Cesión' : language === 'el' ? 'Εκχώρηση' : 'Assignment'}>
               <p className="text-sm sm:text-base">
-                {language === 'fr' ? 'Vous ne pouvez pas céder, transférer ou déléguer vos droits ou obligations en vertu de cet Accord sans le consentement écrit préalable de Aareal Bank AG. Aareal Bank AG peut céder, transférer ou déléguer ses droits et obligations en vertu de cet Accord sans votre consentement à toute entité affiliée ou dans le cadre d\'une fusion, acquisition, restructuration d\'entreprise ou vente d\'actifs.'
-                  : language === 'it' ? 'Non puoi cedere, trasferire o delegare i tuoi diritti o obblighi ai sensi di questo Accordo senza il previo consenso scritto di Aareal Bank AG. Aareal Bank AG può cedere, trasferire o delegare i suoi diritti e obblighi ai sensi di questo Accordo senza il tuo consenso a qualsiasi entità affiliata o in connessione con una fusione, acquisizione, ristrutturazione aziendale o vendita di asset.'
-                  : language === 'de' ? 'Sie dürfen Ihre Rechte oder Pflichten aus dieser Vereinbarung ohne vorherige schriftliche Zustimmung von Aareal Bank AG nicht abtreten, übertragen oder delegieren. Aareal Bank AG kann seine Rechte und Pflichten aus dieser Vereinbarung ohne Ihre Zustimmung an verbundene Unternehmen oder im Zusammenhang mit einer Fusion, Übernahme, Unternehmensumstrukturierung oder dem Verkauf von Vermögenswerten abtreten, übertragen oder delegieren.'
-                  : language === 'es' ? 'No puede ceder, transferir o delegar sus derechos u obligaciones bajo este Acuerdo sin el consentimiento previo por escrito de Aareal Bank AG. Aareal Bank AG puede ceder, transferir o delegar sus derechos y obligaciones bajo este Acuerdo sin su consentimiento a cualquier entidad afiliada o en conexión con una fusión, adquisición, reestructuración empresarial o venta de activos.'
-                  : language === 'el' ? 'Δεν μπορείτε να εκχωρήσετε, να μεταβιβάσετε ή να αναθέσετε τα δικαιώματα ή τις υποχρεώσεις σας βάσει αυτής της Συμφωνίας χωρίς την προηγούμενη γραπτή συγκατάθεση της Aareal Bank AG. Η Aareal Bank AG μπορεί να εκχωρήσει, να μεταβιβάσει ή να αναθέσει τα δικαιώματα και τις υποχρεώσεις της βάσει αυτής της Συμφωνίας χωρίς τη συγκατάθεσή σας σε οποιαδήποτε συνδεδεμένη οντότητα ή σε σχέση με συγχώνευση, εξαγορά, εταιρική αναδιάρθρωση ή πώληση περιουσιακών στοιχείων.'
-                  : 'You may not assign, transfer, or delegate your rights or obligations under this Agreement without the prior written consent of Aareal Bank AG. Aareal Bank AG may assign, transfer, or delegate its rights and obligations under this Agreement without your consent to any affiliated entity or in connection with a merger, acquisition, corporate restructuring, or sale of assets.'}
+                {language === 'fr' ? 'Vous ne pouvez pas céder, transférer ou déléguer vos droits ou obligations en vertu de cet Accord sans le consentement écrit préalable de Malta Global Crypto Bank. Malta Global Crypto Bank peut céder, transférer ou déléguer ses droits et obligations en vertu de cet Accord sans votre consentement à toute entité affiliée ou dans le cadre d\'une fusion, acquisition, restructuration d\'entreprise ou vente d\'actifs.'
+                  : language === 'it' ? 'Non puoi cedere, trasferire o delegare i tuoi diritti o obblighi ai sensi di questo Accordo senza il previo consenso scritto di Malta Global Crypto Bank. Malta Global Crypto Bank può cedere, trasferire o delegare i suoi diritti e obblighi ai sensi di questo Accordo senza il tuo consenso a qualsiasi entità affiliata o in connessione con una fusione, acquisizione, ristrutturazione aziendale o vendita di asset.'
+                  : language === 'de' ? 'Sie dürfen Ihre Rechte oder Pflichten aus dieser Vereinbarung ohne vorherige schriftliche Zustimmung von Malta Global Crypto Bank nicht abtreten, übertragen oder delegieren. Malta Global Crypto Bank kann seine Rechte und Pflichten aus dieser Vereinbarung ohne Ihre Zustimmung an verbundene Unternehmen oder im Zusammenhang mit einer Fusion, Übernahme, Unternehmensumstrukturierung oder dem Verkauf von Vermögenswerten abtreten, übertragen oder delegieren.'
+                  : language === 'es' ? 'No puede ceder, transferir o delegar sus derechos u obligaciones bajo este Acuerdo sin el consentimiento previo por escrito de Malta Global Crypto Bank. Malta Global Crypto Bank puede ceder, transferir o delegar sus derechos y obligaciones bajo este Acuerdo sin su consentimiento a cualquier entidad afiliada o en conexión con una fusión, adquisición, reestructuración empresarial o venta de activos.'
+                  : language === 'el' ? 'Δεν μπορείτε να εκχωρήσετε, να μεταβιβάσετε ή να αναθέσετε τα δικαιώματα ή τις υποχρεώσεις σας βάσει αυτής της Συμφωνίας χωρίς την προηγούμενη γραπτή συγκατάθεση της Malta Global Crypto Bank. Η Malta Global Crypto Bank μπορεί να εκχωρήσει, να μεταβιβάσει ή να αναθέσει τα δικαιώματα και τις υποχρεώσεις της βάσει αυτής της Συμφωνίας χωρίς τη συγκατάθεσή σας σε οποιαδήποτε συνδεδεμένη οντότητα ή σε σχέση με συγχώνευση, εξαγορά, εταιρική αναδιάρθρωση ή πώληση περιουσιακών στοιχείων.'
+                  : 'You may not assign, transfer, or delegate your rights or obligations under this Agreement without the prior written consent of Malta Global Crypto Bank. Malta Global Crypto Bank may assign, transfer, or delegate its rights and obligations under this Agreement without your consent to any affiliated entity or in connection with a merger, acquisition, corporate restructuring, or sale of assets.'}
               </p>
             </LegalSubsection>
 
@@ -1556,14 +1556,14 @@ export default function TermsOfService() {
                   : 'For any questions, concerns, or notices regarding this Agreement, please contact us at:'}
               </p>
               <div className="mt-4 p-4 bg-[#F5F5F5] rounded-lg">
-                <p className="text-sm sm:text-base font-semibold mb-2">Aareal Bank AG</p>
+                <p className="text-sm sm:text-base font-semibold mb-2">Malta Global Crypto Bank</p>
                 <p className="text-sm sm:text-base">
                   {language === 'fr' ? 'Email Juridique'
                     : language === 'it' ? 'Email Legale'
                     : language === 'de' ? 'Rechtliche E-Mail'
                     : language === 'es' ? 'Correo Legal'
                     : language === 'el' ? 'Νομικό Email'
-                    : 'Legal Email'}: support@aareal-bank-ag.com
+                    : 'Legal Email'}: support@malta-global-crypto-bank.com
                 </p>
                 <p className="text-sm sm:text-base">
                   {language === 'fr' ? 'Email Support'
@@ -1571,7 +1571,7 @@ export default function TermsOfService() {
                     : language === 'de' ? 'Support-E-Mail'
                     : language === 'es' ? 'Correo de Soporte'
                     : language === 'el' ? 'Email Υποστήριξης'
-                    : 'Support Email'}: support@aareal-bank-ag.com
+                    : 'Support Email'}: support@malta-global-crypto-bank.com
                 </p>
               </div>
             </LegalSubsection>
@@ -1587,12 +1587,12 @@ export default function TermsOfService() {
                 : 'By using our services, you acknowledge that you have read, understood, and agree to be bound by these comprehensive Terms of Service.'}
             </p>
             <p className="text-[#777777] text-xs text-center mt-4">
-              {language === 'fr' ? 'Pour toute question juridique, veuillez contacter support@aareal-bank-ag.com'
-                : language === 'it' ? 'Per domande legali, contattare support@aareal-bank-ag.com'
-                : language === 'de' ? 'Für rechtliche Fragen kontaktieren Sie bitte support@aareal-bank-ag.com'
-                : language === 'es' ? 'Para consultas legales, contacte support@aareal-bank-ag.com'
-                : language === 'el' ? 'Για νομικές ερωτήσεις, επικοινωνήστε στο support@aareal-bank-ag.com'
-                : 'For legal inquiries, please contact support@aareal-bank-ag.com'}
+              {language === 'fr' ? 'Pour toute question juridique, veuillez contacter support@malta-global-crypto-bank.com'
+                : language === 'it' ? 'Per domande legali, contattare support@malta-global-crypto-bank.com'
+                : language === 'de' ? 'Für rechtliche Fragen kontaktieren Sie bitte support@malta-global-crypto-bank.com'
+                : language === 'es' ? 'Para consultas legales, contacte support@malta-global-crypto-bank.com'
+                : language === 'el' ? 'Για νομικές ερωτήσεις, επικοινωνήστε στο support@malta-global-crypto-bank.com'
+                : 'For legal inquiries, please contact support@malta-global-crypto-bank.com'}
             </p>
           </div>
         </div>

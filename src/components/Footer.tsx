@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="flex items-center space-x-3 mb-4">
               <img
                 src="/logo3.svg"
-                alt="Aareal Bank AG"
+                alt="Malta Global Crypto Bank"
                 className="w-44 h-36 object-contain"
               />
             </div>
@@ -103,7 +103,7 @@ export default function Footer() {
         <div className="border-t border-[#333333] pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-[#CCCCCC] text-sm">
-              © 2026 Aareal Bank AG. {t.footer.rights}
+              © 2026 Malta Global Crypto Bank. {t.footer.rights}
             </p>
             <div className="flex flex-wrap justify-center md:justify-end gap-4 text-sm">
               <Link to={getLangPath('/terms-of-service')} className="text-[#CCCCCC] hover:text-white transition-colors">

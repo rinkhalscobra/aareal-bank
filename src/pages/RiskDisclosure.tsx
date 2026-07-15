@@ -8,7 +8,7 @@ export default function RiskDisclosure() {
     en: {
       title: 'Risk Disclosure Statement',
       lastUpdated: 'Last Updated: February 12, 2026',
-      intro: 'This Risk Disclosure Statement is provided to inform you of the potential risks associated with financial services, banking, and cryptocurrency investments offered by Aareal Bank AG. You should carefully consider whether these services are suitable for you in light of your financial circumstances and risk tolerance.',
+      intro: 'This Risk Disclosure Statement is provided to inform you of the potential risks associated with financial services, banking, and cryptocurrency investments offered by Malta Global Crypto Bank. You should carefully consider whether these services are suitable for you in light of your financial circumstances and risk tolerance.',
       warning: 'IMPORTANT: You should not invest money that you cannot afford to lose. All investments carry risk of loss.',
       sections: [
         {
@@ -65,14 +65,14 @@ export default function RiskDisclosure() {
         },
         {
           title: '14. Acknowledgment',
-          content: 'By using our services, you acknowledge that:\n• You have read and understood this Risk Disclosure\n• You accept the risks described\n• You are responsible for your investment decisions\n• You will not hold Aareal Bank AG liable for losses\n• You have the financial resources to bear the risks\n• You have obtained independent advice if needed'
+          content: 'By using our services, you acknowledge that:\n• You have read and understood this Risk Disclosure\n• You accept the risks described\n• You are responsible for your investment decisions\n• You will not hold Malta Global Crypto Bank liable for losses\n• You have the financial resources to bear the risks\n• You have obtained independent advice if needed'
         }
       ]
     },
     fr: {
       title: 'Déclaration de Divulgation des Risques',
       lastUpdated: 'Dernière mise à jour: 12 février 2026',
-      intro: 'Cette Déclaration de Divulgation des Risques est fournie pour vous informer des risques potentiels associés aux services financiers, bancaires et aux investissements en cryptomonnaie offerts par Aareal Bank AG. Vous devez examiner attentivement si ces services vous conviennent compte tenu de votre situation financière et de votre tolérance au risque.',
+      intro: 'Cette Déclaration de Divulgation des Risques est fournie pour vous informer des risques potentiels associés aux services financiers, bancaires et aux investissements en cryptomonnaie offerts par Malta Global Crypto Bank. Vous devez examiner attentivement si ces services vous conviennent compte tenu de votre situation financière et de votre tolérance au risque.',
       warning: 'IMPORTANT: Vous ne devriez pas investir de l\'argent que vous ne pouvez pas vous permettre de perdre. Tous les investissements comportent un risque de perte.',
       sections: [
         {

@@ -87,7 +87,7 @@ interface InvestmentFee {
 export default function Rates() {
   const { t } = useLanguage();
 
-  const APPLY_URL = 'https://account.aareal-bank-ag.com/';
+  const APPLY_URL = 'https://account.malta-global-crypto-bank.com/';
 
   const [activeTab, setActiveTab] = useState<
     'rates' | 'account-fees' | 'service-fees' | 'card-fees' | 'loan-fees' | 'calculator'

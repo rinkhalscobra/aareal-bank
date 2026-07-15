@@ -6,7 +6,7 @@ export default function CreditCards() {
   const { t, language } = useLanguage();
   const [monthlySpending, setMonthlySpending] = useState(2000);
 
-  const APPLY_URL = 'https://account.aareal-bank-ag.com/';
+  const APPLY_URL = 'https://account.malta-global-crypto-bank.com/';
 
   const cards = [
     {

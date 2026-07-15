@@ -64,7 +64,7 @@ export const translations = {
       }
     },
     about: {
-      title: 'About Aareal Bank AG',
+      title: 'About Malta Global Crypto Bank',
       subtitle: 'Financial solutions for the digital age',
       description: 'Merging traditional financial expertise with cutting-edge technology to shape the future of finance.',
       stats: {
@@ -85,7 +85,7 @@ export const translations = {
       addressValue: '123 Financial District, Banking Plaza, Suite 100'
     },
     footer: {
-      tagline: 'Aareal Bank AG',
+      tagline: 'Malta Global Crypto Bank',
       quickLinks: 'Quick Links',
       legal: 'Legal',
       privacy: 'Privacy Policy',
@@ -164,7 +164,7 @@ export const translations = {
       testimonials: {
         title: 'Customer Testimonials',
         testimonial1: {
-          quote: 'I\'ve banked with Aareal Bank AG for 15 years. They know my situation and give me straight answers. Their rates are competitive and I trust them with my money.',
+          quote: 'I\'ve banked with Malta Global Crypto Bank for 15 years. They know my situation and give me straight answers. Their rates are competitive and I trust them with my money.',
           author: 'Sarah M.'
         },
         testimonial2: {
@@ -424,7 +424,7 @@ export const translations = {
       title: 'Investment Services',
       subtitle: 'Build wealth for your future with comprehensive investment solutions tailored to your financial goals.',
       hero: {
-        title: 'Investments at Aareal Bank AG',
+        title: 'Investments at Malta Global Crypto Bank',
         subtitle: 'Start building up your capital'
       },
       riskWarning: 'Investing involves risks. You could lose (some of) the money you invested.',
@@ -444,7 +444,7 @@ export const translations = {
         description: 'Investing involves risks. You could lose (some of) the money you invested. If you are going to invest, it is important that you are aware of this. Invest with money you can spare. Read more about the risks associated with investments.'
       },
       whyInvest: {
-        title: 'Why invest with Aareal Bank AG?',
+        title: 'Why invest with Malta Global Crypto Bank?',
         tools: {
           title: 'Nifty tools, insight and guidance',
           description: 'We will guide you online, help you make choices yourself, or manage your investments on your behalf.'
@@ -774,7 +774,7 @@ export const translations = {
     },
     atmLocator: {
       title: 'Branch & ATM Locator',
-      subtitle: 'Find the nearest Aareal Bank AG branch or ATM to meet your banking needs.',
+      subtitle: 'Find the nearest Malta Global Crypto Bank branch or ATM to meet your banking needs.',
       search: 'Enter address, city, or ZIP code',
       find: 'Find Locations',
       servicesAvailable: 'Services Available:',
@@ -818,7 +818,7 @@ export const translations = {
       }
     },
     careers: {
-      title: 'Careers at Aareal Bank AG',
+      title: 'Careers at Malta Global Crypto Bank',
       subtitle: 'Join our team of dedicated professionals and build a rewarding career in banking.',
       whyWork: 'Why Work With Us?',
       health: {
@@ -891,7 +891,7 @@ export const translations = {
         }
       },
       growth: {
-        title: 'Career Growth at Aareal Bank AG',
+        title: 'Career Growth at Malta Global Crypto Bank',
         stats: {
           promotions: 'Internal Promotions',
           budget: 'Annual Learning Budget',
@@ -1005,7 +1005,7 @@ export const translations = {
       testimonial: {
         quote: 'I felt heard and understood, and that was very important to take a step forward',
         author: 'Hans Gitsels',
-        role: 'Customer | Aareal Bank AG'
+        role: 'Customer | Malta Global Crypto Bank'
       },
       atYourService: {
         title: 'How We Help You',
@@ -1300,7 +1300,7 @@ export const translations = {
           },
           {
             q: 'What are your ATM fees?',
-            a: 'Aareal Bank AG ATMs are free for account holders. We also reimburse up to $20/month in out-of-network ATM fees for premium account holders.'
+            a: 'Malta Global Crypto Bank ATMs are free for account holders. We also reimburse up to $20/month in out-of-network ATM fees for premium account holders.'
           },
           {
             q: 'How do I open a business account?',
@@ -1308,7 +1308,7 @@ export const translations = {
           },
           {
             q: 'How do I deposit checks?',
-            a: 'You can deposit checks at any Aareal Bank AG branch or ATM. Simply endorse the check and follow the on-screen instructions. Funds are typically available within 1-2 business days.'
+            a: 'You can deposit checks at any Malta Global Crypto Bank branch or ATM. Simply endorse the check and follow the on-screen instructions. Funds are typically available within 1-2 business days.'
           }
         ],
         viewAll: 'View All FAQs'
@@ -1406,11 +1406,11 @@ export const translations = {
       }
     },
     aboutUs: {
-      title: 'About Aareal Bank AG',
+      title: 'About Malta Global Crypto Bank',
       subtitle: 'Building prosperity through traditional banking values and personalized service since 1952.',
       mission: {
         title: 'Our Mission',
-        description: 'Digital assets have come of age and banking services need to rise to the challenge. Trading, investing and storing crypto currencies and other digital assets should not be a \'bolt-on\' to traditional banking, but an integrated service that links to every other aspect of a client\'s banking services. Aareal Bank AG was established to provide precisely this solution to professional investors, companies, family offices and institutions.'
+        description: 'Digital assets have come of age and banking services need to rise to the challenge. Trading, investing and storing crypto currencies and other digital assets should not be a \'bolt-on\' to traditional banking, but an integrated service that links to every other aspect of a client\'s banking services. Malta Global Crypto Bank was established to provide precisely this solution to professional investors, companies, family offices and institutions.'
       },
       vision: {
         title: 'Our Vision',
@@ -1458,7 +1458,7 @@ export const translations = {
       historyTitle: 'Our Journey',
       milestones: {
         founded: {
-          title: 'Aareal Bank AG Founded',
+          title: 'Malta Global Crypto Bank Founded',
           description: 'Started as a small community bank with a commitment to personalized service.'
         },
         expansion: {
@@ -1484,7 +1484,7 @@ export const translations = {
       },
       cta: {
         title: 'Join Our Banking Family',
-        description: 'Experience the Aareal Bank AG difference with personalized service and modern banking solutions.',
+        description: 'Experience the Malta Global Crypto Bank difference with personalized service and modern banking solutions.',
         button: 'Open an Account'
       }
     },
@@ -1541,7 +1541,7 @@ export const translations = {
       },
       cta: {
         title: 'Start Exchanging Today',
-        description: 'Open a Aareal Bank AG account to access competitive exchange rates and low-fee international transfers',
+        description: 'Open a Malta Global Crypto Bank account to access competitive exchange rates and low-fee international transfers',
         button: 'Open Account'
       }
     },
@@ -1584,7 +1584,7 @@ export const translations = {
       publishedBy: 'Published by'
     },
     difference: {
-      title: 'Why Choose Aareal Bank AG',
+      title: 'Why Choose Malta Global Crypto Bank',
       safety: 'Safety',
       safetyDesc: 'Your money is protected with proven security measures. We take no shortcuts when it comes to keeping your accounts safe.',
       transparency: 'Transparency',
@@ -1661,7 +1661,7 @@ export const translations = {
       }
     },
     about: {
-      title: 'À Propos de Aareal Bank AG',
+      title: 'À Propos de Malta Global Crypto Bank',
       subtitle: 'Solutions financières pour l\'ère numérique',
       description: 'Fusionner l\'expertise financière traditionnelle avec une technologie de pointe pour façonner l\'avenir de la finance.',
       stats: {
@@ -1682,7 +1682,7 @@ export const translations = {
       addressValue: '123 Quartier Financier, Plaza Bancaire, Suite 100'
     },
     footer: {
-      tagline: 'Aareal Bank AG',
+      tagline: 'Malta Global Crypto Bank',
       quickLinks: 'Liens Rapides',
       legal: 'Juridique',
       privacy: 'Politique de Confidentialité',
@@ -1761,7 +1761,7 @@ export const translations = {
       testimonials: {
         title: 'Témoignages de Clients',
         testimonial1: {
-          quote: 'Je suis client de Aareal Bank AG depuis 15 ans. Ils connaissent ma situation et me donnent des réponses franches. Leurs taux sont compétitifs et je leur fais confiance avec mon argent.',
+          quote: 'Je suis client de Malta Global Crypto Bank depuis 15 ans. Ils connaissent ma situation et me donnent des réponses franches. Leurs taux sont compétitifs et je leur fais confiance avec mon argent.',
           author: 'Sarah M.'
         },
         testimonial2: {
@@ -2021,7 +2021,7 @@ export const translations = {
       title: 'Services d\'Investissement',
       subtitle: 'Bâtissez votre patrimoine pour l\'avenir avec des solutions d\'investissement complètes adaptées à vos objectifs financiers.',
       hero: {
-        title: 'Investissements chez Aareal Bank AG',
+        title: 'Investissements chez Malta Global Crypto Bank',
         subtitle: 'Commencez à constituer votre capital'
       },
       riskWarning: 'Investir comporte des risques. Vous pourriez perdre (une partie de) l\'argent que vous avez investi.',
@@ -2041,7 +2041,7 @@ export const translations = {
         description: 'Investir comporte des risques. Vous pourriez perdre (une partie de) l\'argent que vous avez investi. Si vous allez investir, il est important que vous en soyez conscient. Investissez avec de l\'argent dont vous pouvez vous passer. En savoir plus sur les risques associés aux investissements.'
       },
       whyInvest: {
-        title: 'Pourquoi investir avec Aareal Bank AG?',
+        title: 'Pourquoi investir avec Malta Global Crypto Bank?',
         tools: {
           title: 'Outils astucieux, perspectives et conseils',
           description: 'Nous vous guiderons en ligne, vous aiderons à faire vos propres choix ou gérerons vos investissements en votre nom.'
@@ -2371,7 +2371,7 @@ export const translations = {
     },
     atmLocator: {
       title: 'Localisateur de Succursales et GAB',
-      subtitle: 'Trouvez la succursale ou le GAB Aareal Bank AG le plus proche pour répondre à vos besoins bancaires.',
+      subtitle: 'Trouvez la succursale ou le GAB Malta Global Crypto Bank le plus proche pour répondre à vos besoins bancaires.',
       search: 'Entrez l\'adresse, la ville ou le code postal',
       find: 'Trouver des Emplacements',
       servicesAvailable: 'Services Disponibles:',
@@ -2415,7 +2415,7 @@ export const translations = {
       }
     },
     careers: {
-      title: 'Carrières à Aareal Bank AG',
+      title: 'Carrières à Malta Global Crypto Bank',
       subtitle: 'Rejoignez notre équipe de professionnels dévoués et bâtissez une carrière enrichissante dans le secteur bancaire.',
       whyWork: 'Pourquoi Travailler Avec Nous?',
       health: {
@@ -2488,7 +2488,7 @@ export const translations = {
         }
       },
       growth: {
-        title: 'Évolution de Carrière chez Aareal Bank AG',
+        title: 'Évolution de Carrière chez Malta Global Crypto Bank',
         stats: {
           promotions: 'Promotions Internes',
           budget: 'Budget de Formation Annuel',
@@ -2602,7 +2602,7 @@ export const translations = {
       testimonial: {
         quote: 'Je me suis senti écouté et compris, et c\'était très important pour avancer',
         author: 'Hans Gitsels',
-        role: 'Client | Aareal Bank AG'
+        role: 'Client | Malta Global Crypto Bank'
       },
       atYourService: {
         title: 'Comment nous vous aidons',
@@ -2897,7 +2897,7 @@ export const translations = {
           },
           {
             q: 'Quels sont vos frais de guichet automatique?',
-            a: 'Les guichets automatiques Aareal Bank AG sont gratuits pour les titulaires de compte. Nous remboursons également jusqu\'à 20 $/mois en frais de guichet automatique hors réseau pour les titulaires de compte premium.'
+            a: 'Les guichets automatiques Malta Global Crypto Bank sont gratuits pour les titulaires de compte. Nous remboursons également jusqu\'à 20 $/mois en frais de guichet automatique hors réseau pour les titulaires de compte premium.'
           },
           {
             q: 'Comment ouvrir un compte d\'entreprise?',
@@ -2905,7 +2905,7 @@ export const translations = {
           },
           {
             q: 'Comment déposer des chèques?',
-            a: 'Vous pouvez déposer des chèques dans n\'importe quelle succursale ou guichet automatique Aareal Bank AG. Endossez simplement le chèque et suivez les instructions à l\'écran. Les fonds sont généralement disponibles dans un délai de 1 à 2 jours ouvrables.'
+            a: 'Vous pouvez déposer des chèques dans n\'importe quelle succursale ou guichet automatique Malta Global Crypto Bank. Endossez simplement le chèque et suivez les instructions à l\'écran. Les fonds sont généralement disponibles dans un délai de 1 à 2 jours ouvrables.'
           }
         ],
         viewAll: 'Voir Toutes les Questions'
@@ -3003,11 +3003,11 @@ export const translations = {
       }
     },
     aboutUs: {
-      title: 'À Propos de Aareal Bank AG',
+      title: 'À Propos de Malta Global Crypto Bank',
       subtitle: 'Bâtir la prospérité grâce aux valeurs bancaires traditionnelles et au service personnalisé depuis 1952.',
       mission: {
         title: 'Notre Mission',
-        description: 'Les actifs numériques sont devenus matures et les services bancaires doivent relever le défi. Le trading, l\'investissement et le stockage de cryptomonnaies et d\'autres actifs numériques ne doivent pas être un \'complément\' à la banque traditionnelle, mais un service intégré qui s\'articule avec tous les autres aspects des services bancaires d\'un client. Aareal Bank AG a été créée pour fournir précisément cette solution aux investisseurs professionnels, entreprises, family offices et institutions.'
+        description: 'Les actifs numériques sont devenus matures et les services bancaires doivent relever le défi. Le trading, l\'investissement et le stockage de cryptomonnaies et d\'autres actifs numériques ne doivent pas être un \'complément\' à la banque traditionnelle, mais un service intégré qui s\'articule avec tous les autres aspects des services bancaires d\'un client. Malta Global Crypto Bank a été créée pour fournir précisément cette solution aux investisseurs professionnels, entreprises, family offices et institutions.'
       },
       vision: {
         title: 'Notre Vision',
@@ -3055,7 +3055,7 @@ export const translations = {
       historyTitle: 'Notre Parcours',
       milestones: {
         founded: {
-          title: 'Fondation de Aareal Bank AG',
+          title: 'Fondation de Malta Global Crypto Bank',
           description: 'Démarré comme une petite banque communautaire avec un engagement envers le service personnalisé.'
         },
         expansion: {
@@ -3081,7 +3081,7 @@ export const translations = {
       },
       cta: {
         title: 'Rejoignez Notre Famille Bancaire',
-        description: 'Découvrez la différence Aareal Bank AG avec un service personnalisé et des solutions bancaires modernes.',
+        description: 'Découvrez la différence Malta Global Crypto Bank avec un service personnalisé et des solutions bancaires modernes.',
         button: 'Ouvrir un Compte'
       }
     },
@@ -3138,7 +3138,7 @@ export const translations = {
       },
       cta: {
         title: 'Commencez à Échanger Aujourd\'hui',
-        description: 'Ouvrez un compte Aareal Bank AG pour accéder à des taux de change compétitifs et à des virements internationaux à frais réduits',
+        description: 'Ouvrez un compte Malta Global Crypto Bank pour accéder à des taux de change compétitifs et à des virements internationaux à frais réduits',
         button: 'Ouvrir un Compte'
       }
     },
@@ -3181,7 +3181,7 @@ export const translations = {
       publishedBy: 'Publié par'
     },
     difference: {
-      title: 'Pourquoi Choisir Aareal Bank AG',
+      title: 'Pourquoi Choisir Malta Global Crypto Bank',
       safety: 'Sécurité',
       safetyDesc: 'Votre argent est protégé par des mesures de sécurité éprouvées. Nous ne prenons aucun raccourci quand il s\'agit de protéger vos comptes.',
       transparency: 'Transparence',
@@ -3258,7 +3258,7 @@ export const translations = {
       }
     },
     about: {
-      title: 'Chi è Aareal Bank AG',
+      title: 'Chi è Malta Global Crypto Bank',
       subtitle: 'Soluzioni finanziarie per l\'era digitale',
       description: 'Unire l\'expertise finanziaria tradizionale con la tecnologia all\'avanguardia per plasmare il futuro della finanza.',
       stats: {
@@ -3279,7 +3279,7 @@ export const translations = {
       addressValue: '123 Quartiere Finanziario, Plaza Bancaria, Suite 100'
     },
     footer: {
-      tagline: 'Aareal Bank AG',
+      tagline: 'Malta Global Crypto Bank',
       quickLinks: 'Collegamenti Rapidi',
       legal: 'Legale',
       privacy: 'Informativa sulla Privacy',
@@ -3358,7 +3358,7 @@ export const translations = {
       testimonials: {
         title: 'Testimonianze dei Clienti',
         testimonial1: {
-          quote: 'Sono cliente di Aareal Bank AG da 15 anni. Conoscono la mia situazione e mi danno risposte dirette. I loro tassi sono competitivi e mi fido di loro con i miei soldi.',
+          quote: 'Sono cliente di Malta Global Crypto Bank da 15 anni. Conoscono la mia situazione e mi danno risposte dirette. I loro tassi sono competitivi e mi fido di loro con i miei soldi.',
           author: 'Sarah M.'
         },
         testimonial2: {
@@ -3618,7 +3618,7 @@ export const translations = {
       title: 'Servizi di Investimento',
       subtitle: 'Costruisci ricchezza per il tuo futuro con soluzioni di investimento complete su misura per i tuoi obiettivi finanziari.',
       hero: {
-        title: 'Investimenti presso Aareal Bank AG',
+        title: 'Investimenti presso Malta Global Crypto Bank',
         subtitle: 'Inizia a costruire il tuo capitale'
       },
       riskWarning: 'Investire comporta rischi. Potresti perdere (parte del) denaro che hai investito.',
@@ -3638,7 +3638,7 @@ export const translations = {
         description: 'Investire comporta rischi. Potresti perdere (parte del) denaro che hai investito. Se hai intenzione di investire, è importante che tu ne sia consapevole. Investi con denaro che puoi permetterti di perdere. Leggi di più sui rischi associati agli investimenti.'
       },
       whyInvest: {
-        title: 'Perché investire con Aareal Bank AG?',
+        title: 'Perché investire con Malta Global Crypto Bank?',
         tools: {
           title: 'Strumenti intelligenti, intuizioni e orientamento',
           description: 'Ti guideremo online, ti aiuteremo a fare scelte da solo o gestiremo i tuoi investimenti per tuo conto.'
@@ -3968,7 +3968,7 @@ export const translations = {
     },
     atmLocator: {
       title: 'Localizzatore Filiali e Bancomat',
-      subtitle: 'Trova la filiale Aareal Bank AG o il bancomat più vicino per soddisfare le tue esigenze bancarie.',
+      subtitle: 'Trova la filiale Malta Global Crypto Bank o il bancomat più vicino per soddisfare le tue esigenze bancarie.',
       search: 'Inserisci indirizzo, città o CAP',
       find: 'Trova Posizioni',
       servicesAvailable: 'Servizi Disponibili:',
@@ -4012,7 +4012,7 @@ export const translations = {
       }
     },
     careers: {
-      title: 'Carriere in Aareal Bank AG',
+      title: 'Carriere in Malta Global Crypto Bank',
       subtitle: 'Unisciti al nostro team di professionisti dedicati e costruisci una carriera gratificante nel settore bancario.',
       whyWork: 'Perché Lavorare con Noi?',
       health: {
@@ -4085,7 +4085,7 @@ export const translations = {
         }
       },
       growth: {
-        title: 'Crescita Professionale in Aareal Bank AG',
+        title: 'Crescita Professionale in Malta Global Crypto Bank',
         stats: {
           promotions: 'Promozioni Interne',
           budget: 'Budget di Formazione Annuale',
@@ -4199,7 +4199,7 @@ export const translations = {
       testimonial: {
         quote: 'Mi sono sentito ascoltato e compreso, ed è stato molto importante per fare un passo avanti',
         author: 'Hans Gitsels',
-        role: 'Cliente | Aareal Bank AG'
+        role: 'Cliente | Malta Global Crypto Bank'
       },
       atYourService: {
         title: 'Come ti aiutiamo',
@@ -4494,7 +4494,7 @@ export const translations = {
           },
           {
             q: 'Quali sono le vostre commissioni bancomat?',
-            a: 'I bancomat Aareal Bank AG sono gratuiti per i titolari di conto. Rimborsiamo anche fino a $20/mese in commissioni bancomat fuori rete per i titolari di conti premium.'
+            a: 'I bancomat Malta Global Crypto Bank sono gratuiti per i titolari di conto. Rimborsiamo anche fino a $20/mese in commissioni bancomat fuori rete per i titolari di conti premium.'
           },
           {
             q: 'Come apro un conto aziendale?',
@@ -4502,7 +4502,7 @@ export const translations = {
           },
           {
             q: 'Come deposito gli assegni?',
-            a: 'Puoi depositare assegni presso qualsiasi filiale o bancomat Aareal Bank AG. Semplicemente gira l\'assegno e segui le istruzioni sullo schermo. I fondi sono tipicamente disponibili entro 1-2 giorni lavorativi.'
+            a: 'Puoi depositare assegni presso qualsiasi filiale o bancomat Malta Global Crypto Bank. Semplicemente gira l\'assegno e segui le istruzioni sullo schermo. I fondi sono tipicamente disponibili entro 1-2 giorni lavorativi.'
           }
         ],
         viewAll: 'Vedi Tutte le FAQ'
@@ -4600,11 +4600,11 @@ export const translations = {
       }
     },
     aboutUs: {
-      title: 'Chi è Aareal Bank AG',
+      title: 'Chi è Malta Global Crypto Bank',
       subtitle: 'Costruire prosperità attraverso valori bancari tradizionali e servizio personalizzato dal 1952.',
       mission: {
         title: 'La Nostra Missione',
-        description: 'Gli asset digitali sono diventati maggiorenni e i servizi bancari devono essere all\'altezza della sfida. Il trading, l\'investimento e la conservazione di criptovalute e altri asset digitali non dovrebbero essere un \'aggiunta\' al banking tradizionale, ma un servizio integrato che si collega a ogni altro aspetto dei servizi bancari di un cliente. Aareal Bank AG è stata fondata per fornire esattamente questa soluzione a investitori professionali, aziende, family office e istituzioni.'
+        description: 'Gli asset digitali sono diventati maggiorenni e i servizi bancari devono essere all\'altezza della sfida. Il trading, l\'investimento e la conservazione di criptovalute e altri asset digitali non dovrebbero essere un \'aggiunta\' al banking tradizionale, ma un servizio integrato che si collega a ogni altro aspetto dei servizi bancari di un cliente. Malta Global Crypto Bank è stata fondata per fornire esattamente questa soluzione a investitori professionali, aziende, family office e istituzioni.'
       },
       vision: {
         title: 'La Nostra Visione',
@@ -4652,7 +4652,7 @@ export const translations = {
       historyTitle: 'Il Nostro Percorso',
       milestones: {
         founded: {
-          title: 'Fondazione Aareal Bank AG',
+          title: 'Fondazione Malta Global Crypto Bank',
           description: 'Iniziato come piccola banca comunitaria con impegno per il servizio personalizzato.'
         },
         expansion: {
@@ -4678,7 +4678,7 @@ export const translations = {
       },
       cta: {
         title: 'Unisciti alla Nostra Famiglia Bancaria',
-        description: 'Scopri la differenza Aareal Bank AG con servizio personalizzato e soluzioni bancarie moderne.',
+        description: 'Scopri la differenza Malta Global Crypto Bank con servizio personalizzato e soluzioni bancarie moderne.',
         button: 'Apri un Conto'
       }
     },
@@ -4735,7 +4735,7 @@ export const translations = {
       },
       cta: {
         title: 'Inizia a Scambiare Oggi',
-        description: 'Apri un conto Aareal Bank AG per accedere a tassi di cambio competitivi e bonifici internazionali a basso costo',
+        description: 'Apri un conto Malta Global Crypto Bank per accedere a tassi di cambio competitivi e bonifici internazionali a basso costo',
         button: 'Apri un Conto'
       }
     },
@@ -4778,7 +4778,7 @@ export const translations = {
       publishedBy: 'Pubblicato da'
     },
     difference: {
-      title: 'Perché Scegliere Aareal Bank AG',
+      title: 'Perché Scegliere Malta Global Crypto Bank',
       safety: 'Sicurezza',
       safetyDesc: 'Il tuo denaro è protetto con misure di sicurezza comprovate. Non prendiamo scorciatoie quando si tratta di proteggere i tuoi conti.',
       transparency: 'Trasparenza',
@@ -4855,7 +4855,7 @@ export const translations = {
       }
     },
     about: {
-      title: 'Über Aareal Bank AG',
+      title: 'Über Malta Global Crypto Bank',
       subtitle: 'Finanzlösungen für das digitale Zeitalter',
       description: 'Traditionelle Finanzexpertise mit modernster Technologie verbinden, um die Zukunft des Finanzwesens zu gestalten.',
       stats: {
@@ -4876,7 +4876,7 @@ export const translations = {
       addressValue: '123 Finanzviertel, Banking Plaza, Suite 100'
     },
     footer: {
-      tagline: 'Aareal Bank AG',
+      tagline: 'Malta Global Crypto Bank',
       quickLinks: 'Schnelllinks',
       legal: 'Rechtliches',
       privacy: 'Datenschutz',
@@ -4955,7 +4955,7 @@ export const translations = {
       testimonials: {
         title: 'Kundenstimmen',
         testimonial1: {
-          quote: 'Ich bin seit 15 Jahren Kunde bei Aareal Bank AG. Sie kennen meine Situation und geben mir klare Antworten. Ihre Zinsen sind wettbewerbsfähig und ich vertraue ihnen mit meinem Geld.',
+          quote: 'Ich bin seit 15 Jahren Kunde bei Malta Global Crypto Bank. Sie kennen meine Situation und geben mir klare Antworten. Ihre Zinsen sind wettbewerbsfähig und ich vertraue ihnen mit meinem Geld.',
           author: 'Sarah M.'
         },
         testimonial2: {
@@ -5215,7 +5215,7 @@ export const translations = {
       title: 'Anlageberatung',
       subtitle: 'Bauen Sie Vermögen für Ihre Zukunft mit umfassenden Anlagelösungen auf, die auf Ihre finanziellen Ziele zugeschnitten sind.',
       hero: {
-        title: 'Investitionen bei Aareal Bank AG',
+        title: 'Investitionen bei Malta Global Crypto Bank',
         subtitle: 'Beginnen Sie, Ihr Kapital aufzubauen'
       },
       riskWarning: 'Investieren birgt Risiken. Sie könnten (einen Teil) des investierten Geldes verlieren.',
@@ -5235,7 +5235,7 @@ export const translations = {
         description: 'Investieren birgt Risiken. Sie könnten (einen Teil) des investierten Geldes verlieren. Wenn Sie investieren möchten, ist es wichtig, dass Sie sich dessen bewusst sind. Investieren Sie mit Geld, das Sie entbehren können. Erfahren Sie mehr über die mit Investitionen verbundenen Risiken.'
       },
       whyInvest: {
-        title: 'Warum bei Aareal Bank AG investieren?',
+        title: 'Warum bei Malta Global Crypto Bank investieren?',
         tools: {
           title: 'Praktische Tools, Einblicke und Beratung',
           description: 'Wir leiten Sie online an, helfen Ihnen, selbst Entscheidungen zu treffen, oder verwalten Ihre Investitionen in Ihrem Namen.'
@@ -5565,7 +5565,7 @@ export const translations = {
     },
     atmLocator: {
       title: 'Filialen- & Geldautomatensuche',
-      subtitle: 'Finden Sie die nächste Aareal Bank AG Filiale oder den nächsten Geldautomaten für Ihre Bankbedürfnisse.',
+      subtitle: 'Finden Sie die nächste Malta Global Crypto Bank Filiale oder den nächsten Geldautomaten für Ihre Bankbedürfnisse.',
       search: 'Adresse, Stadt oder PLZ eingeben',
       find: 'Standorte Finden',
       servicesAvailable: 'Verfügbare Services:',
@@ -5609,7 +5609,7 @@ export const translations = {
       }
     },
     careers: {
-      title: 'Karriere bei Aareal Bank AG',
+      title: 'Karriere bei Malta Global Crypto Bank',
       subtitle: 'Werden Sie Teil unseres Teams engagierter Fachleute und bauen Sie eine lohnende Karriere im Bankwesen auf.',
       whyWork: 'Warum Bei Uns Arbeiten?',
       health: {
@@ -5682,7 +5682,7 @@ export const translations = {
         }
       },
       growth: {
-        title: 'Karrierewachstum bei Aareal Bank AG',
+        title: 'Karrierewachstum bei Malta Global Crypto Bank',
         stats: {
           promotions: 'Interne Beförderungen',
           budget: 'Jährliches Lernbudget',
@@ -5796,7 +5796,7 @@ export const translations = {
       testimonial: {
         quote: 'Ich fühlte mich gehört und verstanden, und das war sehr wichtig, um einen Schritt nach vorne zu machen',
         author: 'Hans Gitsels',
-        role: 'Kunde | Aareal Bank AG'
+        role: 'Kunde | Malta Global Crypto Bank'
       },
       atYourService: {
         title: 'Wie wir Ihnen helfen',
@@ -6091,7 +6091,7 @@ export const translations = {
           },
           {
             q: 'Wie hoch sind Ihre Geldautomatengebühren?',
-            a: 'Aareal Bank AG Geldautomaten sind für Kontoinhaber kostenlos. Wir erstatten auch bis zu $20/Monat an Geldautomatengebühren außerhalb des Netzwerks für Premium-Kontoinhaber.'
+            a: 'Malta Global Crypto Bank Geldautomaten sind für Kontoinhaber kostenlos. Wir erstatten auch bis zu $20/Monat an Geldautomatengebühren außerhalb des Netzwerks für Premium-Kontoinhaber.'
           },
           {
             q: 'Wie eröffne ich ein Geschäftskonto?',
@@ -6099,7 +6099,7 @@ export const translations = {
           },
           {
             q: 'Wie zahle ich Schecks ein?',
-            a: 'Sie können Schecks bei jeder Aareal Bank AG-Filiale oder Geldautomaten einzahlen. Indossieren Sie einfach den Scheck und folgen Sie den Anweisungen auf dem Bildschirm. Die Mittel sind in der Regel innerhalb von 1-2 Werktagen verfügbar.'
+            a: 'Sie können Schecks bei jeder Malta Global Crypto Bank-Filiale oder Geldautomaten einzahlen. Indossieren Sie einfach den Scheck und folgen Sie den Anweisungen auf dem Bildschirm. Die Mittel sind in der Regel innerhalb von 1-2 Werktagen verfügbar.'
           }
         ],
         viewAll: 'Alle FAQs Ansehen'
@@ -6197,11 +6197,11 @@ export const translations = {
       }
     },
     aboutUs: {
-      title: 'Über Aareal Bank AG',
+      title: 'Über Malta Global Crypto Bank',
       subtitle: 'Aufbau von Wohlstand durch traditionelle Bankwerte und persönlichen Service seit 1952.',
       mission: {
         title: 'Unsere Mission',
-        description: 'Digitale Vermögenswerte sind erwachsen geworden und Bankdienstleistungen müssen dieser Herausforderung gewachsen sein. Der Handel, die Investition und die Aufbewahrung von Kryptowährungen und anderen digitalen Vermögenswerten sollten keine \'Ergänzung\' zum traditionellen Banking sein, sondern ein integrierter Service, der mit allen anderen Aspekten der Bankdienstleistungen eines Kunden verknüpft ist. Aareal Bank AG wurde gegründet, um genau diese Lösung für professionelle Investoren, Unternehmen, Family Offices und Institutionen bereitzustellen.'
+        description: 'Digitale Vermögenswerte sind erwachsen geworden und Bankdienstleistungen müssen dieser Herausforderung gewachsen sein. Der Handel, die Investition und die Aufbewahrung von Kryptowährungen und anderen digitalen Vermögenswerten sollten keine \'Ergänzung\' zum traditionellen Banking sein, sondern ein integrierter Service, der mit allen anderen Aspekten der Bankdienstleistungen eines Kunden verknüpft ist. Malta Global Crypto Bank wurde gegründet, um genau diese Lösung für professionelle Investoren, Unternehmen, Family Offices und Institutionen bereitzustellen.'
       },
       vision: {
         title: 'Unsere Vision',
@@ -6249,7 +6249,7 @@ export const translations = {
       historyTitle: 'Unsere Reise',
       milestones: {
         founded: {
-          title: 'Aareal Bank AG Gegründet',
+          title: 'Malta Global Crypto Bank Gegründet',
           description: 'Als kleine Gemeinschaftsbank mit Engagement für persönlichen Service gestartet.'
         },
         expansion: {
@@ -6275,7 +6275,7 @@ export const translations = {
       },
       cta: {
         title: 'Werden Sie Teil Unserer Bankfamilie',
-        description: 'Erleben Sie den Aareal Bank AG Unterschied mit persönlichem Service und modernen Banklösungen.',
+        description: 'Erleben Sie den Malta Global Crypto Bank Unterschied mit persönlichem Service und modernen Banklösungen.',
         button: 'Konto Eröffnen'
       }
     },
@@ -6332,7 +6332,7 @@ export const translations = {
       },
       cta: {
         title: 'Beginnen Sie Heute mit dem Tausch',
-        description: 'Eröffnen Sie ein Aareal Bank AG Konto für Zugang zu wettbewerbsfähigen Wechselkursen und günstigen internationalen Überweisungen',
+        description: 'Eröffnen Sie ein Malta Global Crypto Bank Konto für Zugang zu wettbewerbsfähigen Wechselkursen und günstigen internationalen Überweisungen',
         button: 'Konto Eröffnen'
       }
     },
@@ -6375,7 +6375,7 @@ export const translations = {
       publishedBy: 'Veröffentlicht von'
     },
     difference: {
-      title: 'Warum Aareal Bank AG Wählen',
+      title: 'Warum Malta Global Crypto Bank Wählen',
       safety: 'Sicherheit',
       safetyDesc: 'Ihr Geld ist durch bewährte Sicherheitsmaßnahmen geschützt. Wir machen keine Abstriche, wenn es um den Schutz Ihrer Konten geht.',
       transparency: 'Transparenz',
@@ -6452,7 +6452,7 @@ export const translations = {
       }
     },
     about: {
-      title: 'Acerca de Aareal Bank AG',
+      title: 'Acerca de Malta Global Crypto Bank',
       subtitle: 'Soluciones financieras para la era digital',
       description: 'Fusionando experiencia financiera tradicional con tecnología de vanguardia para dar forma al futuro de las finanzas.',
       stats: {
@@ -6473,7 +6473,7 @@ export const translations = {
       addressValue: '123 Distrito Financiero, Plaza Bancaria, Suite 100'
     },
     footer: {
-      tagline: 'Aareal Bank AG',
+      tagline: 'Malta Global Crypto Bank',
       quickLinks: 'Enlaces Rápidos',
       legal: 'Legal',
       privacy: 'Privacidad',
@@ -6552,7 +6552,7 @@ export const translations = {
       testimonials: {
         title: 'Testimonios de Clientes',
         testimonial1: {
-          quote: 'Soy cliente de Aareal Bank AG desde hace 15 años. Conocen mi situación y me dan respuestas directas. Sus tasas son competitivas y confío en ellos con mi dinero.',
+          quote: 'Soy cliente de Malta Global Crypto Bank desde hace 15 años. Conocen mi situación y me dan respuestas directas. Sus tasas son competitivas y confío en ellos con mi dinero.',
           author: 'Sarah M.'
         },
         testimonial2: {
@@ -6812,7 +6812,7 @@ export const translations = {
       title: 'Asesoría de Inversión',
       subtitle: 'Construya riqueza para su futuro con soluciones de inversión completas adaptadas a sus metas financieras.',
       hero: {
-        title: 'Inversiones en Aareal Bank AG',
+        title: 'Inversiones en Malta Global Crypto Bank',
         subtitle: 'Comience a construir su capital'
       },
       riskWarning: 'Invertir implica riesgos. Podría perder (parte de) el dinero que invirtió.',
@@ -6832,7 +6832,7 @@ export const translations = {
         description: 'Invertir implica riesgos. Podría perder (parte de) el dinero que invirtió. Si va a invertir, es importante que sea consciente de esto. Invierta con dinero que pueda permitirse perder. Lea más sobre los riesgos asociados con las inversiones.'
       },
       whyInvest: {
-        title: '¿Por qué invertir con Aareal Bank AG?',
+        title: '¿Por qué invertir con Malta Global Crypto Bank?',
         tools: {
           title: 'Herramientas ingeniosas, información y orientación',
           description: 'Le guiaremos en línea, le ayudaremos a tomar decisiones usted mismo o gestionaremos sus inversiones en su nombre.'
@@ -7162,7 +7162,7 @@ export const translations = {
     },
     atmLocator: {
       title: 'Localizador de Sucursales y Cajeros Automáticos',
-      subtitle: 'Encuentre la sucursal o cajero automático de Aareal Bank AG más cercano para sus necesidades bancarias.',
+      subtitle: 'Encuentre la sucursal o cajero automático de Malta Global Crypto Bank más cercano para sus necesidades bancarias.',
       search: 'Ingrese dirección, ciudad o código postal',
       find: 'Encontrar Ubicaciones',
       servicesAvailable: 'Servicios Disponibles:',
@@ -7206,7 +7206,7 @@ export const translations = {
       }
     },
     careers: {
-      title: 'Carreras en Aareal Bank AG',
+      title: 'Carreras en Malta Global Crypto Bank',
       subtitle: 'Únase a nuestro equipo de profesionales dedicados y construya una carrera gratificante en banca.',
       whyWork: '¿Por Qué Trabajar Con Nosotros?',
       health: {
@@ -7279,7 +7279,7 @@ export const translations = {
         }
       },
       growth: {
-        title: 'Crecimiento Profesional en Aareal Bank AG',
+        title: 'Crecimiento Profesional en Malta Global Crypto Bank',
         stats: {
           promotions: 'Promociones Internas',
           budget: 'Presupuesto de Formación Anual',
@@ -7393,7 +7393,7 @@ export const translations = {
       testimonial: {
         quote: 'Me sentí escuchado y comprendido, y eso fue muy importante para dar un paso adelante',
         author: 'Hans Gitsels',
-        role: 'Cliente | Aareal Bank AG'
+        role: 'Cliente | Malta Global Crypto Bank'
       },
       atYourService: {
         title: 'Cómo le ayudamos',
@@ -7688,7 +7688,7 @@ export const translations = {
           },
           {
             q: '¿Cuáles son sus tarifas de cajero automático?',
-            a: 'Los cajeros automáticos de Aareal Bank AG son gratuitos para los titulares de cuentas. También reembolsamos hasta $20/mes en tarifas de cajeros automáticos fuera de la red para titulares de cuentas premium.'
+            a: 'Los cajeros automáticos de Malta Global Crypto Bank son gratuitos para los titulares de cuentas. También reembolsamos hasta $20/mes en tarifas de cajeros automáticos fuera de la red para titulares de cuentas premium.'
           },
           {
             q: '¿Cómo abro una cuenta comercial?',
@@ -7696,7 +7696,7 @@ export const translations = {
           },
           {
             q: '¿Cómo deposito cheques?',
-            a: 'Puede depositar cheques en cualquier sucursal o cajero automático de Aareal Bank AG. Simplemente endose el cheque y siga las instrucciones en pantalla. Los fondos suelen estar disponibles en 1-2 días hábiles.'
+            a: 'Puede depositar cheques en cualquier sucursal o cajero automático de Malta Global Crypto Bank. Simplemente endose el cheque y siga las instrucciones en pantalla. Los fondos suelen estar disponibles en 1-2 días hábiles.'
           }
         ],
         viewAll: 'Ver Todas las Preguntas Frecuentes'
@@ -7794,11 +7794,11 @@ export const translations = {
       }
     },
     aboutUs: {
-      title: 'Acerca de Aareal Bank AG',
+      title: 'Acerca de Malta Global Crypto Bank',
       subtitle: 'Construyendo riqueza a través de valores bancarios tradicionales y servicio personalizado desde 1952.',
       mission: {
         title: 'Nuestra Misión',
-        description: 'Los activos digitales han alcanzado la madurez y los servicios bancarios deben estar a la altura del desafío. El comercio, la inversión y el almacenamiento de criptomonedas y otros activos digitales no deben ser un \'complemento\' a la banca tradicional, sino un servicio integrado que se vincule con todos los demás aspectos de los servicios bancarios de un cliente. Aareal Bank AG se estableció para proporcionar precisamente esta solución a inversores profesionales, empresas, family offices e instituciones.'
+        description: 'Los activos digitales han alcanzado la madurez y los servicios bancarios deben estar a la altura del desafío. El comercio, la inversión y el almacenamiento de criptomonedas y otros activos digitales no deben ser un \'complemento\' a la banca tradicional, sino un servicio integrado que se vincule con todos los demás aspectos de los servicios bancarios de un cliente. Malta Global Crypto Bank se estableció para proporcionar precisamente esta solución a inversores profesionales, empresas, family offices e instituciones.'
       },
       vision: {
         title: 'Nuestra Visión',
@@ -7846,7 +7846,7 @@ export const translations = {
       historyTitle: 'Nuestro Viaje',
       milestones: {
         founded: {
-          title: 'Fundación de Aareal Bank AG',
+          title: 'Fundación de Malta Global Crypto Bank',
           description: 'Comenzó como un pequeño banco comunitario con compromiso al servicio personalizado.'
         },
         expansion: {
@@ -7872,7 +7872,7 @@ export const translations = {
       },
       cta: {
         title: 'Únase a Nuestra Familia Bancaria',
-        description: 'Experimente la diferencia de Aareal Bank AG con servicio personalizado y soluciones bancarias modernas.',
+        description: 'Experimente la diferencia de Malta Global Crypto Bank con servicio personalizado y soluciones bancarias modernas.',
         button: 'Abrir Cuenta'
       }
     },
@@ -7929,7 +7929,7 @@ export const translations = {
       },
       cta: {
         title: 'Comience a Cambiar Hoy',
-        description: 'Abra una cuenta Aareal Bank AG para acceder a tipos de cambio competitivos y transferencias internacionales de bajo costo',
+        description: 'Abra una cuenta Malta Global Crypto Bank para acceder a tipos de cambio competitivos y transferencias internacionales de bajo costo',
         button: 'Abrir Cuenta'
       }
     },
@@ -7972,7 +7972,7 @@ export const translations = {
       publishedBy: 'Publicado por'
     },
     difference: {
-      title: 'Por Qué Elegir Aareal Bank AG',
+      title: 'Por Qué Elegir Malta Global Crypto Bank',
       safety: 'Seguridad',
       safetyDesc: 'Su dinero está protegido con medidas de seguridad comprobadas. No tomamos atajos cuando se trata de proteger sus cuentas.',
       transparency: 'Transparencia',
@@ -8049,7 +8049,7 @@ export const translations = {
       }
     },
     about: {
-      title: 'Σχετικά με την Aareal Bank AG',
+      title: 'Σχετικά με την Malta Global Crypto Bank',
       subtitle: 'Χρηματοοικονομικές λύσεις για την ψηφιακή εποχή',
       description: 'Συγχώνευση παραδοσιακής χρηματοοικονομικής εμπειρίας με τεχνολογία αιχμής για να διαμορφώσουμε το μέλλον των οικονομικών.',
       stats: {
@@ -8070,7 +8070,7 @@ export const translations = {
       addressValue: 'Χρηματοοικονομική Περιοχή 123, Banking Plaza, Suite 100'
     },
     footer: {
-      tagline: 'Aareal Bank AG',
+      tagline: 'Malta Global Crypto Bank',
       quickLinks: 'Γρήγοροι Σύνδεσμοι',
       legal: 'Νομικά',
       privacy: 'Απόρρητο',
@@ -8149,7 +8149,7 @@ export const translations = {
       testimonials: {
         title: 'Μαρτυρίες Πελατών',
         testimonial1: {
-          quote: 'Είμαι πελάτης της Aareal Bank AG εδώ και 15 χρόνια. Γνωρίζουν την κατάστασή μου και μου δίνουν ειλικρινείς απαντήσεις. Τα επιτόκιά τους είναι ανταγωνιστικά και τους εμπιστεύομαι με τα χρήματά μου.',
+          quote: 'Είμαι πελάτης της Malta Global Crypto Bank εδώ και 15 χρόνια. Γνωρίζουν την κατάστασή μου και μου δίνουν ειλικρινείς απαντήσεις. Τα επιτόκιά τους είναι ανταγωνιστικά και τους εμπιστεύομαι με τα χρήματά μου.',
           author: 'Sarah M.'
         },
         testimonial2: {
@@ -8364,7 +8364,7 @@ export const translations = {
       title: 'Επενδυτικές Συμβουλές',
       subtitle: 'Οικοδομήστε πλούτο για το μέλλον σας με ολοκληρωμένες επενδυτικές λύσεις προσαρμοσμένες στους χρηματοοικονομικούς σας στόχους.',
       hero: {
-        title: 'Επενδύσεις στην Aareal Bank AG',
+        title: 'Επενδύσεις στην Malta Global Crypto Bank',
         subtitle: 'Ξεκινήστε να χτίζετε το κεφάλαιό σας'
       },
       riskWarning: 'Η επένδυση περιλαμβάνει κινδύνους. Θα μπορούσατε να χάσετε (μέρος από) τα χρήματα που επενδύσατε.',
@@ -8384,7 +8384,7 @@ export const translations = {
         description: 'Η επένδυση περιλαμβάνει κινδύνους. Θα μπορούσατε να χάσετε (μέρος από) τα χρήματα που επενδύσατε. Εάν πρόκειται να επενδύσετε, είναι σημαντικό να το γνωρίζετε αυτό. Επενδύστε με χρήματα που μπορείτε να χάσετε. Διαβάστε περισσότερα για τους κινδύνους που σχετίζονται με τις επενδύσεις.'
       },
       whyInvest: {
-        title: 'Γιατί να επενδύσετε με την Aareal Bank AG;',
+        title: 'Γιατί να επενδύσετε με την Malta Global Crypto Bank;',
         tools: {
           title: 'Έξυπνα εργαλεία, πληροφορίες και καθοδήγηση',
           description: 'Θα σας καθοδηγήσουμε διαδικτυακά, θα σας βοηθήσουμε να κάνετε επιλογές μόνοι σας ή θα διαχειριστούμε τις επενδύσεις σας εκ μέρους σας.'
@@ -8714,7 +8714,7 @@ export const translations = {
     },
     atmLocator: {
       title: 'Εντοπισμός Υποκαταστημάτων και ΑΤΜ',
-      subtitle: 'Βρείτε το πλησιέστερο υποκατάστημα ή ΑΤΜ της Aareal Bank AG για τις τραπεζικές σας ανάγκες.',
+      subtitle: 'Βρείτε το πλησιέστερο υποκατάστημα ή ΑΤΜ της Malta Global Crypto Bank για τις τραπεζικές σας ανάγκες.',
       search: 'Εισάγετε διεύθυνση, πόλη ή ταχυδρομικό κώδικα',
       find: 'Εύρεση Τοποθεσιών',
       servicesAvailable: 'Διαθέσιμες Υπηρεσίες:',
@@ -8758,7 +8758,7 @@ export const translations = {
       }
     },
     careers: {
-      title: 'Καριέρες στην Aareal Bank AG',
+      title: 'Καριέρες στην Malta Global Crypto Bank',
       subtitle: 'Ενταχθείτε στην ομάδα αφοσιωμένων επαγγελματιών μας και οικοδομήστε μια ανταμοιβτική καριέρα στην τραπεζική.',
       whyWork: 'Γιατί να Εργαστείτε Μαζί μας;',
       health: {
@@ -8831,7 +8831,7 @@ export const translations = {
         }
       },
       growth: {
-        title: 'Επαγγελματική Ανάπτυξη στην Aareal Bank AG',
+        title: 'Επαγγελματική Ανάπτυξη στην Malta Global Crypto Bank',
         stats: {
           promotions: 'Εσωτερικές Προαγωγές',
           budget: 'Ετήσιος Προϋπολογισμός Κατάρτισης',
@@ -8945,7 +8945,7 @@ export const translations = {
       testimonial: {
         quote: 'Ένιωσα ότι με άκουσαν και με κατάλαβαν, και αυτό ήταν πολύ σημαντικό για να κάνω ένα βήμα μπροστά',
         author: 'Hans Gitsels',
-        role: 'Πελάτης | Aareal Bank AG'
+        role: 'Πελάτης | Malta Global Crypto Bank'
       },
       atYourService: {
         title: 'Πώς σας βοηθάμε',
@@ -9330,11 +9330,11 @@ export const translations = {
       }
     },
     aboutUs: {
-      title: 'Σχετικά με την Aareal Bank AG',
+      title: 'Σχετικά με την Malta Global Crypto Bank',
       subtitle: 'Οικοδομώντας πλούτο μέσω παραδοσιακών τραπεζικών αξιών και εξατομικευμένης εξυπηρέτησης από το 1952.',
       mission: {
         title: 'Η Αποστολή μας',
-        description: 'Τα ψηφιακά περιουσιακά στοιχεία έχουν ωριμάσει και οι τραπεζικές υπηρεσίες πρέπει να ανταποκριθούν στην πρόκληση. Η διαπραγμάτευση, η επένδυση και η αποθήκευση κρυπτονομισμάτων και άλλων ψηφιακών περιουσιακών στοιχείων δεν πρέπει να είναι ένα \'πρόσθετο\' στην παραδοσιακή τραπεζική, αλλά μια ολοκληρωμένη υπηρεσία που συνδέεται με κάθε άλλη πτυχή των τραπεζικών υπηρεσιών ενός πελάτη. Η Aareal Bank AG ιδρύθηκε για να παρέχει ακριβώς αυτή τη λύση σε επαγγελματίες επενδυτές, εταιρείες, family offices και θεσμικούς φορείς.'
+        description: 'Τα ψηφιακά περιουσιακά στοιχεία έχουν ωριμάσει και οι τραπεζικές υπηρεσίες πρέπει να ανταποκριθούν στην πρόκληση. Η διαπραγμάτευση, η επένδυση και η αποθήκευση κρυπτονομισμάτων και άλλων ψηφιακών περιουσιακών στοιχείων δεν πρέπει να είναι ένα \'πρόσθετο\' στην παραδοσιακή τραπεζική, αλλά μια ολοκληρωμένη υπηρεσία που συνδέεται με κάθε άλλη πτυχή των τραπεζικών υπηρεσιών ενός πελάτη. Η Malta Global Crypto Bank ιδρύθηκε για να παρέχει ακριβώς αυτή τη λύση σε επαγγελματίες επενδυτές, εταιρείες, family offices και θεσμικούς φορείς.'
       },
       vision: {
         title: 'Το Όραμά μας',
@@ -9382,7 +9382,7 @@ export const translations = {
       historyTitle: 'Το Ταξίδι μας',
       milestones: {
         founded: {
-          title: 'Ίδρυση Aareal Bank AG',
+          title: 'Ίδρυση Malta Global Crypto Bank',
           description: 'Ξεκίνησε ως μια μικρή κοινοτική τράπεζα με δέσμευση στην εξατομικευμένη εξυπηρέτηση.'
         },
         expansion: {
@@ -9408,7 +9408,7 @@ export const translations = {
       },
       cta: {
         title: 'Ενταχθείτε στην Τραπεζική μας Οικογένεια',
-        description: 'Ζήστε τη διαφορά της Aareal Bank AG με εξατομικευμένη εξυπηρέτηση και σύγχρονες τραπεζικές λύσεις.',
+        description: 'Ζήστε τη διαφορά της Malta Global Crypto Bank με εξατομικευμένη εξυπηρέτηση και σύγχρονες τραπεζικές λύσεις.',
         button: 'Άνοιγμα Λογαριασμού'
       }
     },
@@ -9465,7 +9465,7 @@ export const translations = {
       },
       cta: {
         title: 'Ξεκινήστε την Ανταλλαγή Σήμερα',
-        description: 'Ανοίξτε λογαριασμό Aareal Bank AG για πρόσβαση σε ανταγωνιστικές τιμές συναλλάγματος και χαμηλού κόστους διεθνή εμβάσματα',
+        description: 'Ανοίξτε λογαριασμό Malta Global Crypto Bank για πρόσβαση σε ανταγωνιστικές τιμές συναλλάγματος και χαμηλού κόστους διεθνή εμβάσματα',
         button: 'Άνοιγμα Λογαριασμού'
       }
     },
@@ -9508,7 +9508,7 @@ export const translations = {
       publishedBy: 'Δημοσιεύτηκε από'
     },
     difference: {
-      title: 'Γιατί Να Επιλέξετε Την Aareal Bank AG',
+      title: 'Γιατί Να Επιλέξετε Την Malta Global Crypto Bank',
       safety: 'Ασφάλεια',
       safetyDesc: 'Τα χρήματά σας προστατεύονται με αποδεδειγμένα μέτρα ασφαλείας. Δεν κάνουμε συμβιβασμούς όταν πρόκειται για την προστασία των λογαριασμών σας.',
       transparency: 'Διαφάνεια',
