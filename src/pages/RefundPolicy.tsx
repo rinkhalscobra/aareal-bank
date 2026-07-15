@@ -103,14 +103,14 @@ export default function RefundPolicy() {
   const currentContent = language === 'fr' ? content.fr : content.en;
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-r from-[#172033] to-[#172033] text-white py-20">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-r from-[#000000] to-[#000000] text-white py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center space-x-4 mb-4">
             <h1 className="text-4xl md:text-5xl font-bold">{currentContent.title}</h1>
           </div>
-          <p className="text-[#CBD5DE] text-lg mb-4">{currentContent.lastUpdated}</p>
-          <p className="text-[#E6ECEF] leading-relaxed">{currentContent.intro}</p>
+          <p className="text-[#E5E5E5] text-lg mb-4">{currentContent.lastUpdated}</p>
+          <p className="text-[#F5F5F5] leading-relaxed">{currentContent.intro}</p>
         </div>
       </div>
 
@@ -119,22 +119,22 @@ export default function RefundPolicy() {
           <div className="prose prose-lg max-w-none">
             {currentContent.sections.map((section, index) => (
               <div key={index} className="mb-8">
-                <h2 className="text-2xl font-bold text-[#172033] mb-4">{section.title}</h2>
-                <p className="text-[#3F4D5F] leading-relaxed whitespace-pre-line">{section.content}</p>
+                <h2 className="text-2xl font-bold text-[#000000] mb-4">{section.title}</h2>
+                <p className="text-[#333333] leading-relaxed whitespace-pre-line">{section.content}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-12 pt-8 border-t-2 border-[#DDE7E3]">
-            <div className="bg-[#ECFDF8] border-l-4 border-[#0F766E] p-6">
-              <p className="text-[#172033] font-semibold mb-2">
+          <div className="mt-12 pt-8 border-t-2 border-[#E5E5E5]">
+            <div className="bg-[#FFF1F1] border-l-4 border-[#D00000] p-6">
+              <p className="text-[#000000] font-semibold mb-2">
                 {language === 'fr' ? 'Questions sur les Remboursements?' : 'Questions about Refunds?'}
               </p>
-              <p className="text-[#3F4D5F]">
+              <p className="text-[#333333]">
                 {language === 'fr'
                   ? 'Si vous avez des questions concernant cette politique de remboursement, veuillez '
                   : 'If you have questions about this refund policy, please '}
-                <Link to={getLangPath('/support')} className="text-[#0B5F59] hover:text-[#12355B] font-semibold underline">
+                <Link to={getLangPath('/support')} className="text-[#A00000] hover:text-[#000000] font-semibold underline">
                   {language === 'fr' ? 'contacter notre équipe de support' : 'contact our support team'}
                 </Link>
                 {language === 'fr'

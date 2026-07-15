@@ -52,13 +52,13 @@ export default function FeeComparison({ accounts, accountType }: FeeComparisonPr
   return (
     <div className="bg-white  shadow-lg p-8">
       <div className="flex items-center justify-between mb-6">
-        <h3 className="text-2xl font-bold text-[#172033]">
+        <h3 className="text-2xl font-bold text-[#000000]">
           {accountType.charAt(0).toUpperCase() + accountType.slice(1)} {t.rates.feeComparison.accountComparison}
         </h3>
         {selectedAccounts.length > 0 && (
           <button
             onClick={() => setSelectedAccounts([])}
-            className="text-sm text-[#0F766E] hover:text-[#0B5F59] font-medium"
+            className="text-sm text-[#D00000] hover:text-[#A00000] font-medium"
           >
             {t.rates.feeComparison.clearSelection}
           </button>
@@ -66,10 +66,10 @@ export default function FeeComparison({ accounts, accountType }: FeeComparisonPr
       </div>
 
       {accounts.length > 3 && (
-        <div className="mb-6 p-4 bg-[#ECFDF8] border border-[#BFE5DB] ">
+        <div className="mb-6 p-4 bg-[#FFF1F1] border border-[#F5C2C7] ">
           <div className="flex items-start">
-            <AlertCircle className="w-5 h-5 text-[#0F766E] mr-2 mt-0.5" />
-            <p className="text-sm text-[#12355B]">
+            <AlertCircle className="w-5 h-5 text-[#D00000] mr-2 mt-0.5" />
+            <p className="text-sm text-[#000000]">
               {t.rates.feeComparison.selectUpTo} {selectedAccounts.length}/3 {t.rates.feeComparison.selected}.
             </p>
           </div>
@@ -83,14 +83,14 @@ export default function FeeComparison({ accounts, accountType }: FeeComparisonPr
             onClick={() => toggleAccount(account.id)}
             className={`text-left p-3  border-2 transition-all ${
               selectedAccounts.includes(account.id)
-                ? 'border-[#0F766E] bg-[#ECFDF8]'
-                : 'border-[#DDE7E3] hover:border-[#C7D3D0]'
+                ? 'border-[#D00000] bg-[#FFF1F1]'
+                : 'border-[#E5E5E5] hover:border-[#CCCCCC]'
             }`}
           >
             <div className="flex items-center justify-between">
-              <span className="font-semibold text-[#172033]">{account.account_name}</span>
+              <span className="font-semibold text-[#000000]">{account.account_name}</span>
               {selectedAccounts.includes(account.id) && (
-                <Check className="w-5 h-5 text-[#0F766E]" />
+                <Check className="w-5 h-5 text-[#D00000]" />
               )}
             </div>
           </button>
@@ -100,66 +100,66 @@ export default function FeeComparison({ accounts, accountType }: FeeComparisonPr
       <div className="overflow-x-auto">
         <table className="w-full">
           <thead>
-            <tr className="border-b-2 border-[#C7D3D0]">
-              <th className="text-left py-4 px-4 font-bold text-[#172033] sticky left-0 bg-white">
+            <tr className="border-b-2 border-[#CCCCCC]">
+              <th className="text-left py-4 px-4 font-bold text-[#000000] sticky left-0 bg-white">
                 {t.rates.feeComparison.feature}
               </th>
               {displayAccounts.map((account) => (
-                <th key={account.id} className="text-center py-4 px-4 font-bold text-[#172033] min-w-[180px]">
+                <th key={account.id} className="text-center py-4 px-4 font-bold text-[#000000] min-w-[180px]">
                   {account.account_name}
                 </th>
               ))}
             </tr>
           </thead>
           <tbody>
-            <tr className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-              <td className="py-4 px-4 font-semibold text-[#172033] sticky left-0 bg-white">
+            <tr className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+              <td className="py-4 px-4 font-semibold text-[#000000] sticky left-0 bg-white">
                 {t.rates.feeComparison.monthlyFee}
               </td>
               {displayAccounts.map((account) => (
                 <td key={account.id} className="py-4 px-4 text-center">
-                  <span className={account.monthly_fee === 0 ? 'text-green-600 font-bold' : 'text-[#172033]'}>
+                  <span className={account.monthly_fee === 0 ? 'text-[#D00000] font-bold' : 'text-[#000000]'}>
                     {account.monthly_fee === 0 ? t.rates.labels.free : formatCurrency(account.monthly_fee)}
                   </span>
                 </td>
               ))}
             </tr>
 
-            <tr className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-              <td className="py-4 px-4 font-semibold text-[#172033] sticky left-0 bg-white">
+            <tr className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+              <td className="py-4 px-4 font-semibold text-[#000000] sticky left-0 bg-white">
                 {t.rates.feeComparison.feeWaiver}
               </td>
               {displayAccounts.map((account) => (
                 <td key={account.id} className="py-4 px-4 text-center text-sm">
                   {account.minimum_balance_to_waive ? (
-                    <span className="text-[#3F4D5F]">
+                    <span className="text-[#333333]">
                       {formatCurrency(account.minimum_balance_to_waive)} {t.rates.feeComparison.minBalance}
                     </span>
                   ) : (
-                    <span className="text-[#788696]">{t.rates.feeComparison.na}</span>
+                    <span className="text-[#777777]">{t.rates.feeComparison.na}</span>
                   )}
                 </td>
               ))}
             </tr>
 
-            <tr className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-              <td className="py-4 px-4 font-semibold text-[#172033] sticky left-0 bg-white">
+            <tr className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+              <td className="py-4 px-4 font-semibold text-[#000000] sticky left-0 bg-white">
                 {t.rates.feeComparison.minOpeningDeposit}
               </td>
               {displayAccounts.map((account) => (
-                <td key={account.id} className="py-4 px-4 text-center text-[#3F4D5F]">
+                <td key={account.id} className="py-4 px-4 text-center text-[#333333]">
                   {formatCurrency(account.minimum_opening_deposit)}
                 </td>
               ))}
             </tr>
 
-            <tr className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-              <td className="py-4 px-4 font-semibold text-[#172033] sticky left-0 bg-white">
+            <tr className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+              <td className="py-4 px-4 font-semibold text-[#000000] sticky left-0 bg-white">
                 {t.rates.feeComparison.interestRate}
               </td>
               {displayAccounts.map((account) => (
                 <td key={account.id} className="py-4 px-4 text-center">
-                  <span className="text-green-600 font-bold">
+                  <span className="text-[#D00000] font-bold">
                     {formatPercentage(account.interest_rate)}
                   </span>
                 </td>
@@ -168,35 +168,35 @@ export default function FeeComparison({ accounts, accountType }: FeeComparisonPr
 
             {accountType === 'checking' && (
               <>
-                <tr className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-                  <td className="py-4 px-4 font-semibold text-[#172033] sticky left-0 bg-white">
+                <tr className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+                  <td className="py-4 px-4 font-semibold text-[#000000] sticky left-0 bg-white">
                     {t.rates.feeComparison.overdraftFee}
                   </td>
                   {displayAccounts.map((account) => (
                     <td key={account.id} className="py-4 px-4 text-center">
                       {account.overdraft_fee === 0 ? (
                         <div className="flex justify-center">
-                          <Check className="w-5 h-5 text-green-600" />
+                          <Check className="w-5 h-5 text-[#D00000]" />
                         </div>
                       ) : (
-                        <span className="text-[#0F766E]">{formatCurrency(account.overdraft_fee)}</span>
+                        <span className="text-[#D00000]">{formatCurrency(account.overdraft_fee)}</span>
                       )}
                     </td>
                   ))}
                 </tr>
 
-                <tr className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-                  <td className="py-4 px-4 font-semibold text-[#172033] sticky left-0 bg-white">
+                <tr className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+                  <td className="py-4 px-4 font-semibold text-[#000000] sticky left-0 bg-white">
                     {t.rates.feeComparison.nsfFee}
                   </td>
                   {displayAccounts.map((account) => (
                     <td key={account.id} className="py-4 px-4 text-center">
                       {account.nsf_fee === 0 ? (
                         <div className="flex justify-center">
-                          <Check className="w-5 h-5 text-green-600" />
+                          <Check className="w-5 h-5 text-[#D00000]" />
                         </div>
                       ) : (
-                        <span className="text-[#0F766E]">{formatCurrency(account.nsf_fee)}</span>
+                        <span className="text-[#D00000]">{formatCurrency(account.nsf_fee)}</span>
                       )}
                     </td>
                   ))}
@@ -204,36 +204,36 @@ export default function FeeComparison({ accounts, accountType }: FeeComparisonPr
               </>
             )}
 
-            <tr className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-              <td className="py-4 px-4 font-semibold text-[#172033] sticky left-0 bg-white">
+            <tr className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+              <td className="py-4 px-4 font-semibold text-[#000000] sticky left-0 bg-white">
                 {t.rates.feeComparison.paperStatementFee}
               </td>
               {displayAccounts.map((account) => (
                 <td key={account.id} className="py-4 px-4 text-center">
                   {account.paper_statement_fee === 0 ? (
                     <div className="flex justify-center">
-                      <Check className="w-5 h-5 text-green-600" />
+                      <Check className="w-5 h-5 text-[#D00000]" />
                     </div>
                   ) : (
-                    <span className="text-[#3F4D5F]">{formatCurrency(account.paper_statement_fee)}{t.rates.feeComparison.perMonth}</span>
+                    <span className="text-[#333333]">{formatCurrency(account.paper_statement_fee)}{t.rates.feeComparison.perMonth}</span>
                   )}
                 </td>
               ))}
             </tr>
 
             {accountType === 'savings' && (
-              <tr className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-                <td className="py-4 px-4 font-semibold text-[#172033] sticky left-0 bg-white">
+              <tr className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+                <td className="py-4 px-4 font-semibold text-[#000000] sticky left-0 bg-white">
                   {t.rates.feeComparison.excessWithdrawalFee}
                 </td>
                 {displayAccounts.map((account) => (
                   <td key={account.id} className="py-4 px-4 text-center">
                     {account.excess_withdrawal_fee === 0 ? (
                       <div className="flex justify-center">
-                        <Check className="w-5 h-5 text-green-600" />
+                        <Check className="w-5 h-5 text-[#D00000]" />
                       </div>
                     ) : (
-                      <span className="text-[#3F4D5F]">{formatCurrency(account.excess_withdrawal_fee)}</span>
+                      <span className="text-[#333333]">{formatCurrency(account.excess_withdrawal_fee)}</span>
                     )}
                   </td>
                 ))}

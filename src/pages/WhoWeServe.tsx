@@ -9,31 +9,31 @@ export default function WhoWeServe() {
       icon: Building2,
       title: t.whoWeServe.segments.banks.title,
       description: t.whoWeServe.segments.banks.description,
-      color: 'bg-[#0F766E]'
+      color: 'bg-[#D00000]'
     },
     {
       icon: TrendingUp,
       title: t.whoWeServe.segments.assetManagers.title,
       description: t.whoWeServe.segments.assetManagers.description,
-      color: 'bg-[#24476F]'
+      color: 'bg-[#333333]'
     },
     {
       icon: Smartphone,
       title: t.whoWeServe.segments.fintechs.title,
       description: t.whoWeServe.segments.fintechs.description,
-      color: 'bg-[#0F766E]'
+      color: 'bg-[#D00000]'
     },
     {
       icon: ArrowLeftRight,
       title: t.whoWeServe.segments.exchanges.title,
       description: t.whoWeServe.segments.exchanges.description,
-      color: 'bg-[#24476F]'
+      color: 'bg-[#333333]'
     },
     {
       icon: Shield,
       title: t.whoWeServe.segments.casps.title,
       description: t.whoWeServe.segments.casps.description,
-      color: 'bg-[#0F766E]'
+      color: 'bg-[#D00000]'
     }
   ];
 
@@ -46,7 +46,7 @@ export default function WhoWeServe() {
           className="w-full h-full object-cover"
         />
 
-       <div className="absolute inset-0 bg-gradient-to-r from-[#172033]/80 via-[#172033]/40 to-transparent"></div>
+       <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/80 via-[#000000]/40 to-transparent"></div>
         <div className="absolute inset-0 flex items-center">
           <div className="container mx-auto px-24">
             <div className="max-w-2xl">
@@ -64,7 +64,7 @@ export default function WhoWeServe() {
       <div className="container mx-auto px-6 py-20">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 max-w-4xl mx-auto text-center">
-            <p className="text-xl text-[#3F4D5F] leading-relaxed">
+            <p className="text-xl text-[#333333] leading-relaxed">
               {t.whoWeServe.intro.mainDescription}
             </p>
           </div>
@@ -78,10 +78,10 @@ export default function WhoWeServe() {
               />
             </div>
             <div className="order-1 md:order-2">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#172033] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#000000] mb-6">
                 {t.whoWeServe.sections.lifeStage.title}
               </h2>
-              <p className="text-lg text-[#3F4D5F] leading-relaxed">
+              <p className="text-lg text-[#333333] leading-relaxed">
                 {t.whoWeServe.sections.lifeStage.description}
               </p>
             </div>
@@ -89,10 +89,10 @@ export default function WhoWeServe() {
 
           <div className="mb-20 grid md:grid-cols-2 gap-12 items-center">
             <div className="order-1 md:order-1">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#172033] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#000000] mb-6">
                 {t.whoWeServe.sections.business.title}
               </h2>
-              <p className="text-lg text-[#3F4D5F] leading-relaxed">
+              <p className="text-lg text-[#333333] leading-relaxed">
                 {t.whoWeServe.sections.business.description}
               </p>
             </div>
@@ -114,10 +114,10 @@ export default function WhoWeServe() {
               />
             </div>
             <div className="order-1 md:order-2">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#172033] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#000000] mb-6">
                 {t.whoWeServe.sections.exceptionalWealth.title}
               </h2>
-              <p className="text-lg text-[#3F4D5F] leading-relaxed">
+              <p className="text-lg text-[#333333] leading-relaxed">
                 {t.whoWeServe.sections.exceptionalWealth.description}
               </p>
             </div>
@@ -125,10 +125,10 @@ export default function WhoWeServe() {
 
           <div className="mt-20">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#172033] mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#000000] mb-4">
                 {t.whoWeServe.specialServices.title}
               </h2>
-              <p className="text-lg text-[#3F4D5F] max-w-3xl mx-auto">
+              <p className="text-lg text-[#333333] max-w-3xl mx-auto">
                 {t.whoWeServe.specialServices.description}
               </p>
             </div>
@@ -143,10 +143,10 @@ export default function WhoWeServe() {
                   />
                 </div>
                 <div className="p-8">
-                  <h3 className="text-2xl font-bold text-[#172033] mb-4">
+                  <h3 className="text-2xl font-bold text-[#000000] mb-4">
                     {t.whoWeServe.specialServices.partners.title}
                   </h3>
-                  <p className="text-[#3F4D5F] leading-relaxed">
+                  <p className="text-[#333333] leading-relaxed">
                     {t.whoWeServe.specialServices.partners.description}
                   </p>
                 </div>
@@ -161,10 +161,10 @@ export default function WhoWeServe() {
                   />
                 </div>
                 <div className="p-8">
-                  <h3 className="text-2xl font-bold text-[#172033] mb-4">
+                  <h3 className="text-2xl font-bold text-[#000000] mb-4">
                     {t.whoWeServe.specialServices.expats.title}
                   </h3>
-                  <p className="text-[#3F4D5F] leading-relaxed">
+                  <p className="text-[#333333] leading-relaxed">
                     {t.whoWeServe.specialServices.expats.description}
                   </p>
                 </div>
@@ -179,10 +179,10 @@ export default function WhoWeServe() {
                   />
                 </div>
                 <div className="p-8">
-                  <h3 className="text-2xl font-bold text-[#172033] mb-4">
+                  <h3 className="text-2xl font-bold text-[#000000] mb-4">
                     {t.whoWeServe.specialServices.associations.title}
                   </h3>
-                  <p className="text-[#3F4D5F] leading-relaxed">
+                  <p className="text-[#333333] leading-relaxed">
                     {t.whoWeServe.specialServices.associations.description}
                   </p>
                 </div>
@@ -197,10 +197,10 @@ export default function WhoWeServe() {
                   />
                 </div>
                 <div className="p-8">
-                  <h3 className="text-2xl font-bold text-[#172033] mb-4">
+                  <h3 className="text-2xl font-bold text-[#000000] mb-4">
                     {t.whoWeServe.specialServices.familyOffices.title}
                   </h3>
-                  <p className="text-[#3F4D5F] leading-relaxed">
+                  <p className="text-[#333333] leading-relaxed">
                     {t.whoWeServe.specialServices.familyOffices.description}
                   </p>
                 </div>

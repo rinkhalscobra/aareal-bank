@@ -64,15 +64,15 @@ export default function Newsletter() {
   };
 
   return (
-    <section className="bg-gradient-to-br from-[#12355B] to-[#172033] text-white py-12 sm:py-16">
+    <section className="bg-gradient-to-br from-[#000000] to-[#000000] text-white py-12 sm:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 sm:gap-8">
           <div className="flex-1 text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-3 sm:mb-4">
-              <Mail size={28} className="text-[#D8A84A] sm:w-8 sm:h-8" />
+              <Mail size={28} className="text-[#D00000] sm:w-8 sm:h-8" />
               <h2 className="text-2xl sm:text-3xl font-bold">{t.newsletter.title}</h2>
             </div>
-            <p className="text-[#CBD5DE] text-base sm:text-lg px-4 md:px-0">{t.newsletter.subtitle}</p>
+            <p className="text-[#E5E5E5] text-base sm:text-lg px-4 md:px-0">{t.newsletter.subtitle}</p>
           </div>
 
           <div className="flex-1 w-full max-w-md">
@@ -83,13 +83,13 @@ export default function Newsletter() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder={t.newsletter.emailPlaceholder}
-                  className="flex-1 px-4 py-3 bg-white/10 border border-white/20 text-white placeholder-[#A7B1BC] focus:outline-none focus:ring-2 focus:ring-[#0F766E] text-sm sm:text-base"
+                  className="flex-1 px-4 py-3 bg-white/10 border border-white/20 text-white placeholder-[#CCCCCC] focus:outline-none focus:ring-2 focus:ring-[#D00000] text-sm sm:text-base"
                   disabled={status === 'loading'}
                 />
                 <button
                   type="submit"
                   disabled={status === 'loading'}
-                  className="bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold px-6 py-3 transition-all disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base whitespace-nowrap"
+                  className="bg-[#D00000] hover:bg-[#A00000] text-white font-bold px-6 py-3 transition-all disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base whitespace-nowrap"
                 >
                   {status === 'loading' ? '...' : t.newsletter.subscribe}
                 </button>
@@ -98,13 +98,13 @@ export default function Newsletter() {
               {message && (
                 <div className={`flex items-center gap-2 p-3 ${
                   status === 'success'
-                    ? 'bg-green-900/30 border border-green-500/50'
-                    : 'bg-[#12355B]/30 border border-[#C8942D]/50'
+                    ? 'bg-[#000000]/30 border border-[#D00000]/50'
+                    : 'bg-[#000000]/30 border border-[#D00000]/50'
                 }`}>
                   {status === 'success' ? (
-                    <CheckCircle size={20} className="text-green-400 flex-shrink-0" />
+                    <CheckCircle size={20} className="text-[#FF4D4D] flex-shrink-0" />
                   ) : (
-                    <AlertCircle size={20} className="text-[#D8A84A] flex-shrink-0" />
+                    <AlertCircle size={20} className="text-[#D00000] flex-shrink-0" />
                   )}
                   <p className="text-sm">{message}</p>
                 </div>

@@ -138,9 +138,9 @@ export default function Rates() {
   ];
 
   const getTrendIcon = (trend: string) => {
-    if (trend === 'up') return <TrendingUp className="w-5 h-5 text-green-600" />;
-    if (trend === 'down') return <TrendingDown className="w-5 h-5 text-[#0F766E]" />;
-    return <Minus className="w-5 h-5 text-[#A7B1BC]" />;
+    if (trend === 'up') return <TrendingUp className="w-5 h-5 text-[#D00000]" />;
+    if (trend === 'down') return <TrendingDown className="w-5 h-5 text-[#D00000]" />;
+    return <Minus className="w-5 h-5 text-[#CCCCCC]" />;
   };
 
   const formatCurrency = (amount: number) => {
@@ -164,14 +164,14 @@ export default function Rates() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-br from-[#12355B] via-[#172033] to-[#12355B] text-white py-20">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-br from-[#000000] via-[#000000] to-[#000000] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center mb-6">
             <h1 className="text-5xl font-bold">{t.rates.header.title}</h1>
           </div>
 
-          <p className="text-xl text-[#CBD5DE] max-w-3xl mb-4">{t.rates.header.description}</p>
+          <p className="text-xl text-[#E5E5E5] max-w-3xl mb-4">{t.rates.header.description}</p>
 
           <div className="flex items-center space-x-6 mt-8">
             <div className="flex items-center">
@@ -188,14 +188,14 @@ export default function Rates() {
               <Download className="w-5 h-5 mr-2" />
               <button
                 onClick={handleDownloadPDF}
-                className="text-sm hover:underline transition-all hover:text-[#BFE5DB]"
+                className="text-sm hover:underline transition-all hover:text-[#F5C2C7]"
               >
                 {t.rates.header.downloadPDF}
               </button>
             </div>
           </div>
 
-          <p className="text-sm text-[#A7B1BC] mt-4">
+          <p className="text-sm text-[#CCCCCC] mt-4">
             {t.rates.header.effectiveDate} {new Date().toLocaleDateString()}
           </p>
         </div>
@@ -208,8 +208,8 @@ export default function Rates() {
               onClick={() => setActiveTab('rates')}
               className={`px-6 py-4 font-semibold transition-colors border-b-4 whitespace-nowrap ${
                 activeTab === 'rates'
-                  ? 'text-[#0F766E] border-[#0F766E] bg-[#ECFDF8]'
-                  : 'text-[#5D6B7B] border-transparent hover:text-[#172033] hover:bg-[#F6F8F7]'
+                  ? 'text-[#D00000] border-[#D00000] bg-[#FFF1F1]'
+                  : 'text-[#555555] border-transparent hover:text-[#000000] hover:bg-[#F5F5F5]'
               }`}
             >
               {t.rates.tabs.interestRates}
@@ -219,8 +219,8 @@ export default function Rates() {
               onClick={() => setActiveTab('account-fees')}
               className={`px-6 py-4 font-semibold transition-colors border-b-4 whitespace-nowrap ${
                 activeTab === 'account-fees'
-                  ? 'text-[#0F766E] border-[#0F766E] bg-[#ECFDF8]'
-                  : 'text-[#5D6B7B] border-transparent hover:text-[#172033] hover:bg-[#F6F8F7]'
+                  ? 'text-[#D00000] border-[#D00000] bg-[#FFF1F1]'
+                  : 'text-[#555555] border-transparent hover:text-[#000000] hover:bg-[#F5F5F5]'
               }`}
             >
               {t.rates.tabs.accountFees}
@@ -230,8 +230,8 @@ export default function Rates() {
               onClick={() => setActiveTab('service-fees')}
               className={`px-6 py-4 font-semibold transition-colors border-b-4 whitespace-nowrap ${
                 activeTab === 'service-fees'
-                  ? 'text-[#0F766E] border-[#0F766E] bg-[#ECFDF8]'
-                  : 'text-[#5D6B7B] border-transparent hover:text-[#172033] hover:bg-[#F6F8F7]'
+                  ? 'text-[#D00000] border-[#D00000] bg-[#FFF1F1]'
+                  : 'text-[#555555] border-transparent hover:text-[#000000] hover:bg-[#F5F5F5]'
               }`}
             >
               {t.rates.tabs.serviceFees}
@@ -241,8 +241,8 @@ export default function Rates() {
               onClick={() => setActiveTab('card-fees')}
               className={`px-6 py-4 font-semibold transition-colors border-b-4 whitespace-nowrap ${
                 activeTab === 'card-fees'
-                  ? 'text-[#0F766E] border-[#0F766E] bg-[#ECFDF8]'
-                  : 'text-[#5D6B7B] border-transparent hover:text-[#172033] hover:bg-[#F6F8F7]'
+                  ? 'text-[#D00000] border-[#D00000] bg-[#FFF1F1]'
+                  : 'text-[#555555] border-transparent hover:text-[#000000] hover:bg-[#F5F5F5]'
               }`}
             >
               {t.rates.tabs.cardFees}
@@ -252,8 +252,8 @@ export default function Rates() {
               onClick={() => setActiveTab('loan-fees')}
               className={`px-6 py-4 font-semibold transition-colors border-b-4 whitespace-nowrap ${
                 activeTab === 'loan-fees'
-                  ? 'text-[#0F766E] border-[#0F766E] bg-[#ECFDF8]'
-                  : 'text-[#5D6B7B] border-transparent hover:text-[#172033] hover:bg-[#F6F8F7]'
+                  ? 'text-[#D00000] border-[#D00000] bg-[#FFF1F1]'
+                  : 'text-[#555555] border-transparent hover:text-[#000000] hover:bg-[#F5F5F5]'
               }`}
             >
               {t.rates.tabs.loanFees}
@@ -263,8 +263,8 @@ export default function Rates() {
               onClick={() => setActiveTab('calculator')}
               className={`px-6 py-4 font-semibold transition-colors border-b-4 whitespace-nowrap ${
                 activeTab === 'calculator'
-                  ? 'text-[#0F766E] border-[#0F766E] bg-[#ECFDF8]'
-                  : 'text-[#5D6B7B] border-transparent hover:text-[#172033] hover:bg-[#F6F8F7]'
+                  ? 'text-[#D00000] border-[#D00000] bg-[#FFF1F1]'
+                  : 'text-[#555555] border-transparent hover:text-[#000000] hover:bg-[#F5F5F5]'
               }`}
             >
               {t.rates.tabs.feeCalculator}
@@ -275,24 +275,24 @@ export default function Rates() {
         {activeTab === 'rates' && (
           <div className="space-y-8">
             <div className="bg-white p-12 shadow-lg">
-              <h2 className="text-3xl font-bold mb-8 text-[#172033]">{t.rates.savings.title}</h2>
+              <h2 className="text-3xl font-bold mb-8 text-[#000000]">{t.rates.savings.title}</h2>
 
               <div className="overflow-x-auto">
                 <table className="w-full">
                   <thead>
-                    <tr className="border-b-2 border-[#C7D3D0]">
-                      <th className="text-left py-4 px-6 font-bold text-[#172033]">{t.rates.savings.product}</th>
-                      <th className="text-center py-4 px-6 font-bold text-[#172033]">{t.rates.savings.apy}</th>
-                      <th className="text-center py-4 px-6 font-bold text-[#172033]">{t.rates.savings.minBalance}</th>
-                      <th className="text-center py-4 px-6 font-bold text-[#172033]">{t.rates.savings.trend}</th>
+                    <tr className="border-b-2 border-[#CCCCCC]">
+                      <th className="text-left py-4 px-6 font-bold text-[#000000]">{t.rates.savings.product}</th>
+                      <th className="text-center py-4 px-6 font-bold text-[#000000]">{t.rates.savings.apy}</th>
+                      <th className="text-center py-4 px-6 font-bold text-[#000000]">{t.rates.savings.minBalance}</th>
+                      <th className="text-center py-4 px-6 font-bold text-[#000000]">{t.rates.savings.trend}</th>
                     </tr>
                   </thead>
                   <tbody>
                     {savingsRates.map((rate, index) => (
-                      <tr key={index} className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-                        <td className="py-4 px-6 font-semibold text-[#172033]">{rate.product}</td>
-                        <td className="py-4 px-6 text-center text-green-600 font-bold text-lg">{rate.apy}</td>
-                        <td className="py-4 px-6 text-center text-[#3F4D5F]">{rate.minBalance}</td>
+                      <tr key={index} className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+                        <td className="py-4 px-6 font-semibold text-[#000000]">{rate.product}</td>
+                        <td className="py-4 px-6 text-center text-[#D00000] font-bold text-lg">{rate.apy}</td>
+                        <td className="py-4 px-6 text-center text-[#333333]">{rate.minBalance}</td>
                         <td className="py-4 px-6 text-center flex justify-center">{getTrendIcon(rate.trend)}</td>
                       </tr>
                     ))}
@@ -304,7 +304,7 @@ export default function Rates() {
               <div className="mt-8 flex justify-center">
                 <a
                   href={APPLY_URL}
-                  className="bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-3 px-8 transition-all text-center"
+                  className="bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-3 px-8 transition-all text-center"
                 >
                   {t.rates.savings.openAccount}
                 </a>
@@ -312,24 +312,24 @@ export default function Rates() {
             </div>
 
             <div className="bg-white p-12 shadow-lg">
-              <h2 className="text-3xl font-bold mb-8 text-[#172033]">{t.rates.loan.title}</h2>
+              <h2 className="text-3xl font-bold mb-8 text-[#000000]">{t.rates.loan.title}</h2>
 
               <div className="overflow-x-auto">
                 <table className="w-full">
                   <thead>
-                    <tr className="border-b-2 border-[#C7D3D0]">
-                      <th className="text-left py-4 px-6 font-bold text-[#172033]">{t.rates.loan.product}</th>
-                      <th className="text-center py-4 px-6 font-bold text-[#172033]">{t.rates.loan.apr}</th>
-                      <th className="text-center py-4 px-6 font-bold text-[#172033]">{t.rates.loan.details}</th>
-                      <th className="text-center py-4 px-6 font-bold text-[#172033]">{t.rates.loan.trend}</th>
+                    <tr className="border-b-2 border-[#CCCCCC]">
+                      <th className="text-left py-4 px-6 font-bold text-[#000000]">{t.rates.loan.product}</th>
+                      <th className="text-center py-4 px-6 font-bold text-[#000000]">{t.rates.loan.apr}</th>
+                      <th className="text-center py-4 px-6 font-bold text-[#000000]">{t.rates.loan.details}</th>
+                      <th className="text-center py-4 px-6 font-bold text-[#000000]">{t.rates.loan.trend}</th>
                     </tr>
                   </thead>
                   <tbody>
                     {loanRates.map((rate, index) => (
-                      <tr key={index} className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-                        <td className="py-4 px-6 font-semibold text-[#172033]">{rate.product}</td>
-                        <td className="py-4 px-6 text-center text-[#0F766E] font-bold text-lg">{rate.apr}</td>
-                        <td className="py-4 px-6 text-center text-[#3F4D5F]">{rate.details}</td>
+                      <tr key={index} className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+                        <td className="py-4 px-6 font-semibold text-[#000000]">{rate.product}</td>
+                        <td className="py-4 px-6 text-center text-[#D00000] font-bold text-lg">{rate.apr}</td>
+                        <td className="py-4 px-6 text-center text-[#333333]">{rate.details}</td>
                         <td className="py-4 px-6 text-center flex justify-center">{getTrendIcon(rate.trend)}</td>
                       </tr>
                     ))}
@@ -341,16 +341,16 @@ export default function Rates() {
               <div className="mt-8 flex justify-center">
                 <a
                   href={APPLY_URL}
-                  className="bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-3 px-8 transition-all text-center"
+                  className="bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-3 px-8 transition-all text-center"
                 >
                   {t.rates.loan.apply}
                 </a>
               </div>
             </div>
 
-            <div className="bg-[#EEF3F1] p-8 border-l-4 border-[#0F766E]">
-              <h3 className="text-xl font-bold mb-4 text-[#172033]">{t.rates.disclaimer.title}</h3>
-              <ul className="space-y-2 text-[#3F4D5F]">
+            <div className="bg-[#FFFFFF] p-8 border-l-4 border-[#D00000]">
+              <h3 className="text-xl font-bold mb-4 text-[#000000]">{t.rates.disclaimer.title}</h3>
+              <ul className="space-y-2 text-[#333333]">
                 <li>• {t.rates.disclaimer.apy}</li>
                 <li>• {t.rates.disclaimer.fees}</li>
                 <li>• {t.rates.disclaimer.penalty}</li>
@@ -367,24 +367,24 @@ export default function Rates() {
             <FeeComparison accounts={accountFees.filter(acc => acc.account_type === 'money_market')} accountType="money market" />
 
             <div className="bg-white shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-[#172033] mb-6">{t.rates.cd.title}</h3>
+              <h3 className="text-2xl font-bold text-[#000000] mb-6">{t.rates.cd.title}</h3>
               <div className="overflow-x-auto">
                 <table className="w-full">
                   <thead>
-                    <tr className="border-b-2 border-[#C7D3D0]">
-                      <th className="text-left py-4 px-4 font-bold text-[#172033]">{t.rates.cd.term}</th>
-                      <th className="text-center py-4 px-4 font-bold text-[#172033]">{t.rates.savings.apy}</th>
-                      <th className="text-center py-4 px-4 font-bold text-[#172033]">{t.rates.cd.minDeposit}</th>
+                    <tr className="border-b-2 border-[#CCCCCC]">
+                      <th className="text-left py-4 px-4 font-bold text-[#000000]">{t.rates.cd.term}</th>
+                      <th className="text-center py-4 px-4 font-bold text-[#000000]">{t.rates.savings.apy}</th>
+                      <th className="text-center py-4 px-4 font-bold text-[#000000]">{t.rates.cd.minDeposit}</th>
                     </tr>
                   </thead>
                   <tbody>
                     {accountFees.filter(acc => acc.account_type === 'cd').map((cd) => (
-                      <tr key={cd.id} className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-                        <td className="py-4 px-4 font-semibold text-[#172033]">{cd.account_name}</td>
-                        <td className="py-4 px-4 text-center text-green-600 font-bold text-lg">
+                      <tr key={cd.id} className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+                        <td className="py-4 px-4 font-semibold text-[#000000]">{cd.account_name}</td>
+                        <td className="py-4 px-4 text-center text-[#D00000] font-bold text-lg">
                           {cd.interest_rate.toFixed(2)}%
                         </td>
-                        <td className="py-4 px-4 text-center text-[#3F4D5F]">
+                        <td className="py-4 px-4 text-center text-[#333333]">
                           {formatCurrency(cd.minimum_opening_deposit)}
                         </td>
                       </tr>
@@ -395,28 +395,28 @@ export default function Rates() {
             </div>
 
             <div className="bg-white shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-[#172033] mb-6">{t.rates.atm.title}</h3>
+              <h3 className="text-2xl font-bold text-[#000000] mb-6">{t.rates.atm.title}</h3>
               <div className="overflow-x-auto">
                 <table className="w-full">
                   <thead>
-                    <tr className="border-b-2 border-[#C7D3D0]">
-                      <th className="text-left py-4 px-4 font-bold text-[#172033]">{t.rates.atm.transactionType}</th>
-                      <th className="text-center py-4 px-4 font-bold text-[#172033]">{t.rates.atm.inNetwork}</th>
-                      <th className="text-center py-4 px-4 font-bold text-[#172033]">{t.rates.atm.outOfNetwork}</th>
-                      <th className="text-center py-4 px-4 font-bold text-[#172033]">{t.rates.atm.international}</th>
+                    <tr className="border-b-2 border-[#CCCCCC]">
+                      <th className="text-left py-4 px-4 font-bold text-[#000000]">{t.rates.atm.transactionType}</th>
+                      <th className="text-center py-4 px-4 font-bold text-[#000000]">{t.rates.atm.inNetwork}</th>
+                      <th className="text-center py-4 px-4 font-bold text-[#000000]">{t.rates.atm.outOfNetwork}</th>
+                      <th className="text-center py-4 px-4 font-bold text-[#000000]">{t.rates.atm.international}</th>
                     </tr>
                   </thead>
                   <tbody>
                     {atmFees.map((fee) => (
-                      <tr key={fee.id} className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-                        <td className="py-4 px-4 font-semibold text-[#172033]">{fee.fee_type}</td>
-                        <td className="py-4 px-4 text-center text-green-600 font-bold">
+                      <tr key={fee.id} className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+                        <td className="py-4 px-4 font-semibold text-[#000000]">{fee.fee_type}</td>
+                        <td className="py-4 px-4 text-center text-[#D00000] font-bold">
                           {fee.in_network_fee === 0 ? t.rates.labels.free : formatCurrency(fee.in_network_fee)}
                         </td>
-                        <td className="py-4 px-4 text-center text-[#172033] font-bold">
+                        <td className="py-4 px-4 text-center text-[#000000] font-bold">
                           {formatCurrency(fee.out_of_network_fee)}
                         </td>
-                        <td className="py-4 px-4 text-center text-[#172033] font-bold">
+                        <td className="py-4 px-4 text-center text-[#000000] font-bold">
                           {formatCurrency(fee.international_fee)}
                         </td>
                       </tr>
@@ -427,22 +427,22 @@ export default function Rates() {
             </div>
 
             <div className="bg-white shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-[#172033] mb-6">{t.rates.investment.title}</h3>
+              <h3 className="text-2xl font-bold text-[#000000] mb-6">{t.rates.investment.title}</h3>
               <div className="overflow-x-auto">
                 <table className="w-full">
                   <thead>
-                    <tr className="border-b-2 border-[#C7D3D0]">
-                      <th className="text-left py-4 px-4 font-bold text-[#172033]">{t.rates.investment.service}</th>
-                      <th className="text-center py-4 px-4 font-bold text-[#172033]">{t.rates.investment.managementFee}</th>
-                      <th className="text-center py-4 px-4 font-bold text-[#172033]">{t.rates.investment.minInvestment}</th>
-                      <th className="text-left py-4 px-4 font-bold text-[#172033]">{t.rates.investment.description}</th>
+                    <tr className="border-b-2 border-[#CCCCCC]">
+                      <th className="text-left py-4 px-4 font-bold text-[#000000]">{t.rates.investment.service}</th>
+                      <th className="text-center py-4 px-4 font-bold text-[#000000]">{t.rates.investment.managementFee}</th>
+                      <th className="text-center py-4 px-4 font-bold text-[#000000]">{t.rates.investment.minInvestment}</th>
+                      <th className="text-left py-4 px-4 font-bold text-[#000000]">{t.rates.investment.description}</th>
                     </tr>
                   </thead>
                   <tbody>
                     {investmentFees.map((fee) => (
-                      <tr key={fee.id} className="border-b border-[#DDE7E3] hover:bg-[#F6F8F7]">
-                        <td className="py-4 px-4 font-semibold text-[#172033]">{fee.service_name}</td>
-                        <td className="py-4 px-4 text-center text-[#172033]">
+                      <tr key={fee.id} className="border-b border-[#E5E5E5] hover:bg-[#F5F5F5]">
+                        <td className="py-4 px-4 font-semibold text-[#000000]">{fee.service_name}</td>
+                        <td className="py-4 px-4 text-center text-[#000000]">
                           {fee.management_fee_percentage > 0
                             ? `${fee.management_fee_percentage.toFixed(2)}% ${t.rates.labels.annually}`
                             : fee.transaction_fee > 0
@@ -452,10 +452,10 @@ export default function Rates() {
                                 : t.rates.labels.varies
                           }
                         </td>
-                        <td className="py-4 px-4 text-center text-[#3F4D5F]">
+                        <td className="py-4 px-4 text-center text-[#333333]">
                           {fee.minimum_investment > 0 ? formatCurrency(fee.minimum_investment) : t.rates.labels.none}
                         </td>
-                        <td className="py-4 px-4 text-sm text-[#3F4D5F]">{fee.description}</td>
+                        <td className="py-4 px-4 text-sm text-[#333333]">{fee.description}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -500,7 +500,7 @@ export default function Rates() {
           </div>
         )}
 
-        <div className="bg-gradient-to-r from-[#0F766E] to-[#12355B] text-white shadow-xl p-8 mt-16">
+        <div className="bg-gradient-to-r from-[#D00000] to-[#000000] text-white shadow-xl p-8 mt-16">
           <div className="flex items-center mb-6">
             <h3 className="text-2xl font-bold">{t.rates.commitment.title}</h3>
           </div>
@@ -508,15 +508,15 @@ export default function Rates() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h4 className="font-bold text-lg mb-2">{t.rates.commitment.noHidden.title}</h4>
-              <p className="text-[#D6F4EC] text-sm">{t.rates.commitment.noHidden.description}</p>
+              <p className="text-[#FFE5E5] text-sm">{t.rates.commitment.noHidden.description}</p>
             </div>
             <div>
               <h4 className="font-bold text-lg mb-2">{t.rates.commitment.waivers.title}</h4>
-              <p className="text-[#D6F4EC] text-sm">{t.rates.commitment.waivers.description}</p>
+              <p className="text-[#FFE5E5] text-sm">{t.rates.commitment.waivers.description}</p>
             </div>
             <div>
               <h4 className="font-bold text-lg mb-2">{t.rates.commitment.current.title}</h4>
-              <p className="text-[#D6F4EC] text-sm">{t.rates.commitment.current.description}</p>
+              <p className="text-[#FFE5E5] text-sm">{t.rates.commitment.current.description}</p>
             </div>
           </div>
         </div>

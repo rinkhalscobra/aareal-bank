@@ -61,13 +61,13 @@ export default function BecomeClient() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-br from-[#12355B] via-[#0F766E] to-[#172033] text-white py-32 lg:py-40">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-br from-[#000000] via-[#D00000] to-[#000000] text-white py-32 lg:py-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl lg:text-6xl font-bold mb-6 max-w-4xl leading-tight">
             Become a Client
           </h1>
-          <p className="text-2xl lg:text-3xl text-[#E6ECEF] max-w-3xl font-light">
+          <p className="text-2xl lg:text-3xl text-[#F5F5F5] max-w-3xl font-light">
             Start your journey to financial excellence with Aareal Bank AG
           </p>
         </div>
@@ -75,10 +75,10 @@ export default function BecomeClient() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="bg-white p-12 shadow-lg mb-16">
-          <h2 className="text-4xl font-bold text-[#172033] mb-6">
+          <h2 className="text-4xl font-bold text-[#000000] mb-6">
             Your Path to Partnership
           </h2>
-          <p className="text-xl text-[#3F4D5F] leading-relaxed mb-12">
+          <p className="text-xl text-[#333333] leading-relaxed mb-12">
             Becoming a client of Aareal Bank AG is the first step toward a lasting partnership built on trust, expertise, and shared success. Our process is designed to ensure we're the right fit for your unique needs and goals.
           </p>
 
@@ -86,17 +86,17 @@ export default function BecomeClient() {
             {steps.map((step, index) => (
               <div key={index} className="relative">
                 <div className="flex flex-col items-center text-center">
-                  <div className="w-16 h-16 bg-[#0F766E] text-white rounded-full flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-[#D00000] text-white rounded-full flex items-center justify-center mb-4">
                     <step.icon className="w-8 h-8" />
                   </div>
-                  <div className="absolute -top-2 -left-2 w-8 h-8 bg-[#12355B] text-white rounded-full flex items-center justify-center font-bold text-sm">
+                  <div className="absolute -top-2 -left-2 w-8 h-8 bg-[#000000] text-white rounded-full flex items-center justify-center font-bold text-sm">
                     {index + 1}
                   </div>
-                  <h3 className="text-xl font-bold text-[#172033] mb-3">{step.title}</h3>
-                  <p className="text-[#3F4D5F]">{step.description}</p>
+                  <h3 className="text-xl font-bold text-[#000000] mb-3">{step.title}</h3>
+                  <p className="text-[#333333]">{step.description}</p>
                 </div>
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-[#C7D3D0] -ml-4"></div>
+                  <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-[#CCCCCC] -ml-4"></div>
                 )}
               </div>
             ))}
@@ -105,34 +105,34 @@ export default function BecomeClient() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           <div className="bg-white p-10 shadow-lg">
-            <UserPlus className="w-12 h-12 text-[#0F766E] mb-6" />
-            <h3 className="text-3xl font-bold text-[#172033] mb-6">Get Started Today</h3>
-            <p className="text-[#3F4D5F] mb-8 leading-relaxed">
+            <UserPlus className="w-12 h-12 text-[#D00000] mb-6" />
+            <h3 className="text-3xl font-bold text-[#000000] mb-6">Get Started Today</h3>
+            <p className="text-[#333333] mb-8 leading-relaxed">
               Complete the form to schedule your confidential consultation with one of our wealth management specialists. We'll discuss your goals and explore how we can help you achieve them.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-bold text-[#172033] mb-2">
+                  <label className="block text-sm font-bold text-[#000000] mb-2">
                     First Name *
                   </label>
                   <input
                     type="text"
                     required
-                    className="w-full p-3 border border-[#C7D3D0] focus:border-[#0F766E] focus:outline-none"
+                    className="w-full p-3 border border-[#CCCCCC] focus:border-[#D00000] focus:outline-none"
                     value={formData.firstName}
                     onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-bold text-[#172033] mb-2">
+                  <label className="block text-sm font-bold text-[#000000] mb-2">
                     Last Name *
                   </label>
                   <input
                     type="text"
                     required
-                    className="w-full p-3 border border-[#C7D3D0] focus:border-[#0F766E] focus:outline-none"
+                    className="w-full p-3 border border-[#CCCCCC] focus:border-[#D00000] focus:outline-none"
                     value={formData.lastName}
                     onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
                   />
@@ -140,37 +140,37 @@ export default function BecomeClient() {
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-[#172033] mb-2">
+                <label className="block text-sm font-bold text-[#000000] mb-2">
                   Email Address *
                 </label>
                 <input
                   type="email"
                   required
-                  className="w-full p-3 border border-[#C7D3D0] focus:border-[#0F766E] focus:outline-none"
+                  className="w-full p-3 border border-[#CCCCCC] focus:border-[#D00000] focus:outline-none"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-[#172033] mb-2">
+                <label className="block text-sm font-bold text-[#000000] mb-2">
                   Phone Number *
                 </label>
                 <input
                   type="tel"
                   required
-                  className="w-full p-3 border border-[#C7D3D0] focus:border-[#0F766E] focus:outline-none"
+                  className="w-full p-3 border border-[#CCCCCC] focus:border-[#D00000] focus:outline-none"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-[#172033] mb-2">
+                <label className="block text-sm font-bold text-[#000000] mb-2">
                   Investable Assets
                 </label>
                 <select
-                  className="w-full p-3 border border-[#C7D3D0] focus:border-[#0F766E] focus:outline-none"
+                  className="w-full p-3 border border-[#CCCCCC] focus:border-[#D00000] focus:outline-none"
                   value={formData.netWorth}
                   onChange={(e) => setFormData({ ...formData, netWorth: e.target.value })}
                 >
@@ -183,7 +183,7 @@ export default function BecomeClient() {
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-[#172033] mb-3">
+                <label className="block text-sm font-bold text-[#000000] mb-3">
                   Services of Interest
                 </label>
                 <div className="grid grid-cols-2 gap-3">
@@ -193,21 +193,21 @@ export default function BecomeClient() {
                         type="checkbox"
                         checked={formData.interests.includes(interest)}
                         onChange={() => handleInterestToggle(interest)}
-                        className="w-4 h-4 text-[#0F766E] focus:ring-[#0F766E]"
+                        className="w-4 h-4 text-[#D00000] focus:ring-[#D00000]"
                       />
-                      <span className="text-sm text-[#3F4D5F]">{interest}</span>
+                      <span className="text-sm text-[#333333]">{interest}</span>
                     </label>
                   ))}
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-[#172033] mb-2">
+                <label className="block text-sm font-bold text-[#000000] mb-2">
                   Message
                 </label>
                 <textarea
                   rows={4}
-                  className="w-full p-3 border border-[#C7D3D0] focus:border-[#0F766E] focus:outline-none"
+                  className="w-full p-3 border border-[#CCCCCC] focus:border-[#D00000] focus:outline-none"
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   placeholder="Tell us about your financial goals and what you're looking for..."
@@ -216,7 +216,7 @@ export default function BecomeClient() {
 
               <button
                 type="submit"
-                className="w-full bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-4 px-8 transition-all text-lg"
+                className="w-full bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-4 px-8 transition-all text-lg"
               >
                 Request Consultation
               </button>
@@ -224,7 +224,7 @@ export default function BecomeClient() {
           </div>
 
           <div className="space-y-8">
-            <div className="bg-gradient-to-br from-[#0F766E] to-[#12355B] text-white p-10 shadow-xl">
+            <div className="bg-gradient-to-br from-[#D00000] to-[#000000] text-white p-10 shadow-xl">
               <CheckCircle className="w-12 h-12 mb-6" />
               <h3 className="text-3xl font-bold mb-6">What to Expect</h3>
               <ul className="space-y-4">
@@ -232,46 +232,46 @@ export default function BecomeClient() {
                   <span className="text-2xl mr-3">✓</span>
                   <div>
                     <p className="font-bold mb-1">Confidential Consultation</p>
-                    <p className="text-[#F3F7F6]">All discussions are completely confidential and without obligation</p>
+                    <p className="text-[#FFFFFF]">All discussions are completely confidential and without obligation</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">✓</span>
                   <div>
                     <p className="font-bold mb-1">Personalized Approach</p>
-                    <p className="text-[#F3F7F6]">We'll take time to understand your unique situation and goals</p>
+                    <p className="text-[#FFFFFF]">We'll take time to understand your unique situation and goals</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">✓</span>
                   <div>
                     <p className="font-bold mb-1">Expert Guidance</p>
-                    <p className="text-[#F3F7F6]">Meet with experienced advisors who specialize in complex wealth</p>
+                    <p className="text-[#FFFFFF]">Meet with experienced advisors who specialize in complex wealth</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">✓</span>
                   <div>
                     <p className="font-bold mb-1">No Pressure</p>
-                    <p className="text-[#F3F7F6]">Take the time you need to make an informed decision</p>
+                    <p className="text-[#FFFFFF]">Take the time you need to make an informed decision</p>
                   </div>
                 </li>
               </ul>
             </div>
 
             <div className="bg-white p-10 shadow-lg">
-              <h3 className="text-2xl font-bold text-[#172033] mb-6">Contact Information</h3>
-              <div className="space-y-4 text-[#3F4D5F]">
+              <h3 className="text-2xl font-bold text-[#000000] mb-6">Contact Information</h3>
+              <div className="space-y-4 text-[#333333]">
                 <div>
-                  <p className="font-bold text-[#172033]">Phone</p>
+                  <p className="font-bold text-[#000000]">Phone</p>
                   <p>+1 (555) 123-4567</p>
                 </div>
                 <div>
-                  <p className="font-bold text-[#172033]">Email</p>
+                  <p className="font-bold text-[#000000]">Email</p>
                   <p>support@aareal-bank-ag.com</p>
                 </div>
                 <div>
-                  <p className="font-bold text-[#172033]">Office Hours</p>
+                  <p className="font-bold text-[#000000]">Office Hours</p>
                   <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
                   <p>Saturday: By appointment only</p>
                 </div>

@@ -217,12 +217,12 @@ export default function FinancialEducation() {
 
   if (activeCalculator) {
     return (
-      <div className="min-h-screen bg-[#F6F8F7]">
-        <div className="bg-gradient-to-br from-[#12355B] via-[#172033] to-[#12355B] text-white py-12">
+      <div className="min-h-screen bg-[#F5F5F5]">
+        <div className="bg-gradient-to-br from-[#000000] via-[#000000] to-[#000000] text-white py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <button
               onClick={() => setSearchParams({})}
-              className="flex items-center gap-2 text-[#CBD5DE] hover:text-white transition-colors"
+              className="flex items-center gap-2 text-[#E5E5E5] hover:text-white transition-colors"
             >
               <ChevronRight className="w-5 h-5 rotate-180" />
               {t.financialEducation.calculators.backToEducation}
@@ -242,8 +242,8 @@ export default function FinancialEducation() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-br from-[#12355B] via-[#172033] to-[#12355B] text-white py-20">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-br from-[#000000] via-[#000000] to-[#000000] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-6">
             <Newspaper className="w-12 h-12" />
@@ -251,7 +251,7 @@ export default function FinancialEducation() {
               {t.financialEducation.news.latestNews}
             </h1>
           </div>
-          <p className="text-xl text-[#CBD5DE] max-w-3xl">
+          <p className="text-xl text-[#E5E5E5] max-w-3xl">
             Stay informed with the latest financial news from banking, economy, and cryptocurrency markets.
           </p>
         </div>
@@ -263,8 +263,8 @@ export default function FinancialEducation() {
             onClick={() => setNewsCategory('all')}
             className={`px-6 py-3 font-semibold transition-all ${
               newsCategory === 'all'
-                ? 'bg-[#0F766E] text-white shadow-lg'
-                : 'bg-white text-[#3F4D5F] hover:bg-[#EEF3F1] border-2 border-[#DDE7E3]'
+                ? 'bg-[#D00000] text-white shadow-lg'
+                : 'bg-white text-[#333333] hover:bg-[#FFFFFF] border-2 border-[#E5E5E5]'
             }`}
           >
             {t.financialEducation.newsCategories.all}
@@ -273,8 +273,8 @@ export default function FinancialEducation() {
             onClick={() => setNewsCategory('economy')}
             className={`flex items-center gap-2 px-6 py-3 font-semibold transition-all ${
               newsCategory === 'economy'
-                ? 'bg-[#0F766E] text-white shadow-lg'
-                : 'bg-white text-[#3F4D5F] hover:bg-[#EEF3F1] border-2 border-[#DDE7E3]'
+                ? 'bg-[#D00000] text-white shadow-lg'
+                : 'bg-white text-[#333333] hover:bg-[#FFFFFF] border-2 border-[#E5E5E5]'
             }`}
           >
             <TrendingUp className="w-5 h-5" />
@@ -284,8 +284,8 @@ export default function FinancialEducation() {
             onClick={() => setNewsCategory('crypto')}
             className={`flex items-center gap-2 px-6 py-3 font-semibold transition-all ${
               newsCategory === 'crypto'
-                ? 'bg-[#0F766E] text-white shadow-lg'
-                : 'bg-white text-[#3F4D5F] hover:bg-[#EEF3F1] border-2 border-[#DDE7E3]'
+                ? 'bg-[#D00000] text-white shadow-lg'
+                : 'bg-white text-[#333333] hover:bg-[#FFFFFF] border-2 border-[#E5E5E5]'
             }`}
           >
             <Newspaper className="w-5 h-5" />
@@ -294,30 +294,30 @@ export default function FinancialEducation() {
         </div>
 
         <div className="mb-16">
-            <h2 className="text-3xl font-bold text-[#172033] mb-6">
+            <h2 className="text-3xl font-bold text-[#000000] mb-6">
               {newsCategory === 'all' ? t.financialEducation.news.latestNews : t.financialEducation.news.categoryNews[newsCategory]}
             </h2>
 
             {newsLoading ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[1, 2, 3, 4, 5, 6].map((i) => (
-                  <div key={i} className="bg-white shadow-xl animate-pulse overflow-hidden border-l-4 border-[#C7D3D0]">
+                  <div key={i} className="bg-white shadow-xl animate-pulse overflow-hidden border-l-4 border-[#CCCCCC]">
                     <div className="p-6">
-                      <div className="h-4 bg-[#DDE7E3] rounded w-1/3 mb-4"></div>
-                      <div className="h-6 bg-[#C7D3D0] rounded w-full mb-3"></div>
-                      <div className="h-6 bg-[#C7D3D0] rounded w-5/6 mb-4"></div>
-                      <div className="h-4 bg-[#DDE7E3] rounded w-full mb-2"></div>
-                      <div className="h-4 bg-[#DDE7E3] rounded w-5/6 mb-2"></div>
-                      <div className="h-4 bg-[#DDE7E3] rounded w-4/6 mb-6"></div>
-                      <div className="h-5 bg-[#DDE7E3] rounded w-1/3"></div>
+                      <div className="h-4 bg-[#E5E5E5] rounded w-1/3 mb-4"></div>
+                      <div className="h-6 bg-[#CCCCCC] rounded w-full mb-3"></div>
+                      <div className="h-6 bg-[#CCCCCC] rounded w-5/6 mb-4"></div>
+                      <div className="h-4 bg-[#E5E5E5] rounded w-full mb-2"></div>
+                      <div className="h-4 bg-[#E5E5E5] rounded w-5/6 mb-2"></div>
+                      <div className="h-4 bg-[#E5E5E5] rounded w-4/6 mb-6"></div>
+                      <div className="h-5 bg-[#E5E5E5] rounded w-1/3"></div>
                     </div>
                   </div>
                 ))}
               </div>
             ) : filteredNews.length === 0 ? (
               <div className="bg-white p-12 shadow text-center">
-                <Newspaper className="w-16 h-16 text-[#A7B1BC] mx-auto mb-4" />
-                <p className="text-[#5D6B7B]">{t.financialEducation.news.noNews}</p>
+                <Newspaper className="w-16 h-16 text-[#CCCCCC] mx-auto mb-4" />
+                <p className="text-[#555555]">{t.financialEducation.news.noNews}</p>
               </div>
             ) : (
               <>
@@ -328,27 +328,27 @@ export default function FinancialEducation() {
                   return (
                     <article
                       key={article.id}
-                      className="bg-white shadow-xl hover:shadow-2xl transition-all duration-300 group overflow-hidden border-l-4 border-[#0F766E]"
+                      className="bg-white shadow-xl hover:shadow-2xl transition-all duration-300 group overflow-hidden border-l-4 border-[#D00000]"
                       style={{ animationDelay: `${index * 50}ms` }}
                     >
                         <div className="p-6 flex flex-col justify-between h-full">
                           <div>
                             <div className="flex items-center justify-between mb-3">
-                              <div className="flex items-center gap-2 text-sm text-[#788696]">
+                              <div className="flex items-center gap-2 text-sm text-[#777777]">
                                 <Clock className="w-4 h-4" />
                                 <span className="font-medium">{formatDate(article.published_at)}</span>
                               </div>
-                              <div className="bg-[#0F766E] text-white px-2 py-1 text-xs font-bold flex items-center gap-1 shadow-lg">
+                              <div className="bg-[#D00000] text-white px-2 py-1 text-xs font-bold flex items-center gap-1 shadow-lg">
                                 <CategoryIcon className="w-3 h-3" />
                                 <span className="uppercase tracking-wide">{article.category}</span>
                               </div>
                             </div>
 
-                            <h3 className="text-xl font-bold text-[#172033] mb-3 leading-tight group-hover:text-[#0F766E] transition-colors line-clamp-2">
+                            <h3 className="text-xl font-bold text-[#000000] mb-3 leading-tight group-hover:text-[#D00000] transition-colors line-clamp-2">
                               {decodeHTMLEntities(article.title)}
                             </h3>
 
-                            <p className="text-[#5D6B7B] mb-4 leading-relaxed line-clamp-3">
+                            <p className="text-[#555555] mb-4 leading-relaxed line-clamp-3">
                               {decodeHTMLEntities(article.description)}
                             </p>
                           </div>
@@ -357,7 +357,7 @@ export default function FinancialEducation() {
                             href={article.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 text-[#0F766E] font-bold hover:text-[#0B5F59] transition-all hover:gap-3 group/link"
+                            className="inline-flex items-center gap-2 text-[#D00000] font-bold hover:text-[#A00000] transition-all hover:gap-3 group/link"
                           >
                             <span>Read Full Article</span>
                             <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
@@ -375,8 +375,8 @@ export default function FinancialEducation() {
                     disabled={currentPage === 1}
                     className={`px-6 py-3 font-semibold transition-all ${
                       currentPage === 1
-                        ? 'bg-[#DDE7E3] text-[#A7B1BC] cursor-not-allowed'
-                        : 'bg-white text-[#0F766E] hover:bg-[#ECFDF8] border-2 border-[#0F766E]'
+                        ? 'bg-[#E5E5E5] text-[#CCCCCC] cursor-not-allowed'
+                        : 'bg-white text-[#D00000] hover:bg-[#FFF1F1] border-2 border-[#D00000]'
                     }`}
                   >
                     Previous
@@ -389,8 +389,8 @@ export default function FinancialEducation() {
                         onClick={() => handlePageChange(page)}
                         className={`w-10 h-10 font-semibold transition-all ${
                           currentPage === page
-                            ? 'bg-[#0F766E] text-white shadow-lg'
-                            : 'bg-white text-[#3F4D5F] hover:bg-[#EEF3F1] border-2 border-[#DDE7E3]'
+                            ? 'bg-[#D00000] text-white shadow-lg'
+                            : 'bg-white text-[#333333] hover:bg-[#FFFFFF] border-2 border-[#E5E5E5]'
                         }`}
                       >
                         {page}
@@ -403,8 +403,8 @@ export default function FinancialEducation() {
                     disabled={currentPage === totalPages}
                     className={`px-6 py-3 font-semibold transition-all ${
                       currentPage === totalPages
-                        ? 'bg-[#DDE7E3] text-[#A7B1BC] cursor-not-allowed'
-                        : 'bg-white text-[#0F766E] hover:bg-[#ECFDF8] border-2 border-[#0F766E]'
+                        ? 'bg-[#E5E5E5] text-[#CCCCCC] cursor-not-allowed'
+                        : 'bg-white text-[#D00000] hover:bg-[#FFF1F1] border-2 border-[#D00000]'
                     }`}
                   >
                     Next
@@ -415,18 +415,18 @@ export default function FinancialEducation() {
             )}
         </div>
 
-        <div className="bg-gradient-to-br from-[#EEF3F1] via-[#DDE7E3] to-[#EEF3F1] text-[#172033] p-12 shadow-xl">
+        <div className="bg-gradient-to-br from-[#FFFFFF] via-[#E5E5E5] to-[#FFFFFF] text-[#000000] p-12 shadow-xl">
           <div className="text-center max-w-3xl mx-auto">
-            <Newspaper className="w-16 h-16 mx-auto mb-6 text-[#0F766E]" />
+            <Newspaper className="w-16 h-16 mx-auto mb-6 text-[#D00000]" />
             <h2 className="text-3xl font-bold mb-4">{t.financialEducation.finalCta.title}</h2>
-            <p className="text-[#172033] mb-8">
+            <p className="text-[#000000] mb-8">
               {t.financialEducation.finalCta.description}
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <button className="bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-4 px-8 transition-all">
+              <button className="bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-4 px-8 transition-all">
                 {t.financialEducation.finalCta.openAccount}
               </button>
-              <button className="bg-white hover:bg-[#EEF3F1] text-[#172033] font-bold py-4 px-8 transition-all">
+              <button className="bg-white hover:bg-[#FFFFFF] text-[#000000] font-bold py-4 px-8 transition-all">
                 {t.financialEducation.finalCta.contactUs}
               </button>
             </div>

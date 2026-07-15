@@ -104,7 +104,7 @@ export default function Header() {
   const ONLINE_BANKING_URL = 'https://account.aareal-bank-ag.com';
 
   return (
-    <header className="bg-[#172033] text-white border-b-4 border-[#0F766E]">
+    <header className="bg-[#000000] text-white border-b-4 border-[#D00000]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-3">
           <Link to={getLangPath('')} className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
@@ -116,7 +116,7 @@ export default function Header() {
           </Link>
 
           <nav className="hidden lg:flex items-center space-x-6">
-            <Link to={getLangPath('')} className="hover:text-[#C8942D] transition-colors font-medium text-lg">
+            <Link to={getLangPath('')} className="hover:text-[#D00000] transition-colors font-medium text-lg">
               {t.nav.home}
             </Link>
 
@@ -125,13 +125,13 @@ export default function Header() {
               onMouseEnter={() => handleMouseEnter('banking')}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center space-x-1 hover:text-[#C8942D] transition-colors font-medium text-lg">
+              <button className="flex items-center space-x-1 hover:text-[#D00000] transition-colors font-medium text-lg">
                 <span>{getLabel('Banking', 'Banque', 'Servizi Bancari', 'Banking', 'Banca', 'Τραπεζική')}</span>
                 <ChevronDown size={16} />
               </button>
               {openDropdown === 'banking' && (
                 <div
-                  className="absolute top-full left-0 mt-4 w-56 bg-white text-[#172033] shadow-lg border-t-2 border-[#0F766E] z-50"
+                  className="absolute top-full left-0 mt-4 w-56 bg-white text-[#000000] shadow-lg border-t-2 border-[#D00000] z-50"
                   onMouseEnter={() => handleMouseEnter('banking')}
                   onMouseLeave={handleMouseLeave}
                 >
@@ -139,7 +139,7 @@ export default function Header() {
                     <Link
                       key={link.path}
                       to={link.path}
-                      className="block px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base"
+                      className="block px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base"
                       onClick={() => setOpenDropdown(null)}
                     >
                       {link.label}
@@ -154,13 +154,13 @@ export default function Header() {
               onMouseEnter={() => handleMouseEnter('products')}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center space-x-1 hover:text-[#C8942D] transition-colors font-medium text-lg">
+              <button className="flex items-center space-x-1 hover:text-[#D00000] transition-colors font-medium text-lg">
                 <span>{getLabel('Products', 'Produits', 'Prodotti', 'Produkte', 'Productos', 'Προϊόντα')}</span>
                 <ChevronDown size={16} />
               </button>
               {openDropdown === 'products' && (
                 <div
-                  className="absolute top-full left-0 mt-4 w-56 bg-white text-[#172033] shadow-lg border-t-2 border-[#0F766E] z-50"
+                  className="absolute top-full left-0 mt-4 w-56 bg-white text-[#000000] shadow-lg border-t-2 border-[#D00000] z-50"
                   onMouseEnter={() => handleMouseEnter('products')}
                   onMouseLeave={handleMouseLeave}
                 >
@@ -168,7 +168,7 @@ export default function Header() {
                     <Link
                       key={link.path}
                       to={link.path}
-                      className="block px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base"
+                      className="block px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base"
                       onClick={() => setOpenDropdown(null)}
                     >
                       {link.label}
@@ -183,13 +183,13 @@ export default function Header() {
               onMouseEnter={() => handleMouseEnter('resources')}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center space-x-1 hover:text-[#C8942D] transition-colors font-medium text-lg">
+              <button className="flex items-center space-x-1 hover:text-[#D00000] transition-colors font-medium text-lg">
                 <span>{getLabel('Resources', 'Ressources', 'Risorse', 'Ressourcen', 'Recursos', 'Πόροι')}</span>
                 <ChevronDown size={16} />
               </button>
               {openDropdown === 'resources' && (
                 <div
-                  className="absolute top-full left-0 mt-4 w-56 bg-white text-[#172033] shadow-lg border-t-2 border-[#0F766E] z-50"
+                  className="absolute top-full left-0 mt-4 w-56 bg-white text-[#000000] shadow-lg border-t-2 border-[#D00000] z-50"
                   onMouseEnter={() => handleMouseEnter('resources')}
                   onMouseLeave={handleMouseLeave}
                 >
@@ -197,7 +197,7 @@ export default function Header() {
                     <Link
                       key={link.path}
                       to={link.path}
-                      className="block px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base"
+                      className="block px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base"
                       onClick={() => setOpenDropdown(null)}
                     >
                       {link.label}
@@ -212,13 +212,13 @@ export default function Header() {
               onMouseEnter={() => handleMouseEnter('about')}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center space-x-1 hover:text-[#C8942D] transition-colors font-medium text-lg">
+              <button className="flex items-center space-x-1 hover:text-[#D00000] transition-colors font-medium text-lg">
                 <span>{getLabel('About', 'À Propos', 'Informazioni', 'Über', 'Acerca de', 'Σχετικά')}</span>
                 <ChevronDown size={16} />
               </button>
               {openDropdown === 'about' && (
                 <div
-                  className="absolute top-full left-0 mt-4 w-56 bg-white text-[#172033] shadow-lg border-t-2 border-[#0F766E] z-50"
+                  className="absolute top-full left-0 mt-4 w-56 bg-white text-[#000000] shadow-lg border-t-2 border-[#D00000] z-50"
                   onMouseEnter={() => handleMouseEnter('about')}
                   onMouseLeave={handleMouseLeave}
                 >
@@ -226,7 +226,7 @@ export default function Header() {
                     <Link
                       key={link.path}
                       to={link.path}
-                      className="block px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base"
+                      className="block px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base"
                       onClick={() => setOpenDropdown(null)}
                     >
                       {link.label}
@@ -239,7 +239,7 @@ export default function Header() {
             {/* ✅ FIXED: external link should use <a>, not React Router <Link> */}
             <a
               href={ONLINE_BANKING_URL}
-              className="bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-2 px-6 transition-all text-lg"
+              className="bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-2 px-6 transition-all text-lg"
             >
               {getLabel('Online Banking', 'Banque en Ligne', 'Banca Online', 'Online-Banking', 'Banca en Línea', 'Διαδικτυακή Τραπεζική')}
             </a>
@@ -249,61 +249,61 @@ export default function Header() {
               onMouseEnter={() => handleMouseEnter('language')}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center space-x-1 hover:text-[#C8942D] transition-colors font-medium text-lg">
+              <button className="flex items-center space-x-1 hover:text-[#D00000] transition-colors font-medium text-lg">
                 <Globe size={18} />
                 <span>{getLabel('EN', 'FR', 'IT', 'DE', 'ES', 'EL')}</span>
                 <ChevronDown size={16} />
               </button>
               {openDropdown === 'language' && (
                 <div
-                  className="absolute top-full right-0 mt-4 w-40 bg-white text-[#172033] shadow-lg border-t-2 border-[#0F766E] z-50"
+                  className="absolute top-full right-0 mt-4 w-40 bg-white text-[#000000] shadow-lg border-t-2 border-[#D00000] z-50"
                   onMouseEnter={() => handleMouseEnter('language')}
                   onMouseLeave={handleMouseLeave}
                 >
                   <button
                     onClick={() => changeLanguage('en')}
-                    className={`block w-full text-left px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base ${
-                      language === 'en' ? 'bg-[#ECFDF8] font-bold' : ''
+                    className={`block w-full text-left px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base ${
+                      language === 'en' ? 'bg-[#FFF1F1] font-bold' : ''
                     }`}
                   >
                     English
                   </button>
                   <button
                     onClick={() => changeLanguage('fr')}
-                    className={`block w-full text-left px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base ${
-                      language === 'fr' ? 'bg-[#ECFDF8] font-bold' : ''
+                    className={`block w-full text-left px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base ${
+                      language === 'fr' ? 'bg-[#FFF1F1] font-bold' : ''
                     }`}
                   >
                     Français
                   </button>
                   <button
                     onClick={() => changeLanguage('it')}
-                    className={`block w-full text-left px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base ${
-                      language === 'it' ? 'bg-[#ECFDF8] font-bold' : ''
+                    className={`block w-full text-left px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base ${
+                      language === 'it' ? 'bg-[#FFF1F1] font-bold' : ''
                     }`}
                   >
                     Italiano
                   </button>
                   <button
                     onClick={() => changeLanguage('de')}
-                    className={`block w-full text-left px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base ${
-                      language === 'de' ? 'bg-[#ECFDF8] font-bold' : ''
+                    className={`block w-full text-left px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base ${
+                      language === 'de' ? 'bg-[#FFF1F1] font-bold' : ''
                     }`}
                   >
                     Deutsch
                   </button>
                   <button
                     onClick={() => changeLanguage('es')}
-                    className={`block w-full text-left px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base ${
-                      language === 'es' ? 'bg-[#ECFDF8] font-bold' : ''
+                    className={`block w-full text-left px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base ${
+                      language === 'es' ? 'bg-[#FFF1F1] font-bold' : ''
                     }`}
                   >
                     Español
                   </button>
                   <button
                     onClick={() => changeLanguage('el')}
-                    className={`block w-full text-left px-6 py-3 hover:bg-[#0F766E] hover:text-white transition-colors text-base ${
-                      language === 'el' ? 'bg-[#ECFDF8] font-bold' : ''
+                    className={`block w-full text-left px-6 py-3 hover:bg-[#D00000] hover:text-white transition-colors text-base ${
+                      language === 'el' ? 'bg-[#FFF1F1] font-bold' : ''
                     }`}
                   >
                     Ελληνικά
@@ -326,21 +326,21 @@ export default function Header() {
           <nav className="lg:hidden pb-4 space-y-3">
             <Link
               to={getLangPath('')}
-              className="block hover:text-[#C8942D] transition-colors font-medium"
+              className="block hover:text-[#D00000] transition-colors font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
               {t.nav.home}
             </Link>
 
             <div className="space-y-2">
-              <p className="text-[#A7B1BC] text-sm font-bold">
+              <p className="text-[#CCCCCC] text-sm font-bold">
                 {getLabel('BANKING', 'BANQUE', 'SERVIZI BANCARI', 'BANKING', 'BANCA', 'ΤΡΑΠΕΖΙΚΗ')}
               </p>
               {bankingLinks.map((link) => (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className="block pl-4 hover:text-[#C8942D] transition-colors font-medium"
+                  className="block pl-4 hover:text-[#D00000] transition-colors font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
@@ -349,14 +349,14 @@ export default function Header() {
             </div>
 
             <div className="space-y-2">
-              <p className="text-[#A7B1BC] text-sm font-bold">
+              <p className="text-[#CCCCCC] text-sm font-bold">
                 {getLabel('PRODUCTS', 'PRODUITS', 'PRODOTTI', 'PRODUKTE', 'PRODUCTOS', 'ΠΡΟΪΟΝΤΑ')}
               </p>
               {productsLinks.map((link) => (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className="block pl-4 hover:text-[#C8942D] transition-colors font-medium"
+                  className="block pl-4 hover:text-[#D00000] transition-colors font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
@@ -365,14 +365,14 @@ export default function Header() {
             </div>
 
             <div className="space-y-2">
-              <p className="text-[#A7B1BC] text-sm font-bold">
+              <p className="text-[#CCCCCC] text-sm font-bold">
                 {getLabel('RESOURCES', 'RESSOURCES', 'RISORSE', 'RESSOURCEN', 'RECURSOS', 'ΠΟΡΟΙ')}
               </p>
               {resourcesLinks.map((link) => (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className="block pl-4 hover:text-[#C8942D] transition-colors font-medium"
+                  className="block pl-4 hover:text-[#D00000] transition-colors font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
@@ -381,14 +381,14 @@ export default function Header() {
             </div>
 
             <div className="space-y-2">
-              <p className="text-[#A7B1BC] text-sm font-bold">
+              <p className="text-[#CCCCCC] text-sm font-bold">
                 {getLabel('ABOUT', 'À PROPOS', 'INFORMAZIONI', 'ÜBER', 'ACERCA DE', 'ΣΧΕΤΙΚΑ')}
               </p>
               {aboutLinks.map((link) => (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className="block pl-4 hover:text-[#C8942D] transition-colors font-medium"
+                  className="block pl-4 hover:text-[#D00000] transition-colors font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
@@ -399,14 +399,14 @@ export default function Header() {
             {/* ✅ FIXED: mobile external link */}
             <a
               href={ONLINE_BANKING_URL}
-              className="block bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-3 px-6 transition-all text-center"
+              className="block bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-3 px-6 transition-all text-center"
               onClick={() => setIsMenuOpen(false)}
             >
               {getLabel('Online Banking', 'Banque en Ligne', 'Banca Online', 'Online-Banking', 'Banca en Línea', 'Διαδικτυακή Τραπεζική')}
             </a>
 
             <div className="space-y-2">
-              <p className="text-[#A7B1BC] text-sm font-bold flex items-center space-x-2">
+              <p className="text-[#CCCCCC] text-sm font-bold flex items-center space-x-2">
                 <Globe size={18} />
                 <span>{getLabel('LANGUAGE', 'LANGUE', 'LINGUA', 'SPRACHE', 'IDIOMA', 'ΓΛΩΣΣΑ')}</span>
               </p>
@@ -415,8 +415,8 @@ export default function Header() {
                   changeLanguage('en');
                   setIsMenuOpen(false);
                 }}
-                className={`block w-full text-left pl-4 hover:text-[#C8942D] transition-colors font-medium ${
-                  language === 'en' ? 'text-[#C8942D]' : ''
+                className={`block w-full text-left pl-4 hover:text-[#D00000] transition-colors font-medium ${
+                  language === 'en' ? 'text-[#D00000]' : ''
                 }`}
               >
                 English
@@ -426,8 +426,8 @@ export default function Header() {
                   changeLanguage('fr');
                   setIsMenuOpen(false);
                 }}
-                className={`block w-full text-left pl-4 hover:text-[#C8942D] transition-colors font-medium ${
-                  language === 'fr' ? 'text-[#C8942D]' : ''
+                className={`block w-full text-left pl-4 hover:text-[#D00000] transition-colors font-medium ${
+                  language === 'fr' ? 'text-[#D00000]' : ''
                 }`}
               >
                 Français
@@ -437,8 +437,8 @@ export default function Header() {
                   changeLanguage('it');
                   setIsMenuOpen(false);
                 }}
-                className={`block w-full text-left pl-4 hover:text-[#C8942D] transition-colors font-medium ${
-                  language === 'it' ? 'text-[#C8942D]' : ''
+                className={`block w-full text-left pl-4 hover:text-[#D00000] transition-colors font-medium ${
+                  language === 'it' ? 'text-[#D00000]' : ''
                 }`}
               >
                 Italiano
@@ -448,8 +448,8 @@ export default function Header() {
                   changeLanguage('de');
                   setIsMenuOpen(false);
                 }}
-                className={`block w-full text-left pl-4 hover:text-[#C8942D] transition-colors font-medium ${
-                  language === 'de' ? 'text-[#C8942D]' : ''
+                className={`block w-full text-left pl-4 hover:text-[#D00000] transition-colors font-medium ${
+                  language === 'de' ? 'text-[#D00000]' : ''
                 }`}
               >
                 Deutsch
@@ -459,8 +459,8 @@ export default function Header() {
                   changeLanguage('es');
                   setIsMenuOpen(false);
                 }}
-                className={`block w-full text-left pl-4 hover:text-[#C8942D] transition-colors font-medium ${
-                  language === 'es' ? 'text-[#C8942D]' : ''
+                className={`block w-full text-left pl-4 hover:text-[#D00000] transition-colors font-medium ${
+                  language === 'es' ? 'text-[#D00000]' : ''
                 }`}
               >
                 Español
@@ -470,8 +470,8 @@ export default function Header() {
                   changeLanguage('el');
                   setIsMenuOpen(false);
                 }}
-                className={`block w-full text-left pl-4 hover:text-[#C8942D] transition-colors font-medium ${
-                  language === 'el' ? 'text-[#C8942D]' : ''
+                className={`block w-full text-left pl-4 hover:text-[#D00000] transition-colors font-medium ${
+                  language === 'el' ? 'text-[#D00000]' : ''
                 }`}
               >
                 Ελληνικά

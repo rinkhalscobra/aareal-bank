@@ -7,20 +7,20 @@ export default function PersonalBanking() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="relative bg-[#12355B] text-white py-32 lg:py-40 overflow-hidden">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="relative bg-[#000000] text-white py-32 lg:py-40 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(/personalbanking.jpg)' }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-[#172033]/80 via-[#172033]/20 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/80 via-[#000000]/20 to-transparent"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl lg:text-6xl font-bold mb-6 max-w-3xl leading-tight">
             {t.personalBanking.hero.title}
           </h1>
-          <p className="text-2xl lg:text-3xl text-[#E6ECEF] max-w-2xl font-light">
+          <p className="text-2xl lg:text-3xl text-[#F5F5F5] max-w-2xl font-light">
             {t.personalBanking.hero.subtitle}
           </p>
         </div>
@@ -28,45 +28,45 @@ export default function PersonalBanking() {
 
       <div className="bg-white py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xl lg:text-2xl text-[#3F4D5F] leading-relaxed text-center">
+          <p className="text-xl lg:text-2xl text-[#333333] leading-relaxed text-center">
             {t.personalBanking.intro}
           </p>
         </div>
       </div>
 
-      <div className="bg-[#F6F8F7] py-20">
+      <div className="bg-[#F5F5F5] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-[#172033] text-center mb-4">
+          <h2 className="text-4xl font-bold text-[#000000] text-center mb-4">
             {t.personalBanking.getToKnow.title}
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 max-w-5xl mx-auto">
             <div
               onClick={() => navigate(`/${language}/who-we-serve`)}
-              className="bg-white p-8 shadow-lg hover:shadow-2xl transition-all cursor-pointer group border-l-4 border-[#0F766E] hover:border-[#0B5F59] flex items-start gap-6 justify-between"
+              className="bg-white p-8 shadow-lg hover:shadow-2xl transition-all cursor-pointer group border-l-4 border-[#D00000] hover:border-[#A00000] flex items-start gap-6 justify-between"
             >
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#172033] mb-2">{t.personalBanking.getToKnow.forWho.title}</h3>
-                <p className="text-[#5D6B7B]">{t.personalBanking.getToKnow.forWho.description}</p>
+                <h3 className="text-xl font-bold text-[#000000] mb-2">{t.personalBanking.getToKnow.forWho.title}</h3>
+                <p className="text-[#555555]">{t.personalBanking.getToKnow.forWho.description}</p>
               </div>
-              <ArrowRight className="w-6 h-6 text-[#0F766E] flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-6 h-6 text-[#D00000] flex-shrink-0 group-hover:translate-x-1 transition-transform" />
             </div>
 
             <div
               onClick={() => navigate(`/${language}/our-approach`)}
-              className="bg-white p-8 shadow-lg hover:shadow-2xl transition-all cursor-pointer group border-l-4 border-[#0F766E] hover:border-[#0B5F59] flex items-start gap-6 justify-between"
+              className="bg-white p-8 shadow-lg hover:shadow-2xl transition-all cursor-pointer group border-l-4 border-[#D00000] hover:border-[#A00000] flex items-start gap-6 justify-between"
             >
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#172033] mb-2">{t.personalBanking.getToKnow.approach.title}</h3>
-                <p className="text-[#5D6B7B]">{t.personalBanking.getToKnow.approach.description}</p>
+                <h3 className="text-xl font-bold text-[#000000] mb-2">{t.personalBanking.getToKnow.approach.title}</h3>
+                <p className="text-[#555555]">{t.personalBanking.getToKnow.approach.description}</p>
               </div>
-              <ArrowRight className="w-6 h-6 text-[#0F766E] flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-6 h-6 text-[#D00000] flex-shrink-0 group-hover:translate-x-1 transition-transform" />
             </div>
       </div>
            </div>
          </div>
 
-      <div className="bg-[#F6F8F7] py-20">
+      <div className="bg-[#F5F5F5] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
@@ -77,10 +77,10 @@ export default function PersonalBanking() {
               />
             </div>
             <div className="order-1 lg:order-2">
-              <h2 className="text-3xl font-bold text-[#172033] mb-6">
+              <h2 className="text-3xl font-bold text-[#000000] mb-6">
                 {t.personalBanking.wealthPlan.title}
               </h2>
-              <p className="text-[#3F4D5F] leading-relaxed">
+              <p className="text-[#333333] leading-relaxed">
                 {t.personalBanking.wealthPlan.description}
               </p>
             </div>
@@ -97,8 +97,8 @@ export default function PersonalBanking() {
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-bold text-[#172033] mb-3">{t.personalBanking.highlights.expertise.title}</h3>
-              <p className="text-[#3F4D5F] leading-relaxed">
+              <h3 className="text-xl font-bold text-[#000000] mb-3">{t.personalBanking.highlights.expertise.title}</h3>
+              <p className="text-[#333333] leading-relaxed">
                 {t.personalBanking.highlights.expertise.description}
               </p>
             </div>
@@ -111,8 +111,8 @@ export default function PersonalBanking() {
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-bold text-[#172033] mb-3">{t.personalBanking.highlights.events.title}</h3>
-              <p className="text-[#3F4D5F] leading-relaxed">
+              <h3 className="text-xl font-bold text-[#000000] mb-3">{t.personalBanking.highlights.events.title}</h3>
+              <p className="text-[#333333] leading-relaxed">
                 {t.personalBanking.highlights.events.description}
               </p>
             </div>
@@ -125,8 +125,8 @@ export default function PersonalBanking() {
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-bold text-[#172033] mb-3">{t.personalBanking.highlights.bestBank.title}</h3>
-              <p className="text-[#3F4D5F] leading-relaxed">
+              <h3 className="text-xl font-bold text-[#000000] mb-3">{t.personalBanking.highlights.bestBank.title}</h3>
+              <p className="text-[#333333] leading-relaxed">
                 {t.personalBanking.highlights.bestBank.description}
               </p>
             </div>
@@ -134,51 +134,51 @@ export default function PersonalBanking() {
         </div>
 
         <div className="bg-white p-10 shadow-lg">
-          <h3 className="text-3xl font-bold mb-6 text-[#172033]">{t.personalBanking.testimonials.title}</h3>
+          <h3 className="text-3xl font-bold mb-6 text-[#000000]">{t.personalBanking.testimonials.title}</h3>
 
           <div className="space-y-6">
-            <div className="border-l-4 border-[#0F766E] pl-6 py-4 bg-[#F6F8F7]">
+            <div className="border-l-4 border-[#D00000] pl-6 py-4 bg-[#F5F5F5]">
               <div className="flex gap-1 mb-3">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-yellow-500 text-yellow-500" />
+                  <Star key={i} className="w-4 h-4 fill-[#D00000] text-[#D00000]" />
                 ))}
               </div>
-              <p className="text-[#3F4D5F] mb-3 italic">
+              <p className="text-[#333333] mb-3 italic">
                 "{t.personalBanking.testimonials.testimonial1.quote}"
               </p>
-              <p className="text-sm font-bold text-[#172033]">- {t.personalBanking.testimonials.testimonial1.author}</p>
+              <p className="text-sm font-bold text-[#000000]">- {t.personalBanking.testimonials.testimonial1.author}</p>
             </div>
 
-            <div className="border-l-4 border-[#0F766E] pl-6 py-4 bg-[#F6F8F7]">
+            <div className="border-l-4 border-[#D00000] pl-6 py-4 bg-[#F5F5F5]">
               <div className="flex gap-1 mb-3">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-yellow-500 text-yellow-500" />
+                  <Star key={i} className="w-4 h-4 fill-[#D00000] text-[#D00000]" />
                 ))}
               </div>
-              <p className="text-[#3F4D5F] mb-3 italic">
+              <p className="text-[#333333] mb-3 italic">
                 "{t.personalBanking.testimonials.testimonial2.quote}"
               </p>
-              <p className="text-sm font-bold text-[#172033]">- {t.personalBanking.testimonials.testimonial2.author}</p>
+              <p className="text-sm font-bold text-[#000000]">- {t.personalBanking.testimonials.testimonial2.author}</p>
             </div>
 
-            <div className="border-l-4 border-[#0F766E] pl-6 py-4 bg-[#F6F8F7]">
+            <div className="border-l-4 border-[#D00000] pl-6 py-4 bg-[#F5F5F5]">
               <div className="flex gap-1 mb-3">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-yellow-500 text-yellow-500" />
+                  <Star key={i} className="w-4 h-4 fill-[#D00000] text-[#D00000]" />
                 ))}
               </div>
-              <p className="text-[#3F4D5F] mb-3 italic">
+              <p className="text-[#333333] mb-3 italic">
                 "{t.personalBanking.testimonials.testimonial3.quote}"
               </p>
-              <p className="text-sm font-bold text-[#172033]">- {t.personalBanking.testimonials.testimonial3.author}</p>
+              <p className="text-sm font-bold text-[#000000]">- {t.personalBanking.testimonials.testimonial3.author}</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-[#F6F8F7] py-16">
+      <div className="bg-[#F5F5F5] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-[#12355B] text-white p-12 shadow-xl">
+        <div className="bg-[#000000] text-white p-12 shadow-xl">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-3xl font-bold mb-8 text-center">{t.personalBanking.comparison.title}</h3>
 
@@ -193,7 +193,7 @@ export default function PersonalBanking() {
                     <th className="text-center py-4 px-6 font-bold">{t.personalBanking.comparison.cd}</th>
                   </tr>
                 </thead>
-                <tbody className="text-[#CBD5DE]">
+                <tbody className="text-[#E5E5E5]">
                   <tr className="border-b border-white/10">
                     <td className="py-4 px-6">{t.personalBanking.comparison.minimumBalance}</td>
                     <td className="py-4 px-6 text-center">$0</td>
@@ -217,24 +217,24 @@ export default function PersonalBanking() {
                   </tr>
                   <tr className="border-b border-white/10">
                     <td className="py-4 px-6">{t.personalBanking.comparison.debitCard}</td>
-                    <td className="py-4 px-6 text-center text-green-400">✓</td>
-                    <td className="py-4 px-6 text-center text-[#D8A84A]">✗</td>
-                    <td className="py-4 px-6 text-center text-green-400">✓</td>
-                    <td className="py-4 px-6 text-center text-[#D8A84A]">✗</td>
+                    <td className="py-4 px-6 text-center text-[#FF4D4D]">✓</td>
+                    <td className="py-4 px-6 text-center text-[#D00000]">✗</td>
+                    <td className="py-4 px-6 text-center text-[#FF4D4D]">✓</td>
+                    <td className="py-4 px-6 text-center text-[#D00000]">✗</td>
                   </tr>
                   <tr className="border-b border-white/10">
                     <td className="py-4 px-6">{t.personalBanking.comparison.checkWriting}</td>
-                    <td className="py-4 px-6 text-center text-green-400">✓</td>
-                    <td className="py-4 px-6 text-center text-[#D8A84A]">✗</td>
-                    <td className="py-4 px-6 text-center text-green-400">✓</td>
-                    <td className="py-4 px-6 text-center text-[#D8A84A]">✗</td>
+                    <td className="py-4 px-6 text-center text-[#FF4D4D]">✓</td>
+                    <td className="py-4 px-6 text-center text-[#D00000]">✗</td>
+                    <td className="py-4 px-6 text-center text-[#FF4D4D]">✓</td>
+                    <td className="py-4 px-6 text-center text-[#D00000]">✗</td>
                   </tr>
                   <tr>
                     <td className="py-4 px-6">{t.personalBanking.comparison.onlineBanking}</td>
-                    <td className="py-4 px-6 text-center text-green-400">✓</td>
-                    <td className="py-4 px-6 text-center text-green-400">✓</td>
-                    <td className="py-4 px-6 text-center text-green-400">✓</td>
-                    <td className="py-4 px-6 text-center text-green-400">✓</td>
+                    <td className="py-4 px-6 text-center text-[#FF4D4D]">✓</td>
+                    <td className="py-4 px-6 text-center text-[#FF4D4D]">✓</td>
+                    <td className="py-4 px-6 text-center text-[#FF4D4D]">✓</td>
+                    <td className="py-4 px-6 text-center text-[#FF4D4D]">✓</td>
                   </tr>
                 </tbody>
               </table>

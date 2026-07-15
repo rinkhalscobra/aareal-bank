@@ -63,11 +63,11 @@ export default function CreditCards() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-br from-[#12355B] via-[#172033] to-[#12355B] text-white py-20">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-br from-[#000000] via-[#000000] to-[#000000] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold mb-6">{t.creditCards.title}</h1>
-          <p className="text-xl text-[#CBD5DE] max-w-3xl">{t.creditCards.subtitle}</p>
+          <p className="text-xl text-[#E5E5E5] max-w-3xl">{t.creditCards.subtitle}</p>
         </div>
       </div>
 
@@ -75,7 +75,7 @@ export default function CreditCards() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {cards.map((card, index) => (
             <div key={index} className="bg-white shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="bg-gradient-to-br from-[#EEF3F1] to-[#DDE7E3] p-8 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#FFFFFF] to-[#E5E5E5] p-8 flex items-center justify-center">
                 <img
                   src={card.image}
                   alt={card.title}
@@ -85,25 +85,25 @@ export default function CreditCards() {
               </div>
 
               <div className="p-8">
-                <h3 className="text-2xl font-bold mb-2 text-[#172033]">{card.title}</h3>
-                <p className="text-sm text-[#5D6B7B] mb-6">{card.description}</p>
+                <h3 className="text-2xl font-bold mb-2 text-[#000000]">{card.title}</h3>
+                <p className="text-sm text-[#555555] mb-6">{card.description}</p>
 
                 <div className="mb-6">
-                  <div className="flex justify-between items-center mb-2 pb-2 border-b border-[#DDE7E3]">
-                    <span className="text-[#3F4D5F] font-semibold">{t.creditCards.apr}</span>
-                    <span className="text-[#172033] font-bold">{card.apr}</span>
+                  <div className="flex justify-between items-center mb-2 pb-2 border-b border-[#E5E5E5]">
+                    <span className="text-[#333333] font-semibold">{t.creditCards.apr}</span>
+                    <span className="text-[#000000] font-bold">{card.apr}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-[#3F4D5F] font-semibold">{t.creditCards.annualFee}</span>
-                    <span className="text-[#172033] font-bold">{card.fee}</span>
+                    <span className="text-[#333333] font-semibold">{t.creditCards.annualFee}</span>
+                    <span className="text-[#000000] font-bold">{card.fee}</span>
                   </div>
                 </div>
 
                 <ul className="space-y-3 mb-6">
                   {card.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start">
-                      <span className="text-[#0F766E] mr-2">✓</span>
-                      <span className="text-[#3F4D5F] text-sm">{feature}</span>
+                      <span className="text-[#D00000] mr-2">✓</span>
+                      <span className="text-[#333333] text-sm">{feature}</span>
                     </li>
                   ))}
                 </ul>
@@ -111,7 +111,7 @@ export default function CreditCards() {
                 {/* ✅ Apply Now -> external link, same tab */}
                 <a
                   href={APPLY_URL}
-                  className="block w-full bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-3 px-6 transition-all text-center"
+                  className="block w-full bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-3 px-6 transition-all text-center"
                 >
                   {t.creditCards.applyNow}
                 </a>
@@ -121,10 +121,10 @@ export default function CreditCards() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
-          <div className="bg-gradient-to-br from-[#0F766E] to-[#12355B] text-white p-10 shadow-xl">
+          <div className="bg-gradient-to-br from-[#D00000] to-[#000000] text-white p-10 shadow-xl">
             <Calculator className="w-12 h-12 mb-6" />
             <h3 className="text-3xl font-bold mb-6">{t.creditCards.calculator.title}</h3>
-            <p className="text-[#F3F7F6] mb-8">{t.creditCards.calculator.subtitle}</p>
+            <p className="text-[#FFFFFF] mb-8">{t.creditCards.calculator.subtitle}</p>
 
             <div className="space-y-6">
               <div>
@@ -171,54 +171,54 @@ export default function CreditCards() {
           </div>
 
           <div className="bg-white p-10 shadow-lg">
-            <Shield className="w-12 h-12 text-[#0F766E] mb-6" />
-            <h3 className="text-3xl font-bold mb-6 text-[#172033]">{t.creditCards.protection.title}</h3>
+            <Shield className="w-12 h-12 text-[#D00000] mb-6" />
+            <h3 className="text-3xl font-bold mb-6 text-[#000000]">{t.creditCards.protection.title}</h3>
 
             <div className="space-y-4">
-              <div className="flex items-start space-x-3 pb-4 border-b border-[#DDE7E3]">
-                <Check className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+              <div className="flex items-start space-x-3 pb-4 border-b border-[#E5E5E5]">
+                <Check className="w-6 h-6 text-[#D00000] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold text-[#172033] mb-1">{t.creditCards.protection.zeroFraud.title}</h4>
-                  <p className="text-[#5D6B7B] text-sm">{t.creditCards.protection.zeroFraud.description}</p>
+                  <h4 className="font-bold text-[#000000] mb-1">{t.creditCards.protection.zeroFraud.title}</h4>
+                  <p className="text-[#555555] text-sm">{t.creditCards.protection.zeroFraud.description}</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-3 pb-4 border-b border-[#DDE7E3]">
-                <Check className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+              <div className="flex items-start space-x-3 pb-4 border-b border-[#E5E5E5]">
+                <Check className="w-6 h-6 text-[#D00000] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold text-[#172033] mb-1">{t.creditCards.protection.purchaseProtection.title}</h4>
-                  <p className="text-[#5D6B7B] text-sm">{t.creditCards.protection.purchaseProtection.description}</p>
+                  <h4 className="font-bold text-[#000000] mb-1">{t.creditCards.protection.purchaseProtection.title}</h4>
+                  <p className="text-[#555555] text-sm">{t.creditCards.protection.purchaseProtection.description}</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-3 pb-4 border-b border-[#DDE7E3]">
-                <Check className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+              <div className="flex items-start space-x-3 pb-4 border-b border-[#E5E5E5]">
+                <Check className="w-6 h-6 text-[#D00000] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold text-[#172033] mb-1">{t.creditCards.protection.extendedWarranty.title}</h4>
-                  <p className="text-[#5D6B7B] text-sm">{t.creditCards.protection.extendedWarranty.description}</p>
+                  <h4 className="font-bold text-[#000000] mb-1">{t.creditCards.protection.extendedWarranty.title}</h4>
+                  <p className="text-[#555555] text-sm">{t.creditCards.protection.extendedWarranty.description}</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-3 pb-4 border-b border-[#DDE7E3]">
-                <Check className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+              <div className="flex items-start space-x-3 pb-4 border-b border-[#E5E5E5]">
+                <Check className="w-6 h-6 text-[#D00000] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold text-[#172033] mb-1">{t.creditCards.protection.travelInsurance.title}</h4>
-                  <p className="text-[#5D6B7B] text-sm">{t.creditCards.protection.travelInsurance.description}</p>
+                  <h4 className="font-bold text-[#000000] mb-1">{t.creditCards.protection.travelInsurance.title}</h4>
+                  <p className="text-[#555555] text-sm">{t.creditCards.protection.travelInsurance.description}</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-3">
-                <Check className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <Check className="w-6 h-6 text-[#D00000] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold text-[#172033] mb-1">{t.creditCards.protection.fraudMonitoring.title}</h4>
-                  <p className="text-[#5D6B7B] text-sm">{t.creditCards.protection.fraudMonitoring.description}</p>
+                  <h4 className="font-bold text-[#000000] mb-1">{t.creditCards.protection.fraudMonitoring.title}</h4>
+                  <p className="text-[#555555] text-sm">{t.creditCards.protection.fraudMonitoring.description}</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="bg-[#12355B] text-white p-12 mt-16 shadow-xl">
+        <div className="bg-[#000000] text-white p-12 mt-16 shadow-xl">
           <h3 className="text-3xl font-bold mb-8 text-center">{t.creditCards.comparison.title}</h3>
 
           <div className="overflow-x-auto">
@@ -231,7 +231,7 @@ export default function CreditCards() {
                   <th className="text-center py-4 px-6 font-bold">{t.creditCards.comparison.everydayCashName}</th>
                 </tr>
               </thead>
-              <tbody className="text-[#CBD5DE]">
+              <tbody className="text-[#E5E5E5]">
                 <tr className="border-b border-white/10">
                   <td className="py-4 px-6">{t.creditCards.comparison.annualFee}</td>
                   <td className="py-4 px-6 text-center">$0</td>
@@ -252,21 +252,21 @@ export default function CreditCards() {
                 </tr>
                 <tr className="border-b border-white/10">
                   <td className="py-4 px-6">{t.creditCards.comparison.travelInsurance}</td>
-                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-green-400 mx-auto" /></td>
-                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-green-400 mx-auto" /></td>
-                  <td className="py-4 px-6 text-center"><X className="w-5 h-5 text-[#D8A84A] mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-[#FF4D4D] mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-[#FF4D4D] mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><X className="w-5 h-5 text-[#D00000] mx-auto" /></td>
                 </tr>
                 <tr className="border-b border-white/10">
                   <td className="py-4 px-6">{t.creditCards.comparison.airportLounge}</td>
-                  <td className="py-4 px-6 text-center"><X className="w-5 h-5 text-[#D8A84A] mx-auto" /></td>
-                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-green-400 mx-auto" /></td>
-                  <td className="py-4 px-6 text-center"><X className="w-5 h-5 text-[#D8A84A] mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><X className="w-5 h-5 text-[#D00000] mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-[#FF4D4D] mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><X className="w-5 h-5 text-[#D00000] mx-auto" /></td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6">{t.creditCards.comparison.purchaseProtection}</td>
-                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-green-400 mx-auto" /></td>
-                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-green-400 mx-auto" /></td>
-                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-green-400 mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-[#FF4D4D] mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-[#FF4D4D] mx-auto" /></td>
+                  <td className="py-4 px-6 text-center"><Check className="w-5 h-5 text-[#FF4D4D] mx-auto" /></td>
                 </tr>
               </tbody>
             </table>
@@ -275,14 +275,14 @@ export default function CreditCards() {
 
         <div className="bg-white p-12 mt-16 shadow-lg">
           <div className="text-center">
-            <CreditCard className="w-16 h-16 text-[#0F766E] mx-auto mb-6" />
-            <h2 className="text-3xl font-bold mb-4 text-[#172033]">{t.creditCards.cta.title}</h2>
-            <p className="text-[#5D6B7B] mb-8 max-w-2xl mx-auto">{t.creditCards.cta.description}</p>
+            <CreditCard className="w-16 h-16 text-[#D00000] mx-auto mb-6" />
+            <h2 className="text-3xl font-bold mb-4 text-[#000000]">{t.creditCards.cta.title}</h2>
+            <p className="text-[#555555] mb-8 max-w-2xl mx-auto">{t.creditCards.cta.description}</p>
 
             {/* If you also want this CTA button to go to same link, swap it too: */}
             <a
               href={APPLY_URL}
-              className="inline-block bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-4 px-8 transition-all text-center"
+              className="inline-block bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-4 px-8 transition-all text-center"
             >
               {t.creditCards.cta.button}
             </a>

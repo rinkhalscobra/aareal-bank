@@ -13,12 +13,12 @@ export default function LegalSection({ title, children, icon, id }: LegalSection
   return (
     <div className="mb-8 sm:mb-10 scroll-mt-24" id={sectionId}>
       <div className="flex items-start space-x-3 mb-4">
-        {icon && <div className="text-[#0F766E] mt-1">{icon}</div>}
-        <h2 className="text-2xl sm:text-3xl font-bold text-[#172033] border-b-2 border-[#0F766E] pb-2 flex-1">
+        {icon && <div className="text-[#D00000] mt-1">{icon}</div>}
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#000000] border-b-2 border-[#D00000] pb-2 flex-1">
           {title}
         </h2>
       </div>
-      <div className="text-[#3F4D5F] leading-relaxed space-y-4">
+      <div className="text-[#333333] leading-relaxed space-y-4">
         {children}
       </div>
     </div>

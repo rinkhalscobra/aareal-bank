@@ -98,16 +98,16 @@ export default function RiskDisclosure() {
   const currentContent = language === 'fr' ? content.fr : content.en;
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-r from-[#12355B] to-[#0F766E] text-white py-20">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-r from-[#000000] to-[#D00000] text-white py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center space-x-4 mb-4">
-            <AlertTriangle size={48} className="text-yellow-300" />
+            <AlertTriangle size={48} className="text-white" />
             <h1 className="text-4xl md:text-5xl font-bold">{currentContent.title}</h1>
           </div>
-          <p className="text-[#F3F7F6] text-lg mb-4">{currentContent.lastUpdated}</p>
-          <p className="text-[#F6F8F7] leading-relaxed mb-4">{currentContent.intro}</p>
-          <div className="bg-yellow-400 text-[#12355B] p-4 rounded-lg font-bold">
+          <p className="text-[#FFFFFF] text-lg mb-4">{currentContent.lastUpdated}</p>
+          <p className="text-[#F5F5F5] leading-relaxed mb-4">{currentContent.intro}</p>
+          <div className="bg-[#D00000] text-[#000000] p-4 rounded-lg font-bold">
             {currentContent.warning}
           </div>
         </div>
@@ -118,21 +118,21 @@ export default function RiskDisclosure() {
           <div className="prose prose-lg max-w-none">
             {currentContent.sections.map((section, index) => (
               <div key={index} className="mb-8">
-                <h2 className="text-2xl font-bold text-[#172033] mb-4 flex items-start">
-                  <AlertTriangle size={24} className="text-[#0F766E] mr-2 flex-shrink-0 mt-1" />
+                <h2 className="text-2xl font-bold text-[#000000] mb-4 flex items-start">
+                  <AlertTriangle size={24} className="text-[#D00000] mr-2 flex-shrink-0 mt-1" />
                   {section.title}
                 </h2>
-                <p className="text-[#3F4D5F] leading-relaxed whitespace-pre-line">{section.content}</p>
+                <p className="text-[#333333] leading-relaxed whitespace-pre-line">{section.content}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-12 pt-8 border-t-2 border-[#BFE5DB]">
-            <div className="bg-[#ECFDF8] border-2 border-[#0F766E] p-6 rounded-lg">
-              <p className="text-[#12355B] font-bold text-lg mb-2">
+          <div className="mt-12 pt-8 border-t-2 border-[#F5C2C7]">
+            <div className="bg-[#FFF1F1] border-2 border-[#D00000] p-6 rounded-lg">
+              <p className="text-[#000000] font-bold text-lg mb-2">
                 {language === 'fr' ? 'MISE EN GARDE FINALE' : 'FINAL WARNING'}
               </p>
-              <p className="text-[#172033] leading-relaxed">
+              <p className="text-[#000000] leading-relaxed">
                 {language === 'fr'
                   ? 'En utilisant nos services, vous reconnaissez avoir lu, compris et accepté les risques décrits dans cette déclaration. Vous comprenez que vous pouvez perdre une partie ou la totalité de votre investissement. Si vous n\'êtes pas à l\'aise avec ces risques, vous ne devriez pas utiliser nos services.'
                   : 'By using our services, you acknowledge that you have read, understood, and accepted the risks described in this statement. You understand that you may lose some or all of your investment. If you are not comfortable with these risks, you should not use our services.'}

@@ -13,7 +13,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="relative py-12 sm:py-16 md:py-20 bg-[#172033] text-white overflow-hidden">
+    <section id="contact" className="relative py-12 sm:py-16 md:py-20 bg-[#000000] text-white overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <img
           src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg"
@@ -26,8 +26,8 @@ export default function Contact() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             {t.contact.title}
           </h2>
-          <div className="w-24 h-1 bg-[#0F766E] mx-auto mb-4"></div>
-          <p className="text-lg sm:text-xl text-[#A7B1BC] font-medium px-4">
+          <div className="w-24 h-1 bg-[#D00000] mx-auto mb-4"></div>
+          <p className="text-lg sm:text-xl text-[#CCCCCC] font-medium px-4">
             {t.contact.subtitle}
           </p>
         </div>
@@ -38,15 +38,15 @@ export default function Contact() {
             return (
               <div
                 key={index}
-                className="bg-[#12355B] border-2 border-[#24476F] hover:border-[#0F766E] p-6 sm:p-8 transition-all"
+                className="bg-[#000000] border-2 border-[#333333] hover:border-[#D00000] p-6 sm:p-8 transition-all"
               >
                 <div className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#0F766E] flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#D00000] flex items-center justify-center flex-shrink-0">
                     <Icon size={20} className="sm:w-6 sm:h-6" />
                   </div>
                   <div className="min-w-0">
                     <h3 className="text-base sm:text-lg font-bold mb-2">{info.label}</h3>
-                    <p className="text-sm sm:text-base text-[#A7B1BC] break-words">{info.value}</p>
+                    <p className="text-sm sm:text-base text-[#CCCCCC] break-words">{info.value}</p>
                   </div>
                 </div>
               </div>

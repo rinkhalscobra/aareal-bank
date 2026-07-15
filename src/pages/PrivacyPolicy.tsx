@@ -231,18 +231,18 @@ export default function PrivacyPolicy() {
   const currentContent = content[language] || content.en;
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-r from-[#172033] to-[#172033] text-white py-12 sm:py-16 md:py-20">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-r from-[#000000] to-[#000000] text-white py-12 sm:py-16 md:py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center space-x-4 mb-6">
-            <Shield size={56} className="text-[#C8942D]" />
+            <Shield size={56} className="text-[#D00000]" />
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">{currentContent.title}</h1>
           </div>
-          <div className="space-y-2 text-[#CBD5DE]">
+          <div className="space-y-2 text-[#E5E5E5]">
             <p className="text-lg">{currentContent.lastUpdated}</p>
             <p className="text-lg">{currentContent.effectiveDate}</p>
           </div>
-          <p className="text-[#E6ECEF] text-lg leading-relaxed mt-6">{currentContent.intro}</p>
+          <p className="text-[#F5F5F5] text-lg leading-relaxed mt-6">{currentContent.intro}</p>
         </div>
       </div>
 
@@ -269,7 +269,7 @@ export default function PrivacyPolicy() {
         </LegalNotice>
 
         <LegalSection title={tocSections[0].title} id={tocSections[0].id} icon={<Info size={24} />}>
-          <p className="text-[#3F4D5F] leading-relaxed mb-4">
+          <p className="text-[#333333] leading-relaxed mb-4">
             {language === 'fr' ? 'Cette Politique de Confidentialité s\'applique à tous les services fournis par Aareal Bank AG, y compris mais sans s\'y limiter:'
               : language === 'it' ? 'Questa Informativa sulla Privacy si applica a tutti i servizi forniti da Aareal Bank AG, tra cui ma non limitati a:'
               : language === 'de' ? 'Diese Datenschutzrichtlinie gilt für alle von Aareal Bank AG bereitgestellten Dienste, einschließlich, aber nicht beschränkt auf:'
@@ -319,7 +319,7 @@ export default function PrivacyPolicy() {
             ]}
           />
 
-          <p className="text-[#3F4D5F] leading-relaxed mt-4">
+          <p className="text-[#333333] leading-relaxed mt-4">
             {language === 'fr' ? 'Nous traitons des données personnelles en tant que responsable du traitement des données au sens du RGPD et d\'autres lois applicables sur la protection des données. Cette politique s\'applique à tous les utilisateurs, prospects, clients et visiteurs de nos plateformes, quelle que soit leur localisation géographique.'
               : language === 'it' ? 'Trattiamo i dati personali in qualità di titolare del trattamento ai sensi del GDPR e di altre leggi applicabili sulla protezione dei dati. Questa politica si applica a tutti gli utenti, potenziali clienti, clienti e visitatori delle nostre piattaforme, indipendentemente dalla loro posizione geografica.'
               : language === 'de' ? 'Wir verarbeiten personenbezogene Daten als Verantwortlicher im Sinne der DSGVO und anderer anwendbarer Datenschutzgesetze. Diese Richtlinie gilt für alle Nutzer, Interessenten, Kunden und Besucher unserer Plattformen, unabhängig von ihrem geografischen Standort.'
@@ -330,7 +330,7 @@ export default function PrivacyPolicy() {
         </LegalSection>
 
         <LegalSection title={tocSections[1].title} id={tocSections[1].id} icon={<Database size={24} />}>
-          <p className="text-[#3F4D5F] leading-relaxed mb-4">
+          <p className="text-[#333333] leading-relaxed mb-4">
             {language === 'fr' ? 'Aux fins de cette Politique de Confidentialité, les termes suivants ont les significations suivantes:'
               : language === 'it' ? 'Ai fini di questa Informativa sulla Privacy, i seguenti termini hanno i seguenti significati:'
               : language === 'de' ? 'Für die Zwecke dieser Datenschutzrichtlinie haben die folgenden Begriffe die folgenden Bedeutungen:'
@@ -345,7 +345,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Datos Personales'
             : language === 'el' ? 'Προσωπικά Δεδομένα'
             : 'Personal Data'}>
-            <p className="text-[#3F4D5F] leading-relaxed">
+            <p className="text-[#333333] leading-relaxed">
               {language === 'fr' ? 'Toute information se rapportant à une personne physique identifiée ou identifiable ("personne concernée"). Une personne physique identifiable est une personne qui peut être identifiée, directement ou indirectement, notamment par référence à un identifiant tel qu\'un nom, un numéro d\'identification, des données de localisation, un identifiant en ligne ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique, génétique, psychique, économique, culturelle ou sociale.'
                 : language === 'it' ? 'Qualsiasi informazione relativa a una persona fisica identificata o identificabile ("interessato"). Una persona fisica identificabile è una persona che può essere identificata, direttamente o indirettamente, in particolare mediante riferimento a un identificativo come un nome, un numero di identificazione, dati di localizzazione, un identificativo online o a uno o più elementi specifici della sua identità fisica, fisiologica, genetica, psichica, economica, culturale o sociale.'
                 : language === 'de' ? 'Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person ("betroffene Person") beziehen. Eine identifizierbare natürliche Person ist eine Person, die direkt oder indirekt identifiziert werden kann, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.'
@@ -361,7 +361,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Procesamiento'
             : language === 'el' ? 'Επεξεργασία'
             : 'Processing'}>
-            <p className="text-[#3F4D5F] leading-relaxed">
+            <p className="text-[#333333] leading-relaxed">
               {language === 'fr' ? 'Toute opération ou tout ensemble d\'opérations effectuées ou non à l\'aide de procédés automatisés et appliquées à des données ou des ensembles de données à caractère personnel, telles que la collecte, l\'enregistrement, l\'organisation, la structuration, la conservation, l\'adaptation ou la modification, l\'extraction, la consultation, l\'utilisation, la communication par transmission, la diffusion ou toute autre forme de mise à disposition, le rapprochement ou l\'interconnexion, la limitation, l\'effacement ou la destruction.'
                 : language === 'it' ? 'Qualsiasi operazione o insieme di operazioni, compiute con o senza l\'ausilio di processi automatizzati e applicate a dati personali o insiemi di dati personali, come la raccolta, la registrazione, l\'organizzazione, la strutturazione, la conservazione, l\'adattamento o la modifica, l\'estrazione, la consultazione, l\'uso, la comunicazione mediante trasmissione, diffusione o qualsiasi altra forma di messa a disposizione, il raffronto o l\'interconnessione, la limitazione, la cancellazione o la distruzione.'
                 : language === 'de' ? 'Jeden mit oder ohne Hilfe automatisierter Verfahren ausgeführten Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.'
@@ -377,7 +377,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Responsable del Tratamiento'
             : language === 'el' ? 'Υπεύθυνος Επεξεργασίας'
             : 'Data Controller'}>
-            <p className="text-[#3F4D5F] leading-relaxed">
+            <p className="text-[#333333] leading-relaxed">
               {language === 'fr' ? 'Aareal Bank AG détermine les finalités et les moyens du traitement des données à caractère personnel. Nous agissons en tant que responsable du traitement des données pour toutes les données personnelles que nous collectons et traitons dans le cadre de la fourniture de nos services.'
                 : language === 'it' ? 'Aareal Bank AG determina le finalità e i mezzi del trattamento dei dati personali. Agiamo come titolare del trattamento per tutti i dati personali che raccogliamo e trattiamo nell\'ambito della fornitura dei nostri servizi.'
                 : language === 'de' ? 'Aareal Bank AG legt die Zwecke und Mittel der Verarbeitung personenbezogener Daten fest. Wir handeln als Verantwortlicher für alle personenbezogenen Daten, die wir im Rahmen der Bereitstellung unserer Dienstleistungen erheben und verarbeiten.'
@@ -393,7 +393,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Encargado del Tratamiento'
             : language === 'el' ? 'Εκτελών την Επεξεργασία'
             : 'Data Processor'}>
-            <p className="text-[#3F4D5F] leading-relaxed">
+            <p className="text-[#333333] leading-relaxed">
               {language === 'fr' ? 'Une personne physique ou morale, une autorité publique, un service ou un autre organisme qui traite des données à caractère personnel pour le compte du responsable du traitement. Nous pouvons engager des sous-traitants tiers pour traiter vos données personnelles en notre nom, conformément à nos instructions et aux normes de protection des données.'
                 : language === 'it' ? 'Una persona fisica o giuridica, un\'autorità pubblica, un servizio o un altro organismo che tratta dati personali per conto del titolare del trattamento. Possiamo coinvolgere responsabili del trattamento di terze parti per trattare i tuoi dati personali per nostro conto, in conformità con le nostre istruzioni e gli standard di protezione dei dati.'
                 : language === 'de' ? 'Eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet. Wir können Drittanbieter-Auftragsverarbeiter beauftragen, Ihre personenbezogenen Daten in unserem Auftrag gemäß unseren Anweisungen und Datenschutzstandards zu verarbeiten.'
@@ -405,7 +405,7 @@ export default function PrivacyPolicy() {
         </LegalSection>
 
         <LegalSection title={tocSections[2].title} id={tocSections[2].id} icon={<Eye size={24} />}>
-          <p className="text-[#3F4D5F] leading-relaxed mb-4">
+          <p className="text-[#333333] leading-relaxed mb-4">
             {language === 'fr' ? 'Nous collectons et traitons diverses catégories de données personnelles en fonction de votre relation avec nous et des services que vous utilisez. Les catégories suivantes de données personnelles peuvent être collectées:'
               : language === 'it' ? 'Raccogliamo e trattiamo varie categorie di dati personali a seconda della vostra relazione con noi e dei servizi che utilizzate. Possono essere raccolte le seguenti categorie di dati personali:'
               : language === 'de' ? 'Wir erheben und verarbeiten verschiedene Kategorien personenbezogener Daten abhängig von Ihrer Beziehung zu uns und den von Ihnen genutzten Dienstleistungen. Folgende Kategorien personenbezogener Daten können erhoben werden:'
@@ -702,7 +702,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Categorías Especiales de Datos (Datos Sensibles)'
             : language === 'el' ? 'Ειδικές Κατηγορίες Δεδομένων (Ευαίσθητα Δεδομένα)'
             : 'Special Categories of Data (Sensitive Data)'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Dans certaines circonstances limitées et avec votre consentement explicite ou lorsque cela est requis par la loi, nous pouvons traiter des catégories spéciales de données personnelles, y compris:'
                 : language === 'it' ? 'In determinate circostanze limitate e con il vostro consenso esplicito o quando richiesto dalla legge, potremmo trattare categorie speciali di dati personali, tra cui:'
                 : language === 'de' ? 'Unter bestimmten begrenzten Umständen und mit Ihrer ausdrücklichen Zustimmung oder wenn gesetzlich vorgeschrieben, können wir besondere Kategorien personenbezogener Daten verarbeiten, einschließlich:'
@@ -752,7 +752,7 @@ export default function PrivacyPolicy() {
         </LegalSection>
 
         <LegalSection title={tocSections[3].title} id={tocSections[3].id} icon={<Database size={24} />}>
-          <p className="text-[#3F4D5F] leading-relaxed mb-4">
+          <p className="text-[#333333] leading-relaxed mb-4">
             {language === 'fr' ? 'Nous collectons des données personnelles par diverses méthodes et sources, selon votre interaction avec nos services:'
               : language === 'it' ? 'Raccogliamo dati personali attraverso vari metodi e fonti, a seconda della vostra interazione con i nostri servizi:'
               : language === 'de' ? 'Wir erheben personenbezogene Daten auf verschiedene Weise und aus verschiedenen Quellen, je nachdem, wie Sie mit unseren Diensten interagieren:'
@@ -767,7 +767,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Recopilación Directa'
             : language === 'el' ? 'Άμεση Συλλογή'
             : 'Direct Collection'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Informations que vous nous fournissez directement lorsque vous:'
                 : language === 'it' ? 'Informazioni che ci fornite direttamente quando:'
                 : language === 'de' ? 'Informationen, die Sie uns direkt zur Verfügung stellen, wenn Sie:'
@@ -829,7 +829,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Recopilación Automática'
             : language === 'el' ? 'Αυτόματη Συλλογή'
             : 'Automatic Collection'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Données collectées automatiquement lorsque vous utilisez nos plateformes:'
                 : language === 'it' ? 'Dati raccolti automaticamente quando utilizzate le nostre piattaforme:'
                 : language === 'de' ? 'Daten, die automatisch erhoben werden, wenn Sie unsere Plattformen nutzen:'
@@ -879,7 +879,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Fuentes de Terceros'
             : language === 'el' ? 'Πηγές Τρίτων'
             : 'Third-Party Sources'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Nous pouvons également recevoir des données personnelles de sources tierces:'
                 : language === 'it' ? 'Possiamo anche ricevere dati personali da fonti di terze parti:'
                 : language === 'de' ? 'Wir können personenbezogene Daten auch von Drittquellen erhalten:'
@@ -937,7 +937,7 @@ export default function PrivacyPolicy() {
         </LegalSection>
 
         <LegalSection title={tocSections[4].title} id={tocSections[4].id} icon={<FileText size={24} />}>
-          <p className="text-[#3F4D5F] leading-relaxed mb-4">
+          <p className="text-[#333333] leading-relaxed mb-4">
             {language === 'fr' ? 'Conformément au RGPD et aux lois applicables sur la protection des données, nous traitons vos données personnelles uniquement lorsque nous avons une base légale valide. Les bases légales suivantes s\'appliquent à nos activités de traitement:'
               : language === 'it' ? 'In conformità con il GDPR e le leggi applicabili sulla protezione dei dati, trattiamo i vostri dati personali solo quando abbiamo una base giuridica valida. Le seguenti basi giuridiche si applicano alle nostre attività di trattamento:'
               : language === 'de' ? 'Gemäß der DSGVO und den geltenden Datenschutzgesetzen verarbeiten wir Ihre personenbezogenen Daten nur, wenn wir eine gültige Rechtsgrundlage haben. Die folgenden Rechtsgrundlagen gelten für unsere Verarbeitungsaktivitäten:'
@@ -952,7 +952,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Artículo 6(1)(b) GDPR - Necesidad Contractual'
             : language === 'el' ? 'Άρθρο 6(1)(b) GDPR - Συμβατική Αναγκαιότητα'
             : 'Article 6(1)(b) GDPR - Contractual Necessity'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Le traitement est nécessaire pour l\'exécution d\'un contrat auquel vous êtes partie ou pour prendre des mesures à votre demande avant de conclure un contrat. Cela comprend:'
                 : language === 'it' ? 'Il trattamento è necessario per l\'esecuzione di un contratto di cui siete parte o per adottare misure su vostra richiesta prima della conclusione di un contratto. Ciò include:'
                 : language === 'de' ? 'Die Verarbeitung ist erforderlich für die Erfüllung eines Vertrags, dessen Vertragspartei Sie sind, oder zur Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage. Dies umfasst:'
@@ -996,7 +996,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Artículo 6(1)(c) GDPR - Obligación Legal'
             : language === 'el' ? 'Άρθρο 6(1)(c) GDPR - Νομική Υποχρέωση'
             : 'Article 6(1)(c) GDPR - Legal Obligation'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Le traitement est nécessaire pour respecter une obligation légale à laquelle nous sommes soumis. Cela comprend:'
                 : language === 'it' ? 'Il trattamento è necessario per adempiere a un obbligo legale al quale siamo soggetti. Ciò include:'
                 : language === 'de' ? 'Die Verarbeitung ist erforderlich, um einer rechtlichen Verpflichtung nachzukommen, der wir unterliegen. Dies umfasst:'
@@ -1052,7 +1052,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Artículo 6(1)(f) GDPR - Intereses Legítimos'
             : language === 'el' ? 'Άρθρο 6(1)(f) GDPR - Έννομα Συμφέροντα'
             : 'Article 6(1)(f) GDPR - Legitimate Interests'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Le traitement est nécessaire aux fins des intérêts légitimes poursuivis par nous ou par un tiers, sauf si vos intérêts ou droits fondamentaux prévalent. Nos intérêts légitimes comprennent:'
                 : language === 'it' ? 'Il trattamento è necessario per il perseguimento degli interessi legittimi da noi perseguiti o da terzi, a meno che i vostri interessi o diritti fondamentali prevalgano. I nostri interessi legittimi includono:'
                 : language === 'de' ? 'Die Verarbeitung ist erforderlich für die Zwecke der von uns oder einem Dritten verfolgten berechtigten Interessen, es sei denn, Ihre Interessen oder Grundrechte überwiegen. Unsere berechtigten Interessen umfassen:'
@@ -1108,7 +1108,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Artículo 6(1)(a) y 9(2)(a) GDPR - Consentimiento'
             : language === 'el' ? 'Άρθρο 6(1)(a) και 9(2)(a) GDPR - Συγκατάθεση'
             : 'Article 6(1)(a) and 9(2)(a) GDPR - Consent'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Vous avez donné votre consentement au traitement de vos données personnelles pour une ou plusieurs finalités spécifiques. Cela s\'applique à:'
                 : language === 'it' ? 'Avete dato il vostro consenso al trattamento dei vostri dati personali per una o più finalità specifiche. Ciò si applica a:'
                 : language === 'de' ? 'Sie haben Ihre Einwilligung zur Verarbeitung Ihrer personenbezogenen Daten für einen oder mehrere bestimmte Zwecke gegeben. Dies gilt für:'
@@ -1158,7 +1158,7 @@ export default function PrivacyPolicy() {
         </LegalSection>
 
         <LegalSection title={tocSections[5].title} id={tocSections[5].id} icon={<FileText size={24} />}>
-          <p className="text-[#3F4D5F] leading-relaxed mb-4">
+          <p className="text-[#333333] leading-relaxed mb-4">
             {language === 'fr' ? 'Nous traitons vos données personnelles uniquement pour des finalités spécifiques, explicites et légitimes. Nous ne traitons pas vos données de manière incompatible avec ces finalités sans votre consentement supplémentaire.'
               : language === 'it' ? 'Trattiamo i vostri dati personali solo per scopi specifici, espliciti e legittimi. Non trattiamo i vostri dati in modo incompatibile con questi scopi senza il vostro ulteriore consenso.'
               : language === 'de' ? 'Wir verarbeiten Ihre personenbezogenen Daten nur für bestimmte, ausdrückliche und legitime Zwecke. Wir verarbeiten Ihre Daten nicht auf eine mit diesen Zwecken unvereinbare Weise ohne Ihre zusätzliche Einwilligung.'
@@ -1377,7 +1377,7 @@ export default function PrivacyPolicy() {
         </LegalSection>
 
         <LegalSection title={tocSections[6].title} id={tocSections[6].id} icon={<Users size={24} />}>
-          <p className="text-[#3F4D5F] leading-relaxed mb-4">
+          <p className="text-[#333333] leading-relaxed mb-4">
             {language === 'fr' ? 'Nous pouvons partager vos données personnelles avec des tiers dans des circonstances spécifiques et uniquement dans la mesure nécessaire. Nous exigeons que tous les tiers respectent la sécurité de vos données et les traitent conformément aux lois applicables.'
               : language === 'it' ? 'Possiamo condividere i vostri dati personali con terze parti in circostanze specifiche e solo nella misura necessaria. Richiediamo che tutte le terze parti rispettino la sicurezza dei vostri dati e li trattino in conformità con le leggi applicabili.'
               : language === 'de' ? 'Wir können Ihre personenbezogenen Daten unter bestimmten Umständen und nur im erforderlichen Umfang an Dritte weitergeben. Wir verlangen von allen Dritten, dass sie die Sicherheit Ihrer Daten respektieren und sie gemäß den geltenden Gesetzen behandeln.'
@@ -1392,7 +1392,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Proveedores de Servicios'
             : language === 'el' ? 'Πάροχοι Υπηρεσιών'
             : 'Service Providers'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Nous travaillons avec des fournisseurs de services tiers qui traitent des données en notre nom:'
                 : language === 'it' ? 'Lavoriamo con fornitori di servizi terzi che trattano dati per nostro conto:'
                 : language === 'de' ? 'Wir arbeiten mit Drittdienstleistern zusammen, die Daten in unserem Auftrag verarbeiten:'
@@ -1484,7 +1484,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Autoridades Legales y Regulatorias'
             : language === 'el' ? 'Νομικές και Ρυθμιστικές Αρχές'
             : 'Legal and Regulatory Authorities'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'Nous pouvons divulguer vos données personnelles aux autorités lorsque cela est légalement requis:'
                 : language === 'it' ? 'Possiamo divulgare i vostri dati personali alle autorità quando legalmente richiesto:'
                 : language === 'de' ? 'Wir können Ihre personenbezogenen Daten an Behörden offenlegen, wenn dies gesetzlich vorgeschrieben ist:'
@@ -1534,7 +1534,7 @@ export default function PrivacyPolicy() {
             : language === 'es' ? 'Transacciones Comerciales'
             : language === 'el' ? 'Επιχειρηματικές Συναλλαγές'
             : 'Business Transactions'}>
-            <p className="text-[#3F4D5F] leading-relaxed mb-3">
+            <p className="text-[#333333] leading-relaxed mb-3">
               {language === 'fr' ? 'En cas de restructuration, fusion, acquisition ou vente d\'actifs, vos données personnelles peuvent être transférées:'
                 : language === 'it' ? 'In caso di ristrutturazione, fusione, acquisizione o vendita di asset, i vostri dati personali possono essere trasferiti:'
                 : language === 'de' ? 'Im Falle einer Umstrukturierung, Fusion, Übernahme oder Vermögensveräußerung können Ihre personenbezogenen Daten übertragen werden:'

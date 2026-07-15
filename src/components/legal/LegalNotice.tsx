@@ -11,31 +11,31 @@ export default function LegalNotice({ type, title, children }: LegalNoticeProps)
   const configs = {
     info: {
       icon: Info,
-      bgColor: 'bg-[#ECFDF8]',
-      borderColor: 'border-[#0F766E]',
-      textColor: 'text-[#12355B]',
-      titleColor: 'text-[#12355B]'
+      bgColor: 'bg-[#FFF1F1]',
+      borderColor: 'border-[#D00000]',
+      textColor: 'text-[#000000]',
+      titleColor: 'text-[#000000]'
     },
     warning: {
       icon: AlertTriangle,
-      bgColor: 'bg-yellow-50',
-      borderColor: 'border-yellow-700',
-      textColor: 'text-yellow-900',
-      titleColor: 'text-yellow-900'
+      bgColor: 'bg-[#FFF1F1]',
+      borderColor: 'border-[#D00000]',
+      textColor: 'text-[#000000]',
+      titleColor: 'text-[#000000]'
     },
     important: {
       icon: AlertCircle,
-      bgColor: 'bg-[#ECFDF8]',
-      borderColor: 'border-[#0F766E]',
-      textColor: 'text-[#12355B]',
-      titleColor: 'text-[#12355B]'
+      bgColor: 'bg-[#FFF1F1]',
+      borderColor: 'border-[#D00000]',
+      textColor: 'text-[#000000]',
+      titleColor: 'text-[#000000]'
     },
     success: {
       icon: CheckCircle,
-      bgColor: 'bg-green-50',
-      borderColor: 'border-green-700',
-      textColor: 'text-green-900',
-      titleColor: 'text-green-900'
+      bgColor: 'bg-[#FFF1F1]',
+      borderColor: 'border-[#D00000]',
+      textColor: 'text-[#000000]',
+      titleColor: 'text-[#000000]'
     }
   };
 

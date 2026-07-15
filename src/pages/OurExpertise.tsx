@@ -93,13 +93,13 @@ export default function OurExpertise() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-br from-[#12355B] via-[#0F766E] to-[#172033] text-white py-32 lg:py-40">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-br from-[#000000] via-[#D00000] to-[#000000] text-white py-32 lg:py-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl lg:text-6xl font-bold mb-6 max-w-4xl leading-tight">
             Our Expertise
           </h1>
-          <p className="text-2xl lg:text-3xl text-[#E6ECEF] max-w-3xl font-light">
+          <p className="text-2xl lg:text-3xl text-[#F5F5F5] max-w-3xl font-light">
             Comprehensive financial services backed by decades of experience
           </p>
         </div>
@@ -107,13 +107,13 @@ export default function OurExpertise() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="bg-white p-12 shadow-lg mb-16">
-          <h2 className="text-4xl font-bold text-[#172033] mb-6">
+          <h2 className="text-4xl font-bold text-[#000000] mb-6">
             Specialists in Complex Wealth
           </h2>
-          <p className="text-xl text-[#3F4D5F] leading-relaxed mb-6">
+          <p className="text-xl text-[#333333] leading-relaxed mb-6">
             Aareal Bank AG brings together a team of specialists with deep expertise across every aspect of wealth management. From investment strategy to tax planning, from business succession to philanthropic advisory, we have the knowledge and experience to address even the most complex financial situations.
           </p>
-          <p className="text-xl text-[#3F4D5F] leading-relaxed">
+          <p className="text-xl text-[#333333] leading-relaxed">
             Our multidisciplinary approach ensures that every decision is informed by comprehensive expertise, and every strategy is optimized for your complete financial picture.
           </p>
         </div>
@@ -122,20 +122,20 @@ export default function OurExpertise() {
           {expertiseAreas.map((area, index) => (
             <div
               key={index}
-              className="bg-white p-8 shadow-lg hover:shadow-xl transition-all border-t-4 border-[#0F766E]"
+              className="bg-white p-8 shadow-lg hover:shadow-xl transition-all border-t-4 border-[#D00000]"
             >
-              <area.icon className="w-12 h-12 text-[#0F766E] mb-4" />
-              <h3 className="text-2xl font-bold text-[#172033] mb-4">{area.title}</h3>
-              <p className="text-[#3F4D5F] mb-6 leading-relaxed">{area.description}</p>
-              <div className="border-t border-[#DDE7E3] pt-4">
-                <h4 className="text-sm font-bold text-[#172033] mb-3 uppercase tracking-wide">
+              <area.icon className="w-12 h-12 text-[#D00000] mb-4" />
+              <h3 className="text-2xl font-bold text-[#000000] mb-4">{area.title}</h3>
+              <p className="text-[#333333] mb-6 leading-relaxed">{area.description}</p>
+              <div className="border-t border-[#E5E5E5] pt-4">
+                <h4 className="text-sm font-bold text-[#000000] mb-3 uppercase tracking-wide">
                   Key Services
                 </h4>
                 <ul className="space-y-2">
                   {area.services.map((service, idx) => (
                     <li key={idx} className="flex items-start">
-                      <span className="text-[#0F766E] mr-2">•</span>
-                      <span className="text-[#3F4D5F]">{service}</span>
+                      <span className="text-[#D00000] mr-2">•</span>
+                      <span className="text-[#333333]">{service}</span>
                     </li>
                   ))}
                 </ul>
@@ -144,22 +144,22 @@ export default function OurExpertise() {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-[#0F766E] to-[#12355B] text-white p-12 shadow-xl">
+        <div className="mt-16 bg-gradient-to-r from-[#D00000] to-[#000000] text-white p-12 shadow-xl">
           <h2 className="text-3xl font-bold mb-6 text-center">
             Why Our Expertise Matters
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <div className="text-center">
               <div className="text-5xl font-bold mb-2">50+</div>
-              <p className="text-[#F3F7F6]">Years Combined Experience</p>
+              <p className="text-[#FFFFFF]">Years Combined Experience</p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold mb-2">$5B+</div>
-              <p className="text-[#F3F7F6]">Assets Under Management</p>
+              <p className="text-[#FFFFFF]">Assets Under Management</p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold mb-2">1,000+</div>
-              <p className="text-[#F3F7F6]">Clients Worldwide</p>
+              <p className="text-[#FFFFFF]">Clients Worldwide</p>
             </div>
           </div>
         </div>

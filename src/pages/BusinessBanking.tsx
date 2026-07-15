@@ -69,14 +69,14 @@ export default function BusinessBanking() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
+    <div className="min-h-screen bg-[#F5F5F5]">
       <div className="relative w-full h-[500px] mb-16">
         <img
           src="https://assets.abnamro.com/api/public/content/atl-sous-chef-edit-homepage-landscape-4x1.jpg?t=h880"
           alt="Open a business account"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#172033]/80 via-[#172033]/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/80 via-[#000000]/50 to-transparent"></div>
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-2xl">
@@ -101,10 +101,10 @@ export default function BusinessBanking() {
             />
           </div>
           <div className="order-1 lg:order-2">
-            <h2 className="text-4xl font-bold mb-6 text-[#172033]">
+            <h2 className="text-4xl font-bold mb-6 text-[#000000]">
               {t.businessBanking.accessOnline.title}
             </h2>
-            <p className="text-lg text-[#3F4D5F] leading-relaxed">
+            <p className="text-lg text-[#333333] leading-relaxed">
               {t.businessBanking.accessOnline.description}
             </p>
           </div>
@@ -112,10 +112,10 @@ export default function BusinessBanking() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
           <div>
-            <h2 className="text-4xl font-bold mb-6 text-[#172033]">
+            <h2 className="text-4xl font-bold mb-6 text-[#000000]">
               {t.businessBanking.sepa.title}
             </h2>
-            <p className="text-lg text-[#3F4D5F] leading-relaxed mb-8">
+            <p className="text-lg text-[#333333] leading-relaxed mb-8">
               {t.businessBanking.sepa.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -123,7 +123,7 @@ export default function BusinessBanking() {
                 href="https://www.ecb.europa.eu/paym/retail/sepa/html/index.en.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-3 px-8 transition-all"
+                className="inline-flex items-center justify-center bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-3 px-8 transition-all"
               >
                 {t.businessBanking.sepa.sepaButton}
               </a>
@@ -131,7 +131,7 @@ export default function BusinessBanking() {
                 href="https://www.iban.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-[#0F766E] hover:bg-[#0B5F59] text-white font-bold py-3 px-8 transition-all"
+                className="inline-flex items-center justify-center bg-[#D00000] hover:bg-[#A00000] text-white font-bold py-3 px-8 transition-all"
               >
                 {t.businessBanking.sepa.ibanButton}
               </a>
@@ -151,12 +151,12 @@ export default function BusinessBanking() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
           <div className="bg-white p-10 shadow-lg">
-            <h3 className="text-3xl font-bold mb-4 text-[#172033]">{t.businessBanking.loanCalculator.title}</h3>
-            <p className="text-[#5D6B7B] mb-8">{t.businessBanking.loanCalculator.description}</p>
+            <h3 className="text-3xl font-bold mb-4 text-[#000000]">{t.businessBanking.loanCalculator.title}</h3>
+            <p className="text-[#555555] mb-8">{t.businessBanking.loanCalculator.description}</p>
 
             <div className="space-y-6">
               <div>
-                <label className="block text-sm font-semibold text-[#172033] mb-3">
+                <label className="block text-sm font-semibold text-[#000000] mb-3">
                   {t.businessBanking.loanCalculator.why}
                 </label>
                 <div className="space-y-2">
@@ -171,8 +171,8 @@ export default function BusinessBanking() {
                       onClick={() => setLoanPurpose(purpose.value)}
                       className={`w-full px-4 py-3 text-left border-2 transition-all ${
                         loanPurpose === purpose.value
-                          ? 'border-[#0F766E] bg-[#ECFDF8] text-[#12355B] font-semibold'
-                          : 'border-[#C7D3D0] bg-white text-[#172033] hover:border-[#A7B1BC]'
+                          ? 'border-[#D00000] bg-[#FFF1F1] text-[#000000] font-semibold'
+                          : 'border-[#CCCCCC] bg-white text-[#000000] hover:border-[#CCCCCC]'
                       }`}
                     >
                       {purpose.label}
@@ -182,7 +182,7 @@ export default function BusinessBanking() {
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-[#172033] mb-3">
+                <label className="block text-sm font-semibold text-[#000000] mb-3">
                   {t.businessBanking.loanCalculator.howMuch}
                 </label>
                 <div className="flex items-center gap-3 mb-2">
@@ -204,31 +204,31 @@ export default function BusinessBanking() {
                         setAmountError('');
                       }
                     }}
-                    className={`flex-1 px-4 py-3 border-2 focus:outline-none text-[#172033] text-xl font-semibold ${
+                    className={`flex-1 px-4 py-3 border-2 focus:outline-none text-[#000000] text-xl font-semibold ${
                       amountError
-                        ? 'border-[#C8942D] focus:border-[#0F766E]'
-                        : 'border-[#C7D3D0] focus:border-[#0F766E]'
+                        ? 'border-[#D00000] focus:border-[#D00000]'
+                        : 'border-[#CCCCCC] focus:border-[#D00000]'
                     }`}
                   />
-                  <span className="text-2xl font-bold text-[#172033]">€</span>
+                  <span className="text-2xl font-bold text-[#000000]">€</span>
                 </div>
                 {amountError && (
-                  <div className="mb-2 text-sm text-[#0F766E] font-semibold">
+                  <div className="mb-2 text-sm text-[#D00000] font-semibold">
                     {amountError}
                   </div>
                 )}
-                <div className="flex justify-between text-sm text-[#5D6B7B]">
+                <div className="flex justify-between text-sm text-[#555555]">
                   <span>{t.businessBanking.loanCalculator.minAmount}</span>
                   <span>{t.businessBanking.loanCalculator.maxAmount}</span>
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-[#172033] mb-3">
+                <label className="block text-sm font-semibold text-[#000000] mb-3">
                   {t.businessBanking.loanCalculator.selectTerm}
                 </label>
                 <div className="mb-4">
-                  <span className="text-2xl font-bold text-[#172033]">
+                  <span className="text-2xl font-bold text-[#000000]">
                     {loanTerm} {loanTerm === 1 ? t.businessBanking.loanCalculator.year : t.businessBanking.loanCalculator.years}
                   </span>
                 </div>
@@ -239,9 +239,9 @@ export default function BusinessBanking() {
                   step="1"
                   value={loanTerm}
                   onChange={(e) => setLoanTerm(Number(e.target.value))}
-                  className="w-full h-2 bg-[#C7D3D0] rounded-lg appearance-none cursor-pointer slider"
+                  className="w-full h-2 bg-[#CCCCCC] rounded-lg appearance-none cursor-pointer slider"
                 />
-                <div className="flex justify-between text-xs text-[#5D6B7B] mt-2">
+                <div className="flex justify-between text-xs text-[#555555] mt-2">
                   <span>{t.businessBanking.loanCalculator.min} 1</span>
                   <span>{t.businessBanking.loanCalculator.max} 8</span>
                 </div>
@@ -250,52 +250,52 @@ export default function BusinessBanking() {
           </div>
 
           <div className="bg-white p-10 shadow-lg">
-            <h3 className="text-2xl font-bold mb-8 text-[#172033]">{t.businessBanking.loanResults.title}</h3>
+            <h3 className="text-2xl font-bold mb-8 text-[#000000]">{t.businessBanking.loanResults.title}</h3>
 
             <div className="space-y-8">
               <div>
-                <h4 className="text-lg font-bold text-[#172033] mb-4">{t.businessBanking.loanResults.minimum}</h4>
+                <h4 className="text-lg font-bold text-[#000000] mb-4">{t.businessBanking.loanResults.minimum}</h4>
                 <div className="space-y-3">
                   <div>
-                    <div className="text-sm text-[#5D6B7B] mb-1">{t.businessBanking.loanResults.monthlyRepayments}</div>
-                    <div className="text-3xl font-bold text-[#172033]">
+                    <div className="text-sm text-[#555555] mb-1">{t.businessBanking.loanResults.monthlyRepayments}</div>
+                    <div className="text-3xl font-bold text-[#000000]">
                       €{Math.floor(minMonthlyPayment).toLocaleString()}
                       <span className="text-xl">.{(minMonthlyPayment % 1).toFixed(2).substring(2)}</span>
                     </div>
                   </div>
                   <div>
-                    <div className="text-sm text-[#5D6B7B] mb-1">{t.businessBanking.loanResults.fixedInterestRate}</div>
-                    <div className="text-xl font-semibold text-[#172033]">{minInterestRate}%</div>
+                    <div className="text-sm text-[#555555] mb-1">{t.businessBanking.loanResults.fixedInterestRate}</div>
+                    <div className="text-xl font-semibold text-[#000000]">{minInterestRate}%</div>
                   </div>
                   <div>
-                    <div className="text-sm text-[#5D6B7B] mb-1">{t.businessBanking.loanResults.totalCosts}</div>
-                    <div className="text-xl font-semibold text-[#172033]">€{minTotalCost.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
+                    <div className="text-sm text-[#555555] mb-1">{t.businessBanking.loanResults.totalCosts}</div>
+                    <div className="text-xl font-semibold text-[#000000]">€{minTotalCost.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
                   </div>
                 </div>
               </div>
 
-              <div className="border-t border-[#DDE7E3] pt-6">
-                <h4 className="text-lg font-bold text-[#172033] mb-4">{t.businessBanking.loanResults.maximum}</h4>
+              <div className="border-t border-[#E5E5E5] pt-6">
+                <h4 className="text-lg font-bold text-[#000000] mb-4">{t.businessBanking.loanResults.maximum}</h4>
                 <div className="space-y-3">
                   <div>
-                    <div className="text-sm text-[#5D6B7B] mb-1">{t.businessBanking.loanResults.monthlyRepayments}</div>
-                    <div className="text-3xl font-bold text-[#172033]">
+                    <div className="text-sm text-[#555555] mb-1">{t.businessBanking.loanResults.monthlyRepayments}</div>
+                    <div className="text-3xl font-bold text-[#000000]">
                       €{Math.floor(maxMonthlyPayment).toLocaleString()}
                       <span className="text-xl">.{(maxMonthlyPayment % 1).toFixed(2).substring(2)}</span>
                     </div>
                   </div>
                   <div>
-                    <div className="text-sm text-[#5D6B7B] mb-1">{t.businessBanking.loanResults.fixedInterestRate}</div>
-                    <div className="text-xl font-semibold text-[#172033]">{maxInterestRate}%</div>
+                    <div className="text-sm text-[#555555] mb-1">{t.businessBanking.loanResults.fixedInterestRate}</div>
+                    <div className="text-xl font-semibold text-[#000000]">{maxInterestRate}%</div>
                   </div>
                   <div>
-                    <div className="text-sm text-[#5D6B7B] mb-1">{t.businessBanking.loanResults.totalCosts}</div>
-                    <div className="text-xl font-semibold text-[#172033]">€{maxTotalCost.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
+                    <div className="text-sm text-[#555555] mb-1">{t.businessBanking.loanResults.totalCosts}</div>
+                    <div className="text-xl font-semibold text-[#000000]">€{maxTotalCost.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
                   </div>
                 </div>
               </div>
 
-              <div className="text-sm text-[#5D6B7B] pt-4 border-t border-[#DDE7E3]">
+              <div className="text-sm text-[#555555] pt-4 border-t border-[#E5E5E5]">
                 {t.businessBanking.loanResults.disclaimer}
               </div>
             </div>

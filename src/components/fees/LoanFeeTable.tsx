@@ -40,12 +40,12 @@ export default function LoanFeeTable({ loans, loanType }: LoanFeeTableProps) {
 
   const getIcon = () => {
     if (loanType === 'mortgage' || loanType === 'home_equity') {
-      return <Home className="w-7 h-7 text-[#0F766E] mr-3" />;
+      return <Home className="w-7 h-7 text-[#D00000] mr-3" />;
     }
     if (loanType === 'auto') {
-      return <Car className="w-7 h-7 text-[#0F766E] mr-3" />;
+      return <Car className="w-7 h-7 text-[#D00000] mr-3" />;
     }
-    return <Wallet className="w-7 h-7 text-[#0F766E] mr-3" />;
+    return <Wallet className="w-7 h-7 text-[#D00000] mr-3" />;
   };
 
   const getTitle = () => {
@@ -64,79 +64,79 @@ export default function LoanFeeTable({ loans, loanType }: LoanFeeTableProps) {
     <div className="bg-white  shadow-lg p-8 mb-8">
       <div className="flex items-center mb-6">
         {getIcon()}
-        <h3 className="text-2xl font-bold text-[#172033]">{getTitle()}</h3>
+        <h3 className="text-2xl font-bold text-[#000000]">{getTitle()}</h3>
       </div>
 
       <div className="space-y-8">
         {filteredLoans.map((loan) => (
-          <div key={loan.id} className="border-2 border-[#DDE7E3]  p-6 hover:border-[#0F766E] transition-colors">
+          <div key={loan.id} className="border-2 border-[#E5E5E5]  p-6 hover:border-[#D00000] transition-colors">
             <div className="flex justify-between items-start mb-6">
-              <h4 className="text-xl font-bold text-[#172033]">{loan.loan_name}</h4>
+              <h4 className="text-xl font-bold text-[#000000]">{loan.loan_name}</h4>
               <div className="text-right">
-                <p className="text-xs text-[#5D6B7B] mb-1">{t.rates.loanFees.interestRate}</p>
-                <p className="text-2xl font-bold text-green-600">{formatPercentage(loan.interest_rate)}</p>
+                <p className="text-xs text-[#555555] mb-1">{t.rates.loanFees.interestRate}</p>
+                <p className="text-2xl font-bold text-[#D00000]">{formatPercentage(loan.interest_rate)}</p>
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {loan.origination_fee > 0 && (
-                <div className="flex justify-between items-center py-3 border-b border-[#DDE7E3]">
-                  <span className="text-sm font-medium text-[#3F4D5F]">{t.rates.loanFees.originationFee}</span>
-                  <span className="font-bold text-[#172033]">{formatCurrency(loan.origination_fee)}</span>
+                <div className="flex justify-between items-center py-3 border-b border-[#E5E5E5]">
+                  <span className="text-sm font-medium text-[#333333]">{t.rates.loanFees.originationFee}</span>
+                  <span className="font-bold text-[#000000]">{formatCurrency(loan.origination_fee)}</span>
                 </div>
               )}
 
               {loan.origination_fee_percentage > 0 && (
-                <div className="flex justify-between items-center py-3 border-b border-[#DDE7E3]">
-                  <span className="text-sm font-medium text-[#3F4D5F]">{t.rates.loanFees.originationFee}</span>
-                  <span className="font-bold text-[#172033]">{formatPercentage(loan.origination_fee_percentage)} {t.rates.loanFees.ofLoan}</span>
+                <div className="flex justify-between items-center py-3 border-b border-[#E5E5E5]">
+                  <span className="text-sm font-medium text-[#333333]">{t.rates.loanFees.originationFee}</span>
+                  <span className="font-bold text-[#000000]">{formatPercentage(loan.origination_fee_percentage)} {t.rates.loanFees.ofLoan}</span>
                 </div>
               )}
 
               {loan.application_fee > 0 && (
-                <div className="flex justify-between items-center py-3 border-b border-[#DDE7E3]">
-                  <span className="text-sm font-medium text-[#3F4D5F]">{t.rates.loanFees.applicationFee}</span>
-                  <span className="font-bold text-[#172033]">{formatCurrency(loan.application_fee)}</span>
+                <div className="flex justify-between items-center py-3 border-b border-[#E5E5E5]">
+                  <span className="text-sm font-medium text-[#333333]">{t.rates.loanFees.applicationFee}</span>
+                  <span className="font-bold text-[#000000]">{formatCurrency(loan.application_fee)}</span>
                 </div>
               )}
 
               {loan.appraisal_fee > 0 && (
-                <div className="flex justify-between items-center py-3 border-b border-[#DDE7E3]">
-                  <span className="text-sm font-medium text-[#3F4D5F]">{t.rates.loanFees.appraisalFee}</span>
-                  <span className="font-bold text-[#172033]">{formatCurrency(loan.appraisal_fee)}</span>
+                <div className="flex justify-between items-center py-3 border-b border-[#E5E5E5]">
+                  <span className="text-sm font-medium text-[#333333]">{t.rates.loanFees.appraisalFee}</span>
+                  <span className="font-bold text-[#000000]">{formatCurrency(loan.appraisal_fee)}</span>
                 </div>
               )}
 
               {loan.credit_report_fee > 0 && (
-                <div className="flex justify-between items-center py-3 border-b border-[#DDE7E3]">
-                  <span className="text-sm font-medium text-[#3F4D5F]">{t.rates.loanFees.creditReportFee}</span>
-                  <span className="font-bold text-[#172033]">{formatCurrency(loan.credit_report_fee)}</span>
+                <div className="flex justify-between items-center py-3 border-b border-[#E5E5E5]">
+                  <span className="text-sm font-medium text-[#333333]">{t.rates.loanFees.creditReportFee}</span>
+                  <span className="font-bold text-[#000000]">{formatCurrency(loan.credit_report_fee)}</span>
                 </div>
               )}
 
               {loan.closing_costs > 0 && (
-                <div className="flex justify-between items-center py-3 border-b border-[#DDE7E3]">
-                  <span className="text-sm font-medium text-[#3F4D5F]">{t.rates.loanFees.estimatedClosingCosts}</span>
-                  <span className="font-bold text-[#172033]">{formatCurrency(loan.closing_costs)}</span>
+                <div className="flex justify-between items-center py-3 border-b border-[#E5E5E5]">
+                  <span className="text-sm font-medium text-[#333333]">{t.rates.loanFees.estimatedClosingCosts}</span>
+                  <span className="font-bold text-[#000000]">{formatCurrency(loan.closing_costs)}</span>
                 </div>
               )}
 
-              <div className="flex justify-between items-center py-3 border-b border-[#DDE7E3]">
-                <span className="text-sm font-medium text-[#3F4D5F]">{t.rates.loanFees.latePaymentFee}</span>
-                <span className="font-bold text-[#172033]">{formatCurrency(loan.late_payment_fee)}</span>
+              <div className="flex justify-between items-center py-3 border-b border-[#E5E5E5]">
+                <span className="text-sm font-medium text-[#333333]">{t.rates.loanFees.latePaymentFee}</span>
+                <span className="font-bold text-[#000000]">{formatCurrency(loan.late_payment_fee)}</span>
               </div>
 
-              <div className="flex justify-between items-center py-3 border-b border-[#DDE7E3]">
-                <span className="text-sm font-medium text-[#3F4D5F]">{t.rates.loanFees.prepaymentPenalty}</span>
-                <span className={`font-bold ${loan.prepayment_penalty === 'None' ? 'text-green-600' : 'text-[#172033]'}`}>
+              <div className="flex justify-between items-center py-3 border-b border-[#E5E5E5]">
+                <span className="text-sm font-medium text-[#333333]">{t.rates.loanFees.prepaymentPenalty}</span>
+                <span className={`font-bold ${loan.prepayment_penalty === 'None' ? 'text-[#D00000]' : 'text-[#000000]'}`}>
                   {loan.prepayment_penalty || t.rates.labels.none}
                 </span>
               </div>
             </div>
 
             {(loanType === 'mortgage' || loanType === 'home_equity') && (
-              <div className="mt-4 p-4 bg-yellow-50 border border-yellow-200 ">
-                <p className="text-sm text-yellow-800">
+              <div className="mt-4 p-4 bg-[#FFF1F1] border border-[#F5C2C7] ">
+                <p className="text-sm text-[#000000]">
                   <strong>{t.rates.loanFees.note}:</strong> {t.rates.loanFees.closingCostsNote}
                 </p>
               </div>

@@ -200,15 +200,15 @@ export default function LegalEntity() {
   const currentContent = language === 'fr' ? content.fr : content.en;
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-r from-[#172033] to-[#172033] text-white py-20">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-r from-[#000000] to-[#000000] text-white py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center space-x-4 mb-4">
-            <Building2 size={48} className="text-[#C8942D]" />
+            <Building2 size={48} className="text-[#D00000]" />
             <h1 className="text-4xl md:text-5xl font-bold">{currentContent.title}</h1>
           </div>
-          <p className="text-[#CBD5DE] text-lg mb-4">{currentContent.lastUpdated}</p>
-          <p className="text-[#E6ECEF] leading-relaxed">{currentContent.intro}</p>
+          <p className="text-[#E5E5E5] text-lg mb-4">{currentContent.lastUpdated}</p>
+          <p className="text-[#F5F5F5] leading-relaxed">{currentContent.intro}</p>
         </div>
       </div>
 
@@ -216,20 +216,20 @@ export default function LegalEntity() {
         <div className="space-y-8">
           {currentContent.sections.map((section, sectionIndex) => (
             <div key={sectionIndex} className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-3xl font-bold text-[#172033] mb-6 flex items-center">
-                <CheckCircle className="text-[#0F766E] mr-3" size={32} />
+              <h2 className="text-3xl font-bold text-[#000000] mb-6 flex items-center">
+                <CheckCircle className="text-[#D00000] mr-3" size={32} />
                 {section.title}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {section.items.map((item, itemIndex) => (
-                  <div key={itemIndex} className="border-l-4 border-[#0F766E] pl-4">
-                    <h3 className="font-semibold text-[#172033] mb-1">{item.label}</h3>
-                    <p className="text-[#3F4D5F]">{item.value}</p>
+                  <div key={itemIndex} className="border-l-4 border-[#D00000] pl-4">
+                    <h3 className="font-semibold text-[#000000] mb-1">{item.label}</h3>
+                    <p className="text-[#333333]">{item.value}</p>
                     {item.license && (
-                      <p className="text-sm text-[#5D6B7B] mt-1 italic">{item.license}</p>
+                      <p className="text-sm text-[#555555] mt-1 italic">{item.license}</p>
                     )}
                     {item.details && (
-                      <p className="text-sm text-[#5D6B7B] mt-1">{item.details}</p>
+                      <p className="text-sm text-[#555555] mt-1">{item.details}</p>
                     )}
                   </div>
                 ))}
@@ -239,12 +239,12 @@ export default function LegalEntity() {
         </div>
 
         <div className="mt-12 bg-white rounded-lg shadow-lg p-8">
-          <div className="bg-green-50 border-2 border-green-600 p-6 rounded-lg">
-            <h3 className="text-xl font-bold text-green-900 mb-3 flex items-center">
-              <CheckCircle className="text-green-600 mr-2" size={24} />
+          <div className="bg-[#FFF1F1] border-2 border-[#D00000] p-6 rounded-lg">
+            <h3 className="text-xl font-bold text-[#000000] mb-3 flex items-center">
+              <CheckCircle className="text-[#D00000] mr-2" size={24} />
               {language === 'fr' ? 'Entièrement Agréé et Réglementé' : 'Fully Licensed and Regulated'}
             </h3>
-            <p className="text-[#24364B] leading-relaxed">
+            <p className="text-[#000000] leading-relaxed">
               {language === 'fr'
                 ? 'Aareal Bank AG est fièrement agréée et réglementée par l\'Autorité des Services Financiers de Malte (MFSA) et opère en pleine conformité avec toutes les réglementations de l\'Union Européenne et internationales applicables. Nous maintenons les normes les plus élevées de conformité réglementaire, de sécurité et de protection des clients.'
                 : 'Aareal Bank AG is proudly licensed and regulated by the Malta Financial Services Authority (MFSA) and operates in full compliance with all applicable European Union and international regulations. We maintain the highest standards of regulatory compliance, security, and client protection.'}

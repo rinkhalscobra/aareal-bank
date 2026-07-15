@@ -284,8 +284,8 @@ export default function InvestmentHighlight() {
             key={i}
             className={`w-4 h-4 ${
               i < rating
-                ? 'fill-green-500 text-green-500'
-                : 'fill-[#CBD5DE] text-[#CBD5DE]'
+                ? 'fill-[#D00000] text-[#D00000]'
+                : 'fill-[#E5E5E5] text-[#E5E5E5]'
             }`}
           />
         ))}
@@ -307,7 +307,7 @@ export default function InvestmentHighlight() {
   const renderPlatformBrand = (platform: string, compact = false) => {
     if (platform === 'Google') {
       return (
-        <span className={`font-bold tracking-tight text-[#12355B] ${compact ? 'text-sm' : 'text-lg sm:text-xl'}`}>
+        <span className={`font-bold tracking-tight text-[#000000] ${compact ? 'text-sm' : 'text-lg sm:text-xl'}`}>
           Google
         </span>
       );
@@ -329,23 +329,23 @@ export default function InvestmentHighlight() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12 sm:mb-16 md:mb-20">
           <div className="flex items-center justify-center gap-3 mb-4 sm:mb-6">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#172033]">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#000000]">
               {t.title}
             </h2>
           </div>
-          <p className="text-center text-base sm:text-lg md:text-xl text-[#5D6B7B] max-w-2xl mx-auto mb-8 sm:mb-12">
+          <p className="text-center text-base sm:text-lg md:text-xl text-[#555555] max-w-2xl mx-auto mb-8 sm:mb-12">
             {t.subtitle}
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-12 py-6 sm:py-8 border-y-2 border-[#DDE7E3]">
+          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-12 py-6 sm:py-8 border-y-2 border-[#E5E5E5]">
             <div className="flex items-center gap-3 sm:gap-4">
               {renderPlatformBrand('Trustpilot')}
               <div>
                 <div className="flex items-center gap-2 mb-1">
                   {renderStars(5)}
-                  <span className="font-bold text-[#172033] text-sm sm:text-base">4.8</span>
+                  <span className="font-bold text-[#000000] text-sm sm:text-base">4.8</span>
                 </div>
-                <p className="text-xs sm:text-sm text-[#5D6B7B]">{t.basedOn} 12,459 {t.reviews}</p>
+                <p className="text-xs sm:text-sm text-[#555555]">{t.basedOn} 12,459 {t.reviews}</p>
               </div>
             </div>
 
@@ -354,9 +354,9 @@ export default function InvestmentHighlight() {
               <div>
                 <div className="flex items-center gap-2 mb-1">
                   {renderStars(5)}
-                  <span className="font-bold text-[#172033] text-sm sm:text-base">4.9</span>
+                  <span className="font-bold text-[#000000] text-sm sm:text-base">4.9</span>
                 </div>
-                <p className="text-xs sm:text-sm text-[#5D6B7B]">{t.basedOn} 8,742 {t.reviews}</p>
+                <p className="text-xs sm:text-sm text-[#555555]">{t.basedOn} 8,742 {t.reviews}</p>
               </div>
             </div>
 
@@ -365,9 +365,9 @@ export default function InvestmentHighlight() {
               <div>
                 <div className="flex items-center gap-2 mb-1">
                   {renderStars(5)}
-                  <span className="font-bold text-[#172033] text-sm sm:text-base">4.7</span>
+                  <span className="font-bold text-[#000000] text-sm sm:text-base">4.7</span>
                 </div>
-                <p className="text-xs sm:text-sm text-[#5D6B7B]">{t.basedOn} 6,331 {t.reviews}</p>
+                <p className="text-xs sm:text-sm text-[#555555]">{t.basedOn} 6,331 {t.reviews}</p>
               </div>
             </div>
           </div>
@@ -377,15 +377,15 @@ export default function InvestmentHighlight() {
           {reviews.map((review, index) => (
             <div
               key={index}
-              className="bg-white border-2 border-[#DDE7E3] p-4 sm:p-6"
+              className="bg-white border-2 border-[#E5E5E5] p-4 sm:p-6"
             >
               <div className="flex items-start justify-between mb-3 sm:mb-4">
                 <div className="flex items-center gap-2">
                   {renderPlatformBrand(review.platform, true)}
                   {review.verified && (
-                    <div className="flex items-center gap-1 bg-[#ECFDF8] px-2 py-1">
-                      <CheckCircle className="w-3 h-3 text-[#0F766E]" />
-                      <span className="text-xs font-medium text-[#0F766E]">{t.verified}</span>
+                    <div className="flex items-center gap-1 bg-[#FFF1F1] px-2 py-1">
+                      <CheckCircle className="w-3 h-3 text-[#D00000]" />
+                      <span className="text-xs font-medium text-[#D00000]">{t.verified}</span>
                     </div>
                   )}
                 </div>
@@ -395,13 +395,13 @@ export default function InvestmentHighlight() {
                 {renderStars(review.rating)}
               </div>
 
-              <h3 className="font-bold text-[#172033] mb-3 text-base">{t.reviewTitle}</h3>
+              <h3 className="font-bold text-[#000000] mb-3 text-base">{t.reviewTitle}</h3>
 
-              <p className="text-[#3F4D5F] text-sm leading-relaxed mb-4">
+              <p className="text-[#333333] text-sm leading-relaxed mb-4">
                 {review.text}
               </p>
 
-              <div className="border-t-2 border-[#EEF3F1] pt-4">
+              <div className="border-t-2 border-[#FFFFFF] pt-4">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center gap-2">
@@ -415,13 +415,13 @@ export default function InvestmentHighlight() {
                         loading="lazy"
                         decoding="async"
                       />
-                      <p className="font-bold text-[#172033] text-sm">{review.author}</p>
+                      <p className="font-bold text-[#000000] text-sm">{review.author}</p>
                     </div>
-                    <p className="text-xs text-[#788696] mt-1">{review.role}</p>
+                    <p className="text-xs text-[#777777] mt-1">{review.role}</p>
                   </div>
-                  <p className="text-xs text-[#788696]">{review.date}</p>
+                  <p className="text-xs text-[#777777]">{review.date}</p>
                 </div>
-                <p className="text-xs text-[#788696] mt-3">{review.helpful} {t.helpful}</p>
+                <p className="text-xs text-[#777777] mt-3">{review.helpful} {t.helpful}</p>
               </div>
             </div>
           ))}

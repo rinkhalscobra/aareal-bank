@@ -11,13 +11,13 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-12 sm:py-16 md:py-20 bg-[#F6F8F7]">
+    <section id="about" className="py-12 sm:py-16 md:py-20 bg-[#F5F5F5]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="bg-white border-2 border-[#DDE7E3] hover:border-[#0F766E] transition-all overflow-hidden group aspect-square p-4"
+              className="bg-white border-2 border-[#E5E5E5] hover:border-[#D00000] transition-all overflow-hidden group aspect-square p-4"
             >
               <img
                 src={stat.image}

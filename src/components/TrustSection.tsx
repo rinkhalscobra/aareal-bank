@@ -90,25 +90,25 @@ export default function TrustSection() {
   ];
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-[#F6F8F7]">
+    <section className="py-12 sm:py-16 md:py-20 bg-[#F5F5F5]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#172033] mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#000000] mb-4">
             {t.trustSection.title}
           </h2>
-          <div className="w-24 h-1 bg-[#0F766E] mx-auto mb-4"></div>
-          <p className="text-lg sm:text-xl text-[#5D6B7B] font-medium px-4">
+          <div className="w-24 h-1 bg-[#D00000] mx-auto mb-4"></div>
+          <p className="text-lg sm:text-xl text-[#555555] font-medium px-4">
             {t.trustSection.subtitle}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-          <div className="bg-white border-2 border-[#DDE7E3] p-6 sm:p-8 hover:border-[#0F766E] transition-all duration-300 hover:shadow-xl">
+          <div className="bg-white border-2 border-[#E5E5E5] p-6 sm:p-8 hover:border-[#D00000] transition-all duration-300 hover:shadow-xl">
             <div className="text-center mb-6 sm:mb-8">
-              <h3 className="text-2xl sm:text-3xl font-bold text-[#172033] mb-2">
+              <h3 className="text-2xl sm:text-3xl font-bold text-[#000000] mb-2">
                 {t.trustSection.crypto.title}
               </h3>
-              <p className="text-sm sm:text-base text-[#5D6B7B] px-2">
+              <p className="text-sm sm:text-base text-[#555555] px-2">
                 {t.trustSection.crypto.description}
               </p>
             </div>
@@ -117,7 +117,7 @@ export default function TrustSection() {
               {cryptoAssets.map((crypto, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-3 p-3 sm:p-4 bg-[#F6F8F7] hover:bg-[#EEF3F1] transition-colors duration-200 border border-[#DDE7E3] hover:border-[#C7D3D0]"
+                  className="flex items-center gap-3 p-3 sm:p-4 bg-[#F5F5F5] hover:bg-[#FFFFFF] transition-colors duration-200 border border-[#E5E5E5] hover:border-[#CCCCCC]"
                 >
                   <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center flex-shrink-0">
                     <img
@@ -127,10 +127,10 @@ export default function TrustSection() {
                     />
                   </div>
                   <div className="min-w-0">
-                    <div className="font-bold text-[#172033] text-sm">
+                    <div className="font-bold text-[#000000] text-sm">
                       {crypto.code}
                     </div>
-                    <div className="text-[#5D6B7B] text-xs truncate">
+                    <div className="text-[#555555] text-xs truncate">
                       {crypto.name}
                     </div>
                   </div>
@@ -139,18 +139,18 @@ export default function TrustSection() {
             </div>
 
             <div className="mt-6 text-center">
-              <p className="text-[#788696] text-xs sm:text-sm font-medium italic">
+              <p className="text-[#777777] text-xs sm:text-sm font-medium italic">
                 {t.trustSection.crypto.more}
               </p>
             </div>
           </div>
 
-          <div className="bg-white border-2 border-[#DDE7E3] p-6 sm:p-8 hover:border-[#0F766E] transition-all duration-300 hover:shadow-xl">
+          <div className="bg-white border-2 border-[#E5E5E5] p-6 sm:p-8 hover:border-[#D00000] transition-all duration-300 hover:shadow-xl">
             <div className="text-center mb-6 sm:mb-8">
-              <h3 className="text-2xl sm:text-3xl font-bold text-[#172033] mb-2">
+              <h3 className="text-2xl sm:text-3xl font-bold text-[#000000] mb-2">
                 {t.trustSection.fiat.title}
               </h3>
-              <p className="text-sm sm:text-base text-[#5D6B7B] px-2">
+              <p className="text-sm sm:text-base text-[#555555] px-2">
                 {t.trustSection.fiat.description}
               </p>
             </div>
@@ -159,7 +159,7 @@ export default function TrustSection() {
               {fiatCurrencies.map((currency, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-3 p-3 sm:p-4 bg-[#F6F8F7] hover:bg-[#EEF3F1] transition-colors duration-200 border border-[#DDE7E3] hover:border-[#C7D3D0]"
+                  className="flex items-center gap-3 p-3 sm:p-4 bg-[#F5F5F5] hover:bg-[#FFFFFF] transition-colors duration-200 border border-[#E5E5E5] hover:border-[#CCCCCC]"
                 >
                   <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center flex-shrink-0 overflow-hidden rounded">
                     <img
@@ -169,10 +169,10 @@ export default function TrustSection() {
                     />
                   </div>
                   <div className="min-w-0">
-                    <div className="font-bold text-[#172033] text-sm">
+                    <div className="font-bold text-[#000000] text-sm">
                       {currency.code}
                     </div>
-                    <div className="text-[#5D6B7B] text-xs truncate">
+                    <div className="text-[#555555] text-xs truncate">
                       {currency.name}
                     </div>
                   </div>
@@ -181,7 +181,7 @@ export default function TrustSection() {
             </div>
 
             <div className="mt-6 text-center">
-              <p className="text-[#788696] text-xs sm:text-sm font-medium italic">
+              <p className="text-[#777777] text-xs sm:text-sm font-medium italic">
                 {t.trustSection.fiat.more}
               </p>
             </div>

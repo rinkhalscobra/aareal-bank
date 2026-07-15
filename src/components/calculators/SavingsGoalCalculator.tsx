@@ -31,14 +31,14 @@ export default function SavingsGoalCalculator() {
   return (
     <div className="bg-white p-8 shadow-lg">
       <div className="flex items-center gap-3 mb-6">
-        <Target className="w-8 h-8 text-[#0F766E]" />
-        <h3 className="text-2xl font-bold text-[#172033]">{t.financialEducation.calculators.savingsCalc.title}</h3>
+        <Target className="w-8 h-8 text-[#D00000]" />
+        <h3 className="text-2xl font-bold text-[#000000]">{t.financialEducation.calculators.savingsCalc.title}</h3>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="space-y-4">
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.savingsCalc.savingsGoal}: ${goalAmount.toLocaleString()}
             </label>
             <input
@@ -48,13 +48,13 @@ export default function SavingsGoalCalculator() {
               step="1000"
               value={goalAmount}
               onChange={(e) => setGoalAmount(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
-            <p className="text-xs text-[#788696] mt-1">{t.financialEducation.calculators.savingsCalc.whatSavingFor}</p>
+            <p className="text-xs text-[#777777] mt-1">{t.financialEducation.calculators.savingsCalc.whatSavingFor}</p>
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.savingsCalc.currentSavings}: ${currentSavings.toLocaleString()}
             </label>
             <input
@@ -64,13 +64,13 @@ export default function SavingsGoalCalculator() {
               step="100"
               value={currentSavings}
               onChange={(e) => setCurrentSavings(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
-            <p className="text-xs text-[#788696] mt-1">{t.financialEducation.calculators.savingsCalc.howMuchNow}</p>
+            <p className="text-xs text-[#777777] mt-1">{t.financialEducation.calculators.savingsCalc.howMuchNow}</p>
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.savingsCalc.monthlyContribution}: ${monthlyContribution.toLocaleString()}
             </label>
             <input
@@ -80,13 +80,13 @@ export default function SavingsGoalCalculator() {
               step="50"
               value={monthlyContribution}
               onChange={(e) => setMonthlyContribution(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
-            <p className="text-xs text-[#788696] mt-1">{t.financialEducation.calculators.savingsCalc.howMuchMonthly}</p>
+            <p className="text-xs text-[#777777] mt-1">{t.financialEducation.calculators.savingsCalc.howMuchMonthly}</p>
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.savingsCalc.interestRate}: {interestRate.toFixed(1)}%
             </label>
             <input
@@ -96,16 +96,16 @@ export default function SavingsGoalCalculator() {
               step="0.5"
               value={interestRate}
               onChange={(e) => setInterestRate(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
-            <p className="text-xs text-[#788696] mt-1">{t.financialEducation.calculators.savingsCalc.expectedReturn}</p>
+            <p className="text-xs text-[#777777] mt-1">{t.financialEducation.calculators.savingsCalc.expectedReturn}</p>
           </div>
 
-          <div className="bg-[#ECFDF8] p-4 rounded-lg border-l-4 border-[#0F766E] mt-6">
-            <p className="text-sm text-[#3F4D5F]">
+          <div className="bg-[#FFF1F1] p-4 rounded-lg border-l-4 border-[#D00000] mt-6">
+            <p className="text-sm text-[#333333]">
               <span className="font-bold">{t.financialEducation.calculators.savingsCalc.quickTips}:</span>
             </p>
-            <ul className="text-sm text-[#5D6B7B] mt-2 space-y-1 list-disc list-inside">
+            <ul className="text-sm text-[#555555] mt-2 space-y-1 list-disc list-inside">
               <li>{t.financialEducation.calculators.savingsCalc.tip1}</li>
               <li>{t.financialEducation.calculators.savingsCalc.tip2}</li>
               <li>{t.financialEducation.calculators.savingsCalc.tip3}</li>
@@ -115,7 +115,7 @@ export default function SavingsGoalCalculator() {
         </div>
 
         <div className="space-y-6">
-          <div className="bg-gradient-to-br from-green-600 to-green-800 text-white p-6 rounded-lg">
+          <div className="bg-gradient-to-br from-[#D00000] to-[#000000] text-white p-6 rounded-lg">
             <h4 className="text-lg font-bold mb-4">{t.financialEducation.calculators.savingsCalc.timeline}</h4>
             <div className="space-y-4">
               <div className="flex items-center gap-3">
@@ -137,48 +137,48 @@ export default function SavingsGoalCalculator() {
             </div>
           </div>
 
-          <div className="bg-[#F6F8F7] p-6 rounded-lg border-2 border-[#DDE7E3]">
-            <h4 className="text-lg font-bold mb-4 text-[#172033]">{t.financialEducation.calculators.savingsCalc.breakdown}</h4>
+          <div className="bg-[#F5F5F5] p-6 rounded-lg border-2 border-[#E5E5E5]">
+            <h4 className="text-lg font-bold mb-4 text-[#000000]">{t.financialEducation.calculators.savingsCalc.breakdown}</h4>
             <div className="space-y-4">
-              <div className="flex justify-between items-center pb-3 border-b border-[#DDE7E3]">
-                <span className="text-[#3F4D5F]">{t.financialEducation.calculators.savingsCalc.goalAmount}</span>
-                <span className="font-bold text-[#172033]">${goalAmount.toLocaleString()}</span>
+              <div className="flex justify-between items-center pb-3 border-b border-[#E5E5E5]">
+                <span className="text-[#333333]">{t.financialEducation.calculators.savingsCalc.goalAmount}</span>
+                <span className="font-bold text-[#000000]">${goalAmount.toLocaleString()}</span>
               </div>
-              <div className="flex justify-between items-center pb-3 border-b border-[#DDE7E3]">
-                <span className="text-[#3F4D5F]">{t.financialEducation.calculators.savingsCalc.startingBalance}</span>
-                <span className="font-bold text-[#172033]">${currentSavings.toLocaleString()}</span>
+              <div className="flex justify-between items-center pb-3 border-b border-[#E5E5E5]">
+                <span className="text-[#333333]">{t.financialEducation.calculators.savingsCalc.startingBalance}</span>
+                <span className="font-bold text-[#000000]">${currentSavings.toLocaleString()}</span>
               </div>
-              <div className="flex justify-between items-center pb-3 border-b border-[#DDE7E3]">
-                <span className="text-[#3F4D5F]">{t.financialEducation.calculators.savingsCalc.stillNeeded}</span>
-                <span className="font-bold text-[#0F766E]">${remaining.toLocaleString()}</span>
+              <div className="flex justify-between items-center pb-3 border-b border-[#E5E5E5]">
+                <span className="text-[#333333]">{t.financialEducation.calculators.savingsCalc.stillNeeded}</span>
+                <span className="font-bold text-[#D00000]">${remaining.toLocaleString()}</span>
               </div>
-              <div className="flex justify-between items-center pb-3 border-b border-[#DDE7E3]">
-                <span className="text-[#3F4D5F]">{t.financialEducation.calculators.savingsCalc.totalContributions}</span>
-                <span className="font-bold text-[#172033]">${totalContributions.toLocaleString()}</span>
+              <div className="flex justify-between items-center pb-3 border-b border-[#E5E5E5]">
+                <span className="text-[#333333]">{t.financialEducation.calculators.savingsCalc.totalContributions}</span>
+                <span className="font-bold text-[#000000]">${totalContributions.toLocaleString()}</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-[#3F4D5F] flex items-center gap-2">
-                  <TrendingUp className="w-4 h-4 text-green-600" />
+                <span className="text-[#333333] flex items-center gap-2">
+                  <TrendingUp className="w-4 h-4 text-[#D00000]" />
                   {t.financialEducation.calculators.savingsCalc.interestEarned}
                 </span>
-                <span className="font-bold text-green-600">${Math.max(0, interestEarned).toLocaleString()}</span>
+                <span className="font-bold text-[#D00000]">${Math.max(0, interestEarned).toLocaleString()}</span>
               </div>
             </div>
           </div>
 
-          <div className="bg-[#F6F8F7] p-6 rounded-lg border-2 border-[#DDE7E3]">
-            <h4 className="text-lg font-bold mb-3 text-[#172033]">{t.financialEducation.calculators.savingsCalc.progressBar}</h4>
+          <div className="bg-[#F5F5F5] p-6 rounded-lg border-2 border-[#E5E5E5]">
+            <h4 className="text-lg font-bold mb-3 text-[#000000]">{t.financialEducation.calculators.savingsCalc.progressBar}</h4>
             <div className="mb-2">
-              <div className="w-full bg-[#DDE7E3] rounded-full h-6">
+              <div className="w-full bg-[#E5E5E5] rounded-full h-6">
                 <div
-                  className="bg-gradient-to-r from-green-500 to-green-600 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white"
+                  className="bg-gradient-to-r from-[#D00000] to-[#A00000] h-6 rounded-full flex items-center justify-center text-xs font-bold text-white"
                   style={{ width: `${Math.min((currentSavings / goalAmount) * 100, 100)}%` }}
                 >
                   {((currentSavings / goalAmount) * 100).toFixed(0)}%
                 </div>
               </div>
             </div>
-            <p className="text-sm text-[#5D6B7B] text-center">
+            <p className="text-sm text-[#555555] text-center">
               ${currentSavings.toLocaleString()} of ${goalAmount.toLocaleString()}
             </p>
           </div>

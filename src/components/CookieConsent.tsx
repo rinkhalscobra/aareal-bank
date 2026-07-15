@@ -156,16 +156,16 @@ export default function CookieConsent() {
 
   return (
     <>
-      <div className="fixed inset-0 bg-[#172033] bg-opacity-50 z-50" />
+      <div className="fixed inset-0 bg-[#000000] bg-opacity-50 z-50" />
 
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t-4 border-[#0F766E] shadow-2xl z-50 animate-slide-up">
+      <div className="fixed bottom-0 left-0 right-0 bg-white border-t-4 border-[#D00000] shadow-2xl z-50 animate-slide-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           {!showSettings ? (
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
               <div className="flex items-start space-x-4 flex-1">
-                <Cookie className="text-[#0F766E] flex-shrink-0 mt-1" size={32} />
+                <Cookie className="text-[#D00000] flex-shrink-0 mt-1" size={32} />
                 <div>
-                  <h3 className="text-lg font-bold text-[#172033] mb-2">
+                  <h3 className="text-lg font-bold text-[#000000] mb-2">
                     {getText(
                       'We Value Your Privacy',
                       'Nous Respectons Votre Vie Privée',
@@ -175,7 +175,7 @@ export default function CookieConsent() {
                       'Σεβόμαστε Την Ιδιωτικότητά Σας'
                     )}
                   </h3>
-                  <p className="text-[#5D6B7B] text-sm">
+                  <p className="text-[#555555] text-sm">
                     {getText(
                       'We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.',
                       'Nous utilisons des cookies pour améliorer votre expérience de navigation, diffuser du contenu personnalisé et analyser notre trafic. En cliquant sur "Tout Accepter", vous consentez à notre utilisation de cookies.',
@@ -191,7 +191,7 @@ export default function CookieConsent() {
               <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
                 <button
                   onClick={() => setShowSettings(true)}
-                  className="px-6 py-3 border-2 border-[#C7D3D0] text-[#3F4D5F] font-semibold hover:bg-[#F6F8F7] transition-colors flex items-center justify-center space-x-2"
+                  className="px-6 py-3 border-2 border-[#CCCCCC] text-[#333333] font-semibold hover:bg-[#F5F5F5] transition-colors flex items-center justify-center space-x-2"
                 >
                   <Settings size={18} />
                   <span>
@@ -200,13 +200,13 @@ export default function CookieConsent() {
                 </button>
                 <button
                   onClick={acceptNecessary}
-                  className="px-6 py-3 border-2 border-[#0F766E] text-[#0F766E] font-semibold hover:bg-[#ECFDF8] transition-colors"
+                  className="px-6 py-3 border-2 border-[#D00000] text-[#D00000] font-semibold hover:bg-[#FFF1F1] transition-colors"
                 >
                   {getText('Necessary Only', 'Nécessaire Seulement', 'Solo Necessari', 'Nur Notwendige', 'Solo Necesarias', 'Μόνο Απαραίτητα')}
                 </button>
                 <button
                   onClick={acceptAll}
-                  className="px-6 py-3 bg-[#0F766E] text-white font-semibold hover:bg-[#0B5F59] transition-colors"
+                  className="px-6 py-3 bg-[#D00000] text-white font-semibold hover:bg-[#A00000] transition-colors"
                 >
                   {getText('Accept All', 'Tout Accepter', 'Accetta Tutto', 'Alle Akzeptieren', 'Aceptar Todo', 'Αποδοχή Όλων')}
                 </button>
@@ -215,27 +215,27 @@ export default function CookieConsent() {
           ) : (
             <div className="space-y-6">
               <div className="flex items-center justify-between">
-                <h3 className="text-xl font-bold text-[#172033] flex items-center space-x-3">
-                  <Settings className="text-[#0F766E]" size={24} />
+                <h3 className="text-xl font-bold text-[#000000] flex items-center space-x-3">
+                  <Settings className="text-[#D00000]" size={24} />
                   <span>
                     {getText('Cookie Preferences', 'Préférences des Cookies', 'Preferenze Cookie', 'Cookie-Einstellungen', 'Preferencias de Cookies', 'Προτιμήσεις Cookie')}
                   </span>
                 </h3>
                 <button
                   onClick={() => setShowSettings(false)}
-                  className="text-[#788696] hover:text-[#3F4D5F]"
+                  className="text-[#777777] hover:text-[#333333]"
                 >
                   <X size={24} />
                 </button>
               </div>
 
               <div className="space-y-4">
-                <div className="flex items-start justify-between p-4 bg-[#F6F8F7] rounded-lg">
+                <div className="flex items-start justify-between p-4 bg-[#F5F5F5] rounded-lg">
                   <div className="flex-1">
-                    <h4 className="font-semibold text-[#172033] mb-1">
+                    <h4 className="font-semibold text-[#000000] mb-1">
                       {getText('Necessary Cookies', 'Cookies Nécessaires', 'Cookie Necessari', 'Notwendige Cookies', 'Cookies Necesarias', 'Απαραίτητα Cookie')}
                     </h4>
-                    <p className="text-sm text-[#5D6B7B]">
+                    <p className="text-sm text-[#555555]">
                       {getText(
                         'These cookies are essential for the website to function and cannot be disabled.',
                         'Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés.',
@@ -251,17 +251,17 @@ export default function CookieConsent() {
                       type="checkbox"
                       checked={true}
                       disabled
-                      className="w-5 h-5 text-[#0F766E] border-[#C7D3D0] rounded focus:ring-[#0F766E]"
+                      className="w-5 h-5 text-[#D00000] border-[#CCCCCC] rounded focus:ring-[#D00000]"
                     />
                   </div>
                 </div>
 
-                <div className="flex items-start justify-between p-4 bg-white border-2 border-[#DDE7E3] rounded-lg">
+                <div className="flex items-start justify-between p-4 bg-white border-2 border-[#E5E5E5] rounded-lg">
                   <div className="flex-1">
-                    <h4 className="font-semibold text-[#172033] mb-1">
+                    <h4 className="font-semibold text-[#000000] mb-1">
                       {getText('Analytics Cookies', 'Cookies Analytiques', 'Cookie Analitici', 'Analyse-Cookies', 'Cookies Analíticas', 'Cookie Ανάλυσης')}
                     </h4>
-                    <p className="text-sm text-[#5D6B7B]">
+                    <p className="text-sm text-[#555555]">
                       {getText(
                         'Help us understand how visitors interact with our website.',
                         'Nous aident à comprendre comment les visiteurs interagissent avec notre site.',
@@ -277,17 +277,17 @@ export default function CookieConsent() {
                       type="checkbox"
                       checked={preferences.analytics}
                       onChange={(e) => setPreferences({ ...preferences, analytics: e.target.checked })}
-                      className="w-5 h-5 text-[#0F766E] border-[#C7D3D0] rounded focus:ring-[#0F766E]"
+                      className="w-5 h-5 text-[#D00000] border-[#CCCCCC] rounded focus:ring-[#D00000]"
                     />
                   </div>
                 </div>
 
-                <div className="flex items-start justify-between p-4 bg-white border-2 border-[#DDE7E3] rounded-lg">
+                <div className="flex items-start justify-between p-4 bg-white border-2 border-[#E5E5E5] rounded-lg">
                   <div className="flex-1">
-                    <h4 className="font-semibold text-[#172033] mb-1">
+                    <h4 className="font-semibold text-[#000000] mb-1">
                       {getText('Marketing Cookies', 'Cookies Marketing', 'Cookie di Marketing', 'Marketing-Cookies', 'Cookies de Marketing', 'Cookie Μάρκετινγκ')}
                     </h4>
-                    <p className="text-sm text-[#5D6B7B]">
+                    <p className="text-sm text-[#555555]">
                       {getText(
                         'Used to deliver relevant advertisements and track campaign performance.',
                         'Utilisés pour diffuser des publicités pertinentes et suivre les performances des campagnes.',
@@ -303,17 +303,17 @@ export default function CookieConsent() {
                       type="checkbox"
                       checked={preferences.marketing}
                       onChange={(e) => setPreferences({ ...preferences, marketing: e.target.checked })}
-                      className="w-5 h-5 text-[#0F766E] border-[#C7D3D0] rounded focus:ring-[#0F766E]"
+                      className="w-5 h-5 text-[#D00000] border-[#CCCCCC] rounded focus:ring-[#D00000]"
                     />
                   </div>
                 </div>
 
-                <div className="flex items-start justify-between p-4 bg-white border-2 border-[#DDE7E3] rounded-lg">
+                <div className="flex items-start justify-between p-4 bg-white border-2 border-[#E5E5E5] rounded-lg">
                   <div className="flex-1">
-                    <h4 className="font-semibold text-[#172033] mb-1">
+                    <h4 className="font-semibold text-[#000000] mb-1">
                       {getText('Preference Cookies', 'Cookies de Préférence', 'Cookie di Preferenza', 'Präferenz-Cookies', 'Cookies de Preferencia', 'Cookie Προτίμησης')}
                     </h4>
-                    <p className="text-sm text-[#5D6B7B]">
+                    <p className="text-sm text-[#555555]">
                       {getText(
                         'Remember your preferences like language and region.',
                         'Se souviennent de vos préférences comme la langue et la région.',
@@ -329,7 +329,7 @@ export default function CookieConsent() {
                       type="checkbox"
                       checked={preferences.preferences}
                       onChange={(e) => setPreferences({ ...preferences, preferences: e.target.checked })}
-                      className="w-5 h-5 text-[#0F766E] border-[#C7D3D0] rounded focus:ring-[#0F766E]"
+                      className="w-5 h-5 text-[#D00000] border-[#CCCCCC] rounded focus:ring-[#D00000]"
                     />
                   </div>
                 </div>
@@ -338,13 +338,13 @@ export default function CookieConsent() {
               <div className="flex flex-col sm:flex-row gap-3 justify-end">
                 <button
                   onClick={acceptNecessary}
-                  className="px-6 py-3 border-2 border-[#0F766E] text-[#0F766E] font-semibold hover:bg-[#ECFDF8] transition-colors"
+                  className="px-6 py-3 border-2 border-[#D00000] text-[#D00000] font-semibold hover:bg-[#FFF1F1] transition-colors"
                 >
                   {getText('Necessary Only', 'Nécessaire Seulement', 'Solo Necessari', 'Nur Notwendige', 'Solo Necesarias', 'Μόνο Απαραίτητα')}
                 </button>
                 <button
                   onClick={saveCustom}
-                  className="px-6 py-3 bg-[#0F766E] text-white font-semibold hover:bg-[#0B5F59] transition-colors"
+                  className="px-6 py-3 bg-[#D00000] text-white font-semibold hover:bg-[#A00000] transition-colors"
                 >
                   {getText('Save Preferences', 'Enregistrer les Préférences', 'Salva Preferenze', 'Einstellungen Speichern', 'Guardar Preferencias', 'Αποθήκευση Προτιμήσεων')}
                 </button>

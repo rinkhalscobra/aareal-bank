@@ -78,17 +78,17 @@ export default function TermsOfService() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
-      <div className="bg-gradient-to-r from-[#172033] via-[#12355B] to-[#172033] text-white py-12 sm:py-16 md:py-20">
+    <div className="min-h-screen bg-[#F5F5F5]">
+      <div className="bg-gradient-to-r from-[#000000] via-[#000000] to-[#000000] text-white py-12 sm:py-16 md:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
-            <Scale size={56} className="text-[#C8942D] w-12 h-12 sm:w-14 sm:h-14" />
+            <Scale size={56} className="text-[#D00000] w-12 h-12 sm:w-14 sm:h-14" />
             <div className="flex-1">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">{t.title}</h1>
-              <p className="text-[#CBD5DE] text-sm sm:text-base">{t.lastUpdated}</p>
+              <p className="text-[#E5E5E5] text-sm sm:text-base">{t.lastUpdated}</p>
             </div>
           </div>
-          <p className="text-[#E6ECEF] text-sm sm:text-base leading-relaxed max-w-4xl">
+          <p className="text-[#F5F5F5] text-sm sm:text-base leading-relaxed max-w-4xl">
             {t.intro}
           </p>
         </div>
@@ -1555,7 +1555,7 @@ export default function TermsOfService() {
                   : language === 'el' ? 'Για οποιαδήποτε ερώτηση, ανησυχία ή ειδοποίηση σχετικά με αυτή τη Συμφωνία, επικοινωνήστε μαζί μας στο:'
                   : 'For any questions, concerns, or notices regarding this Agreement, please contact us at:'}
               </p>
-              <div className="mt-4 p-4 bg-[#F6F8F7] rounded-lg">
+              <div className="mt-4 p-4 bg-[#F5F5F5] rounded-lg">
                 <p className="text-sm sm:text-base font-semibold mb-2">Aareal Bank AG</p>
                 <p className="text-sm sm:text-base">
                   {language === 'fr' ? 'Email Juridique'
@@ -1577,8 +1577,8 @@ export default function TermsOfService() {
             </LegalSubsection>
           </LegalSection>
 
-          <div className="mt-12 pt-8 border-t-2 border-[#DDE7E3]">
-            <p className="text-[#5D6B7B] text-sm text-center">
+          <div className="mt-12 pt-8 border-t-2 border-[#E5E5E5]">
+            <p className="text-[#555555] text-sm text-center">
               {language === 'fr' ? 'En utilisant nos services, vous reconnaissez avoir lu, compris et accepté d\'être lié par ces Conditions de Service complètes.'
                 : language === 'it' ? 'Utilizzando i nostri servizi, riconosci di aver letto, compreso e accettato di essere vincolato da questi Termini di Servizio completi.'
                 : language === 'de' ? 'Durch die Nutzung unserer Dienste bestätigen Sie, dass Sie diese umfassenden Nutzungsbedingungen gelesen, verstanden und akzeptiert haben und an sie gebunden sind.'
@@ -1586,7 +1586,7 @@ export default function TermsOfService() {
                 : language === 'el' ? 'Χρησιμοποιώντας τις υπηρεσίες μας, αναγνωρίζετε ότι έχετε διαβάσει, κατανοήσει και συμφωνείτε να δεσμεύεστε από αυτούς τους πλήρεις Όρους Χρήσης.'
                 : 'By using our services, you acknowledge that you have read, understood, and agree to be bound by these comprehensive Terms of Service.'}
             </p>
-            <p className="text-[#788696] text-xs text-center mt-4">
+            <p className="text-[#777777] text-xs text-center mt-4">
               {language === 'fr' ? 'Pour toute question juridique, veuillez contacter support@aareal-bank-ag.com'
                 : language === 'it' ? 'Per domande legali, contattare support@aareal-bank-ag.com'
                 : language === 'de' ? 'Für rechtliche Fragen kontaktieren Sie bitte support@aareal-bank-ag.com'

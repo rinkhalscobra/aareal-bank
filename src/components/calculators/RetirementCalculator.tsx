@@ -35,14 +35,14 @@ export default function RetirementCalculator() {
   return (
     <div className="bg-white p-8 shadow-lg">
       <div className="flex items-center gap-3 mb-6">
-        <PiggyBank className="w-8 h-8 text-[#0F766E]" />
-        <h3 className="text-2xl font-bold text-[#172033]">{t.financialEducation.calculators.retirementCalc.title}</h3>
+        <PiggyBank className="w-8 h-8 text-[#D00000]" />
+        <h3 className="text-2xl font-bold text-[#000000]">{t.financialEducation.calculators.retirementCalc.title}</h3>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="space-y-4">
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.retirementCalc.currentAge}: {currentAge}
             </label>
             <input
@@ -52,12 +52,12 @@ export default function RetirementCalculator() {
               step="1"
               value={currentAge}
               onChange={(e) => setCurrentAge(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.retirementCalc.retirementAge}: {retirementAge}
             </label>
             <input
@@ -67,13 +67,13 @@ export default function RetirementCalculator() {
               step="1"
               value={retirementAge}
               onChange={(e) => setRetirementAge(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
-            <p className="text-xs text-[#788696] mt-1">{t.financialEducation.calculators.retirementCalc.yearsUntil.replace('{years}', String(yearsUntilRetirement))}</p>
+            <p className="text-xs text-[#777777] mt-1">{t.financialEducation.calculators.retirementCalc.yearsUntil.replace('{years}', String(yearsUntilRetirement))}</p>
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.retirementCalc.currentSavings}: ${currentSavings.toLocaleString()}
             </label>
             <input
@@ -83,12 +83,12 @@ export default function RetirementCalculator() {
               step="5000"
               value={currentSavings}
               onChange={(e) => setCurrentSavings(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.retirementCalc.monthlyContribution}: ${monthlyContribution.toLocaleString()}
             </label>
             <input
@@ -98,12 +98,12 @@ export default function RetirementCalculator() {
               step="100"
               value={monthlyContribution}
               onChange={(e) => setMonthlyContribution(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.retirementCalc.expectedReturn}: {annualReturn.toFixed(1)}%
             </label>
             <input
@@ -113,13 +113,13 @@ export default function RetirementCalculator() {
               step="0.5"
               value={annualReturn}
               onChange={(e) => setAnnualReturn(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
-            <p className="text-xs text-[#788696] mt-1">{t.financialEducation.calculators.retirementCalc.historicalAvg}</p>
+            <p className="text-xs text-[#777777] mt-1">{t.financialEducation.calculators.retirementCalc.historicalAvg}</p>
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-[#3F4D5F] mb-2">
+            <label className="block text-sm font-semibold text-[#333333] mb-2">
               {t.financialEducation.calculators.retirementCalc.desiredIncome}: ${desiredMonthlyIncome.toLocaleString()}
             </label>
             <input
@@ -129,14 +129,14 @@ export default function RetirementCalculator() {
               step="500"
               value={desiredMonthlyIncome}
               onChange={(e) => setDesiredMonthlyIncome(Number(e.target.value))}
-              className="w-full h-2 bg-[#DDE7E3] rounded-lg appearance-none cursor-pointer"
+              className="w-full h-2 bg-[#E5E5E5] rounded-lg appearance-none cursor-pointer"
             />
-            <p className="text-xs text-[#788696] mt-1">${(desiredMonthlyIncome * 12).toLocaleString()} {t.financialEducation.calculators.retirementCalc.perYear}</p>
+            <p className="text-xs text-[#777777] mt-1">${(desiredMonthlyIncome * 12).toLocaleString()} {t.financialEducation.calculators.retirementCalc.perYear}</p>
           </div>
 
-          <div className="bg-[#ECFDF8] p-4 rounded-lg border-l-4 border-[#0F766E]">
-            <p className="text-sm font-bold text-[#172033] mb-2">{t.financialEducation.calculators.retirementCalc.tipsTitle}:</p>
-            <ul className="text-sm text-[#3F4D5F] space-y-1 list-disc list-inside">
+          <div className="bg-[#FFF1F1] p-4 rounded-lg border-l-4 border-[#D00000]">
+            <p className="text-sm font-bold text-[#000000] mb-2">{t.financialEducation.calculators.retirementCalc.tipsTitle}:</p>
+            <ul className="text-sm text-[#333333] space-y-1 list-disc list-inside">
               <li>{t.financialEducation.calculators.retirementCalc.tip1}</li>
               <li>{t.financialEducation.calculators.retirementCalc.tip2}</li>
               <li>{t.financialEducation.calculators.retirementCalc.tip3}</li>
@@ -148,7 +148,7 @@ export default function RetirementCalculator() {
 
         <div className="space-y-6">
           {onTrack ? (
-            <div className="bg-gradient-to-br from-green-600 to-green-800 text-white p-6 rounded-lg">
+            <div className="bg-gradient-to-br from-[#D00000] to-[#000000] text-white p-6 rounded-lg">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-8 h-8" />
                 <h4 className="text-lg font-bold">{t.financialEducation.calculators.retirementCalc.onTrack}</h4>
@@ -162,7 +162,7 @@ export default function RetirementCalculator() {
               </div>
             </div>
           ) : (
-            <div className="bg-gradient-to-br from-yellow-500 to-yellow-700 text-white p-6 rounded-lg">
+            <div className="bg-gradient-to-br from-[#D00000] to-[#000000] text-white p-6 rounded-lg">
               <div className="flex items-center gap-3 mb-4">
                 <AlertTriangle className="w-8 h-8" />
                 <h4 className="text-lg font-bold">{t.financialEducation.calculators.retirementCalc.actionNeeded}</h4>
@@ -177,46 +177,46 @@ export default function RetirementCalculator() {
             </div>
           )}
 
-          <div className="bg-[#F6F8F7] p-6 rounded-lg border-2 border-[#DDE7E3]">
-            <h4 className="text-lg font-bold mb-4 text-[#172033]">{t.financialEducation.calculators.retirementCalc.snapshot}</h4>
+          <div className="bg-[#F5F5F5] p-6 rounded-lg border-2 border-[#E5E5E5]">
+            <h4 className="text-lg font-bold mb-4 text-[#000000]">{t.financialEducation.calculators.retirementCalc.snapshot}</h4>
             <div className="space-y-3">
-              <div className="flex justify-between items-center pb-3 border-b border-[#DDE7E3]">
-                <span className="text-[#3F4D5F]">{t.financialEducation.calculators.retirementCalc.yearsToRetirement}</span>
-                <span className="font-bold text-[#172033]">{yearsUntilRetirement} years</span>
+              <div className="flex justify-between items-center pb-3 border-b border-[#E5E5E5]">
+                <span className="text-[#333333]">{t.financialEducation.calculators.retirementCalc.yearsToRetirement}</span>
+                <span className="font-bold text-[#000000]">{yearsUntilRetirement} years</span>
               </div>
-              <div className="flex justify-between items-center pb-3 border-b border-[#DDE7E3]">
-                <span className="text-[#3F4D5F]">{t.financialEducation.calculators.retirementCalc.projectedNestEgg}</span>
-                <span className="font-bold text-[#172033]">${futureValue.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+              <div className="flex justify-between items-center pb-3 border-b border-[#E5E5E5]">
+                <span className="text-[#333333]">{t.financialEducation.calculators.retirementCalc.projectedNestEgg}</span>
+                <span className="font-bold text-[#000000]">${futureValue.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
               </div>
-              <div className="flex justify-between items-center pb-3 border-b border-[#DDE7E3]">
-                <span className="text-[#3F4D5F]">{t.financialEducation.calculators.retirementCalc.totalContributions}</span>
-                <span className="font-bold text-[#172033]">${totalContributions.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+              <div className="flex justify-between items-center pb-3 border-b border-[#E5E5E5]">
+                <span className="text-[#333333]">{t.financialEducation.calculators.retirementCalc.totalContributions}</span>
+                <span className="font-bold text-[#000000]">${totalContributions.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
               </div>
-              <div className="flex justify-between items-center pb-3 border-b border-[#DDE7E3]">
-                <span className="text-[#3F4D5F] flex items-center gap-2">
-                  <TrendingUp className="w-4 h-4 text-green-600" />
+              <div className="flex justify-between items-center pb-3 border-b border-[#E5E5E5]">
+                <span className="text-[#333333] flex items-center gap-2">
+                  <TrendingUp className="w-4 h-4 text-[#D00000]" />
                   {t.financialEducation.calculators.retirementCalc.investmentGains}
                 </span>
-                <span className="font-bold text-green-600">${investmentGains.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+                <span className="font-bold text-[#D00000]">${investmentGains.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
               </div>
               <div className="flex justify-between items-center pt-2">
-                <span className="text-[#3F4D5F]">{t.financialEducation.calculators.retirementCalc.monthlyIncome}</span>
-                <span className="font-bold text-[#172033]">${monthlyIncomeAtRetirement.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+                <span className="text-[#333333]">{t.financialEducation.calculators.retirementCalc.monthlyIncome}</span>
+                <span className="font-bold text-[#000000]">${monthlyIncomeAtRetirement.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
               </div>
             </div>
           </div>
 
-          <div className="bg-[#F6F8F7] p-6 rounded-lg border-2 border-[#DDE7E3]">
-            <h4 className="text-lg font-bold mb-4 text-[#172033]">{t.financialEducation.calculators.retirementCalc.composition}</h4>
+          <div className="bg-[#F5F5F5] p-6 rounded-lg border-2 border-[#E5E5E5]">
+            <h4 className="text-lg font-bold mb-4 text-[#000000]">{t.financialEducation.calculators.retirementCalc.composition}</h4>
             <div className="space-y-4">
               <div>
                 <div className="flex justify-between mb-2 text-sm">
-                  <span className="text-[#3F4D5F]">{t.financialEducation.calculators.retirementCalc.initialSavings}</span>
-                  <span className="font-semibold text-[#172033]">${currentSavings.toLocaleString()}</span>
+                  <span className="text-[#333333]">{t.financialEducation.calculators.retirementCalc.initialSavings}</span>
+                  <span className="font-semibold text-[#000000]">${currentSavings.toLocaleString()}</span>
                 </div>
-                <div className="w-full bg-[#DDE7E3] rounded-full h-3">
+                <div className="w-full bg-[#E5E5E5] rounded-full h-3">
                   <div
-                    className="bg-[#ECFDF8]0 h-3 rounded-full"
+                    className="bg-[#D00000] h-3 rounded-full"
                     style={{ width: `${(currentSavings / futureValue) * 100}%` }}
                   ></div>
                 </div>
@@ -224,12 +224,12 @@ export default function RetirementCalculator() {
 
               <div>
                 <div className="flex justify-between mb-2 text-sm">
-                  <span className="text-[#3F4D5F]">{t.financialEducation.calculators.retirementCalc.contributions}</span>
-                  <span className="font-semibold text-[#172033]">${(monthlyContribution * monthsUntilRetirement).toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+                  <span className="text-[#333333]">{t.financialEducation.calculators.retirementCalc.contributions}</span>
+                  <span className="font-semibold text-[#000000]">${(monthlyContribution * monthsUntilRetirement).toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
                 </div>
-                <div className="w-full bg-[#DDE7E3] rounded-full h-3">
+                <div className="w-full bg-[#E5E5E5] rounded-full h-3">
                   <div
-                    className="bg-indigo-500 h-3 rounded-full"
+                    className="bg-[#000000] h-3 rounded-full"
                     style={{ width: `${((monthlyContribution * monthsUntilRetirement) / futureValue) * 100}%` }}
                   ></div>
                 </div>
@@ -237,12 +237,12 @@ export default function RetirementCalculator() {
 
               <div>
                 <div className="flex justify-between mb-2 text-sm">
-                  <span className="text-[#3F4D5F]">{t.financialEducation.calculators.retirementCalc.investmentGrowth}</span>
-                  <span className="font-semibold text-green-600">${investmentGains.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+                  <span className="text-[#333333]">{t.financialEducation.calculators.retirementCalc.investmentGrowth}</span>
+                  <span className="font-semibold text-[#D00000]">${investmentGains.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
                 </div>
-                <div className="w-full bg-[#DDE7E3] rounded-full h-3">
+                <div className="w-full bg-[#E5E5E5] rounded-full h-3">
                   <div
-                    className="bg-green-500 h-3 rounded-full"
+                    className="bg-[#D00000] h-3 rounded-full"
                     style={{ width: `${(investmentGains / futureValue) * 100}%` }}
                   ></div>
                 </div>
@@ -250,7 +250,7 @@ export default function RetirementCalculator() {
             </div>
           </div>
 
-          <div className="bg-[#12355B] text-white p-6 rounded-lg">
+          <div className="bg-[#000000] text-white p-6 rounded-lg">
             <h4 className="text-lg font-bold mb-4">{t.financialEducation.calculators.retirementCalc.rule4Percent}</h4>
             <p className="text-sm opacity-90 mb-4">
               {t.financialEducation.calculators.retirementCalc.rule4PercentText}

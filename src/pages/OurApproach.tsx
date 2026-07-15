@@ -4,15 +4,15 @@ export default function OurApproach() {
   const { t } = useLanguage();
 
   return (
-    <div className="min-h-screen bg-[#F6F8F7]">
+    <div className="min-h-screen bg-[#F5F5F5]">
       <div className="relative w-full mb-20">
         <img
           src="https://assets.abnamro.com/api/public/content/wm-2025-shot-33-028-landscape-4x1.jpg?t=h640"
           alt={t.ourApproachPage.title}
           className="w-full h-auto object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#172033]/70 via-[#172033]/30 to-transparent"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-[#172033]/50 to-transparent">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/70 via-[#000000]/30 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#000000]/50 to-transparent">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-white">
               {t.ourApproachPage.title}
@@ -26,10 +26,10 @@ export default function OurApproach() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="bg-white p-12 shadow-lg mb-16">
-          <p className="text-xl text-[#3F4D5F] leading-relaxed mb-6">
+          <p className="text-xl text-[#333333] leading-relaxed mb-6">
             {t.ourApproachPage.intro.paragraph1}
           </p>
-          <p className="text-xl text-[#3F4D5F] leading-relaxed">
+          <p className="text-xl text-[#333333] leading-relaxed">
             {t.ourApproachPage.intro.paragraph2}
           </p>
         </div>
@@ -43,10 +43,10 @@ export default function OurApproach() {
             />
           </div>
           <div className="order-1 lg:order-2">
-            <h2 className="text-3xl font-bold text-[#172033] mb-6">
+            <h2 className="text-3xl font-bold text-[#000000] mb-6">
               {t.ourApproachPage.rightPartner.title}
             </h2>
-            <p className="text-lg text-[#3F4D5F] leading-relaxed">
+            <p className="text-lg text-[#333333] leading-relaxed">
               {t.ourApproachPage.rightPartner.description}
             </p>
           </div>
@@ -54,7 +54,7 @@ export default function OurApproach() {
 
         <div className="bg-white p-12 shadow-lg mb-16">
           <div className="max-w-4xl mx-auto">
-            <blockquote className="text-2xl lg:text-3xl text-[#24364B] font-light italic mb-8 leading-relaxed">
+            <blockquote className="text-2xl lg:text-3xl text-[#000000] font-light italic mb-8 leading-relaxed">
               "{t.ourApproachPage.testimonial.quote}"
             </blockquote>
             <div className="flex items-center gap-4">
@@ -64,42 +64,42 @@ export default function OurApproach() {
                 className="w-16 h-16 rounded-full"
               />
               <div>
-                <p className="font-bold text-[#172033] text-lg">{t.ourApproachPage.testimonial.author}</p>
-                <p className="text-[#5D6B7B]">{t.ourApproachPage.testimonial.role}</p>
+                <p className="font-bold text-[#000000] text-lg">{t.ourApproachPage.testimonial.author}</p>
+                <p className="text-[#555555]">{t.ourApproachPage.testimonial.role}</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className="bg-white p-12 shadow-lg">
-          <h2 className="text-4xl font-bold text-[#172033] mb-12 text-center">
+          <h2 className="text-4xl font-bold text-[#000000] mb-12 text-center">
             {t.ourApproachPage.atYourService.title}
           </h2>
 
           <div className="space-y-12">
             <div>
-              <h3 className="text-2xl font-bold text-[#172033] mb-4">
+              <h3 className="text-2xl font-bold text-[#000000] mb-4">
                 {t.ourApproachPage.atYourService.privateBanker.title}
               </h3>
-              <p className="text-lg text-[#3F4D5F] leading-relaxed">
+              <p className="text-lg text-[#333333] leading-relaxed">
                 {t.ourApproachPage.atYourService.privateBanker.description}
               </p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-[#172033] mb-4">
+              <h3 className="text-2xl font-bold text-[#000000] mb-4">
                 {t.ourApproachPage.atYourService.expertise.title}
               </h3>
-              <p className="text-lg text-[#3F4D5F] leading-relaxed">
+              <p className="text-lg text-[#333333] leading-relaxed">
                 {t.ourApproachPage.atYourService.expertise.description}
               </p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-[#172033] mb-4">
+              <h3 className="text-2xl font-bold text-[#000000] mb-4">
                 {t.ourApproachPage.atYourService.tailored.title}
               </h3>
-              <p className="text-lg text-[#3F4D5F] leading-relaxed">
+              <p className="text-lg text-[#333333] leading-relaxed">
                 {t.ourApproachPage.atYourService.tailored.description}
               </p>
             </div>
@@ -115,17 +115,17 @@ export default function OurApproach() {
             />
           </div>
           <div>
-            <h2 className="text-3xl font-bold text-[#172033] mb-6">
+            <h2 className="text-3xl font-bold text-[#000000] mb-6">
               {t.ourApproachPage.familyBanking.title}
             </h2>
-            <p className="text-lg text-[#3F4D5F] leading-relaxed">
+            <p className="text-lg text-[#333333] leading-relaxed">
               {t.ourApproachPage.familyBanking.description}
             </p>
           </div>
         </div>
 
         <div className="mt-20">
-          <h2 className="text-3xl font-bold text-[#172033] mb-8">{t.ourApproachPage.alsoOfInterest.title}</h2>
+          <h2 className="text-3xl font-bold text-[#000000] mb-8">{t.ourApproachPage.alsoOfInterest.title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white shadow-lg overflow-hidden transition-transform hover:scale-105">
               <img
@@ -134,8 +134,8 @@ export default function OurApproach() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-[#172033] mb-3">{t.ourApproachPage.alsoOfInterest.events.title}</h3>
-                <p className="text-[#3F4D5F]">
+                <h3 className="text-xl font-bold text-[#000000] mb-3">{t.ourApproachPage.alsoOfInterest.events.title}</h3>
+                <p className="text-[#333333]">
                   {t.ourApproachPage.alsoOfInterest.events.description}
                 </p>
               </div>
@@ -148,8 +148,8 @@ export default function OurApproach() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-[#172033] mb-3">{t.ourApproachPage.alsoOfInterest.secureBanking.title}</h3>
-                <p className="text-[#3F4D5F]">
+                <h3 className="text-xl font-bold text-[#000000] mb-3">{t.ourApproachPage.alsoOfInterest.secureBanking.title}</h3>
+                <p className="text-[#333333]">
                   {t.ourApproachPage.alsoOfInterest.secureBanking.description}
                 </p>
               </div>
@@ -162,8 +162,8 @@ export default function OurApproach() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-[#172033] mb-3">{t.ourApproachPage.alsoOfInterest.betterWorld.title}</h3>
-                <p className="text-[#3F4D5F]">
+                <h3 className="text-xl font-bold text-[#000000] mb-3">{t.ourApproachPage.alsoOfInterest.betterWorld.title}</h3>
+                <p className="text-[#333333]">
                   {t.ourApproachPage.alsoOfInterest.betterWorld.description}
                 </p>
               </div>
